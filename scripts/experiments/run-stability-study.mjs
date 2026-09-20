@@ -54,8 +54,8 @@ async function api(method, path, body) {
     const j = await r.json().catch(() => ({}));
     if (r.status === 429) {
       // Extraction slots: 5 per hour. Wait it out rather than fail the run.
-      log(`  429 on ${path}; waiting 6 min (${j.error?.code ?? ""})`);
-      await sleep(6 * 60 * 1000);
+      log(`  429 on ${path}; waiting 10 min (${j.error?.code ?? ""})`);
+      await sleep(10 * 60 * 1000);
       continue;
     }
     if (!r.ok) throw new Error(`api ${path}: ${r.status} ${JSON.stringify(j).slice(0, 300)}`);
@@ -129,8 +129,28 @@ for (const a of AUTHORS) {
 save();
 if (args.includes("--dry")) { log("dry run: pieces drawn, nothing extracted"); process.exit(0); }
 
+// The API allows five extractions an hour and a rejected create still leaves
+// a failed profile row on the account, so the runner keeps its own window and
+// sleeps until a slot frees rather than probing. On --resume the window is
+// seeded from the data file (create ~ measured_at minus a minute, a late
+// estimate on purpose so we wait a touch too long rather than too little).
+const WINDOW_MS = 3600 * 1000;
+const createTimes = result.profiles.map((p) => Date.parse(p.created_at ?? p.measured_at) - (p.created_at ? 0 : 60 * 1000)).filter((t) => !Number.isNaN(t));
+async function waitForSlot() {
+  for (;;) {
+    const now = Date.now();
+    const recent = createTimes.filter((t) => now - t < WINDOW_MS).sort((x, y) => x - y);
+    if (recent.length < 5) return;
+    const wait = recent[0] + WINDOW_MS + 5000 - now;
+    log(`  5 extractions in the last hour; waiting ${Math.ceil(wait / 60000)} min for a slot`);
+    await sleep(wait);
+  }
+}
+
 async function extract(a, k) {
   const name = `Study SGR-003 ${a.key} k=${k}`;
+  await waitForSlot();
+  createTimes.push(Date.now());
   const created = await api("POST", "/v1/profiles", { name, samples: a.training.slice(0, k) });
   const id = created.profile_id ?? created.id;
   log(`  created ${id} (${name})`);
@@ -168,7 +188,7 @@ for (const k of KS) {
     }
     const mean = (xs) => xs.reduce((s, x) => s + x, 0) / xs.length;
     const entry = {
-      author: a.key, k, profile_id: id, words: a.training.slice(0, k).reduce((s, t) => s + words(t), 0),
+      author: a.key, k, profile_id: id, created_at: new Date(createTimes[createTimes.length - 1]).toISOString(), words: a.training.slice(0, k).reduce((s, t) => s + words(t), 0),
       confidence_score: profile.confidence_score ?? null,
       same_author: { scores: same, mean: +mean(same).toFixed(3) },
       other_authors: { scores: other, mean: +mean(other.map((o) => o.score)).toFixed(3) },
