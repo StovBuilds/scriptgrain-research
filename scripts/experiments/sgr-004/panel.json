@@ -1,0 +1,649 @@
+{
+ "_readme": "SGR-004 panel: long-lived company homepages, fixed before any measurement. One Wayback snapshot per year 2000-2026 (closest to mid-year).",
+ "sites": [
+  {
+   "domain": "microsoft.com",
+   "sector": "software"
+  },
+  {
+   "domain": "apple.com",
+   "sector": "software"
+  },
+  {
+   "domain": "ibm.com",
+   "sector": "software"
+  },
+  {
+   "domain": "oracle.com",
+   "sector": "software"
+  },
+  {
+   "domain": "adobe.com",
+   "sector": "software"
+  },
+  {
+   "domain": "salesforce.com",
+   "sector": "software"
+  },
+  {
+   "domain": "intuit.com",
+   "sector": "software"
+  },
+  {
+   "domain": "cisco.com",
+   "sector": "software"
+  },
+  {
+   "domain": "sap.com",
+   "sector": "software"
+  },
+  {
+   "domain": "autodesk.com",
+   "sector": "software"
+  },
+  {
+   "domain": "symantec.com",
+   "sector": "software"
+  },
+  {
+   "domain": "mcafee.com",
+   "sector": "software"
+  },
+  {
+   "domain": "sage.com",
+   "sector": "software"
+  },
+  {
+   "domain": "mailchimp.com",
+   "sector": "software"
+  },
+  {
+   "domain": "constantcontact.com",
+   "sector": "software"
+  },
+  {
+   "domain": "37signals.com",
+   "sector": "software"
+  },
+  {
+   "domain": "atlassian.com",
+   "sector": "software"
+  },
+  {
+   "domain": "zoho.com",
+   "sector": "software"
+  },
+  {
+   "domain": "godaddy.com",
+   "sector": "software"
+  },
+  {
+   "domain": "wordpress.com",
+   "sector": "software"
+  },
+  {
+   "domain": "squarespace.com",
+   "sector": "software"
+  },
+  {
+   "domain": "hubspot.com",
+   "sector": "software"
+  },
+  {
+   "domain": "zendesk.com",
+   "sector": "software"
+  },
+  {
+   "domain": "dropbox.com",
+   "sector": "software"
+  },
+  {
+   "domain": "evernote.com",
+   "sector": "software"
+  },
+  {
+   "domain": "freshbooks.com",
+   "sector": "software"
+  },
+  {
+   "domain": "xero.com",
+   "sector": "software"
+  },
+  {
+   "domain": "shopify.com",
+   "sector": "software"
+  },
+  {
+   "domain": "dell.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "hp.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "lenovo.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "intel.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "amd.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "nvidia.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "logitech.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "sony.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "samsung.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "canon.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "nikon.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "bose.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "philips.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "panasonic.com",
+   "sector": "hardware_electronics"
+  },
+  {
+   "domain": "amazon.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "target.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "walmart.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "bestbuy.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "ebay.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "etsy.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "ikea.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "tesco.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "sainsburys.co.uk",
+   "sector": "retail"
+  },
+  {
+   "domain": "marksandspencer.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "johnlewis.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "argos.co.uk",
+   "sector": "retail"
+  },
+  {
+   "domain": "boots.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "currys.co.uk",
+   "sector": "retail"
+  },
+  {
+   "domain": "homedepot.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "lowes.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "costco.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "macys.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "nordstrom.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "gap.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "zappos.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "asos.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "next.co.uk",
+   "sector": "retail"
+  },
+  {
+   "domain": "waitrose.com",
+   "sector": "retail"
+  },
+  {
+   "domain": "barclays.co.uk",
+   "sector": "finance"
+  },
+  {
+   "domain": "hsbc.co.uk",
+   "sector": "finance"
+  },
+  {
+   "domain": "lloydsbank.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "natwest.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "santander.co.uk",
+   "sector": "finance"
+  },
+  {
+   "domain": "nationwide.co.uk",
+   "sector": "finance"
+  },
+  {
+   "domain": "chase.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "wellsfargo.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "bankofamerica.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "citi.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "americanexpress.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "visa.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "mastercard.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "paypal.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "schwab.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "fidelity.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "vanguard.com",
+   "sector": "finance"
+  },
+  {
+   "domain": "hargreaveslansdown.co.uk",
+   "sector": "finance"
+  },
+  {
+   "domain": "aviva.co.uk",
+   "sector": "insurance"
+  },
+  {
+   "domain": "directline.com",
+   "sector": "insurance"
+  },
+  {
+   "domain": "admiral.com",
+   "sector": "insurance"
+  },
+  {
+   "domain": "geico.com",
+   "sector": "insurance"
+  },
+  {
+   "domain": "progressive.com",
+   "sector": "insurance"
+  },
+  {
+   "domain": "statefarm.com",
+   "sector": "insurance"
+  },
+  {
+   "domain": "allstate.com",
+   "sector": "insurance"
+  },
+  {
+   "domain": "axa.com",
+   "sector": "insurance"
+  },
+  {
+   "domain": "bt.com",
+   "sector": "telecom_media"
+  },
+  {
+   "domain": "vodafone.co.uk",
+   "sector": "telecom_media"
+  },
+  {
+   "domain": "ee.co.uk",
+   "sector": "telecom_media"
+  },
+  {
+   "domain": "verizon.com",
+   "sector": "telecom_media"
+  },
+  {
+   "domain": "att.com",
+   "sector": "telecom_media"
+  },
+  {
+   "domain": "tmobile.com",
+   "sector": "telecom_media"
+  },
+  {
+   "domain": "comcast.com",
+   "sector": "telecom_media"
+  },
+  {
+   "domain": "sky.com",
+   "sector": "telecom_media"
+  },
+  {
+   "domain": "virginmedia.com",
+   "sector": "telecom_media"
+  },
+  {
+   "domain": "netflix.com",
+   "sector": "telecom_media"
+  },
+  {
+   "domain": "britishairways.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "ryanair.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "easyjet.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "delta.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "united.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "aa.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "southwest.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "expedia.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "booking.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "tripadvisor.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "hilton.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "marriott.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "airbnb.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "hertz.com",
+   "sector": "travel"
+  },
+  {
+   "domain": "coca-cola.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "pepsi.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "nike.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "adidas.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "unilever.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "pg.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "nestle.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "kelloggs.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "heinz.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "cadbury.co.uk",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "lego.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "mattel.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "hasbro.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "levi.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "patagonia.com",
+   "sector": "consumer_brands"
+  },
+  {
+   "domain": "fedex.com",
+   "sector": "logistics_auto"
+  },
+  {
+   "domain": "ups.com",
+   "sector": "logistics_auto"
+  },
+  {
+   "domain": "dhl.com",
+   "sector": "logistics_auto"
+  },
+  {
+   "domain": "royalmail.com",
+   "sector": "logistics_auto"
+  },
+  {
+   "domain": "usps.com",
+   "sector": "logistics_auto"
+  },
+  {
+   "domain": "ford.com",
+   "sector": "logistics_auto"
+  },
+  {
+   "domain": "toyota.com",
+   "sector": "logistics_auto"
+  },
+  {
+   "domain": "honda.com",
+   "sector": "logistics_auto"
+  },
+  {
+   "domain": "bmw.com",
+   "sector": "logistics_auto"
+  },
+  {
+   "domain": "volkswagen.com",
+   "sector": "logistics_auto"
+  },
+  {
+   "domain": "ogilvy.com",
+   "sector": "agencies_services"
+  },
+  {
+   "domain": "wpp.com",
+   "sector": "agencies_services"
+  },
+  {
+   "domain": "saatchi.com",
+   "sector": "agencies_services"
+  },
+  {
+   "domain": "accenture.com",
+   "sector": "agencies_services"
+  },
+  {
+   "domain": "deloitte.com",
+   "sector": "agencies_services"
+  },
+  {
+   "domain": "pwc.com",
+   "sector": "agencies_services"
+  },
+  {
+   "domain": "kpmg.com",
+   "sector": "agencies_services"
+  },
+  {
+   "domain": "ey.com",
+   "sector": "agencies_services"
+  },
+  {
+   "domain": "mckinsey.com",
+   "sector": "agencies_services"
+  },
+  {
+   "domain": "bain.com",
+   "sector": "agencies_services"
+  },
+  {
+   "domain": "moz.com",
+   "sector": "web_saas_marketing"
+  },
+  {
+   "domain": "copyblogger.com",
+   "sector": "web_saas_marketing"
+  },
+  {
+   "domain": "basecamp.com",
+   "sector": "web_saas_marketing"
+  },
+  {
+   "domain": "wufoo.com",
+   "sector": "web_saas_marketing"
+  },
+  {
+   "domain": "surveymonkey.com",
+   "sector": "web_saas_marketing"
+  },
+  {
+   "domain": "eventbrite.com",
+   "sector": "web_saas_marketing"
+  },
+  {
+   "domain": "yelp.com",
+   "sector": "web_saas_marketing"
+  },
+  {
+   "domain": "indeed.com",
+   "sector": "web_saas_marketing"
+  },
+  {
+   "domain": "monster.com",
+   "sector": "web_saas_marketing"
+  },
+  {
+   "domain": "linkedin.com",
+   "sector": "web_saas_marketing"
+  }
+ ]
+}
