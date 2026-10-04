@@ -54,6 +54,8 @@ const riseWord = x >= 2.5 ? `more than doubled` : x >= 1.95 ? "doubled" : x >= 1
 const crossYear = S.byYear.find((b) => b.year > 2010 && b.ai_era_style_per1000.mean > b.dotcom_vocab_per1000.mean && S.byYear.filter((c) => c.year >= b.year).every((c) => c.ai_era_style_per1000.mean > c.dotcom_vocab_per1000.mean))?.year;
 
 const SLUG = "did-chatgpt-change-how-companies-write";
+// The accountable analyst (Jack, 2026-10-04: named analyst, findings kept apart from product claims).
+const ANALYST = { name: "Jack Stovell", role: "founder, ScriptGrain" };
 const TITLE = "Did ChatGPT change how companies write? 27 years of homepages, measured";
 const PAGE_URL = `https://scriptgrain.com/research/${SLUG}`;
 const SECTOR_NAMES = { software: "Software", hardware_electronics: "Hardware and electronics", retail: "Retail", finance: "Banking and finance", insurance: "Insurance", telecom_media: "Telecoms and media", travel: "Travel", consumer_brands: "Consumer brands", logistics_auto: "Logistics and cars", agencies_services: "Agencies and consultancies", web_saas_marketing: "Web and marketing tools" };
@@ -76,7 +78,7 @@ const study = {
     { label: "Background", text: `Since ChatGPT launched in November 2022, people have said that the web "sounds like AI": the same words (seamless, unlock, elevate) and the same punctuation (the em dash) everywhere. Most of that is anecdote. This study measures it on the pages companies care most about, their homepages, across 27 years, so the change after 2022 can be seen against the two decades before it.` },
     { label: "What we did", text: `We fixed a panel of ${panelSites.length} long-lived UK and US company homepages in ${sectors} sectors, and two word lists, before measuring anything. For every site and every year from 2000 to 2026 we took the Wayback Machine's capture nearest 1 July, rendered it as a visitor would have seen it, kept only the prose (no menus, footers or scripts) and measured it with the same code ScriptGrain uses on writing every day. ${n(measuredTotal)} homepages had enough prose to measure. To separate a real change from a change in which sites were measured, every site was compared with itself: its homepages from 2019 to 2022 against its homepages from 2023 to 2026.` },
     { label: "What we found", text: `The words changed; the sentences did not. AI-era marketing vocabulary ${riseWord} after ChatGPT (${f2(style.before_mean)} to ${f2(style.after_mean)} uses per 1,000 words, up on ${style.sites_up} sites and down on ${style.sites_down}), and in ${crossYear} it overtook the dotcom vocabulary of "solutions" and "click here" that had led since 2000. But the rise began years before ChatGPT, the em dash had been spreading for two decades before it, and the sentence shapes people associate with AI writing did not increase at all. Homepages also ${lenWord} in length over the period.` },
-    { label: "What it means", text: `On company homepages, the "AI voice" is mostly a vocabulary, and an older one than its name suggests: marketing was drifting towards these words long before a model could write them, and ChatGPT appears to have sped the drift up rather than started it. That makes the words a weak signal of AI authorship on their own. Any honest check for AI writing has to look past word lists, which is what voice measurement does.` },
+    { label: "What it means", text: `On company homepages, the "AI voice" is mostly a vocabulary, and an older one than its name suggests: marketing was drifting towards these words long before a model could write them, and ChatGPT appears to have sped the drift up rather than started it. So, on homepages, these words on their own are weak evidence that a page was written with AI.` },
   ],
   keyNumbers: [
     `AI-era marketing words such as "seamless", "unlock" and "streamline" ${riseWord} on company homepages after ChatGPT: from ${f2(style.before_mean)} to ${f2(style.after_mean)} uses per 1,000 words, comparing each of ${style.sites} sites with itself (ScriptGrain, 2026).`,
@@ -99,6 +101,15 @@ const study = {
     { term: "Contractions", definition: "Uses of forms such as we're, don't and it's per 1,000 words: a simple measure of how conversational the copy is." },
     { term: "Paired before and after", definition: "Each site's average over its 2019 to 2022 homepages compared with its own average over 2023 to 2026. Only sites measured in both windows count, so the result cannot come from which sites happened to be in the archive." },
   ],
+  analyst: ANALYST,
+  competingInterests: "ScriptGrain sells writing-voice measurement and generation, and the analyst builds it. The panel and both word lists were fixed before anything was measured, nothing was re-run or selected, and the scripts are published, so the numbers can be checked without taking our word for them.",
+  notShown: [
+    "Which homepages, if any, were written with AI. The study measures vocabulary on public pages, not who or what wrote them.",
+    "That voice measurement, ScriptGrain's or anyone's, can tell whether a text was written by AI. Nothing in this study tests that.",
+    "Why the vocabulary changed. The timing fits AI-assisted writing, and it also fits copywriters adopting words that AI made familiar; the data cannot separate the two.",
+    "Anything about pages other than homepages, or about companies outside the panel.",
+  ],
+  productNote: "ScriptGrain measures writing voice: the habits that make a writer recognisable, such as sentence rhythm, punctuation and vocabulary. The AI-tell scan in this study is the one behind the free [AI cliché checker](/tools/ai-cliche-checker). Neither is a test of who, or what, wrote a text.",
   sample: {
     description: `A fixed panel of ${panelSites.length} companies whose homepages have been online since 2000 or soon after, chosen before anything was measured: ${sectors} sectors (software, hardware, retail, finance, insurance, telecoms and media, travel, consumer brands, logistics and cars, agencies and consultancies, web and marketing tools), UK and US. For each site and each year, the homepage was requested from the Wayback Machine at 1 July; the nearest capture was kept only if it fell in the same calendar year. Each capture was then rendered with JavaScript (so a homepage built in the browser is measured on what a visitor saw, not an empty shell), and the raw archived HTML was measured too, as a check.`,
     size: measuredTotal,
