@@ -135,3 +135,8 @@ is CC0. Our dataset: CC BY 4.0. Abstract text is not republished.
   3. The non-English stopword list in census-build.py had 48 words; two ("they",
      "there") were added to make the 50 the plan states.
   4. The 2022 counterfactual year uses Jan to Nov 2022 (ids 2201-2211), matching BASE.
+  5. Labelling scope: the 200 candidates with the largest selection-half gap d in 2024,
+     and the 200 in 2026 (union), are labelled CONTENT/STYLE. The lower-bound sets are
+     the top 50 STYLE words by selection-half d for each year (the same 50 as H5).
+  6. The revision rule is applied to every paper submitted up to 2022-11 (not only
+     2020-22), so the descriptive 2015-2022 series follows the same rule as BASE.
