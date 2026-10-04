@@ -127,5 +127,11 @@ is CC0. Our dataset: CC BY 4.0. Abstract text is not republished.
 - Topic shifts (the LLM boom itself) can move words. That is why the content/style split
   exists, and why the control words are tracked.
 
-## Deviations
-(none yet)
+## Deviations and clarifications
+- 2026-10-04 11:30Z, before any census data was analysed (harvest at 2% of records):
+  1. H5 ranking: "top 50 excess STYLE words" means ranked by excess gap d computed on the
+     SELECTION half (odd months), among candidates passing the section 5 thresholds.
+  2. Pilot papers are excluded from section 5 (excess vocabulary) as well as from H1-H4.
+  3. The non-English stopword list in census-build.py had 48 words; two ("they",
+     "there") were added to make the 50 the plan states.
+  4. The 2022 counterfactual year uses Jan to Nov 2022 (ids 2201-2211), matching BASE.
