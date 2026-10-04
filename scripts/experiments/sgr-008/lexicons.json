@@ -1,0 +1,6 @@
+{
+  "_readme": "SGR-008 vocabularies, fixed on 2026-10-04 BEFORE any abstract was measured. Matched case-insensitively on word boundaries; a trailing * matches any ending. Counts per 1,000 words. 'called_out' = words publicly mocked as ChatGPT tells by spring 2024 (delve, intricate, meticulous are named in arXiv 2509.09596 and 2506.21817; 'delve' in 2502.09606, which reports its drop after early 2024). 'quiet' = words also reported as LLM-favoured but frequent in ordinary scientific prose and never the butt of the joke (underscore, crucial, significant: 2509.09596, 2506.21817, 2502.09606). 'control' = plain scientific words that should not move with LLM use. No list says a paper was written with AI.",
+  "called_out": ["delve*", "intricate*", "meticulous*", "tapestry", "commendable", "showcas*", "pivotal", "realm"],
+  "quiet": ["underscor*", "crucial", "notabl*", "comprehensive*", "enhanc*", "insights", "additionally", "potential", "significant*"],
+  "control": ["however", "results", "method*", "using", "show", "shows", "we find"]
+}
