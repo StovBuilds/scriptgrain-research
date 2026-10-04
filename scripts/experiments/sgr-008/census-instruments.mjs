@@ -8,8 +8,11 @@
 // Inclusion comes from census-build's output (--papers), so both steps measure
 // exactly the same papers. Cleaning is the same clean() as measure.mjs and
 // census-build.py.
-import { readdirSync, readFileSync, writeFileSync } from "node:fs";
-import { gunzipSync, gzipSync } from "node:zlib";
+import { readdirSync, createReadStream, createWriteStream } from "node:fs";
+import { createGunzip, createGzip } from "node:zlib";
+import { createInterface } from "node:readline";
+// Streams line by line: gunzipping the 550 MB papers file into one string took 8 GB.
+const lines = (path) => createInterface({ input: createReadStream(path).pipe(createGunzip()), crlfDelay: Infinity });
 import { measureTextFeatures } from "../../../supabase/functions/_shared/voice-match.ts";
 import { scanCliches } from "../../../supabase/functions/_shared/ai-cliches.ts";
 
@@ -25,25 +28,26 @@ const clean = (s) => s
   .replace(/[{}~]/g, " ").replace(/\s+/g, " ").trim();
 
 const meta = new Map();
-for (const line of gunzipSync(readFileSync(PAPERS)).toString("utf8").split("\n")) {
+for await (const line of lines(PAPERS)) {
   if (!line) continue;
   const p = JSON.parse(line);
-  meta.set(p.id, { ym: p.ym, cat: p.cat, group: p.group, pilot: p.pilot, base_ok: p.base_ok });
+  meta.set(p.id, [p.ym, p.cat, p.group, p.pilot, p.base_ok]);
 }
-const out = [];
+const gz = createGzip(); gz.pipe(createWriteStream(OUT));
 let n = 0;
 for (const f of readdirSync(CENSUS).filter((x) => x.startsWith("part-")).sort()) {
-  for (const line of gunzipSync(readFileSync(`${CENSUS}/${f}`)).toString("utf8").split("\n")) {
+  for await (const line of lines(`${CENSUS}/${f}`)) {
     if (!line) continue;
     const r = JSON.parse(line);
-    const m = meta.get(r.id);
-    if (!m) continue;
+    const mm = meta.get(r.id);
+    if (!mm) continue;
+    const m = { ym: mm[0], cat: mm[1], group: mm[2], pilot: mm[3], base_ok: mm[4] };
     meta.delete(r.id); // first record only, as census-build
     const t = clean(r.abstract || "");
     const words = t.split(/\s+/).filter(Boolean).length;
     const feat = measureTextFeatures(t);
     const scan = scanCliches(t);
-    out.push(JSON.stringify({
+    gz.write(JSON.stringify({
       id: r.id, ...m, words,
       avg_sentence_length: r2(feat.avg_sentence_length),
       sentence_length_variance: r2(feat.sentence_length_variance),
@@ -54,9 +58,9 @@ for (const f of readdirSync(CENSUS).filter((x) => x.startsWith("part-")).sort())
       ai_tell_per1000: scan.per1000,
       em_dash_per1000: r2(((t.match(/—/g) ?? []).length / words) * 1000),
       burstiness_variation: r2(scan.burstiness.variation),
-    }));
+    }) + "\n");
     if (++n % 200000 === 0) console.error(`${n} measured`);
   }
 }
-writeFileSync(OUT, gzipSync(out.join("\n") + "\n"));
+await new Promise((res) => gz.end(res));
 console.error(`${n} abstracts measured; ${meta.size} included ids not found in the census files`);

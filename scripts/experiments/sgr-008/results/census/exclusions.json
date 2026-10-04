@@ -1,0 +1,12 @@
+{
+ "kept": 2122337,
+ "excluded": {
+  "old_style_id": 414114,
+  "outside_2015_01_to_2026_09": 588959,
+  "under_50_words": 69619,
+  "withdrawn": 46,
+  "non_english": 9
+ },
+ "pilot_ids_known": 43439,
+ "pilot_ids_in_census": 43385
+}
