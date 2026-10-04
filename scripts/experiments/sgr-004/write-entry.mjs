@@ -55,7 +55,8 @@ const crossYear = S.byYear.find((b) => b.year > 2010 && b.ai_era_style_per1000.m
 
 const SLUG = "did-chatgpt-change-how-companies-write";
 // The accountable analyst (Jack, 2026-10-04: named analyst, findings kept apart from product claims).
-const ANALYST = { name: "Jack Stovell", role: "founder, ScriptGrain" };
+const { _readme: _a, ...ANALYSTS } = JSON.parse(readFileSync(new URL("../shared/analysts.json", import.meta.url), "utf8"));
+const ANALYST = ANALYSTS["jack-stovell"];
 const TITLE = "Did ChatGPT change how companies write? 27 years of homepages, measured";
 const PAGE_URL = `https://scriptgrain.com/research/${SLUG}`;
 const SECTOR_NAMES = { software: "Software", hardware_electronics: "Hardware and electronics", retail: "Retail", finance: "Banking and finance", insurance: "Insurance", telecom_media: "Telecoms and media", travel: "Travel", consumer_brands: "Consumer brands", logistics_auto: "Logistics and cars", agencies_services: "Agencies and consultancies", web_saas_marketing: "Web and marketing tools" };

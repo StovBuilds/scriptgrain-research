@@ -1,0 +1,3562 @@
+{
+ "_readme": "Built by build-panel.mjs from wikidata-works.json and the Project Gutenberg catalogue by the rules in docs/research/sgr-005-preregistration.md. No hand edits.",
+ "built": "2026-10-04",
+ "dropped_rows": {
+  "date_outside_life": 534,
+  "drama_or_poetry": 132,
+  "not_in_catalogue_en": 18,
+  "no_date": 8,
+  "under_15000_words": 61
+ },
+ "authors": [
+  {
+   "id": "Q318399",
+   "name": "Anthony Trollope",
+   "born": 1815,
+   "died": 1882,
+   "works": [
+    {
+     "work": "Q7749272",
+     "title": "The Macdermots of Ballycloran",
+     "year": 1847,
+     "pg": "29000",
+     "body_words": 169159
+    },
+    {
+     "work": "Q7744082",
+     "title": "The Kellys and the O'Kellys",
+     "year": 1848,
+     "pg": "4917",
+     "body_words": 179565
+    },
+    {
+     "work": "Q4859885",
+     "title": "Barchester Towers",
+     "year": 1857,
+     "pg": "3409",
+     "body_words": 198256
+    },
+    {
+     "work": "Q5050241",
+     "title": "Castle Richmond",
+     "year": 1860,
+     "pg": "5897",
+     "body_words": 204705
+    },
+    {
+     "work": "Q8565314",
+     "title": "Framley Parsonage",
+     "year": 1861,
+     "pg": "2860",
+     "body_words": 208109
+    },
+    {
+     "work": "Q16962094",
+     "title": "Orley Farm",
+     "year": 1862,
+     "pg": "23000",
+     "body_words": 308860
+    },
+    {
+     "work": "Q7764868",
+     "title": "The Small House at Allington",
+     "year": 1862,
+     "pg": "4599",
+     "body_words": 257192
+    },
+    {
+     "work": "Q5029115",
+     "title": "Can You Forgive Her?",
+     "year": 1864,
+     "pg": "19500",
+     "body_words": 315155
+    },
+    {
+     "work": "Q7745622",
+     "title": "The Last Chronicle of Barset",
+     "year": 1866,
+     "pg": "3045",
+     "body_words": 343861
+    },
+    {
+     "work": "Q7186349",
+     "title": "Phineas Finn",
+     "year": 1867,
+     "pg": "18000",
+     "body_words": 261150
+    },
+    {
+     "work": "Q7772505",
+     "title": "The Vicar of Bullhampton",
+     "year": 1870,
+     "pg": "26541",
+     "body_words": 209238
+    },
+    {
+     "work": "Q7527051",
+     "title": "Sir Harry Hotspur of Humblethwaite",
+     "year": 1871,
+     "pg": "27712",
+     "body_words": 70818
+    },
+    {
+     "work": "Q7732627",
+     "title": "The Eustace Diamonds",
+     "year": 1872,
+     "pg": "7381",
+     "body_words": 267438
+    },
+    {
+     "work": "Q7186370",
+     "title": "Phineas Redux",
+     "year": 1874,
+     "pg": "18640",
+     "body_words": 260466
+    },
+    {
+     "work": "Q7758216",
+     "title": "The Prime Minister",
+     "year": 1875,
+     "pg": "2158",
+     "body_words": 280865
+    },
+    {
+     "work": "Q7713563",
+     "title": "The American Senator",
+     "year": 1877,
+     "pg": "5118",
+     "body_words": 207315
+    },
+    {
+     "work": "Q7731161",
+     "title": "The Duke's Children",
+     "year": 1879,
+     "pg": "3622",
+     "body_words": 222462
+    },
+    {
+     "work": "Q5178818",
+     "title": "Cousin Henry",
+     "year": 1879,
+     "pg": "24103",
+     "body_words": 70806
+    },
+    {
+     "work": "Q5287476",
+     "title": "Doctor Wortle's School",
+     "year": 1881,
+     "pg": "21847",
+     "body_words": 77669
+    },
+    {
+     "work": "Q7734312",
+     "title": "The Fixed Period",
+     "year": 1882,
+     "pg": "27067",
+     "body_words": 68317
+    }
+   ]
+  },
+  {
+   "id": "Q35610",
+   "name": "Arthur Conan Doyle",
+   "born": 1859,
+   "died": 1930,
+   "works": [
+    {
+     "work": "Q223131",
+     "title": "A Study in Scarlet",
+     "year": 1887,
+     "pg": "244",
+     "body_words": 43427
+    },
+    {
+     "work": "Q3050442",
+     "title": "Micah Clarke",
+     "year": 1888,
+     "pg": "9504",
+     "body_words": 178221
+    },
+    {
+     "work": "Q4449924",
+     "title": "The Mystery of Cloomber",
+     "year": 1889,
+     "pg": "7964",
+     "body_words": 48928
+    },
+    {
+     "work": "Q500688",
+     "title": "The Sign of Four",
+     "year": 1890,
+     "pg": "2097",
+     "body_words": 43095
+    },
+    {
+     "work": "Q4461047",
+     "title": "The Firm of Girdlestone",
+     "year": 1890,
+     "pg": "13152",
+     "body_words": 137374
+    },
+    {
+     "work": "Q1151748",
+     "title": "The Man with the Twisted Lip",
+     "year": 1891,
+     "pg": "1661",
+     "body_words": 104506
+    },
+    {
+     "work": "Q2026912",
+     "title": "The Doings of Raffles Haw",
+     "year": 1892,
+     "pg": "8394",
+     "body_words": 38044
+    },
+    {
+     "work": "Q4900097",
+     "title": "Beyond the City",
+     "year": 1892,
+     "pg": "356",
+     "body_words": 39456
+    },
+    {
+     "work": "Q265546",
+     "title": "A Scandal in Bohemia",
+     "year": 1892,
+     "pg": "1661",
+     "body_words": 104506
+    },
+    {
+     "work": "Q392147",
+     "title": "The Adventures of Sherlock Holmes",
+     "year": 1892,
+     "pg": "1661",
+     "body_words": 104506
+    },
+    {
+     "work": "Q5295444",
+     "title": "The Refugees",
+     "year": 1893,
+     "pg": "11413",
+     "body_words": 123140
+    },
+    {
+     "work": "Q5295849",
+     "title": "The Stark Munro Letters",
+     "year": 1895,
+     "pg": "290",
+     "body_words": 77470
+    },
+    {
+     "work": "Q4395914",
+     "title": "Rodney Stone",
+     "year": 1896,
+     "pg": "5148",
+     "body_words": 91116
+    },
+    {
+     "work": "Q3824668",
+     "title": "The Tragedy of the Korosko",
+     "year": 1898,
+     "pg": "21768",
+     "body_words": 46837
+    },
+    {
+     "work": "Q45192",
+     "title": "The Hound of the Baskervilles",
+     "year": 1902,
+     "pg": "3070",
+     "body_words": 59216
+    },
+    {
+     "work": "Q961957",
+     "title": "The Adventure of the Three Students",
+     "year": 1904,
+     "pg": "108",
+     "body_words": 112116
+    },
+    {
+     "work": "Q725752",
+     "title": "The Return of Sherlock Holmes",
+     "year": 1905,
+     "pg": "108",
+     "body_words": 112116
+    },
+    {
+     "work": "Q785255",
+     "title": "The Lost World",
+     "year": 1912,
+     "pg": "139",
+     "body_words": 75759
+    },
+    {
+     "work": "Q2660166",
+     "title": "The Poison Belt",
+     "year": 1913,
+     "pg": "126",
+     "body_words": 29219
+    },
+    {
+     "work": "Q863438",
+     "title": "The Valley of Fear",
+     "year": 1915,
+     "pg": "3289",
+     "body_words": 57814
+    },
+    {
+     "work": "Q733582",
+     "title": "His Last Bow",
+     "year": 1917,
+     "pg": "2350",
+     "body_words": 59023
+    },
+    {
+     "work": "Q2573817",
+     "title": "His Last Bow",
+     "year": 1917,
+     "pg": "2350",
+     "body_words": 59023
+    },
+    {
+     "work": "Q7772936",
+     "title": "The Vital Message",
+     "year": 1919,
+     "pg": "439",
+     "body_words": 28920
+    },
+    {
+     "work": "Q1129378",
+     "title": "The Case-Book of Sherlock Holmes",
+     "year": 1927,
+     "pg": "69700",
+     "body_words": 82828
+    }
+   ]
+  },
+  {
+   "id": "Q36184",
+   "name": "Bram Stoker",
+   "born": 1847,
+   "died": 1912,
+   "works": [
+    {
+     "work": "Q7764969",
+     "title": "The Snake's Pass",
+     "year": 1890,
+     "pg": "68966",
+     "body_words": 93969
+    },
+    {
+     "work": "Q7752921",
+     "title": "The Mystery of the Sea",
+     "year": 1902,
+     "pg": "42455",
+     "body_words": 157129
+    },
+    {
+     "work": "Q7743210",
+     "title": "The Jewel of Seven Stars",
+     "year": 1903,
+     "pg": "3781",
+     "body_words": 89509
+    },
+    {
+     "work": "Q7170537",
+     "title": "Personal Reminiscences of Henry Irving",
+     "year": 1906,
+     "pg": "68779",
+     "body_words": 182458
+    },
+    {
+     "work": "Q6469952",
+     "title": "Lady Athlyne",
+     "year": 1908,
+     "pg": "65799",
+     "body_words": 112744
+    },
+    {
+     "work": "Q3566302",
+     "title": "The Lair of the White Worm",
+     "year": 1911,
+     "pg": "1188",
+     "body_words": 55236
+    },
+    {
+     "work": "Q20726020",
+     "title": "Dracula's Guest",
+     "year": 1914,
+     "pg": "10150",
+     "body_words": 57231
+    }
+   ]
+  },
+  {
+   "id": "Q1035",
+   "name": "Charles Darwin",
+   "born": 1809,
+   "died": 1882,
+   "works": [
+    {
+     "work": "Q1768515",
+     "title": "The Voyage of the Beagle",
+     "year": 1839,
+     "pg": "3704",
+     "body_words": 213650
+    },
+    {
+     "work": "Q5535307",
+     "title": "Geological Observations on the Volcanic Islands",
+     "year": 1844,
+     "pg": "3054",
+     "body_words": 57882
+    },
+    {
+     "work": "Q20968204",
+     "title": "On the Origin of Species",
+     "year": 1859,
+     "pg": "1228",
+     "body_words": 155526
+    },
+    {
+     "work": "Q1165434",
+     "title": "The Descent of Man, and Selection in Relation to Sex",
+     "year": 1871,
+     "pg": "2300",
+     "body_words": 307552
+    },
+    {
+     "work": "Q1192325",
+     "title": "The Expression of the Emotions in Man and Animals",
+     "year": 1872,
+     "pg": "1227",
+     "body_words": 109369
+    },
+    {
+     "work": "Q21948575",
+     "title": "Q21948575",
+     "year": 1872,
+     "pg": "2009",
+     "body_words": 208570
+    },
+    {
+     "work": "Q4354654",
+     "title": "The Power of Movement in Plants",
+     "year": 1880,
+     "pg": "5605",
+     "body_words": 191559
+    }
+   ]
+  },
+  {
+   "id": "Q5686",
+   "name": "Charles Dickens",
+   "born": 1812,
+   "died": 1870,
+   "works": [
+    {
+     "work": "Q460583",
+     "title": "The Pickwick Papers",
+     "year": 1836,
+     "pg": "580",
+     "body_words": 300083
+    },
+    {
+     "work": "Q6815266",
+     "title": "Memoirs of Joseph Grimaldi",
+     "year": 1838,
+     "pg": "46709",
+     "body_words": 122062
+    },
+    {
+     "work": "Q847642",
+     "title": "Nicholas Nickleby",
+     "year": 1839,
+     "pg": "967",
+     "body_words": 322307
+    },
+    {
+     "work": "Q2362527",
+     "title": "Barnaby Rudge",
+     "year": 1840,
+     "pg": "917",
+     "body_words": 253272
+    },
+    {
+     "work": "Q2700616",
+     "title": "The Old Curiosity Shop",
+     "year": 1840,
+     "pg": "700",
+     "body_words": 215983
+    },
+    {
+     "work": "Q3614013",
+     "title": "American Notes",
+     "year": 1842,
+     "pg": "675",
+     "body_words": 103397
+    },
+    {
+     "work": "Q62879",
+     "title": "A Christmas Carol",
+     "year": 1843,
+     "pg": "46",
+     "body_words": 28541
+    },
+    {
+     "work": "Q1903609",
+     "title": "Martin Chuzzlewit",
+     "year": 1844,
+     "pg": "968",
+     "body_words": 336742
+    },
+    {
+     "work": "Q825220",
+     "title": "The Cricket on the Hearth",
+     "year": 1845,
+     "pg": "678",
+     "body_words": 31481
+    },
+    {
+     "work": "Q2054880",
+     "title": "The Battle of Life",
+     "year": 1846,
+     "pg": "676",
+     "body_words": 29496
+    },
+    {
+     "work": "Q3148901",
+     "title": "Pictures from Italy",
+     "year": 1846,
+     "pg": "650",
+     "body_words": 72484
+    },
+    {
+     "work": "Q3795070",
+     "title": "The Haunted Man and the Ghost's Bargain",
+     "year": 1848,
+     "pg": "644",
+     "body_words": 33723
+    },
+    {
+     "work": "Q963659",
+     "title": "Dombey and Son",
+     "year": 1848,
+     "pg": "821",
+     "body_words": 354937
+    },
+    {
+     "work": "Q189811",
+     "title": "David Copperfield",
+     "year": 1850,
+     "pg": "766",
+     "body_words": 354826
+    },
+    {
+     "work": "Q2032353",
+     "title": "A Child's History of England",
+     "year": 1851,
+     "pg": "699",
+     "body_words": 162961
+    },
+    {
+     "work": "Q883305",
+     "title": "Bleak House",
+     "year": 1853,
+     "pg": "1023",
+     "body_words": 353463
+    },
+    {
+     "work": "Q1340493",
+     "title": "Hard Times: For These Times",
+     "year": 1854,
+     "pg": "786",
+     "body_words": 103253
+    },
+    {
+     "work": "Q565638",
+     "title": "Little Dorrit",
+     "year": 1857,
+     "pg": "963",
+     "body_words": 337372
+    },
+    {
+     "work": "Q308918",
+     "title": "A Tale of Two Cities",
+     "year": 1859,
+     "pg": "98",
+     "body_words": 135886
+    },
+    {
+     "work": "Q219552",
+     "title": "Great Expectations",
+     "year": 1861,
+     "pg": "1400",
+     "body_words": 184478
+    },
+    {
+     "work": "Q1557935",
+     "title": "Our Mutual Friend",
+     "year": 1864,
+     "pg": "883",
+     "body_words": 325141
+    },
+    {
+     "work": "Q3973499",
+     "title": "Mugby Junction",
+     "year": 1866,
+     "pg": "1419",
+     "body_words": 19364
+    },
+    {
+     "work": "Q7045074",
+     "title": "No Thoroughfare",
+     "year": 1867,
+     "pg": "1423",
+     "body_words": 47662
+    }
+   ]
+  },
+  {
+   "id": "Q34970",
+   "name": "D. H. Lawrence",
+   "born": 1885,
+   "died": 1930,
+   "works": [
+    {
+     "work": "Q80771",
+     "title": "Sons and Lovers",
+     "year": 1913,
+     "pg": "217",
+     "body_words": 160195
+    },
+    {
+     "work": "Q3288936",
+     "title": "The Rainbow",
+     "year": 1915,
+     "pg": "28948",
+     "body_words": 185891
+    },
+    {
+     "work": "Q2443714",
+     "title": "Women in Love",
+     "year": 1920,
+     "pg": "4240",
+     "body_words": 180351
+    },
+    {
+     "work": "Q3823831",
+     "title": "The Lost Girl",
+     "year": 1920,
+     "pg": "23727",
+     "body_words": 135329
+    },
+    {
+     "work": "Q4661765",
+     "title": "Aaron's Rod",
+     "year": 1922,
+     "pg": "4520",
+     "body_words": 112014
+    },
+    {
+     "work": "Q7628058",
+     "title": "Studies in Classic American Literature",
+     "year": 1923,
+     "pg": "60547",
+     "body_words": 59486
+    },
+    {
+     "work": "Q7719685",
+     "title": "The Boy in the Bush",
+     "year": 1924,
+     "pg": "63000",
+     "body_words": 133576
+    },
+    {
+     "work": "Q750670",
+     "title": "Lady Chatterley's Lover",
+     "year": 1928,
+     "pg": "73144",
+     "body_words": 117715
+    }
+   ]
+  },
+  {
+   "id": "Q189119",
+   "name": "E. M. Forster",
+   "born": 1879,
+   "died": 1970,
+   "works": [
+    {
+     "work": "Q7993159",
+     "title": "Where Angels Fear to Tread",
+     "year": 1905,
+     "pg": "2948",
+     "body_words": 49487
+    },
+    {
+     "work": "Q15999894",
+     "title": "The Longest Journey",
+     "year": 1907,
+     "pg": "2604",
+     "body_words": 93971
+    },
+    {
+     "work": "Q1146642",
+     "title": "Howards End",
+     "year": 1910,
+     "pg": "2891",
+     "body_words": 108674
+    },
+    {
+     "work": "Q7721831",
+     "title": "The Celestial Omnibus",
+     "year": 1911,
+     "pg": "34089",
+     "body_words": 31823
+    },
+    {
+     "work": "Q117801516",
+     "title": "Alexandria: A History and a Guide",
+     "year": 1922,
+     "pg": "57010",
+     "body_words": 63717
+    },
+    {
+     "work": "Q622303",
+     "title": "A Passage to India",
+     "year": 1924,
+     "pg": "61221",
+     "body_words": 101789
+    }
+   ]
+  },
+  {
+   "id": "Q148234",
+   "name": "Edgar Rice Burroughs",
+   "born": 1875,
+   "died": 1950,
+   "works": [
+    {
+     "work": "Q655296",
+     "title": "Tarzan of the Apes",
+     "year": 1912,
+     "pg": "78",
+     "body_words": 85785
+    },
+    {
+     "work": "Q2870358",
+     "title": "At the Earth's Core",
+     "year": 1914,
+     "pg": "545",
+     "body_words": 49516
+    },
+    {
+     "work": "Q928680",
+     "title": "Pellucidar",
+     "year": 1915,
+     "pg": "605",
+     "body_words": 57337
+    },
+    {
+     "work": "Q2441302",
+     "title": "The Return of Tarzan",
+     "year": 1915,
+     "pg": "81",
+     "body_words": 89217
+    },
+    {
+     "work": "Q673493",
+     "title": "The Gods of Mars",
+     "year": 1918,
+     "pg": "68",
+     "body_words": 57134
+    },
+    {
+     "work": "Q7736559",
+     "title": "The Girl from Hollywood",
+     "year": 1922,
+     "pg": "62409",
+     "body_words": 97673
+    },
+    {
+     "work": "Q2043958",
+     "title": "The Chessmen of Mars",
+     "year": 1922,
+     "pg": "1153",
+     "body_words": 88253
+    },
+    {
+     "work": "Q9081967",
+     "title": "Tarzan and the Golden Lion",
+     "year": 1922,
+     "pg": "58874",
+     "body_words": 80614
+    },
+    {
+     "work": "Q91215537",
+     "title": "Tarzan and the Ant Men",
+     "year": 1924,
+     "pg": "61837",
+     "body_words": 78004
+    },
+    {
+     "work": "Q7721784",
+     "title": "The Cave Girl",
+     "year": 1925,
+     "pg": "69191",
+     "body_words": 70107
+    },
+    {
+     "work": "Q1405023",
+     "title": "The Moon Maid",
+     "year": 1926,
+     "pg": "69338",
+     "body_words": 127494
+    },
+    {
+     "work": "Q17061884",
+     "title": "The Outlaw of Torn",
+     "year": 1927,
+     "pg": "369",
+     "body_words": 65387
+    },
+    {
+     "work": "Q372746",
+     "title": "The Master Mind of Mars",
+     "year": 1927,
+     "pg": "69703",
+     "body_words": 54375
+    },
+    {
+     "work": "Q7687033",
+     "title": "Tarzan and the Lost Empire",
+     "year": 1928,
+     "pg": "70589",
+     "body_words": 65651
+    },
+    {
+     "work": "Q7752080",
+     "title": "The Monster Men",
+     "year": 1929,
+     "pg": "96",
+     "body_words": 57654
+    },
+    {
+     "work": "Q3515895",
+     "title": "Tarzan at the Earth's Core",
+     "year": 1930,
+     "pg": "70815",
+     "body_words": 79729
+    },
+    {
+     "work": "Q3981235",
+     "title": "Tarzan the Invincible",
+     "year": 1930,
+     "pg": "71195",
+     "body_words": 72941
+    },
+    {
+     "work": "Q7687019",
+     "title": "Tarzan Triumphant",
+     "year": 1931,
+     "pg": "71372",
+     "body_words": 75876
+    },
+    {
+     "work": "Q3791139",
+     "title": "Pirates of Venus",
+     "year": 1932,
+     "pg": "70195",
+     "body_words": 61522
+    },
+    {
+     "work": "Q15032732",
+     "title": "Tarzan and the City of Gold",
+     "year": 1932,
+     "pg": "71316",
+     "body_words": 66632
+    },
+    {
+     "work": "Q370285",
+     "title": "Tarzan and the Lion Man",
+     "year": 1934,
+     "pg": "71370",
+     "body_words": 72385
+    },
+    {
+     "work": "Q6684488",
+     "title": "Lost on Venus",
+     "year": 1935,
+     "pg": "70816",
+     "body_words": 67613
+    }
+   ]
+  },
+  {
+   "id": "Q276032",
+   "name": "Edith Wharton",
+   "born": 1862,
+   "died": 1937,
+   "works": [
+    {
+     "work": "Q5402934",
+     "title": "Ethan Frome",
+     "year": 1911,
+     "pg": "4517",
+     "body_words": 34717
+    },
+    {
+     "work": "Q7728505",
+     "title": "The Custom of the Country",
+     "year": 1913,
+     "pg": "11052",
+     "body_words": 138928
+    },
+    {
+     "work": "Q7637251",
+     "title": "Summer",
+     "year": 1917,
+     "pg": "166",
+     "body_words": 57306
+    },
+    {
+     "work": "Q42729976",
+     "title": "The Marne",
+     "year": 1918,
+     "pg": "41855",
+     "body_words": 18289
+    },
+    {
+     "work": "Q81759234",
+     "title": "New Year's Day: The 'Seventies",
+     "year": 1924,
+     "pg": "61321",
+     "body_words": 21201
+    },
+    {
+     "work": "Q81759157",
+     "title": "The Old Maid: The 'Fifties",
+     "year": 1924,
+     "pg": "61290",
+     "body_words": 24089
+    },
+    {
+     "work": "Q81759009",
+     "title": "False Dawn: The 'Forties",
+     "year": 1924,
+     "pg": "61297",
+     "body_words": 18265
+    },
+    {
+     "work": "Q104867871",
+     "title": "Twilight Sleep",
+     "year": 1927,
+     "pg": "70844",
+     "body_words": 81472
+    }
+   ]
+  },
+  {
+   "id": "Q144090",
+   "name": "Edward Elmer Smith",
+   "born": 1890,
+   "died": 1965,
+   "works": [
+    {
+     "work": "Q3539487",
+     "title": "Triplanetary",
+     "year": 1934,
+     "pg": "32706",
+     "body_words": 91265
+    },
+    {
+     "work": "Q5517801",
+     "title": "Galactic Patrol",
+     "year": 1937,
+     "pg": "68815",
+     "body_words": 90968
+    },
+    {
+     "work": "Q3232382",
+     "title": "Children of the Lens",
+     "year": 1947,
+     "pg": "70483",
+     "body_words": 99231
+    },
+    {
+     "work": "Q7537833",
+     "title": "Skylark of Valeron",
+     "year": 1949,
+     "pg": "68609",
+     "body_words": 82030
+    },
+    {
+     "work": "Q7443559",
+     "title": "Second Stage Lensmen",
+     "year": 1953,
+     "pg": "70494",
+     "body_words": 96759
+    },
+    {
+     "work": "Q19109874",
+     "title": "Masters of Space",
+     "year": 1962,
+     "pg": "22754",
+     "body_words": 51863
+    }
+   ]
+  },
+  {
+   "id": "Q458658",
+   "name": "Edward Plunkett, 18th Baron of Dunsany",
+   "born": 1878,
+   "died": 1957,
+   "works": [
+    {
+     "work": "Q7736948",
+     "title": "The Gods of Pegāna",
+     "year": 1905,
+     "pg": "8395",
+     "body_words": 15724
+    },
+    {
+     "work": "Q7805268",
+     "title": "Time and the Gods",
+     "year": 1906,
+     "pg": "8183",
+     "body_words": 40805
+    },
+    {
+     "work": "Q7767777",
+     "title": "The Sword of Welleran and Other Stories",
+     "year": 1908,
+     "pg": "10806",
+     "body_words": 33688
+    },
+    {
+     "work": "Q4656595",
+     "title": "A Dreamer's Tales",
+     "year": 1910,
+     "pg": "57277",
+     "body_words": 36764
+    },
+    {
+     "work": "Q7719322",
+     "title": "The Book of Wonder",
+     "year": 1912,
+     "pg": "7477",
+     "body_words": 22854
+    },
+    {
+     "work": "Q5447612",
+     "title": "Fifty-One Tales",
+     "year": 1915,
+     "pg": "7838",
+     "body_words": 16200
+    },
+    {
+     "work": "Q7745601",
+     "title": "The Last Book of Wonder",
+     "year": 1916,
+     "pg": "13821",
+     "body_words": 41246
+    },
+    {
+     "work": "Q7679363",
+     "title": "Tales of Three Hemispheres",
+     "year": 1919,
+     "pg": "11440",
+     "body_words": 26780
+    },
+    {
+     "work": "Q5293427",
+     "title": "Don Rodriguez: Chronicles of Shadow Valley",
+     "year": 1922,
+     "pg": "4282",
+     "body_words": 73598
+    }
+   ]
+  },
+  {
+   "id": "Q76189",
+   "name": "Elizabeth von Arnim",
+   "born": 1866,
+   "died": 1941,
+   "works": [
+    {
+     "work": "Q5363788",
+     "title": "Elizabeth and Her German Garden",
+     "year": 1889,
+     "pg": "1327",
+     "body_words": 48434
+    },
+    {
+     "work": "Q3793466",
+     "title": "The Benefactress",
+     "year": 1901,
+     "pg": "30302",
+     "body_words": 114718
+    },
+    {
+     "work": "Q3824441",
+     "title": "Christine",
+     "year": 1917,
+     "pg": "12683",
+     "body_words": 51216
+    },
+    {
+     "work": "Q21189975",
+     "title": "In the Mountains",
+     "year": 1920,
+     "pg": "35072",
+     "body_words": 57810
+    },
+    {
+     "work": "Q779726",
+     "title": "Vera",
+     "year": 1921,
+     "pg": "34366",
+     "body_words": 77356
+    },
+    {
+     "work": "Q18187988",
+     "title": "The Enchanted April",
+     "year": 1923,
+     "pg": "16389",
+     "body_words": 78258
+    },
+    {
+     "work": "Q18224787",
+     "title": "Introduction to Sally",
+     "year": 1926,
+     "pg": "72979",
+     "body_words": 90155
+    }
+   ]
+  },
+  {
+   "id": "Q234530",
+   "name": "Emma Orczy",
+   "born": 1865,
+   "died": 1947,
+   "works": [
+    {
+     "work": "Q1249536",
+     "title": "The Scarlet Pimpernel",
+     "year": 1905,
+     "pg": "60",
+     "body_words": 85718
+    },
+    {
+     "work": "Q5979829",
+     "title": "I Will Repay",
+     "year": 1906,
+     "pg": "5090",
+     "body_words": 63604
+    },
+    {
+     "work": "Q98456580",
+     "title": "Petticoat Rule",
+     "year": 1910,
+     "pg": "34660",
+     "body_words": 98219
+    },
+    {
+     "work": "Q7720311",
+     "title": "The Bronze Eagle",
+     "year": 1915,
+     "pg": "25955",
+     "body_words": 114243
+    },
+    {
+     "work": "Q16160725",
+     "title": "Lord Tony's Wife",
+     "year": 1917,
+     "pg": "35117",
+     "body_words": 89490
+    },
+    {
+     "work": "Q4659441",
+     "title": "A Sheaf of Bluebells",
+     "year": 1917,
+     "pg": "57774",
+     "body_words": 112603
+    },
+    {
+     "work": "Q16169884",
+     "title": "The Triumph of the Scarlet Pimpernel",
+     "year": 1922,
+     "pg": "65695",
+     "body_words": 91152
+    },
+    {
+     "work": "Q7194698",
+     "title": "Pimpernel and Rosemary",
+     "year": 1924,
+     "pg": "65591",
+     "body_words": 107233
+    },
+    {
+     "work": "Q7897332",
+     "title": "Unravelled Knots",
+     "year": 1925,
+     "pg": "68237",
+     "body_words": 104901
+    }
+   ]
+  },
+  {
+   "id": "Q183167",
+   "name": "G. K. Chesterton",
+   "born": 1874,
+   "died": 1936,
+   "works": [
+    {
+     "work": "Q16653725",
+     "title": "The Defendant",
+     "year": 1901,
+     "pg": "12245",
+     "body_words": 26923
+    },
+    {
+     "work": "Q5738287",
+     "title": "Heretics",
+     "year": 1905,
+     "pg": "470",
+     "body_words": 64682
+    },
+    {
+     "work": "Q959816",
+     "title": "The Man Who Was Thursday",
+     "year": 1908,
+     "pg": "1695",
+     "body_words": 58186
+    },
+    {
+     "work": "Q3486423",
+     "title": "Orthodoxy",
+     "year": 1908,
+     "pg": "16769",
+     "body_words": 63667
+    },
+    {
+     "work": "Q17151530",
+     "title": "Tremendous trifles",
+     "year": 1909,
+     "pg": "8092",
+     "body_words": 56039
+    },
+    {
+     "work": "Q3824160",
+     "title": "The Ball and the Cross",
+     "year": 1909,
+     "pg": "5265",
+     "body_words": 79543
+    },
+    {
+     "work": "Q3828527",
+     "title": "Manalive",
+     "year": 1912,
+     "pg": "1718",
+     "body_words": 57768
+    },
+    {
+     "work": "Q7734598",
+     "title": "The Flying Inn",
+     "year": 1914,
+     "pg": "59239",
+     "body_words": 88684
+    },
+    {
+     "work": "Q21190283",
+     "title": "Utopia of Usurers and Other Essays",
+     "year": 1917,
+     "pg": "2134",
+     "body_words": 32703
+    },
+    {
+     "work": "Q7753644",
+     "title": "The New Jerusalem",
+     "year": 1920,
+     "pg": "13468",
+     "body_words": 93213
+    },
+    {
+     "work": "Q89770561",
+     "title": "Irish Impressions",
+     "year": 1920,
+     "pg": "61758",
+     "body_words": 41800
+    },
+    {
+     "work": "Q17991804",
+     "title": "The Trees of Pride",
+     "year": 1922,
+     "pg": "1721",
+     "body_words": 25018
+    },
+    {
+     "work": "Q19096890",
+     "title": "Eugenics and other Evils",
+     "year": 1922,
+     "pg": "25308",
+     "body_words": 48942
+    },
+    {
+     "work": "Q21190196",
+     "title": "What I Saw in America",
+     "year": 1922,
+     "pg": "27250",
+     "body_words": 90890
+    },
+    {
+     "work": "Q108534460",
+     "title": "What I saw in America",
+     "year": 1922,
+     "pg": "27250",
+     "body_words": 90890
+    },
+    {
+     "work": "Q4508487",
+     "title": "The Man Who Knew Too Much",
+     "year": 1922,
+     "pg": "1720",
+     "body_words": 59749
+    },
+    {
+     "work": "Q3820059",
+     "title": "The Everlasting Man",
+     "year": 1925,
+     "pg": "65688",
+     "body_words": 107272
+    },
+    {
+     "work": "Q82463",
+     "title": "The Secret of Father Brown",
+     "year": 1927,
+     "pg": "70175",
+     "body_words": 63035
+    }
+   ]
+  },
+  {
+   "id": "Q369790",
+   "name": "George Gissing",
+   "born": 1857,
+   "died": 1903,
+   "works": [
+    {
+     "work": "Q5256356",
+     "title": "Demos",
+     "year": 1886,
+     "pg": "4309",
+     "body_words": 194971
+    },
+    {
+     "work": "Q4657716",
+     "title": "A Life's Morning",
+     "year": 1888,
+     "pg": "4312",
+     "body_words": 141193
+    },
+    {
+     "work": "Q26910826",
+     "title": "The Emancipated",
+     "year": 1890,
+     "pg": "4311",
+     "body_words": 143258
+    },
+    {
+     "work": "Q7007870",
+     "title": "New Grub Street",
+     "year": 1891,
+     "pg": "1709",
+     "body_words": 185808
+    },
+    {
+     "work": "Q29053296",
+     "title": "New Grub Street",
+     "year": 1891,
+     "pg": "1709",
+     "body_words": 185808
+    },
+    {
+     "work": "Q7754692",
+     "title": "The Odd Women",
+     "year": 1893,
+     "pg": "4313",
+     "body_words": 138313
+    },
+    {
+     "work": "Q19572195",
+     "title": "In the Year of Jubilee",
+     "year": 1894,
+     "pg": "4307",
+     "body_words": 130400
+    },
+    {
+     "work": "Q7756406",
+     "title": "The Paying Guest",
+     "year": 1895,
+     "pg": "4298",
+     "body_words": 26841
+    },
+    {
+     "work": "Q17027661",
+     "title": "The Private Papers of Henry Ryecroft",
+     "year": 1903,
+     "pg": "1463",
+     "body_words": 61594
+    }
+   ]
+  },
+  {
+   "id": "Q368519",
+   "name": "George MacDonald",
+   "born": 1824,
+   "died": 1905,
+   "works": [
+    {
+     "work": "Q4714138",
+     "title": "Alec Forbes of Howglen",
+     "year": 1865,
+     "pg": "18810",
+     "body_words": 194513
+    },
+    {
+     "work": "Q7290707",
+     "title": "Ranald Bannerman's Boyhood",
+     "year": 1871,
+     "pg": "9301",
+     "body_words": 71841
+    },
+    {
+     "work": "Q466505",
+     "title": "The Princess and the Goblin",
+     "year": 1872,
+     "pg": "708",
+     "body_words": 50960
+    },
+    {
+     "work": "Q7526965",
+     "title": "Sir Gibbie",
+     "year": 1879,
+     "pg": "2370",
+     "body_words": 187508
+    },
+    {
+     "work": "Q6780254",
+     "title": "Mary Marston",
+     "year": 1881,
+     "pg": "8201",
+     "body_words": 174510
+    },
+    {
+     "work": "Q7731695",
+     "title": "The Elect Lady",
+     "year": 1888,
+     "pg": "8944",
+     "body_words": 59223
+    },
+    {
+     "work": "Q3832392",
+     "title": "Lilith",
+     "year": 1895,
+     "pg": "1640",
+     "body_words": 93865
+    }
+   ]
+  },
+  {
+   "id": "Q42511",
+   "name": "H. G. Wells",
+   "born": 1866,
+   "died": 1946,
+   "works": [
+    {
+     "work": "Q20007368",
+     "title": "Text-Book of Biology",
+     "year": 1893,
+     "pg": "21781",
+     "body_words": 56562
+    },
+    {
+     "work": "Q730105",
+     "title": "The Wonderful Visit",
+     "year": 1895,
+     "pg": "33913",
+     "body_words": 38347
+    },
+    {
+     "work": "Q16385254",
+     "title": "Certain Personal Matters",
+     "year": 1897,
+     "pg": "17508",
+     "body_words": 54961
+    },
+    {
+     "work": "Q4271834",
+     "title": "Love and Mr Lewisham",
+     "year": 1899,
+     "pg": "11640",
+     "body_words": 64849
+    },
+    {
+     "work": "Q16152606",
+     "title": "Anticipations",
+     "year": 1901,
+     "pg": "19229",
+     "body_words": 79894
+    },
+    {
+     "work": "Q16386886",
+     "title": "Mankind in the Making",
+     "year": 1903,
+     "pg": "7058",
+     "body_words": 103018
+    },
+    {
+     "work": "Q1215802",
+     "title": "The Food of the Gods and How It Came to Earth",
+     "year": 1904,
+     "pg": "11696",
+     "body_words": 74287
+    },
+    {
+     "work": "Q1249074",
+     "title": "A Modern Utopia",
+     "year": 1905,
+     "pg": "6424",
+     "body_words": 92828
+    },
+    {
+     "work": "Q1249082",
+     "title": "Kipps",
+     "year": 1905,
+     "pg": "39162",
+     "body_words": 110380
+    },
+    {
+     "work": "Q2637002",
+     "title": "In the Days of the Comet",
+     "year": 1906,
+     "pg": "3797",
+     "body_words": 81458
+    },
+    {
+     "work": "Q12120405",
+     "title": "The Future in America: A Search After Realities",
+     "year": 1906,
+     "pg": "56484",
+     "body_words": 60487
+    },
+    {
+     "work": "Q964055",
+     "title": "The War in the Air",
+     "year": 1908,
+     "pg": "780",
+     "body_words": 97110
+    },
+    {
+     "work": "Q7012633",
+     "title": "New Worlds for Old",
+     "year": 1908,
+     "pg": "30538",
+     "body_words": 82856
+    },
+    {
+     "work": "Q1247736",
+     "title": "Ann Veronica",
+     "year": 1909,
+     "pg": "524",
+     "body_words": 96141
+    },
+    {
+     "work": "Q1535422",
+     "title": "Tono-bungay",
+     "year": 1909,
+     "pg": "718",
+     "body_words": 133677
+    },
+    {
+     "work": "Q2507552",
+     "title": "The History of Mr Polly",
+     "year": 1910,
+     "pg": "7308",
+     "body_words": 68650
+    },
+    {
+     "work": "Q5051272",
+     "title": "Marriage",
+     "year": 1912,
+     "pg": "35338",
+     "body_words": 147514
+    },
+    {
+     "work": "Q19102171",
+     "title": "The Wheels of Chance: A Bicycling Idyll",
+     "year": 1913,
+     "pg": "1264",
+     "body_words": 55571
+    },
+    {
+     "work": "Q1069465",
+     "title": "Little Wars",
+     "year": 1913,
+     "pg": "3691",
+     "body_words": 15377
+    },
+    {
+     "work": "Q7756281",
+     "title": "The Passionate Friends: A Novel",
+     "year": 1913,
+     "pg": "30340",
+     "body_words": 104296
+    },
+    {
+     "work": "Q4749912",
+     "title": "An Englishman Looks at the World",
+     "year": 1914,
+     "pg": "11502",
+     "body_words": 100661
+    },
+    {
+     "work": "Q5051290",
+     "title": "The World Set Free",
+     "year": 1914,
+     "pg": "1059",
+     "body_words": 65018
+    },
+    {
+     "work": "Q5051282",
+     "title": "The Wife of Sir Isaac Harman",
+     "year": 1914,
+     "pg": "30855",
+     "body_words": 128625
+    },
+    {
+     "work": "Q16239161",
+     "title": "Boon",
+     "year": 1915,
+     "pg": "34962",
+     "body_words": 47666
+    },
+    {
+     "work": "Q7760264",
+     "title": "The Research Magnificent",
+     "year": 1915,
+     "pg": "1138",
+     "body_words": 110888
+    },
+    {
+     "work": "Q4876123",
+     "title": "Bealby",
+     "year": 1915,
+     "pg": "59769",
+     "body_words": 68766
+    },
+    {
+     "work": "Q12062136",
+     "title": "Mr. Britling Sees It Through",
+     "year": 1916,
+     "pg": "14060",
+     "body_words": 139581
+    },
+    {
+     "work": "Q7968584",
+     "title": "War and the Future",
+     "year": 1917,
+     "pg": "1804",
+     "body_words": 61452
+    },
+    {
+     "work": "Q5576069",
+     "title": "God the Invisible King",
+     "year": 1917,
+     "pg": "1046",
+     "body_words": 39813
+    },
+    {
+     "work": "Q7765370",
+     "title": "The Soul of a Bishop",
+     "year": 1917,
+     "pg": "1269",
+     "body_words": 79134
+    },
+    {
+     "work": "Q12100788",
+     "title": "Joan and Peter",
+     "year": 1918,
+     "pg": "61426",
+     "body_words": 210657
+    },
+    {
+     "work": "Q6012178",
+     "title": "In the Fourth Year",
+     "year": 1918,
+     "pg": "10291",
+     "body_words": 35965
+    },
+    {
+     "work": "Q12163293",
+     "title": "The Secret Places of the Heart",
+     "year": 1922,
+     "pg": "1734",
+     "body_words": 63632
+    },
+    {
+     "work": "Q19055349",
+     "title": "Washington and the Riddle of Peace",
+     "year": 1922,
+     "pg": "58877",
+     "body_words": 53331
+    },
+    {
+     "work": "Q16157134",
+     "title": "A Year of Prophesying",
+     "year": 1924,
+     "pg": "69752",
+     "body_words": 78702
+    },
+    {
+     "work": "Q12081234",
+     "title": "Christina Alberta's Father",
+     "year": 1925,
+     "pg": "69410",
+     "body_words": 119471
+    }
+   ]
+  },
+  {
+   "id": "Q237196",
+   "name": "H. Rider Haggard",
+   "born": 1856,
+   "died": 1925,
+   "works": [
+    {
+     "work": "Q4223361",
+     "title": "Cleopatra",
+     "year": 1889,
+     "pg": "2769",
+     "body_words": 102059
+    },
+    {
+     "work": "Q4730445",
+     "title": "Allan's Wife & Other Tales",
+     "year": 1889,
+     "pg": "2727",
+     "body_words": 50736
+    },
+    {
+     "work": "Q4421898",
+     "title": "The World's Desire",
+     "year": 1890,
+     "pg": "2763",
+     "body_words": 86060
+    },
+    {
+     "work": "Q6957414",
+     "title": "Nada the Lily",
+     "year": 1892,
+     "pg": "1207",
+     "body_words": 117059
+    },
+    {
+     "work": "Q401954",
+     "title": "Montezuma's Daughter",
+     "year": 1893,
+     "pg": "1848",
+     "body_words": 151045
+    },
+    {
+     "work": "Q7756660",
+     "title": "The People of the Mist",
+     "year": 1894,
+     "pg": "6769",
+     "body_words": 145862
+    },
+    {
+     "work": "Q15932815",
+     "title": "Joan Haste",
+     "year": 1895,
+     "pg": "66528",
+     "body_words": 158164
+    },
+    {
+     "work": "Q2604590",
+     "title": "Ayesha",
+     "year": 1905,
+     "pg": "5228",
+     "body_words": 116338
+    },
+    {
+     "work": "Q45085903",
+     "title": "King Solomon's Mines",
+     "year": 1907,
+     "pg": "2166",
+     "body_words": 82213
+    },
+    {
+     "work": "Q6762733",
+     "title": "Marie",
+     "year": 1912,
+     "pg": "1690",
+     "body_words": 104479
+    },
+    {
+     "work": "Q5097889",
+     "title": "Child of Storm",
+     "year": 1913,
+     "pg": "1711",
+     "body_words": 93971
+    },
+    {
+     "work": "Q4731051",
+     "title": "Allan and the Holy Flower",
+     "year": 1915,
+     "pg": "5174",
+     "body_words": 120150
+    },
+    {
+     "work": "Q16934363",
+     "title": "The Ivory Child",
+     "year": 1916,
+     "pg": "2841",
+     "body_words": 112145
+    },
+    {
+     "work": "Q5450349",
+     "title": "Finished",
+     "year": 1917,
+     "pg": "1724",
+     "body_words": 120206
+    },
+    {
+     "work": "Q6907616",
+     "title": "Moon of Israel",
+     "year": 1918,
+     "pg": "2856",
+     "body_words": 88145
+    },
+    {
+     "work": "Q11681425",
+     "title": "She and Allan",
+     "year": 1921,
+     "pg": "5745",
+     "body_words": 120978
+    }
+   ]
+  },
+  {
+   "id": "Q170509",
+   "name": "Henry James",
+   "born": 1843,
+   "died": 1916,
+   "works": [
+    {
+     "work": "Q3079804",
+     "title": "Roderick Hudson",
+     "year": 1875,
+     "pg": "176",
+     "body_words": 131730
+    },
+    {
+     "work": "Q7474518",
+     "title": "The Europeans",
+     "year": 1878,
+     "pg": "179",
+     "body_words": 58985
+    },
+    {
+     "work": "Q16681831",
+     "title": "An International Episode",
+     "year": 1878,
+     "pg": "210",
+     "body_words": 26923
+    },
+    {
+     "work": "Q3080495",
+     "title": "Watch and Ward",
+     "year": 1878,
+     "pg": "72355",
+     "body_words": 61566
+    },
+    {
+     "work": "Q2992478",
+     "title": "Confidence",
+     "year": 1879,
+     "pg": "178",
+     "body_words": 75728
+    },
+    {
+     "work": "Q574887",
+     "title": "Daisy Miller",
+     "year": 1879,
+     "pg": "208",
+     "body_words": 21322
+    },
+    {
+     "work": "Q861017",
+     "title": "The Portrait of a Lady",
+     "year": 1881,
+     "pg": "2833",
+     "body_words": 116833
+    },
+    {
+     "work": "Q3211932",
+     "title": "The Princess Casamassima",
+     "year": 1886,
+     "pg": "64599",
+     "body_words": 207809
+    },
+    {
+     "work": "Q2362409",
+     "title": "The Aspern Papers",
+     "year": 1888,
+     "pg": "211",
+     "body_words": 38815
+    },
+    {
+     "work": "Q3616152",
+     "title": "The Reverberator",
+     "year": 1888,
+     "pg": "7529",
+     "body_words": 54242
+    },
+    {
+     "work": "Q7746978",
+     "title": "The Lesson of the Master",
+     "year": 1888,
+     "pg": "898",
+     "body_words": 24470
+    },
+    {
+     "work": "Q7758766",
+     "title": "The Pupil",
+     "year": 1891,
+     "pg": "1032",
+     "body_words": 17312
+    },
+    {
+     "work": "Q7727915",
+     "title": "The Coxon Fund",
+     "year": 1894,
+     "pg": "1193",
+     "body_words": 22686
+    },
+    {
+     "work": "Q3224800",
+     "title": "The Figure in the Carpet",
+     "year": 1896,
+     "pg": "645",
+     "body_words": 15307
+    },
+    {
+     "work": "Q2943614",
+     "title": "What Maisie Knew",
+     "year": 1897,
+     "pg": "7118",
+     "body_words": 94878
+    },
+    {
+     "work": "Q625923",
+     "title": "The Turn of the Screw",
+     "year": 1898,
+     "pg": "209",
+     "body_words": 42277
+    },
+    {
+     "work": "Q3686748",
+     "title": "In the Cage",
+     "year": 1898,
+     "pg": "1144",
+     "body_words": 34852
+    },
+    {
+     "work": "Q3867271",
+     "title": "The Awkward Age",
+     "year": 1899,
+     "pg": "7433",
+     "body_words": 136345
+    },
+    {
+     "work": "Q2743868",
+     "title": "The Sacred Fount",
+     "year": 1901,
+     "pg": "32939",
+     "body_words": 76126
+    },
+    {
+     "work": "Q650571",
+     "title": "The Ambassadors",
+     "year": 1903,
+     "pg": "432",
+     "body_words": 162054
+    },
+    {
+     "work": "Q27331",
+     "title": "The Beast in the Jungle",
+     "year": 1903,
+     "pg": "1093",
+     "body_words": 18565
+    },
+    {
+     "work": "Q1248585",
+     "title": "The Golden Bowl",
+     "year": 1904,
+     "pg": "4264",
+     "body_words": 204485
+    },
+    {
+     "work": "Q5378288",
+     "title": "English Hours",
+     "year": 1905,
+     "pg": "58938",
+     "body_words": 75782
+    },
+    {
+     "work": "Q9636815",
+     "title": "The American Scene",
+     "year": 1907,
+     "pg": "68717",
+     "body_words": 155338
+    },
+    {
+     "work": "Q3916757",
+     "title": "The Whole Family",
+     "year": 1908,
+     "pg": "5066",
+     "body_words": 76826
+    },
+    {
+     "work": "Q3885500",
+     "title": "Italian Hours",
+     "year": 1909,
+     "pg": "6354",
+     "body_words": 125817
+    }
+   ]
+  },
+  {
+   "id": "Q45765",
+   "name": "Jack London",
+   "born": 1876,
+   "died": 1916,
+   "works": [
+    {
+     "work": "Q3793957",
+     "title": "The Son of the Wolf",
+     "year": 1900,
+     "pg": "2377",
+     "body_words": 48549
+    },
+    {
+     "work": "Q3819605",
+     "title": "The Shadow and the Flash",
+     "year": 1902,
+     "pg": "1089",
+     "body_words": 47928
+    },
+    {
+     "work": "Q339852",
+     "title": "A Daughter of the Snows",
+     "year": 1902,
+     "pg": "14654",
+     "body_words": 86571
+    },
+    {
+     "work": "Q3207959",
+     "title": "The Cruise of the Dazzler",
+     "year": 1902,
+     "pg": "11051",
+     "body_words": 36233
+    },
+    {
+     "work": "Q3232379",
+     "title": "Children of the Frost",
+     "year": 1902,
+     "pg": "10736",
+     "body_words": 50330
+    },
+    {
+     "work": "Q476871",
+     "title": "The Call of the Wild",
+     "year": 1903,
+     "pg": "215",
+     "body_words": 31824
+    },
+    {
+     "work": "Q4363731",
+     "title": "The Kempton-Wace Letters",
+     "year": 1903,
+     "pg": "31422",
+     "body_words": 47185
+    },
+    {
+     "work": "Q1196857",
+     "title": "The Sea-Wolf",
+     "year": 1904,
+     "pg": "1074",
+     "body_words": 105655
+    },
+    {
+     "work": "Q4197654",
+     "title": "The Game",
+     "year": 1905,
+     "pg": "1160",
+     "body_words": 15266
+    },
+    {
+     "work": "Q152267",
+     "title": "White Fang",
+     "year": 1906,
+     "pg": "910",
+     "body_words": 72179
+    },
+    {
+     "work": "Q2873306",
+     "title": "Before Adam",
+     "year": 1907,
+     "pg": "310",
+     "body_words": 39086
+    },
+    {
+     "work": "Q18209556",
+     "title": "The Road",
+     "year": 1907,
+     "pg": "14658",
+     "body_words": 50862
+    },
+    {
+     "work": "Q1317839",
+     "title": "Martin Eden",
+     "year": 1909,
+     "pg": "1056",
+     "body_words": 138836
+    },
+    {
+     "work": "Q4127106",
+     "title": "Burning Daylight",
+     "year": 1910,
+     "pg": "746",
+     "body_words": 112650
+    },
+    {
+     "work": "Q3202732",
+     "title": "Adventure",
+     "year": 1911,
+     "pg": "1163",
+     "body_words": 70837
+    },
+    {
+     "work": "Q2634129",
+     "title": "The Scarlet Plague",
+     "year": 1912,
+     "pg": "21970",
+     "body_words": 20286
+    },
+    {
+     "work": "Q2637037",
+     "title": "Smoke Bellew",
+     "year": 1912,
+     "pg": "1596",
+     "body_words": 41524
+    },
+    {
+     "work": "Q4552364",
+     "title": "A Son of the Sun",
+     "year": 1912,
+     "pg": "21971",
+     "body_words": 56677
+    },
+    {
+     "work": "Q112633911",
+     "title": "John Barleycorn by Jack London",
+     "year": 1913,
+     "pg": "318",
+     "body_words": 64617
+    },
+    {
+     "work": "Q1174082",
+     "title": "The Valley of the Moon",
+     "year": 1913,
+     "pg": "1449",
+     "body_words": 166775
+    },
+    {
+     "work": "Q17512014",
+     "title": "The Abysmal Brute",
+     "year": 1913,
+     "pg": "55948",
+     "body_words": 23490
+    },
+    {
+     "work": "Q3234050",
+     "title": "The Mutiny of the Elsinore",
+     "year": 1914,
+     "pg": "2415",
+     "body_words": 113694
+    },
+    {
+     "work": "Q626663",
+     "title": "The Star Rover",
+     "year": 1915,
+     "pg": "1162",
+     "body_words": 103586
+    },
+    {
+     "work": "Q1213402",
+     "title": "The Little Lady of the Big House",
+     "year": 1916,
+     "pg": "6455",
+     "body_words": 99648
+    },
+    {
+     "work": "Q3307965",
+     "title": "Michael, Brother of Jerry",
+     "year": 1917,
+     "pg": "1730",
+     "body_words": 96550
+    },
+    {
+     "work": "Q3177443",
+     "title": "Jerry of the Islands",
+     "year": 1917,
+     "pg": "1161",
+     "body_words": 69912
+    }
+   ]
+  },
+  {
+   "id": "Q167856",
+   "name": "James Fenimore Cooper",
+   "born": 1789,
+   "died": 1851,
+   "works": [
+    {
+     "work": "Q4864841",
+     "title": "Precaution",
+     "year": 1820,
+     "pg": "10365",
+     "body_words": 150017
+    },
+    {
+     "work": "Q4864923",
+     "title": "The Pilot: A Tale of the Sea",
+     "year": 1823,
+     "pg": "7974",
+     "body_words": 156255
+    },
+    {
+     "work": "Q1898036",
+     "title": "The Pioneers",
+     "year": 1823,
+     "pg": "2275",
+     "body_words": 171831
+    },
+    {
+     "work": "Q493574",
+     "title": "The Last of the Mohicans",
+     "year": 1824,
+     "pg": "940",
+     "body_words": 148434
+    },
+    {
+     "work": "Q470844",
+     "title": "The Prairie",
+     "year": 1827,
+     "pg": "6450",
+     "body_words": 167402
+    },
+    {
+     "work": "Q238652",
+     "title": "The Pathfinder, or The Inland Sea",
+     "year": 1840,
+     "pg": "1880",
+     "body_words": 177294
+    },
+    {
+     "work": "Q855801",
+     "title": "The Deerslayer",
+     "year": 1841,
+     "pg": "3285",
+     "body_words": 212091
+    },
+    {
+     "work": "Q21012425",
+     "title": "The Two Admirals",
+     "year": 1842,
+     "pg": "20475",
+     "body_words": 179482
+    },
+    {
+     "work": "Q20771260",
+     "title": "Afloat and Ashore",
+     "year": 1844,
+     "pg": "8647",
+     "body_words": 199746
+    },
+    {
+     "work": "Q19231294",
+     "title": "Satanstoe",
+     "year": 1845,
+     "pg": "8880",
+     "body_words": 179461
+    },
+    {
+     "work": "Q4865365",
+     "title": "The Crater",
+     "year": 1847,
+     "pg": "11573",
+     "body_words": 181087
+    },
+    {
+     "work": "Q19095455",
+     "title": "The Oak Openings",
+     "year": 1848,
+     "pg": "4215",
+     "body_words": 173645
+    },
+    {
+     "work": "Q4865403",
+     "title": "Jack Tier, or the Florida Reef",
+     "year": 1848,
+     "pg": "4796",
+     "body_words": 180039
+    }
+   ]
+  },
+  {
+   "id": "Q82925",
+   "name": "Joseph Conrad",
+   "born": 1857,
+   "died": 1924,
+   "works": [
+    {
+     "work": "Q2404359",
+     "title": "Almayer's Folly",
+     "year": 1895,
+     "pg": "720",
+     "body_words": 62738
+    },
+    {
+     "work": "Q478537",
+     "title": "The Nigger of the 'Narcissus'",
+     "year": 1897,
+     "pg": "17731",
+     "body_words": 53975
+    },
+    {
+     "work": "Q3151490",
+     "title": "Tales of Unrest",
+     "year": 1898,
+     "pg": "1202",
+     "body_words": 62758
+    },
+    {
+     "work": "Q727408",
+     "title": "Lord Jim",
+     "year": 1900,
+     "pg": "5658",
+     "body_words": 130012
+    },
+    {
+     "work": "Q7742035",
+     "title": "The Inheritors",
+     "year": 1901,
+     "pg": "14888",
+     "body_words": 61873
+    },
+    {
+     "work": "Q20820648",
+     "title": "Falk",
+     "year": 1903,
+     "pg": "493",
+     "body_words": 30506
+    },
+    {
+     "work": "Q1247666",
+     "title": "The Secret Agent",
+     "year": 1907,
+     "pg": "974",
+     "body_words": 90294
+    },
+    {
+     "work": "Q3485648",
+     "title": "A Set of Six",
+     "year": 1908,
+     "pg": "2305",
+     "body_words": 84596
+    },
+    {
+     "work": "Q16653711",
+     "title": "The Duel",
+     "year": 1908,
+     "pg": "2305",
+     "body_words": 84596
+    },
+    {
+     "work": "Q3685905",
+     "title": "Under Western Eyes",
+     "year": 1911,
+     "pg": "2480",
+     "body_words": 111839
+    },
+    {
+     "work": "Q16514368",
+     "title": "A Personal Record",
+     "year": 1912,
+     "pg": "687",
+     "body_words": 45397
+    },
+    {
+     "work": "Q3055213",
+     "title": "Twixt Land and Sea",
+     "year": 1912,
+     "pg": "1055",
+     "body_words": 70831
+    },
+    {
+     "work": "Q793748",
+     "title": "Chance",
+     "year": 1913,
+     "pg": "1476",
+     "body_words": 137723
+    },
+    {
+     "work": "Q860023",
+     "title": "The Arrow of Gold",
+     "year": 1919,
+     "pg": "1083",
+     "body_words": 107899
+    },
+    {
+     "work": "Q7761631",
+     "title": "The Rover",
+     "year": 1923,
+     "pg": "59142",
+     "body_words": 87534
+    },
+    {
+     "work": "Q26931561",
+     "title": "A Set of Six",
+     "year": 1924,
+     "pg": "2305",
+     "body_words": 84596
+    }
+   ]
+  },
+  {
+   "id": "Q207544",
+   "name": "L. Frank Baum",
+   "born": 1856,
+   "died": 1919,
+   "works": [
+    {
+     "work": "Q6917355",
+     "title": "Mother Goose in Prose",
+     "year": 1897,
+     "pg": "5312",
+     "body_words": 46105
+    },
+    {
+     "work": "Q1659447",
+     "title": "The Marvelous Land of Oz",
+     "year": 1904,
+     "pg": "54",
+     "body_words": 41878
+    },
+    {
+     "work": "Q7270552",
+     "title": "Queen Zixi of Ix",
+     "year": 1904,
+     "pg": "55737",
+     "body_words": 39129
+    },
+    {
+     "work": "Q634885",
+     "title": "Ozma of Oz",
+     "year": 1907,
+     "pg": "486",
+     "body_words": 38718
+    },
+    {
+     "work": "Q473588",
+     "title": "Dorothy and the Wizard in Oz",
+     "year": 1908,
+     "pg": "420",
+     "body_words": 42007
+    },
+    {
+     "work": "Q1250364",
+     "title": "The Road to Oz",
+     "year": 1909,
+     "pg": "26624",
+     "body_words": 40126
+    },
+    {
+     "work": "Q1250366",
+     "title": "The Emerald City of Oz",
+     "year": 1910,
+     "pg": "517",
+     "body_words": 53715
+    },
+    {
+     "work": "Q109326659",
+     "title": "The Boy Fortune Hunters in the South Seas",
+     "year": 1911,
+     "pg": "55763",
+     "body_words": 44357
+    },
+    {
+     "work": "Q4180222",
+     "title": "The Life and Adventures of Santa Claus",
+     "year": 1912,
+     "pg": "520",
+     "body_words": 30049
+    },
+    {
+     "work": "Q615227",
+     "title": "The Patchwork Girl of Oz",
+     "year": 1913,
+     "pg": "955",
+     "body_words": 57380
+    },
+    {
+     "work": "Q7801858",
+     "title": "Tik-Tok of Oz",
+     "year": 1914,
+     "pg": "956",
+     "body_words": 48203
+    },
+    {
+     "work": "Q7762405",
+     "title": "The Scarecrow of Oz",
+     "year": 1915,
+     "pg": "957",
+     "body_words": 45761
+    },
+    {
+     "work": "Q7335058",
+     "title": "Rinkitink in Oz",
+     "year": 1916,
+     "pg": "958",
+     "body_words": 49204
+    },
+    {
+     "work": "Q7748719",
+     "title": "The Lost Princess of Oz",
+     "year": 1917,
+     "pg": "959",
+     "body_words": 47224
+    },
+    {
+     "work": "Q7769442",
+     "title": "The Tin Woodman of Oz",
+     "year": 1918,
+     "pg": "30852",
+     "body_words": 44488
+    },
+    {
+     "work": "Q7749508",
+     "title": "The Magic of Oz",
+     "year": 1919,
+     "pg": "419",
+     "body_words": 39344
+    },
+    {
+     "work": "Q5569658",
+     "title": "Glinda of Oz",
+     "year": 1920,
+     "pg": "961",
+     "body_words": 39625
+    }
+   ]
+  },
+  {
+   "id": "Q185696",
+   "name": "Louisa May Alcott",
+   "born": 1832,
+   "died": 1888,
+   "works": [
+    {
+     "work": "Q16386106",
+     "title": "Hospital Sketches",
+     "year": 1863,
+     "pg": "3837",
+     "body_words": 30268
+    },
+    {
+     "work": "Q2893891",
+     "title": "Behind a Mask; or, A Woman's Power",
+     "year": 1866,
+     "pg": "8677",
+     "body_words": 40830
+    },
+    {
+     "work": "Q523076",
+     "title": "Little Women",
+     "year": 1868,
+     "pg": "514",
+     "body_words": 186112
+    },
+    {
+     "work": "Q8034531",
+     "title": "Work: A Story of Experience",
+     "year": 1873,
+     "pg": "4770",
+     "body_words": 119004
+    },
+    {
+     "work": "Q3281243",
+     "title": "Eight Cousins; or, The Aunt-Hill",
+     "year": 1875,
+     "pg": "2726",
+     "body_words": 72929
+    },
+    {
+     "work": "Q7368002",
+     "title": "Rose in Bloom",
+     "year": 1876,
+     "pg": "2804",
+     "body_words": 94338
+    },
+    {
+     "work": "Q6115945",
+     "title": "Jack and Jill: A Village Story",
+     "year": 1880,
+     "pg": "2786",
+     "body_words": 92938
+    },
+    {
+     "work": "Q1436824",
+     "title": "Jo's Boys",
+     "year": 1886,
+     "pg": "3499",
+     "body_words": 100553
+    }
+   ]
+  },
+  {
+   "id": "Q273034",
+   "name": "Lucy Maud Montgomery",
+   "born": 1874,
+   "died": 1942,
+   "works": [
+    {
+     "work": "Q27245478",
+     "title": "Anne of Green Gables (1908)",
+     "year": 1908,
+     "pg": "45",
+     "body_words": 102501
+    },
+    {
+     "work": "Q565911",
+     "title": "Anne of Green Gables",
+     "year": 1908,
+     "pg": "64365",
+     "body_words": 102798
+    },
+    {
+     "work": "Q1331757",
+     "title": "Anne of Avonlea",
+     "year": 1909,
+     "pg": "47",
+     "body_words": 91089
+    },
+    {
+     "work": "Q1352419",
+     "title": "Anne of the Island",
+     "year": 1915,
+     "pg": "51",
+     "body_words": 76559
+    },
+    {
+     "work": "Q734757",
+     "title": "Rilla of Ingleside",
+     "year": 1921,
+     "pg": "3796",
+     "body_words": 103378
+    },
+    {
+     "work": "Q73706",
+     "title": "Emily of New Moon",
+     "year": 1923,
+     "pg": "61236",
+     "body_words": 113475
+    },
+    {
+     "work": "Q7718738",
+     "title": "The Blue Castle",
+     "year": 1926,
+     "pg": "67979",
+     "body_words": 68274
+    }
+   ]
+  },
+  {
+   "id": "Q7245",
+   "name": "Mark Twain",
+   "born": 1835,
+   "died": 1910,
+   "works": [
+    {
+     "work": "Q3576767",
+     "title": "Roughing It",
+     "year": 1872,
+     "pg": "3177",
+     "body_words": 167937
+    },
+    {
+     "work": "Q16385809",
+     "title": "The Gilded Age: A Tale of Today",
+     "year": 1873,
+     "pg": "3178",
+     "body_words": 158649
+    },
+    {
+     "work": "Q3058638",
+     "title": "Sketches New and Old",
+     "year": 1875,
+     "pg": "3189",
+     "body_words": 97810
+    },
+    {
+     "work": "Q326914",
+     "title": "The Adventures of Tom Sawyer",
+     "year": 1876,
+     "pg": "74",
+     "body_words": 70800
+    },
+    {
+     "work": "Q869725",
+     "title": "The Prince and the Pauper",
+     "year": 1881,
+     "pg": "1837",
+     "body_words": 70059
+    },
+    {
+     "work": "Q1131648",
+     "title": "Life on the Mississippi",
+     "year": 1883,
+     "pg": "245",
+     "body_words": 144485
+    },
+    {
+     "work": "Q59222766",
+     "title": "Adventures of Huckleberry Finn",
+     "year": 1885,
+     "pg": "76",
+     "body_words": 111085
+    },
+    {
+     "work": "Q848612",
+     "title": "A Connecticut Yankee in King Arthur's Court",
+     "year": 1889,
+     "pg": "86",
+     "body_words": 117810
+    },
+    {
+     "work": "Q7713449",
+     "title": "The American Claimant",
+     "year": 1892,
+     "pg": "3179",
+     "body_words": 64077
+    },
+    {
+     "work": "Q1776855",
+     "title": "Pudd'nhead Wilson",
+     "year": 1894,
+     "pg": "102",
+     "body_words": 53139
+    },
+    {
+     "work": "Q558971",
+     "title": "Tom Sawyer Abroad",
+     "year": 1894,
+     "pg": "91",
+     "body_words": 33990
+    },
+    {
+     "work": "Q4460113",
+     "title": "Tom Sawyer, Detective",
+     "year": 1896,
+     "pg": "93",
+     "body_words": 23263
+    },
+    {
+     "work": "Q3954434",
+     "title": "Following the Equator",
+     "year": 1897,
+     "pg": "2895",
+     "body_words": 187733
+    },
+    {
+     "work": "Q3819971",
+     "title": "The Man That Corrupted Hadleyburg and Other Stories and Essays",
+     "year": 1900,
+     "pg": "1213",
+     "body_words": 17628
+    },
+    {
+     "work": "Q16155864",
+     "title": "A Double-Barrelled Detective Story",
+     "year": 1902,
+     "pg": "3180",
+     "body_words": 19090
+    },
+    {
+     "work": "Q4657396",
+     "title": "A Horse's Tale",
+     "year": 1907,
+     "pg": "1086",
+     "body_words": 17511
+    }
+   ]
+  },
+  {
+   "id": "Q47152",
+   "name": "Mary Shelley",
+   "born": 1797,
+   "died": 1851,
+   "works": [
+    {
+     "work": "Q1544111",
+     "title": "Valperga",
+     "year": 1823,
+     "pg": "63339",
+     "body_words": 49510
+    },
+    {
+     "work": "Q2323961",
+     "title": "The Last Man",
+     "year": 1826,
+     "pg": "18247",
+     "body_words": 174621
+    },
+    {
+     "work": "Q51613242",
+     "title": "Frankenstein, or the Modern Prometheus",
+     "year": 1831,
+     "pg": "42324",
+     "body_words": 77965
+    },
+    {
+     "work": "Q933118",
+     "title": "Lodore",
+     "year": 1835,
+     "pg": "64555",
+     "body_words": 48481
+    },
+    {
+     "work": "Q1394365",
+     "title": "Falkner",
+     "year": 1837,
+     "pg": "64329",
+     "body_words": 150244
+    },
+    {
+     "work": "Q1424140",
+     "title": "Rambles in Germany and Italy",
+     "year": 1844,
+     "pg": "74280",
+     "body_words": 63282
+    }
+   ]
+  },
+  {
+   "id": "Q69339",
+   "name": "Nathaniel Hawthorne",
+   "born": 1804,
+   "died": 1864,
+   "works": [
+    {
+     "work": "Q5434095",
+     "title": "Fanshawe",
+     "year": 1828,
+     "pg": "7085",
+     "body_words": 40865
+    },
+    {
+     "work": "Q2920815",
+     "title": "Twice-Told Tales",
+     "year": 1837,
+     "pg": "13707",
+     "body_words": 147115
+    },
+    {
+     "work": "Q907568",
+     "title": "The Scarlet Letter",
+     "year": 1850,
+     "pg": "33",
+     "body_words": 83020
+    },
+    {
+     "work": "Q4660769",
+     "title": "A Wonder-Book for Girls and Boys",
+     "year": 1851,
+     "pg": "32242",
+     "body_words": 52775
+    },
+    {
+     "work": "Q4007947",
+     "title": "The Blithedale Romance",
+     "year": 1852,
+     "pg": "2081",
+     "body_words": 75857
+    },
+    {
+     "work": "Q3222702",
+     "title": "The Marble Faun",
+     "year": 1860,
+     "pg": "2182",
+     "body_words": 77081
+    }
+   ]
+  },
+  {
+   "id": "Q207515",
+   "name": "P. G. Wodehouse",
+   "born": 1881,
+   "died": 1975,
+   "works": [
+    {
+     "work": "Q7739105",
+     "title": "The Head of Kay's",
+     "year": 1905,
+     "pg": "6877",
+     "body_words": 44668
+    },
+    {
+     "work": "Q6690343",
+     "title": "Love Among the Chickens",
+     "year": 1906,
+     "pg": "20532",
+     "body_words": 49396
+    },
+    {
+     "work": "Q4274818",
+     "title": "Mike",
+     "year": 1909,
+     "pg": "7423",
+     "body_words": 106981
+    },
+    {
+     "work": "Q4160179",
+     "title": "A Gentleman of Leisure",
+     "year": 1910,
+     "pg": "65172",
+     "body_words": 67938
+    },
+    {
+     "work": "Q7256099",
+     "title": "Psmith in the City",
+     "year": 1910,
+     "pg": "6753",
+     "body_words": 52854
+    },
+    {
+     "work": "Q7758254",
+     "title": "The Prince and Betty",
+     "year": 1912,
+     "pg": "6955",
+     "body_words": 67753
+    },
+    {
+     "work": "Q7749897",
+     "title": "The Man Upstairs",
+     "year": 1914,
+     "pg": "6768",
+     "body_words": 100265
+    },
+    {
+     "work": "Q7560096",
+     "title": "Something Fresh",
+     "year": 1915,
+     "pg": "2042",
+     "body_words": 74727
+    },
+    {
+     "work": "Q7256098",
+     "title": "Psmith, Journalist",
+     "year": 1915,
+     "pg": "2607",
+     "body_words": 57207
+    },
+    {
+     "work": "Q17634474",
+     "title": "Jeeves and the Unbidden Guest",
+     "year": 1916,
+     "pg": "8164",
+     "body_words": 50763
+    },
+    {
+     "work": "Q3902535",
+     "title": "Piccadilly Jim",
+     "year": 1917,
+     "pg": "2005",
+     "body_words": 80636
+    },
+    {
+     "work": "Q17769910",
+     "title": "Jeeves and the Hard-boiled Egg",
+     "year": 1917,
+     "pg": "8164",
+     "body_words": 50763
+    },
+    {
+     "work": "Q16387208",
+     "title": "My Man Jeeves",
+     "year": 1919,
+     "pg": "8164",
+     "body_words": 50763
+    },
+    {
+     "work": "Q253451",
+     "title": "A Damsel in Distress",
+     "year": 1919,
+     "pg": "2233",
+     "body_words": 76712
+    },
+    {
+     "work": "Q4318019",
+     "title": "Jill the Reckless",
+     "year": 1920,
+     "pg": "6837",
+     "body_words": 116695
+    },
+    {
+     "work": "Q6510574",
+     "title": "Leave It to Psmith",
+     "year": 1923,
+     "pg": "60067",
+     "body_words": 89292
+    },
+    {
+     "work": "Q7742044",
+     "title": "The Inimitable Jeeves",
+     "year": 1923,
+     "pg": "59254",
+     "body_words": 68443
+    },
+    {
+     "work": "Q17635162",
+     "title": "Fixing It for Freddie",
+     "year": 1925,
+     "pg": "8164",
+     "body_words": 50763
+    },
+    {
+     "work": "Q6807790",
+     "title": "Meet Mr Mulliner",
+     "year": 1927,
+     "pg": "70222",
+     "body_words": 52973
+    },
+    {
+     "work": "Q6899241",
+     "title": "Money for Nothing",
+     "year": 1928,
+     "pg": "72972",
+     "body_words": 82378
+    },
+    {
+     "work": "Q7333527",
+     "title": "Right Ho, Jeeves",
+     "year": 1934,
+     "pg": "10554",
+     "body_words": 73804
+    }
+   ]
+  },
+  {
+   "id": "Q3316148",
+   "name": "Richard Doddridge Blackmore",
+   "born": 1825,
+   "died": 1900,
+   "works": [
+    {
+     "work": "Q5126057",
+     "title": "Clara Vaughan",
+     "year": 1864,
+     "pg": "41022",
+     "body_words": 69231
+    },
+    {
+     "work": "Q16828326",
+     "title": "Cradock Nowell",
+     "year": 1866,
+     "pg": "47086",
+     "body_words": 77310
+    },
+    {
+     "work": "Q3400981",
+     "title": "Lorna Doone",
+     "year": 1869,
+     "pg": "17460",
+     "body_words": 275292
+    },
+    {
+     "work": "Q16934398",
+     "title": "The Maid of Sker",
+     "year": 1872,
+     "pg": "46156",
+     "body_words": 212581
+    },
+    {
+     "work": "Q5185850",
+     "title": "Cripps the Carrier",
+     "year": 1876,
+     "pg": "43281",
+     "body_words": 136270
+    },
+    {
+     "work": "Q16257387",
+     "title": "Erema",
+     "year": 1877,
+     "pg": "7112",
+     "body_words": 165755
+    },
+    {
+     "work": "Q16386908",
+     "title": "Mary Anerley",
+     "year": 1880,
+     "pg": "6824",
+     "body_words": 198854
+    },
+    {
+     "work": "Q16932611",
+     "title": "Springhaven",
+     "year": 1887,
+     "pg": "7435",
+     "body_words": 200520
+    },
+    {
+     "work": "Q16932570",
+     "title": "Perlycross",
+     "year": 1894,
+     "pg": "45038",
+     "body_words": 184152
+    },
+    {
+     "work": "Q16257305",
+     "title": "Dariel",
+     "year": 1897,
+     "pg": "42529",
+     "body_words": 192806
+    }
+   ]
+  },
+  {
+   "id": "Q132805",
+   "name": "Thomas Hardy",
+   "born": 1840,
+   "died": 1928,
+   "works": [
+    {
+     "work": "Q2846293",
+     "title": "Desperate Remedies",
+     "year": 1871,
+     "pg": "3044",
+     "body_words": 140472
+    },
+    {
+     "work": "Q2931240",
+     "title": "A Pair of Blue Eyes",
+     "year": 1873,
+     "pg": "224",
+     "body_words": 130332
+    },
+    {
+     "work": "Q5642996",
+     "title": "Far from the Madding Crowd",
+     "year": 1874,
+     "pg": "107",
+     "body_words": 137118
+    },
+    {
+     "work": "Q2661231",
+     "title": "The Hand of Ethelberta",
+     "year": 1876,
+     "pg": "3469",
+     "body_words": 141440
+    },
+    {
+     "work": "Q141568",
+     "title": "The Return of the Native",
+     "year": 1878,
+     "pg": "122",
+     "body_words": 142015
+    },
+    {
+     "work": "Q2105252",
+     "title": "A Laodicean",
+     "year": 1881,
+     "pg": "3258",
+     "body_words": 138479
+    },
+    {
+     "work": "Q7859431",
+     "title": "Two on a Tower",
+     "year": 1882,
+     "pg": "3146",
+     "body_words": 94403
+    },
+    {
+     "work": "Q2343169",
+     "title": "The Mayor of Casterbridge",
+     "year": 1886,
+     "pg": "143",
+     "body_words": 115251
+    },
+    {
+     "work": "Q140679068",
+     "title": "The Woodlanders",
+     "year": 1887,
+     "pg": "482",
+     "body_words": 135086
+    },
+    {
+     "work": "Q1248773",
+     "title": "Jude the Obscure",
+     "year": 1895,
+     "pg": "153",
+     "body_words": 144508
+    },
+    {
+     "work": "Q2906193",
+     "title": "The Well-Beloved",
+     "year": 1897,
+     "pg": "3326",
+     "body_words": 63113
+    },
+    {
+     "work": "Q65681288",
+     "title": "Under the Greenwood Tree",
+     "year": 1912,
+     "pg": "2662",
+     "body_words": 57871
+    },
+    {
+     "work": "Q2370309",
+     "title": "A Changed Man and Other Tales",
+     "year": 1913,
+     "pg": "3058",
+     "body_words": 87402
+    }
+   ]
+  },
+  {
+   "id": "Q216134",
+   "name": "Upton Sinclair",
+   "born": 1878,
+   "died": 1968,
+   "works": [
+    {
+     "work": "Q260205",
+     "title": "The Jungle",
+     "year": 1905,
+     "pg": "140",
+     "body_words": 149189
+    },
+    {
+     "work": "Q108601252",
+     "title": "The Fasting Cure",
+     "year": 1911,
+     "pg": "63293",
+     "body_words": 36119
+    },
+    {
+     "work": "Q93350039",
+     "title": "Sylvia: A Novel",
+     "year": 1913,
+     "pg": "61984",
+     "body_words": 96194
+    },
+    {
+     "work": "Q7758494",
+     "title": "The Profits of Religion",
+     "year": 1917,
+     "pg": "1558",
+     "body_words": 85444
+    },
+    {
+     "work": "Q16386559",
+     "title": "King Coal",
+     "year": 1917,
+     "pg": "7522",
+     "body_words": 122628
+    },
+    {
+     "work": "Q7081270",
+     "title": "Oil!",
+     "year": 1926,
+     "pg": "70379",
+     "body_words": 220315
+    },
+    {
+     "work": "Q6817441",
+     "title": "Mental Radio",
+     "year": 1930,
+     "pg": "63693",
+     "body_words": 75329
+    }
+   ]
+  },
+  {
+   "id": "Q79025",
+   "name": "Walter Scott",
+   "born": 1771,
+   "died": 1832,
+   "works": [
+    {
+     "work": "Q2456670",
+     "title": "The Lady of the Lake",
+     "year": 1810,
+     "pg": "3011",
+     "body_words": 78494
+    },
+    {
+     "work": "Q678251",
+     "title": "Waverley",
+     "year": 1814,
+     "pg": "5998",
+     "body_words": 210050
+    },
+    {
+     "work": "Q2288976",
+     "title": "Guy Mannering",
+     "year": 1815,
+     "pg": "5999",
+     "body_words": 180354
+    },
+    {
+     "work": "Q3224969",
+     "title": "The Black Dwarf",
+     "year": 1816,
+     "pg": "1460",
+     "body_words": 57466
+    },
+    {
+     "work": "Q1157183",
+     "title": "The Antiquary",
+     "year": 1816,
+     "pg": "7005",
+     "body_words": 172247
+    },
+    {
+     "work": "Q3234969",
+     "title": "Old Mortality",
+     "year": 1816,
+     "pg": "6941",
+     "body_words": 179818
+    },
+    {
+     "work": "Q840974",
+     "title": "Ivanhoe",
+     "year": 1819,
+     "pg": "82",
+     "body_words": 191641
+    },
+    {
+     "work": "Q3549611",
+     "title": "A Legend of Montrose",
+     "year": 1819,
+     "pg": "1461",
+     "body_words": 88883
+    },
+    {
+     "work": "Q3224650",
+     "title": "The Monastery",
+     "year": 1820,
+     "pg": "6406",
+     "body_words": 174238
+    },
+    {
+     "work": "Q2717772",
+     "title": "The Abbot",
+     "year": 1820,
+     "pg": "6407",
+     "body_words": 181453
+    },
+    {
+     "work": "Q2600597",
+     "title": "Kenilworth",
+     "year": 1821,
+     "pg": "1606",
+     "body_words": 186652
+    },
+    {
+     "work": "Q3230799",
+     "title": "The Fortunes of Nigel",
+     "year": 1822,
+     "pg": "5950",
+     "body_words": 197492
+    },
+    {
+     "work": "Q3225628",
+     "title": "The Pirate",
+     "year": 1822,
+     "pg": "42389",
+     "body_words": 197326
+    },
+    {
+     "work": "Q3061309",
+     "title": "Peveril of the Peak",
+     "year": 1823,
+     "pg": "5959",
+     "body_words": 223325
+    },
+    {
+     "work": "Q3232270",
+     "title": "St. Ronan's Well",
+     "year": 1823,
+     "pg": "20749",
+     "body_words": 178979
+    },
+    {
+     "work": "Q2469230",
+     "title": "Quentin Durward",
+     "year": 1823,
+     "pg": "7853",
+     "body_words": 183847
+    },
+    {
+     "work": "Q134717368",
+     "title": "Q134717368",
+     "year": 1823,
+     "pg": "7853",
+     "body_words": 183847
+    },
+    {
+     "work": "Q3422871",
+     "title": "Redgauntlet",
+     "year": 1824,
+     "pg": "2516",
+     "body_words": 186072
+    },
+    {
+     "work": "Q952340",
+     "title": "The Talisman",
+     "year": 1825,
+     "pg": "1377",
+     "body_words": 128702
+    },
+    {
+     "work": "Q3232591",
+     "title": "The Betrothed",
+     "year": 1825,
+     "pg": "6490",
+     "body_words": 130408
+    },
+    {
+     "work": "Q3569843",
+     "title": "Woodstock",
+     "year": 1826,
+     "pg": "9785",
+     "body_words": 198509
+    }
+   ]
+  },
+  {
+   "id": "Q210740",
+   "name": "Wilkie Collins",
+   "born": 1824,
+   "died": 1889,
+   "works": [
+    {
+     "work": "Q16974375",
+     "title": "After Dark",
+     "year": 1856,
+     "pg": "1626",
+     "body_words": 135955
+    },
+    {
+     "work": "Q7044605",
+     "title": "No Name",
+     "year": 1862,
+     "pg": "1438",
+     "body_words": 263107
+    },
+    {
+     "work": "Q4792516",
+     "title": "Armadale",
+     "year": 1866,
+     "pg": "1895",
+     "body_words": 296309
+    },
+    {
+     "work": "Q7045074",
+     "title": "No Thoroughfare",
+     "year": 1867,
+     "pg": "1423",
+     "body_words": 47662
+    },
+    {
+     "work": "Q3480742",
+     "title": "The Law and the Lady",
+     "year": 1875,
+     "pg": "1622",
+     "body_words": 139838
+    },
+    {
+     "work": "Q7718428",
+     "title": "The Black Robe",
+     "year": 1881,
+     "pg": "1587",
+     "body_words": 106644
+    }
+   ]
+  },
+  {
+   "id": "Q526709",
+   "name": "William Dean Howells",
+   "born": 1837,
+   "died": 1920,
+   "works": [
+    {
+     "work": "Q7745191",
+     "title": "The Lady of The Aroostook",
+     "year": 1879,
+     "pg": "7797",
+     "body_words": 75435
+    },
+    {
+     "work": "Q7760892",
+     "title": "The Rise of Silas Lapham",
+     "year": 1885,
+     "pg": "154",
+     "body_words": 128735
+    },
+    {
+     "work": "Q16386329",
+     "title": "Indian Summer",
+     "year": 1886,
+     "pg": "7359",
+     "body_words": 96014
+    },
+    {
+     "work": "Q4657268",
+     "title": "A Hazard of New Fortunes",
+     "year": 1890,
+     "pg": "4600",
+     "body_words": 165178
+    },
+    {
+     "work": "Q4660271",
+     "title": "A Traveler from Altruria",
+     "year": 1894,
+     "pg": "8449",
+     "body_words": 65478
+    },
+    {
+     "work": "Q3916757",
+     "title": "The Whole Family",
+     "year": 1908,
+     "pg": "5066",
+     "body_words": 76826
+    }
+   ]
+  }
+ ]
+}
