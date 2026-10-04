@@ -1,0 +1,151 @@
+{
+ "queries": [
+  "large language model use in scientific writing",
+  "ChatGPT in academic writing prevalence",
+  "LLM-assisted writing in research papers estimate",
+  "excess vocabulary large language models scientific abstracts",
+  "delve frequency increase academic papers",
+  "AI-generated text in scholarly publications detection",
+  "LLM-modified content peer review conferences",
+  "word frequency changes in research abstracts after ChatGPT",
+  "impact of ChatGPT on writing style of scientists",
+  "generative AI disclosure in scientific manuscripts",
+  "linguistic homogenization of scientific writing by LLMs",
+  "readability of research abstracts after large language models",
+  "AI writing assistance non-native English researchers",
+  "lexical markers of machine-generated academic text",
+  "journal policies on generative AI use by authors",
+  "LLM usage in arXiv papers by field",
+  "ChatGPT usage in medical research papers estimate",
+  "large language models and the language of science",
+  "human adaptation to LLM vocabulary in writing",
+  "AI text detectors applied to scientific abstracts"
+ ],
+ "n_candidates": 1337,
+ "n_prefiltered": 838,
+ "n_on_topic": 444,
+ "n_dated": 443,
+ "by_label": {
+  "style": 60,
+  "prevalence": 66,
+  "policy": 174,
+  "detection": 51,
+  "peer_review": 93
+ },
+ "by_source": {
+  "arxiv": 177,
+  "pmid": 112,
+  "pmcid": 148,
+  "doi": 7
+ },
+ "by_quarter": {
+  "2022Q1": {
+   "detection": 1
+  },
+  "2022Q4": {
+   "detection": 1,
+   "peer_review": 1
+  },
+  "2023Q1": {
+   "policy": 8,
+   "detection": 2,
+   "peer_review": 1,
+   "style": 3
+  },
+  "2023Q2": {
+   "detection": 7,
+   "prevalence": 1,
+   "peer_review": 2,
+   "style": 1
+  },
+  "2023Q3": {
+   "policy": 10,
+   "detection": 1,
+   "style": 1
+  },
+  "2023Q4": {
+   "style": 4,
+   "policy": 14,
+   "prevalence": 1,
+   "detection": 3
+  },
+  "2024Q1": {
+   "peer_review": 1,
+   "detection": 3,
+   "prevalence": 3,
+   "policy": 16,
+   "style": 5
+  },
+  "2024Q2": {
+   "prevalence": 9,
+   "style": 3,
+   "policy": 3,
+   "peer_review": 3,
+   "detection": 2
+  },
+  "2024Q3": {
+   "style": 3,
+   "policy": 4,
+   "peer_review": 2,
+   "detection": 1
+  },
+  "2024Q4": {
+   "prevalence": 5,
+   "peer_review": 6,
+   "policy": 6,
+   "detection": 3,
+   "style": 4
+  },
+  "2025Q1": {
+   "prevalence": 6,
+   "detection": 5,
+   "style": 3,
+   "policy": 11,
+   "peer_review": 10
+  },
+  "2025Q2": {
+   "prevalence": 2,
+   "style": 5,
+   "policy": 13,
+   "peer_review": 10,
+   "detection": 6
+  },
+  "2025Q3": {
+   "prevalence": 7,
+   "style": 1,
+   "policy": 11,
+   "peer_review": 10,
+   "detection": 6
+  },
+  "2025Q4": {
+   "style": 5,
+   "prevalence": 4,
+   "policy": 17,
+   "detection": 3,
+   "peer_review": 6
+  },
+  "2026Q1": {
+   "prevalence": 10,
+   "policy": 26,
+   "detection": 5,
+   "style": 7,
+   "peer_review": 9
+  },
+  "2026Q2": {
+   "style": 7,
+   "prevalence": 11,
+   "policy": 18,
+   "peer_review": 18,
+   "detection": 1
+  },
+  "2026Q3": {
+   "style": 7,
+   "prevalence": 7,
+   "policy": 17,
+   "peer_review": 14
+  },
+  "2026Q4": {
+   "style": 1
+  }
+ }
+}

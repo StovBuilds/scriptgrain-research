@@ -1,0 +1,856 @@
+{
+ "periods": {
+  "BASE": {
+   "avg_sentence_length": 24.464,
+   "sentence_length_variance": 79.791,
+   "comma_density": 1.046,
+   "semicolon_frequency": 0.574,
+   "pronoun_we": 0.982,
+   "word_long": 0.286,
+   "ai_tell_per1000": 1.309,
+   "em_dash_per1000": 0.022,
+   "burstiness_variation": 0.332,
+   "words": 161.797
+  },
+  "Y2024": {
+   "avg_sentence_length": 24.103,
+   "sentence_length_variance": 74.319,
+   "comma_density": 1.189,
+   "semicolon_frequency": 0.49,
+   "pronoun_we": 0.985,
+   "word_long": 0.311,
+   "ai_tell_per1000": 1.513,
+   "em_dash_per1000": 0.001,
+   "burstiness_variation": 0.325,
+   "words": 166.964
+  },
+  "Y2026": {
+   "avg_sentence_length": 24.492,
+   "sentence_length_variance": 77.807,
+   "comma_density": 1.381,
+   "semicolon_frequency": 1.053,
+   "pronoun_we": 0.983,
+   "word_long": 0.342,
+   "ai_tell_per1000": 1.434,
+   "em_dash_per1000": 0.07,
+   "burstiness_variation": 0.328,
+   "words": 174.994
+  }
+ },
+ "H4": {
+  "diff_2026_minus_base": 0.028,
+  "ci90": [
+   -0.111,
+   0.169
+  ],
+  "supported": true
+ },
+ "diffs_2026_minus_base_ci95": {
+  "avg_sentence_length": {
+   "diff": 0.028,
+   "ci95": [
+    -0.137,
+    0.197
+   ]
+  },
+  "sentence_length_variance": {
+   "diff": -1.984,
+   "ci95": [
+    -4.288,
+    0.023
+   ]
+  },
+  "comma_density": {
+   "diff": 0.335,
+   "ci95": [
+    0.281,
+    0.374
+   ]
+  },
+  "semicolon_frequency": {
+   "diff": 0.479,
+   "ci95": [
+    0.374,
+    0.579
+   ]
+  },
+  "pronoun_we": {
+   "diff": 0.001,
+   "ci95": [
+    -0.0,
+    0.002
+   ]
+  },
+  "word_long": {
+   "diff": 0.056,
+   "ci95": [
+    0.048,
+    0.063
+   ]
+  },
+  "ai_tell_per1000": {
+   "diff": 0.125,
+   "ci95": [
+    0.091,
+    0.161
+   ]
+  },
+  "em_dash_per1000": {
+   "diff": 0.048,
+   "ci95": [
+    0.041,
+    0.055
+   ]
+  },
+  "burstiness_variation": {
+   "diff": -0.004,
+   "ci95": [
+    -0.006,
+    -0.001
+   ]
+  },
+  "words": {
+   "diff": 13.197,
+   "ci95": [
+    10.024,
+    16.209
+   ]
+  }
+ },
+ "by_year": {
+  "2015": {
+   "avg_sentence_length": 24.768,
+   "sentence_length_variance": 84.547,
+   "comma_density": 0.945,
+   "semicolon_frequency": 0.593,
+   "pronoun_we": 0.977,
+   "word_long": 0.271,
+   "ai_tell_per1000": 1.157,
+   "em_dash_per1000": 0.09,
+   "burstiness_variation": 0.335,
+   "words": 145.476
+  },
+  "2016": {
+   "avg_sentence_length": 24.714,
+   "sentence_length_variance": 83.632,
+   "comma_density": 0.953,
+   "semicolon_frequency": 0.572,
+   "pronoun_we": 0.978,
+   "word_long": 0.273,
+   "ai_tell_per1000": 1.18,
+   "em_dash_per1000": 0.102,
+   "burstiness_variation": 0.334,
+   "words": 147.957
+  },
+  "2017": {
+   "avg_sentence_length": 24.67,
+   "sentence_length_variance": 82.926,
+   "comma_density": 0.97,
+   "semicolon_frequency": 0.568,
+   "pronoun_we": 0.979,
+   "word_long": 0.274,
+   "ai_tell_per1000": 1.189,
+   "em_dash_per1000": 0.103,
+   "burstiness_variation": 0.334,
+   "words": 150.196
+  },
+  "2018": {
+   "avg_sentence_length": 24.597,
+   "sentence_length_variance": 81.338,
+   "comma_density": 0.989,
+   "semicolon_frequency": 0.572,
+   "pronoun_we": 0.981,
+   "word_long": 0.278,
+   "ai_tell_per1000": 1.228,
+   "em_dash_per1000": 0.113,
+   "burstiness_variation": 0.332,
+   "words": 153.048
+  },
+  "2019": {
+   "avg_sentence_length": 24.532,
+   "sentence_length_variance": 80.422,
+   "comma_density": 1.006,
+   "semicolon_frequency": 0.594,
+   "pronoun_we": 0.982,
+   "word_long": 0.281,
+   "ai_tell_per1000": 1.252,
+   "em_dash_per1000": 0.102,
+   "burstiness_variation": 0.331,
+   "words": 154.992
+  },
+  "2020": {
+   "avg_sentence_length": 24.48,
+   "sentence_length_variance": 80.06,
+   "comma_density": 1.029,
+   "semicolon_frequency": 0.582,
+   "pronoun_we": 0.982,
+   "word_long": 0.284,
+   "ai_tell_per1000": 1.273,
+   "em_dash_per1000": 0.057,
+   "burstiness_variation": 0.332,
+   "words": 159.788
+  },
+  "2021": {
+   "avg_sentence_length": 24.484,
+   "sentence_length_variance": 79.64,
+   "comma_density": 1.049,
+   "semicolon_frequency": 0.564,
+   "pronoun_we": 0.982,
+   "word_long": 0.287,
+   "ai_tell_per1000": 1.312,
+   "em_dash_per1000": 0.002,
+   "burstiness_variation": 0.331,
+   "words": 162.231
+  },
+  "2022": {
+   "avg_sentence_length": 24.416,
+   "sentence_length_variance": 79.511,
+   "comma_density": 1.066,
+   "semicolon_frequency": 0.571,
+   "pronoun_we": 0.981,
+   "word_long": 0.288,
+   "ai_tell_per1000": 1.351,
+   "em_dash_per1000": 0.0,
+   "burstiness_variation": 0.332,
+   "words": 163.717
+  },
+  "2023": {
+   "avg_sentence_length": 24.288,
+   "sentence_length_variance": 77.693,
+   "comma_density": 1.115,
+   "semicolon_frequency": 0.529,
+   "pronoun_we": 0.983,
+   "word_long": 0.297,
+   "ai_tell_per1000": 1.463,
+   "em_dash_per1000": 0.0,
+   "burstiness_variation": 0.33,
+   "words": 165.677
+  },
+  "2024": {
+   "avg_sentence_length": 24.103,
+   "sentence_length_variance": 74.319,
+   "comma_density": 1.189,
+   "semicolon_frequency": 0.49,
+   "pronoun_we": 0.985,
+   "word_long": 0.311,
+   "ai_tell_per1000": 1.513,
+   "em_dash_per1000": 0.001,
+   "burstiness_variation": 0.325,
+   "words": 166.964
+  },
+  "2025": {
+   "avg_sentence_length": 24.164,
+   "sentence_length_variance": 72.739,
+   "comma_density": 1.307,
+   "semicolon_frequency": 0.62,
+   "pronoun_we": 0.982,
+   "word_long": 0.333,
+   "ai_tell_per1000": 1.532,
+   "em_dash_per1000": 0.006,
+   "burstiness_variation": 0.32,
+   "words": 168.24
+  },
+  "2026": {
+   "avg_sentence_length": 24.492,
+   "sentence_length_variance": 77.807,
+   "comma_density": 1.381,
+   "semicolon_frequency": 1.053,
+   "pronoun_we": 0.983,
+   "word_long": 0.342,
+   "ai_tell_per1000": 1.434,
+   "em_dash_per1000": 0.07,
+   "burstiness_variation": 0.328,
+   "words": 174.994
+  },
+  "BASE": {
+   "avg_sentence_length": 24.464,
+   "sentence_length_variance": 79.791,
+   "comma_density": 1.046,
+   "semicolon_frequency": 0.574,
+   "pronoun_we": 0.982,
+   "word_long": 0.286,
+   "ai_tell_per1000": 1.309,
+   "em_dash_per1000": 0.022,
+   "burstiness_variation": 0.332,
+   "words": 161.797
+  }
+ },
+ "by_group_year": {
+  "cs:2015": {
+   "avg_sentence_length": 23.673,
+   "ai_tell_per1000": 1.26,
+   "em_dash_per1000": 0.132,
+   "words": 157.415
+  },
+  "cs:2016": {
+   "avg_sentence_length": 23.594,
+   "ai_tell_per1000": 1.269,
+   "em_dash_per1000": 0.185,
+   "words": 159.887
+  },
+  "cs:2017": {
+   "avg_sentence_length": 23.631,
+   "ai_tell_per1000": 1.28,
+   "em_dash_per1000": 0.149,
+   "words": 162.356
+  },
+  "cs:2018": {
+   "avg_sentence_length": 23.498,
+   "ai_tell_per1000": 1.311,
+   "em_dash_per1000": 0.161,
+   "words": 164.018
+  },
+  "cs:2019": {
+   "avg_sentence_length": 23.467,
+   "ai_tell_per1000": 1.397,
+   "em_dash_per1000": 0.148,
+   "words": 165.592
+  },
+  "cs:2020": {
+   "avg_sentence_length": 23.5,
+   "ai_tell_per1000": 1.375,
+   "em_dash_per1000": 0.079,
+   "words": 169.715
+  },
+  "cs:2021": {
+   "avg_sentence_length": 23.427,
+   "ai_tell_per1000": 1.416,
+   "em_dash_per1000": 0.003,
+   "words": 171.79
+  },
+  "cs:2022": {
+   "avg_sentence_length": 23.425,
+   "ai_tell_per1000": 1.468,
+   "em_dash_per1000": 0.0,
+   "words": 173.39
+  },
+  "cs:2023": {
+   "avg_sentence_length": 23.308,
+   "ai_tell_per1000": 1.612,
+   "em_dash_per1000": 0.0,
+   "words": 176.649
+  },
+  "cs:2024": {
+   "avg_sentence_length": 23.174,
+   "ai_tell_per1000": 1.667,
+   "em_dash_per1000": 0.001,
+   "words": 176.334
+  },
+  "cs:2025": {
+   "avg_sentence_length": 23.415,
+   "ai_tell_per1000": 1.653,
+   "em_dash_per1000": 0.005,
+   "words": 176.692
+  },
+  "cs:2026": {
+   "avg_sentence_length": 24.043,
+   "ai_tell_per1000": 1.504,
+   "em_dash_per1000": 0.072,
+   "words": 185.017
+  },
+  "econ:2015": {
+   "avg_sentence_length": 25.197,
+   "ai_tell_per1000": 2.101,
+   "em_dash_per1000": 0.057,
+   "words": 153.031
+  },
+  "econ:2016": {
+   "avg_sentence_length": 24.314,
+   "ai_tell_per1000": 1.153,
+   "em_dash_per1000": 0.0,
+   "words": 153.245
+  },
+  "econ:2017": {
+   "avg_sentence_length": 23.91,
+   "ai_tell_per1000": 1.158,
+   "em_dash_per1000": 0.244,
+   "words": 150.206
+  },
+  "econ:2018": {
+   "avg_sentence_length": 23.87,
+   "ai_tell_per1000": 1.605,
+   "em_dash_per1000": 0.193,
+   "words": 146.262
+  },
+  "econ:2019": {
+   "avg_sentence_length": 23.081,
+   "ai_tell_per1000": 1.454,
+   "em_dash_per1000": 0.165,
+   "words": 146.47
+  },
+  "econ:2020": {
+   "avg_sentence_length": 23.883,
+   "ai_tell_per1000": 1.531,
+   "em_dash_per1000": 0.088,
+   "words": 152.43
+  },
+  "econ:2021": {
+   "avg_sentence_length": 24.214,
+   "ai_tell_per1000": 1.699,
+   "em_dash_per1000": 0.0,
+   "words": 156.014
+  },
+  "econ:2022": {
+   "avg_sentence_length": 24.147,
+   "ai_tell_per1000": 1.764,
+   "em_dash_per1000": 0.0,
+   "words": 153.459
+  },
+  "econ:2023": {
+   "avg_sentence_length": 23.565,
+   "ai_tell_per1000": 1.77,
+   "em_dash_per1000": 0.008,
+   "words": 149.178
+  },
+  "econ:2024": {
+   "avg_sentence_length": 23.408,
+   "ai_tell_per1000": 1.727,
+   "em_dash_per1000": 0.027,
+   "words": 150.007
+  },
+  "econ:2025": {
+   "avg_sentence_length": 23.437,
+   "ai_tell_per1000": 1.636,
+   "em_dash_per1000": 0.063,
+   "words": 154.192
+  },
+  "econ:2026": {
+   "avg_sentence_length": 22.946,
+   "ai_tell_per1000": 1.662,
+   "em_dash_per1000": 0.219,
+   "words": 158.584
+  },
+  "eess:2015": {
+   "avg_sentence_length": 23.439,
+   "ai_tell_per1000": 1.065,
+   "em_dash_per1000": 0.042,
+   "words": 141.877
+  },
+  "eess:2016": {
+   "avg_sentence_length": 23.379,
+   "ai_tell_per1000": 1.1,
+   "em_dash_per1000": 0.104,
+   "words": 148.446
+  },
+  "eess:2017": {
+   "avg_sentence_length": 23.533,
+   "ai_tell_per1000": 1.238,
+   "em_dash_per1000": 0.07,
+   "words": 154.169
+  },
+  "eess:2018": {
+   "avg_sentence_length": 23.664,
+   "ai_tell_per1000": 1.3,
+   "em_dash_per1000": 0.074,
+   "words": 159.767
+  },
+  "eess:2019": {
+   "avg_sentence_length": 23.498,
+   "ai_tell_per1000": 1.368,
+   "em_dash_per1000": 0.066,
+   "words": 164.404
+  },
+  "eess:2020": {
+   "avg_sentence_length": 23.505,
+   "ai_tell_per1000": 1.399,
+   "em_dash_per1000": 0.051,
+   "words": 169.345
+  },
+  "eess:2021": {
+   "avg_sentence_length": 23.757,
+   "ai_tell_per1000": 1.405,
+   "em_dash_per1000": 0.0,
+   "words": 171.834
+  },
+  "eess:2022": {
+   "avg_sentence_length": 23.431,
+   "ai_tell_per1000": 1.509,
+   "em_dash_per1000": 0.0,
+   "words": 171.425
+  },
+  "eess:2023": {
+   "avg_sentence_length": 23.536,
+   "ai_tell_per1000": 1.635,
+   "em_dash_per1000": 0.0,
+   "words": 173.91
+  },
+  "eess:2024": {
+   "avg_sentence_length": 23.568,
+   "ai_tell_per1000": 1.726,
+   "em_dash_per1000": 0.0,
+   "words": 174.443
+  },
+  "eess:2025": {
+   "avg_sentence_length": 23.642,
+   "ai_tell_per1000": 1.643,
+   "em_dash_per1000": 0.001,
+   "words": 171.155
+  },
+  "eess:2026": {
+   "avg_sentence_length": 24.272,
+   "ai_tell_per1000": 1.501,
+   "em_dash_per1000": 0.026,
+   "words": 174.303
+  },
+  "math:2015": {
+   "avg_sentence_length": 24.502,
+   "ai_tell_per1000": 1.197,
+   "em_dash_per1000": 0.071,
+   "words": 113.866
+  },
+  "math:2016": {
+   "avg_sentence_length": 24.482,
+   "ai_tell_per1000": 1.226,
+   "em_dash_per1000": 0.076,
+   "words": 114.772
+  },
+  "math:2017": {
+   "avg_sentence_length": 24.604,
+   "ai_tell_per1000": 1.23,
+   "em_dash_per1000": 0.074,
+   "words": 116.381
+  },
+  "math:2018": {
+   "avg_sentence_length": 24.55,
+   "ai_tell_per1000": 1.239,
+   "em_dash_per1000": 0.082,
+   "words": 116.904
+  },
+  "math:2019": {
+   "avg_sentence_length": 24.519,
+   "ai_tell_per1000": 1.237,
+   "em_dash_per1000": 0.053,
+   "words": 117.912
+  },
+  "math:2020": {
+   "avg_sentence_length": 24.497,
+   "ai_tell_per1000": 1.277,
+   "em_dash_per1000": 0.038,
+   "words": 120.566
+  },
+  "math:2021": {
+   "avg_sentence_length": 24.655,
+   "ai_tell_per1000": 1.325,
+   "em_dash_per1000": 0.002,
+   "words": 121.816
+  },
+  "math:2022": {
+   "avg_sentence_length": 24.602,
+   "ai_tell_per1000": 1.392,
+   "em_dash_per1000": 0.0,
+   "words": 120.121
+  },
+  "math:2023": {
+   "avg_sentence_length": 24.673,
+   "ai_tell_per1000": 1.417,
+   "em_dash_per1000": 0.0,
+   "words": 123.728
+  },
+  "math:2024": {
+   "avg_sentence_length": 24.592,
+   "ai_tell_per1000": 1.414,
+   "em_dash_per1000": 0.0,
+   "words": 123.739
+  },
+  "math:2025": {
+   "avg_sentence_length": 24.671,
+   "ai_tell_per1000": 1.514,
+   "em_dash_per1000": 0.006,
+   "words": 126.519
+  },
+  "math:2026": {
+   "avg_sentence_length": 24.43,
+   "ai_tell_per1000": 1.428,
+   "em_dash_per1000": 0.054,
+   "words": 135.343
+  },
+  "physics:2015": {
+   "avg_sentence_length": 25.279,
+   "ai_tell_per1000": 1.115,
+   "em_dash_per1000": 0.087,
+   "words": 153.627
+  },
+  "physics:2016": {
+   "avg_sentence_length": 25.299,
+   "ai_tell_per1000": 1.135,
+   "em_dash_per1000": 0.08,
+   "words": 156.246
+  },
+  "physics:2017": {
+   "avg_sentence_length": 25.299,
+   "ai_tell_per1000": 1.139,
+   "em_dash_per1000": 0.09,
+   "words": 158.122
+  },
+  "physics:2018": {
+   "avg_sentence_length": 25.384,
+   "ai_tell_per1000": 1.176,
+   "em_dash_per1000": 0.099,
+   "words": 161.071
+  },
+  "physics:2019": {
+   "avg_sentence_length": 25.441,
+   "ai_tell_per1000": 1.162,
+   "em_dash_per1000": 0.092,
+   "words": 162.098
+  },
+  "physics:2020": {
+   "avg_sentence_length": 25.43,
+   "ai_tell_per1000": 1.185,
+   "em_dash_per1000": 0.05,
+   "words": 166.082
+  },
+  "physics:2021": {
+   "avg_sentence_length": 25.489,
+   "ai_tell_per1000": 1.218,
+   "em_dash_per1000": 0.001,
+   "words": 167.725
+  },
+  "physics:2022": {
+   "avg_sentence_length": 25.488,
+   "ai_tell_per1000": 1.219,
+   "em_dash_per1000": 0.0,
+   "words": 168.936
+  },
+  "physics:2023": {
+   "avg_sentence_length": 25.383,
+   "ai_tell_per1000": 1.313,
+   "em_dash_per1000": 0.0,
+   "words": 170.522
+  },
+  "physics:2024": {
+   "avg_sentence_length": 25.276,
+   "ai_tell_per1000": 1.337,
+   "em_dash_per1000": 0.001,
+   "words": 172.419
+  },
+  "physics:2025": {
+   "avg_sentence_length": 25.219,
+   "ai_tell_per1000": 1.384,
+   "em_dash_per1000": 0.005,
+   "words": 173.292
+  },
+  "physics:2026": {
+   "avg_sentence_length": 25.424,
+   "ai_tell_per1000": 1.341,
+   "em_dash_per1000": 0.073,
+   "words": 178.942
+  },
+  "q-bio:2015": {
+   "avg_sentence_length": 24.447,
+   "ai_tell_per1000": 1.479,
+   "em_dash_per1000": 0.075,
+   "words": 177.829
+  },
+  "q-bio:2016": {
+   "avg_sentence_length": 24.231,
+   "ai_tell_per1000": 1.409,
+   "em_dash_per1000": 0.136,
+   "words": 176.929
+  },
+  "q-bio:2017": {
+   "avg_sentence_length": 24.09,
+   "ai_tell_per1000": 1.42,
+   "em_dash_per1000": 0.112,
+   "words": 178.141
+  },
+  "q-bio:2018": {
+   "avg_sentence_length": 24.187,
+   "ai_tell_per1000": 1.524,
+   "em_dash_per1000": 0.094,
+   "words": 181.805
+  },
+  "q-bio:2019": {
+   "avg_sentence_length": 24.147,
+   "ai_tell_per1000": 1.468,
+   "em_dash_per1000": 0.107,
+   "words": 182.536
+  },
+  "q-bio:2020": {
+   "avg_sentence_length": 24.525,
+   "ai_tell_per1000": 1.391,
+   "em_dash_per1000": 0.042,
+   "words": 182.059
+  },
+  "q-bio:2021": {
+   "avg_sentence_length": 24.381,
+   "ai_tell_per1000": 1.378,
+   "em_dash_per1000": 0.005,
+   "words": 183.77
+  },
+  "q-bio:2022": {
+   "avg_sentence_length": 24.299,
+   "ai_tell_per1000": 1.305,
+   "em_dash_per1000": 0.0,
+   "words": 186.862
+  },
+  "q-bio:2023": {
+   "avg_sentence_length": 24.114,
+   "ai_tell_per1000": 1.386,
+   "em_dash_per1000": 0.0,
+   "words": 186.146
+  },
+  "q-bio:2024": {
+   "avg_sentence_length": 23.934,
+   "ai_tell_per1000": 1.412,
+   "em_dash_per1000": 0.0,
+   "words": 184.679
+  },
+  "q-bio:2025": {
+   "avg_sentence_length": 23.852,
+   "ai_tell_per1000": 1.368,
+   "em_dash_per1000": 0.005,
+   "words": 184.358
+  },
+  "q-bio:2026": {
+   "avg_sentence_length": 24.165,
+   "ai_tell_per1000": 1.324,
+   "em_dash_per1000": 0.061,
+   "words": 191.128
+  },
+  "q-fin:2015": {
+   "avg_sentence_length": 23.427,
+   "ai_tell_per1000": 1.439,
+   "em_dash_per1000": 0.009,
+   "words": 139.586
+  },
+  "q-fin:2016": {
+   "avg_sentence_length": 24.038,
+   "ai_tell_per1000": 1.354,
+   "em_dash_per1000": 0.112,
+   "words": 139.159
+  },
+  "q-fin:2017": {
+   "avg_sentence_length": 23.782,
+   "ai_tell_per1000": 1.289,
+   "em_dash_per1000": 0.094,
+   "words": 139.271
+  },
+  "q-fin:2018": {
+   "avg_sentence_length": 23.974,
+   "ai_tell_per1000": 1.415,
+   "em_dash_per1000": 0.091,
+   "words": 145.071
+  },
+  "q-fin:2019": {
+   "avg_sentence_length": 23.958,
+   "ai_tell_per1000": 1.367,
+   "em_dash_per1000": 0.046,
+   "words": 146.555
+  },
+  "q-fin:2020": {
+   "avg_sentence_length": 23.858,
+   "ai_tell_per1000": 1.192,
+   "em_dash_per1000": 0.0,
+   "words": 150.536
+  },
+  "q-fin:2021": {
+   "avg_sentence_length": 23.942,
+   "ai_tell_per1000": 1.33,
+   "em_dash_per1000": 0.0,
+   "words": 150.574
+  },
+  "q-fin:2022": {
+   "avg_sentence_length": 24.132,
+   "ai_tell_per1000": 1.361,
+   "em_dash_per1000": 0.0,
+   "words": 154.649
+  },
+  "q-fin:2023": {
+   "avg_sentence_length": 23.958,
+   "ai_tell_per1000": 1.43,
+   "em_dash_per1000": 0.0,
+   "words": 154.824
+  },
+  "q-fin:2024": {
+   "avg_sentence_length": 23.856,
+   "ai_tell_per1000": 1.741,
+   "em_dash_per1000": 0.0,
+   "words": 157.888
+  },
+  "q-fin:2025": {
+   "avg_sentence_length": 24.033,
+   "ai_tell_per1000": 1.452,
+   "em_dash_per1000": 0.01,
+   "words": 159.364
+  },
+  "q-fin:2026": {
+   "avg_sentence_length": 24.077,
+   "ai_tell_per1000": 1.371,
+   "em_dash_per1000": 0.082,
+   "words": 174.568
+  },
+  "stat:2015": {
+   "avg_sentence_length": 23.185,
+   "ai_tell_per1000": 0.844,
+   "em_dash_per1000": 0.119,
+   "words": 156.97
+  },
+  "stat:2016": {
+   "avg_sentence_length": 23.383,
+   "ai_tell_per1000": 0.936,
+   "em_dash_per1000": 0.179,
+   "words": 156.712
+  },
+  "stat:2017": {
+   "avg_sentence_length": 23.311,
+   "ai_tell_per1000": 0.964,
+   "em_dash_per1000": 0.179,
+   "words": 159.651
+  },
+  "stat:2018": {
+   "avg_sentence_length": 23.369,
+   "ai_tell_per1000": 1.013,
+   "em_dash_per1000": 0.17,
+   "words": 161.271
+  },
+  "stat:2019": {
+   "avg_sentence_length": 23.459,
+   "ai_tell_per1000": 0.961,
+   "em_dash_per1000": 0.157,
+   "words": 163.732
+  },
+  "stat:2020": {
+   "avg_sentence_length": 23.729,
+   "ai_tell_per1000": 1.033,
+   "em_dash_per1000": 0.065,
+   "words": 167.149
+  },
+  "stat:2021": {
+   "avg_sentence_length": 23.671,
+   "ai_tell_per1000": 0.993,
+   "em_dash_per1000": 0.005,
+   "words": 168.306
+  },
+  "stat:2022": {
+   "avg_sentence_length": 23.644,
+   "ai_tell_per1000": 1.001,
+   "em_dash_per1000": 0.0,
+   "words": 170.083
+  },
+  "stat:2023": {
+   "avg_sentence_length": 23.736,
+   "ai_tell_per1000": 1.154,
+   "em_dash_per1000": 0.0,
+   "words": 170.461
+  },
+  "stat:2024": {
+   "avg_sentence_length": 23.606,
+   "ai_tell_per1000": 1.199,
+   "em_dash_per1000": 0.003,
+   "words": 173.274
+  },
+  "stat:2025": {
+   "avg_sentence_length": 23.56,
+   "ai_tell_per1000": 1.081,
+   "em_dash_per1000": 0.013,
+   "words": 172.532
+  },
+  "stat:2026": {
+   "avg_sentence_length": 24.059,
+   "ai_tell_per1000": 1.063,
+   "em_dash_per1000": 0.097,
+   "words": 180.722
+  }
+ }
+}

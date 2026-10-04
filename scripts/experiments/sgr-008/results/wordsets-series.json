@@ -1,0 +1,254 @@
+{
+ "NEW": [
+  "underexplored",
+  "grounded",
+  "aligns",
+  "synthesizes",
+  "replaces",
+  "leaving",
+  "recovers",
+  "expose",
+  "structurally",
+  "reproducible",
+  "treats",
+  "vanishes"
+ ],
+ "OLD": [
+  "innovative",
+  "utilized",
+  "advancements",
+  "pivotal",
+  "facilitates",
+  "firstly",
+  "tackle",
+  "showcasing",
+  "underscores",
+  "delve",
+  "delves",
+  "intricate"
+ ],
+ "series": {
+  "2015H1": {
+   "n": 869,
+   "old": 2.02,
+   "new": 0.79,
+   "however": 12.61
+  },
+  "2015H2": {
+   "n": 1042,
+   "old": 2.49,
+   "new": 1.71,
+   "however": 10.28
+  },
+  "2016H1": {
+   "n": 1104,
+   "old": 3.02,
+   "new": 1.04,
+   "however": 13.78
+  },
+  "2016H2": {
+   "n": 1137,
+   "old": 2.87,
+   "new": 1.59,
+   "however": 10.73
+  },
+  "2017H1": {
+   "n": 1170,
+   "old": 2.9,
+   "new": 1.13,
+   "however": 12.67
+  },
+  "2017H2": {
+   "n": 1289,
+   "old": 4.33,
+   "new": 1.38,
+   "however": 17.17
+  },
+  "2018H1": {
+   "n": 1460,
+   "old": 3.57,
+   "new": 1.76,
+   "however": 15.5
+  },
+  "2018H2": {
+   "n": 1471,
+   "old": 3.54,
+   "new": 1.77,
+   "however": 14.77
+  },
+  "2019H1": {
+   "n": 1621,
+   "old": 3.42,
+   "new": 1.27,
+   "however": 14.95
+  },
+  "2019H2": {
+   "n": 1787,
+   "old": 3.93,
+   "new": 1.27,
+   "however": 16.42
+  },
+  "2020H1": {
+   "n": 1884,
+   "old": 3.75,
+   "new": 2.52,
+   "however": 16.61
+  },
+  "2020H2": {
+   "n": 1961,
+   "old": 3.78,
+   "new": 1.69,
+   "however": 16.72
+  },
+  "2021H1": {
+   "n": 2023,
+   "old": 3.46,
+   "new": 1.46,
+   "however": 16.32
+  },
+  "2021H2": {
+   "n": 1928,
+   "old": 3.95,
+   "new": 2.11,
+   "however": 17.61
+  },
+  "2022H1": {
+   "n": 1931,
+   "old": 3.45,
+   "new": 1.8,
+   "however": 17.77
+  },
+  "2022H2": {
+   "n": 2102,
+   "old": 5.16,
+   "new": 1.86,
+   "however": 17.18
+  },
+  "2023H1": {
+   "n": 2034,
+   "old": 4.82,
+   "new": 2.5,
+   "however": 17.7
+  },
+  "2023H2": {
+   "n": 2335,
+   "old": 7.73,
+   "new": 1.85,
+   "however": 19.31
+  },
+  "2024H1": {
+   "n": 2336,
+   "old": 9.43,
+   "new": 1.67,
+   "however": 19.29
+  },
+  "2024H2": {
+   "n": 2453,
+   "old": 10.02,
+   "new": 2.05,
+   "however": 20.35
+  },
+  "2025H1": {
+   "n": 2678,
+   "old": 9.18,
+   "new": 3.67,
+   "however": 18.5
+  },
+  "2025H2": {
+   "n": 2755,
+   "old": 4.8,
+   "new": 5.19,
+   "however": 19.02
+  },
+  "2026H1": {
+   "n": 2634,
+   "old": 3.31,
+   "new": 7.49,
+   "however": 14.9
+  },
+  "2026H2": {
+   "n": 1401,
+   "old": 1.76,
+   "new": 10.64,
+   "however": 14.32
+  }
+ },
+ "heldout_even_odd": {
+  "list": [
+   "qldpc",
+   "suppressing",
+   "underexplored",
+   "replaces",
+   "explainability",
+   "governance",
+   "persistence",
+   "surface-code",
+   "grounded",
+   "audit",
+   "contract",
+   "miss",
+   "certificate",
+   "assertions",
+   "standardized",
+   "missed",
+   "fragmented",
+   "emphasizing",
+   "persists",
+   "expose",
+   "diagnostic",
+   "traceability",
+   "high-rate",
+   "exposes",
+   "reusable"
+  ],
+  "A": {
+   "base": 1.5,
+   "2024": 4.8,
+   "2026": 15.0
+  },
+  "B": {
+   "base": 1.9,
+   "2024": 3.0,
+   "2026": 7.9
+  }
+ },
+ "heldout_cs_to_rest": {
+  "list": [
+   "vlm",
+   "underexplored",
+   "natural-language",
+   "bimanual",
+   "backend",
+   "predominantly",
+   "couples",
+   "teleoperation",
+   "governance",
+   "contact-rich",
+   "genuine",
+   "first-class",
+   "ecosystems",
+   "grounded",
+   "fingertip",
+   "diagnostic",
+   "recurring",
+   "audit",
+   "coordinated",
+   "missed",
+   "hand-object",
+   "seeds",
+   "absent",
+   "replaces",
+   "fragmented"
+  ],
+  "A": {
+   "base": 1.8,
+   "2024": 5.9,
+   "2026": 22.8
+  },
+  "B": {
+   "base": 1.6,
+   "2024": 2.2,
+   "2026": 6.1
+  }
+ }
+}
