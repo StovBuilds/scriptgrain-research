@@ -138,5 +138,12 @@ is CC0. Our dataset: CC BY 4.0. Abstract text is not republished.
   5. Labelling scope: the 200 candidates with the largest selection-half gap d in 2024,
      and the 200 in 2026 (union), are labelled CONTENT/STYLE. The lower-bound sets are
      the top 50 STYLE words by selection-half d for each year (the same 50 as H5).
+  7. DEVIATION (2026-10-04, found running the pipeline on stand-in data built from the
+     pilot sample, before any census figure existed): ranking candidates by absolute gap d
+     admits very common words ("for", "these", "within"), whose union is present in nearly
+     every abstract, so q approaches 1 and (p - q) / (1 - q) becomes unstable or undefined.
+     Words whose selection-half counterfactual q is 5% or more are therefore excluded from
+     the labelling list, the H5 sets and the lower-bound sets. Section 5's candidate
+     thresholds are otherwise unchanged, and the full candidate list (all q) is still published.
   6. The revision rule is applied to every paper submitted up to 2022-11 (not only
      2020-22), so the descriptive 2015-2022 series follows the same rule as BASE.
