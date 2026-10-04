@@ -1,0 +1,41 @@
+{
+  "_readme": "SGR-009 frozen panel (2026-10-04). 10 UK consumer sectors, brands chosen before any page was fetched. None of the 26 DESK-415 pilot brands is here. No two brands in the same sector share a parent company (checked by hand at freeze; see notes). Page types and their URL rules are in pageTypes; the selection rule is in docs/research/sgr-009-preregistration.md section 3.",
+  "frozenOn": "2026-10-04",
+  "sectors": {
+    "bank": ["metrobankonline.co.uk", "tsb.co.uk", "virginmoney.com", "co-operativebank.co.uk", "chase.co.uk", "zopa.com", "atombank.co.uk", "kroo.com", "skipton.co.uk", "coventrybuildingsociety.co.uk"],
+    "energy": ["scottishpower.co.uk", "utilita.co.uk", "goodenergy.co.uk", "ecotricity.co.uk", "outfoxthemarket.co.uk", "fuseenergy.com"],
+    "telecom": ["ee.co.uk", "talktalk.co.uk", "hyperoptic.com", "communityfibre.co.uk", "smarty.co.uk", "idmobile.co.uk", "lebara.co.uk", "lycamobile.co.uk", "o2.co.uk", "zen.co.uk"],
+    "software": ["freeagent.com", "gocardless.com", "xero.com", "sage.com", "intercom.com", "hubspot.com", "canva.com", "figma.com", "clickup.com", "miro.com"],
+    "grocery": ["tesco.com", "sainsburys.co.uk", "asda.com", "morrisons.com", "aldi.co.uk", "lidl.co.uk", "ocado.com", "coop.co.uk", "iceland.co.uk", "booths.co.uk"],
+    "travel": ["britishairways.com", "easyjet.com", "ryanair.com", "jet2.com", "virginatlantic.com", "tui.co.uk", "loganair.co.uk", "thetrainline.com", "nationalexpress.com", "eurostar.com"],
+    "insurance": ["aviva.co.uk", "directline.com", "admiral.com", "lv.com", "axa.co.uk", "hastingsdirect.com", "esure.com", "legalandgeneral.com", "zurich.co.uk", "bupa.co.uk"],
+    "fashion": ["next.co.uk", "marksandspencer.com", "johnlewis.com", "asos.com", "boohoo.com", "primark.com", "superdry.com", "riverisland.com", "newlook.com", "fatface.com"],
+    "charity": ["cancerresearchuk.org", "oxfam.org.uk", "redcross.org.uk", "macmillan.org.uk", "rnli.org", "nspcc.org.uk", "barnardos.org.uk", "mind.org.uk", "savethechildren.org.uk", "rspca.org.uk"],
+    "food": ["innocentdrinks.co.uk", "pret.com", "greggs.co.uk", "nandos.co.uk", "leon.co", "wagamama.com", "itsu.com", "cookfood.net", "gailsbread.co.uk", "deliciouslyella.com"]
+  },
+  "notes": [
+    "Telecom: EE and Plusnet are both BT Group, so Plusnet is out. Smarty is VodafoneThree, so VOXI (Vodafone) is out. O2 is Virgin Media O2; Virgin Media is not in this panel.",
+    "Insurance: Churchill is Direct Line Group, so it is out.",
+    "Fashion/grocery: John Lewis and Waitrose are both the John Lewis Partnership, so Waitrose is out.",
+    "Travel: Aer Lingus is IAG with British Airways, so it is out.",
+    "Energy has 6 brands: the rest of the UK's large suppliers are pilot brands or have closed."
+  ],
+  "pageTypes": {
+    "home": "the site root",
+    "about": "(^|/)(about|about-us|who-we-are|our-story|our-company|company|our-history|about-[a-z-]+)(/|$)",
+    "product": {
+      "bank": "(current-account|savings|mortgage|loans?|credit-card|isa)",
+      "energy": "(tariff|electricity|gas|energy|solar|ev|heat-pump|smart-meter|switch)",
+      "telecom": "(broadband|mobile|sim|phones?|fibre|tv|plans?)",
+      "software": "(product|features?|platform|solutions?|accounting|payments|crm|software|templates)",
+      "grocery": "(groceries|food|delivery|shop|clubcard|nectar|offers|recipes)",
+      "travel": "(flights?|holidays?|destinations?|tickets?|routes|trains?|coach)",
+      "insurance": "(car-insurance|home-insurance|insurance|pensions?|life|health|travel-insurance)",
+      "fashion": "(women|womens|men|mens|clothing|dresses|shop|new-in|home)",
+      "charity": "(what-we-do|our-work|our-research|research|how-we-help|support|services|get-involved)",
+      "food": "(menu|food|drinks|our-food|products|smoothies|shop|order)"
+    },
+    "pricing": "(^|/)(pricing|prices|plans|tariffs|rates|fees|charges|deals|offers|compare)(/|$|-)",
+    "careers": "(^|/)(careers?|jobs|work-with-us|work-for-us|join-us|join-our-team|working-at-[a-z-]+)(/|$)"
+  }
+}

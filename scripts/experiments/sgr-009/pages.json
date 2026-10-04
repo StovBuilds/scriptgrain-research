@@ -1,0 +1,3457 @@
+{
+ "tsb.co.uk": {
+  "sector": "bank",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.tsb.co.uk",
+    "finalUrl": "https://www.tsb.co.uk/",
+    "words": 700,
+    "wordsFull": 913,
+    "fetchedAt": "2026-10-04T20:43:48.765Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.tsb.co.uk/personal-loans.html",
+    "finalUrl": "https://www.tsb.co.uk/personal-loans.html",
+    "words": 700,
+    "wordsFull": 3285,
+    "fetchedAt": "2026-10-04T20:43:54.252Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.tsb.co.uk/help-and-support/rates-and-charges.html",
+    "finalUrl": "https://www.tsb.co.uk/help-and-support/rates-and-charges.html",
+    "words": 174,
+    "wordsFull": 174,
+    "fetchedAt": "2026-10-04T20:43:58.760Z"
+   }
+  ]
+ },
+ "virginmoney.com": {
+  "sector": "bank",
+  "mapLinks": 139,
+  "log": [
+   "about MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.virginmoney.com",
+    "finalUrl": "https://uk.virginmoney.com/",
+    "words": 660,
+    "wordsFull": 660,
+    "fetchedAt": "2026-10-04T20:43:46.640Z"
+   },
+   {
+    "type": "product",
+    "url": "https://uk.virginmoney.com/savings",
+    "finalUrl": "https://uk.virginmoney.com/savings",
+    "words": 352,
+    "wordsFull": 352,
+    "fetchedAt": "2026-10-04T20:43:53.390Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://uk.virginmoney.com/current-accounts/compare-accounts",
+    "finalUrl": "https://uk.virginmoney.com/current-accounts/compare-accounts/",
+    "words": 700,
+    "wordsFull": 832,
+    "fetchedAt": "2026-10-04T20:43:59.701Z"
+   }
+  ]
+ },
+ "co-operativebank.co.uk": {
+  "sector": "bank",
+  "mapLinks": 400,
+  "log": [
+   "pricing short(123) https://www.co-operativebank.co.uk/products/mortgages/rates",
+   "pricing MISSING (1 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.co-operativebank.co.uk",
+    "finalUrl": "https://www.co-operativebank.co.uk/",
+    "words": 516,
+    "wordsFull": 516,
+    "fetchedAt": "2026-10-04T20:43:45.266Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.co-operativebank.co.uk/about-us",
+    "finalUrl": "https://www.co-operativebank.co.uk/about-us/",
+    "words": 700,
+    "wordsFull": 1248,
+    "fetchedAt": "2026-10-04T20:43:49.015Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.co-operativebank.co.uk/products/loans",
+    "finalUrl": "https://www.co-operativebank.co.uk/products/loans/",
+    "words": 700,
+    "wordsFull": 700,
+    "fetchedAt": "2026-10-04T20:43:53.351Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.co-operativebank.co.uk/about-us/careers",
+    "finalUrl": "https://www.co-operativebank.co.uk/about-us/careers/",
+    "words": 177,
+    "wordsFull": 177,
+    "fetchedAt": "2026-10-04T20:44:02.061Z"
+   }
+  ]
+ },
+ "metrobankonline.co.uk": {
+  "sector": "bank",
+  "mapLinks": 400,
+  "log": [],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.metrobankonline.co.uk",
+    "finalUrl": "https://www.metrobankonline.co.uk/",
+    "words": 700,
+    "wordsFull": 704,
+    "fetchedAt": "2026-10-04T20:43:44.433Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.metrobankonline.co.uk/about-us",
+    "finalUrl": "https://www.metrobankonline.co.uk/about-us/",
+    "words": 566,
+    "wordsFull": 566,
+    "fetchedAt": "2026-10-04T20:43:48.611Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.metrobankonline.co.uk/business/current-accounts",
+    "finalUrl": "https://www.metrobankonline.co.uk/business/current-accounts/",
+    "words": 392,
+    "wordsFull": 392,
+    "fetchedAt": "2026-10-04T20:43:53.473Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.metrobankonline.co.uk/business/deposits/i-need-info-on-deposits/rates-for-closed-business-products",
+    "finalUrl": "https://www.metrobankonline.co.uk/business/deposits/i-need-info-on-deposits/rates-for-closed-business-products/",
+    "words": 700,
+    "wordsFull": 3814,
+    "fetchedAt": "2026-10-04T20:43:58.139Z"
+   },
+   {
+    "type": "careers",
+    "url": "http://www.metrobankonline.co.uk/careers",
+    "finalUrl": "http://www.metrobankonline.co.uk/careers/",
+    "words": 700,
+    "wordsFull": 1533,
+    "fetchedAt": "2026-10-04T20:44:07.814Z"
+   }
+  ]
+ },
+ "atombank.co.uk": {
+  "sector": "bank",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.atombank.co.uk",
+    "finalUrl": "https://www.atombank.co.uk/",
+    "words": 684,
+    "wordsFull": 684,
+    "fetchedAt": "2026-10-04T20:44:18.714Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.atombank.co.uk/about-us",
+    "finalUrl": "https://www.atombank.co.uk/about-us/",
+    "words": 700,
+    "wordsFull": 707,
+    "fetchedAt": "2026-10-04T20:44:22.184Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.atombank.co.uk/savings",
+    "finalUrl": "https://www.atombank.co.uk/savings/",
+    "words": 700,
+    "wordsFull": 2064,
+    "fetchedAt": "2026-10-04T20:44:25.812Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.atombank.co.uk/careers",
+    "finalUrl": "https://www.atombank.co.uk/careers/",
+    "words": 700,
+    "wordsFull": 8021,
+    "fetchedAt": "2026-10-04T20:44:30.768Z"
+   }
+  ]
+ },
+ "zopa.com": {
+  "sector": "bank",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)",
+   "careers short(81) https://careers.zopa.com/work-with-us",
+   "careers MISSING (1 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.zopa.com",
+    "finalUrl": "https://www.zopa.com/",
+    "words": 700,
+    "wordsFull": 741,
+    "fetchedAt": "2026-10-04T20:44:16.204Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.zopa.com/about",
+    "finalUrl": "https://www.zopa.com/about",
+    "words": 700,
+    "wordsFull": 790,
+    "fetchedAt": "2026-10-04T20:44:23.158Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.zopa.com/loans",
+    "finalUrl": "https://www.zopa.com/loans",
+    "words": 700,
+    "wordsFull": 1503,
+    "fetchedAt": "2026-10-04T20:44:28.418Z"
+   }
+  ]
+ },
+ "kroo.com": {
+  "sector": "bank",
+  "mapLinks": 117,
+  "log": [],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.kroo.com",
+    "finalUrl": "https://kroo.com/",
+    "words": 700,
+    "wordsFull": 773,
+    "fetchedAt": "2026-10-04T20:44:26.230Z"
+   },
+   {
+    "type": "about",
+    "url": "https://kroo.com/about-us",
+    "finalUrl": "https://kroo.com/about-us",
+    "words": 528,
+    "wordsFull": 528,
+    "fetchedAt": "2026-10-04T20:44:30.106Z"
+   },
+   {
+    "type": "product",
+    "url": "https://kroo.com/cash-isa",
+    "finalUrl": "https://kroo.com/cash-isa",
+    "words": 278,
+    "wordsFull": 278,
+    "fetchedAt": "2026-10-04T20:44:34.129Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://kroo.com/current-account/fees",
+    "finalUrl": "https://kroo.com/current-account/fees",
+    "words": 208,
+    "wordsFull": 208,
+    "fetchedAt": "2026-10-04T20:44:37.669Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://kroo.com/careers",
+    "finalUrl": "https://kroo.com/careers",
+    "words": 232,
+    "wordsFull": 232,
+    "fetchedAt": "2026-10-04T20:44:41.332Z"
+   }
+  ]
+ },
+ "chase.co.uk": {
+  "sector": "bank",
+  "mapLinks": 115,
+  "log": [
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.chase.co.uk",
+    "finalUrl": "https://www.chase.co.uk/gb/en/",
+    "words": 554,
+    "wordsFull": 554,
+    "fetchedAt": "2026-10-04T20:44:26.924Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.chase.co.uk/gb/en/our-story",
+    "finalUrl": "https://www.chase.co.uk/gb/en/our-story/",
+    "words": 257,
+    "wordsFull": 257,
+    "fetchedAt": "2026-10-04T20:44:41.226Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.chase.co.uk/gb/en/hub/isa-explainer",
+    "finalUrl": "https://www.chase.co.uk/gb/en/hub/isa-explainer/",
+    "words": 700,
+    "wordsFull": 2533,
+    "fetchedAt": "2026-10-04T20:44:55.647Z"
+   }
+  ]
+ },
+ "coventrybuildingsociety.co.uk": {
+  "sector": "bank",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.coventrybuildingsociety.co.uk",
+    "finalUrl": "https://www.coventrybuildingsociety.co.uk/",
+    "words": 700,
+    "wordsFull": 816,
+    "fetchedAt": "2026-10-04T20:44:50.776Z"
+   },
+   {
+    "type": "product",
+    "url": "https://coventrybuildingsociety.co.uk/member/savings.html",
+    "finalUrl": "https://coventrybuildingsociety.co.uk/member/savings.html",
+    "words": 700,
+    "wordsFull": 2514,
+    "fetchedAt": "2026-10-04T20:44:57.231Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.coventrybuildingsociety.co.uk/member/help/mortgages/charges-repaying-early.html",
+    "finalUrl": "https://www.coventrybuildingsociety.co.uk/member/help/mortgages/charges-repaying-early.html",
+    "words": 609,
+    "wordsFull": 609,
+    "fetchedAt": "2026-10-04T20:45:02.337Z"
+   }
+  ]
+ },
+ "skipton.co.uk": {
+  "sector": "bank",
+  "mapLinks": 338,
+  "log": [],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.skipton.co.uk",
+    "finalUrl": "https://www.skipton.co.uk/",
+    "words": 700,
+    "wordsFull": 741,
+    "fetchedAt": "2026-10-04T20:44:51.128Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.skipton.co.uk/about-us",
+    "finalUrl": "https://www.skipton.co.uk/about-us",
+    "words": 328,
+    "wordsFull": 328,
+    "fetchedAt": "2026-10-04T20:44:56.633Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.skipton.co.uk/savings",
+    "finalUrl": "https://www.skipton.co.uk/savings",
+    "words": 700,
+    "wordsFull": 996,
+    "fetchedAt": "2026-10-04T20:45:02.026Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.skipton.co.uk/savings/compare-all-savings-rates",
+    "finalUrl": "https://www.skipton.co.uk/savings/compare-all-savings-rates",
+    "words": 700,
+    "wordsFull": 753,
+    "fetchedAt": "2026-10-04T20:45:06.899Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://careers.skipton.co.uk/jobs",
+    "finalUrl": "https://careers.skipton.co.uk/jobs?",
+    "words": 178,
+    "wordsFull": 178,
+    "fetchedAt": "2026-10-04T20:45:12.863Z"
+   }
+  ]
+ },
+ "scottishpower.co.uk": {
+  "sector": "energy",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.scottishpower.co.uk",
+    "finalUrl": "https://www.scottishpower.co.uk/",
+    "words": 700,
+    "wordsFull": 1645,
+    "fetchedAt": "2026-10-04T20:45:05.783Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.scottishpower.co.uk/about-us",
+    "finalUrl": "https://www.scottishpower.co.uk/about-us",
+    "words": 700,
+    "wordsFull": 1340,
+    "fetchedAt": "2026-10-04T20:45:10.930Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.scottishpower.co.uk/ev-optimise",
+    "finalUrl": "https://www.scottishpower.co.uk/ev-optimise",
+    "words": 700,
+    "wordsFull": 3032,
+    "fetchedAt": "2026-10-04T20:45:16.663Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.scottishpower.co.uk/gas-and-electricity/tariffs/tou-eligibility",
+    "finalUrl": "https://www.scottishpower.co.uk/gas-and-electricity/tariffs/tou-eligibility",
+    "words": 179,
+    "wordsFull": 179,
+    "fetchedAt": "2026-10-04T20:45:26.700Z"
+   }
+  ]
+ },
+ "goodenergy.co.uk": {
+  "sector": "energy",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.goodenergy.co.uk",
+    "finalUrl": "https://www.goodenergy.co.uk/",
+    "words": 666,
+    "wordsFull": 666,
+    "fetchedAt": "2026-10-04T20:45:19.788Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.goodenergy.co.uk/about-us",
+    "finalUrl": "https://www.goodenergy.co.uk/about-us/",
+    "words": 473,
+    "wordsFull": 473,
+    "fetchedAt": "2026-10-04T20:45:25.858Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.goodenergy.co.uk/gas-safety",
+    "finalUrl": "https://www.goodenergy.co.uk/gas-safety/",
+    "words": 700,
+    "wordsFull": 1202,
+    "fetchedAt": "2026-10-04T20:45:30.140Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.goodenergy.co.uk/about-us/careers",
+    "finalUrl": "https://careers.goodenergy.co.uk/",
+    "words": 687,
+    "wordsFull": 687,
+    "fetchedAt": "2026-10-04T20:45:37.596Z"
+   }
+  ]
+ },
+ "utilita.co.uk": {
+  "sector": "energy",
+  "mapLinks": 151,
+  "log": [
+   "home short(124) https://www.utilita.co.uk",
+   "home MISSING (1 tried)",
+   "product short(136) https://utilita.co.uk/energy",
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "about",
+    "url": "https://utilita.co.uk/about-us",
+    "finalUrl": "https://utilita.co.uk/about-us",
+    "words": 446,
+    "wordsFull": 446,
+    "fetchedAt": "2026-10-04T20:45:18.997Z"
+   },
+   {
+    "type": "product",
+    "url": "https://utilita.co.uk/my-energy",
+    "finalUrl": "https://utilita.co.uk/my-energy",
+    "words": 155,
+    "wordsFull": 155,
+    "fetchedAt": "2026-10-04T20:45:32.353Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://utilita.co.uk/careers",
+    "finalUrl": "https://utilita.co.uk/careers",
+    "words": 194,
+    "wordsFull": 194,
+    "fetchedAt": "2026-10-04T20:45:38.596Z"
+   }
+  ]
+ },
+ "ecotricity.co.uk": {
+  "sector": "energy",
+  "mapLinks": 134,
+  "log": [
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.ecotricity.co.uk",
+    "finalUrl": "https://www.ecotricity.co.uk/",
+    "words": 642,
+    "wordsFull": 642,
+    "fetchedAt": "2026-10-04T20:45:35.216Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.ecotricity.co.uk/our-story/our-history",
+    "finalUrl": "https://www.ecotricity.co.uk/our-story/our-history",
+    "words": 387,
+    "wordsFull": 387,
+    "fetchedAt": "2026-10-04T20:45:39.696Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.ecotricity.co.uk/tariff-renewal-success",
+    "finalUrl": "https://www.ecotricity.co.uk/tariff-renewal-success",
+    "words": 213,
+    "wordsFull": 213,
+    "fetchedAt": "2026-10-04T20:45:45.050Z"
+   }
+  ]
+ },
+ "outfoxthemarket.co.uk": {
+  "sector": "energy",
+  "mapLinks": 4,
+  "log": [
+   "product MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.outfoxthemarket.co.uk",
+    "finalUrl": "https://outfox.energy/",
+    "words": 700,
+    "wordsFull": 1207,
+    "fetchedAt": "2026-10-04T20:45:47.884Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.outfoxthemarket.co.uk/about",
+    "finalUrl": "https://outfox.energy/about",
+    "words": 498,
+    "wordsFull": 498,
+    "fetchedAt": "2026-10-04T20:45:51.806Z"
+   }
+  ]
+ },
+ "fuseenergy.com": {
+  "sector": "energy",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.fuseenergy.com",
+    "finalUrl": "https://www.fuseenergy.com/",
+    "words": 386,
+    "wordsFull": 386,
+    "fetchedAt": "2026-10-04T20:45:55.926Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.fuseenergy.com/ev-charging",
+    "finalUrl": "https://www.fuseenergy.com/ev-charging",
+    "words": 218,
+    "wordsFull": 218,
+    "fetchedAt": "2026-10-04T20:46:00.094Z"
+   }
+  ]
+ },
+ "talktalk.co.uk": {
+  "sector": "telecom",
+  "mapLinks": 87,
+  "log": [
+   "about MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.talktalk.co.uk",
+    "finalUrl": "https://www.talktalk.co.uk/",
+    "words": 700,
+    "wordsFull": 2022,
+    "fetchedAt": "2026-10-04T20:46:02.742Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.talktalk.co.uk/broadband",
+    "finalUrl": "https://www.talktalk.co.uk/broadband",
+    "words": 700,
+    "wordsFull": 2018,
+    "fetchedAt": "2026-10-04T20:46:07.487Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.talktalk.co.uk/broadband/compare-deals",
+    "finalUrl": "https://www.talktalk.co.uk/broadband/compare-deals",
+    "words": 700,
+    "wordsFull": 2718,
+    "fetchedAt": "2026-10-04T20:46:12.455Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.talktalk.co.uk/join-us",
+    "finalUrl": "https://www.talktalk.co.uk/join-us",
+    "words": 531,
+    "wordsFull": 531,
+    "fetchedAt": "2026-10-04T20:46:17.067Z"
+   }
+  ]
+ },
+ "ee.co.uk": {
+  "sector": "telecom",
+  "mapLinks": 400,
+  "log": [
+   "pricing short(52) https://ee.co.uk/plans-subscriptions/tv",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.ee.co.uk",
+    "finalUrl": "https://ee.co.uk/",
+    "words": 700,
+    "wordsFull": 955,
+    "fetchedAt": "2026-10-04T20:46:12.751Z"
+   },
+   {
+    "type": "about",
+    "url": "https://ee.co.uk/our-company/about-us",
+    "finalUrl": "https://ee.co.uk/our-company/about-us",
+    "words": 210,
+    "wordsFull": 210,
+    "fetchedAt": "2026-10-04T20:46:17.512Z"
+   },
+   {
+    "type": "product",
+    "url": "https://ee.co.uk/mobile/upgrade",
+    "finalUrl": "https://ee.co.uk/mobile/upgrade",
+    "words": 328,
+    "wordsFull": 328,
+    "fetchedAt": "2026-10-04T20:46:23.211Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://ee.co.uk/help/device-help/compare-our-smart-hubs",
+    "finalUrl": "https://ee.co.uk/help/device-help/compare-our-smart-hubs",
+    "words": 449,
+    "wordsFull": 449,
+    "fetchedAt": "2026-10-04T20:46:32.977Z"
+   }
+  ]
+ },
+ "hyperoptic.com": {
+  "sector": "telecom",
+  "mapLinks": 400,
+  "log": [
+   "pricing duplicate https://www.hyperoptic.com/faq/posts/charges-for-calling-service-numbers",
+   "pricing MISSING (1 tried)",
+   "careers short(29) https://careers.hyperoptic.com/jobs/home",
+   "careers short(29) https://www.hyperoptic.com/working-at-hyperoptic",
+   "careers MISSING (2 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.hyperoptic.com",
+    "finalUrl": "https://www.hyperoptic.com/",
+    "words": 700,
+    "wordsFull": 1363,
+    "fetchedAt": "2026-10-04T20:46:10.798Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.hyperoptic.com/about-us",
+    "finalUrl": "https://www.hyperoptic.com/about-us",
+    "words": 700,
+    "wordsFull": 744,
+    "fetchedAt": "2026-10-04T20:46:16.362Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.hyperoptic.com/broadband",
+    "finalUrl": "https://www.hyperoptic.com/broadband/",
+    "words": 700,
+    "wordsFull": 1530,
+    "fetchedAt": "2026-10-04T20:46:22.308Z"
+   }
+  ]
+ },
+ "communityfibre.co.uk": {
+  "sector": "telecom",
+  "mapLinks": 243,
+  "log": [
+   "home short(61) https://www.communityfibre.co.uk",
+   "home MISSING (1 tried)",
+   "pricing short(59) https://www.communityfibre.co.uk/deals",
+   "pricing MISSING (1 tried)",
+   "careers short(47) https://careers.communityfibre.co.uk/jobs"
+  ],
+  "pages": [
+   {
+    "type": "about",
+    "url": "https://communityfibre.co.uk/about-us",
+    "finalUrl": "https://communityfibre.co.uk/about-us",
+    "words": 700,
+    "wordsFull": 1140,
+    "fetchedAt": "2026-10-04T20:46:20.894Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.communityfibre.co.uk/tv",
+    "finalUrl": "https://www.communityfibre.co.uk/tv",
+    "words": 700,
+    "wordsFull": 707,
+    "fetchedAt": "2026-10-04T20:46:27.878Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://careers.communityfibre.co.uk/jobs/5367426-field-sales-executives-d2d",
+    "finalUrl": "https://careers.communityfibre.co.uk/jobs/5367426-field-sales-executives-d2d",
+    "words": 700,
+    "wordsFull": 877,
+    "fetchedAt": "2026-10-04T20:46:42.518Z"
+   }
+  ]
+ },
+ "smarty.co.uk": {
+  "sector": "telecom",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.smarty.co.uk",
+    "finalUrl": "https://smarty.co.uk/",
+    "words": 671,
+    "wordsFull": 671,
+    "fetchedAt": "2026-10-04T20:46:39.073Z"
+   },
+   {
+    "type": "about",
+    "url": "https://smarty.co.uk/about-us",
+    "finalUrl": "https://smarty.co.uk/about-us",
+    "words": 513,
+    "wordsFull": 513,
+    "fetchedAt": "2026-10-04T20:46:44.453Z"
+   },
+   {
+    "type": "product",
+    "url": "https://smarty.co.uk/esim",
+    "finalUrl": "https://smarty.co.uk/esim",
+    "words": 648,
+    "wordsFull": 648,
+    "fetchedAt": "2026-10-04T20:46:50.049Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://smarty.co.uk/plans/5gb-data",
+    "finalUrl": "https://smarty.co.uk/plans/5gb-data",
+    "words": 700,
+    "wordsFull": 848,
+    "fetchedAt": "2026-10-04T20:46:54.848Z"
+   }
+  ]
+ },
+ "idmobile.co.uk": {
+  "sector": "telecom",
+  "mapLinks": 400,
+  "log": [
+   "home short(20) https://www.idmobile.co.uk",
+   "home MISSING (1 tried)",
+   "about MISSING (0 tried)",
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "product",
+    "url": "https://www.idmobile.co.uk/esim",
+    "finalUrl": "https://www.idmobile.co.uk/esim",
+    "words": 700,
+    "wordsFull": 982,
+    "fetchedAt": "2026-10-04T20:46:57.640Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.idmobile.co.uk/careers",
+    "finalUrl": "https://www.idmobile.co.uk/careers",
+    "words": 640,
+    "wordsFull": 640,
+    "fetchedAt": "2026-10-04T20:47:01.618Z"
+   }
+  ]
+ },
+ "lycamobile.co.uk": {
+  "sector": "telecom",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.lycamobile.co.uk",
+    "finalUrl": "https://www.lycamobile.co.uk/en/",
+    "words": 391,
+    "wordsFull": 391,
+    "fetchedAt": "2026-10-04T20:46:56.712Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.lycamobile.co.uk/en/about-us/overview",
+    "finalUrl": "https://www.lycamobile.co.uk/en/about-us/overview/",
+    "words": 163,
+    "wordsFull": 163,
+    "fetchedAt": "2026-10-04T20:47:01.742Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.lycamobile.co.uk/en/esim",
+    "finalUrl": "https://www.lycamobile.co.uk/en/esim/",
+    "words": 700,
+    "wordsFull": 2166,
+    "fetchedAt": "2026-10-04T20:47:06.409Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.lycamobile.co.uk/en/deals",
+    "finalUrl": "https://www.lycamobile.co.uk/deals/",
+    "words": 446,
+    "wordsFull": 446,
+    "fetchedAt": "2026-10-04T20:47:11.025Z"
+   }
+  ]
+ },
+ "lebara.co.uk": {
+  "sector": "telecom",
+  "mapLinks": 365,
+  "log": [
+   "about MISSING (0 tried)",
+   "product short(93) https://www.lebara.co.uk/en/simswap.html",
+   "pricing short(105) https://www.lebara.co.uk/en/rates/call-chad.html",
+   "pricing short(105) https://www.lebara.co.uk/en/rates/call-cuba.html",
+   "pricing short(105) https://www.lebara.co.uk/en/rates/call-fiji.html",
+   "pricing MISSING (3 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.lebara.co.uk",
+    "finalUrl": "https://www.lebara.co.uk/en/home.html",
+    "words": 700,
+    "wordsFull": 1254,
+    "fetchedAt": "2026-10-04T20:46:56.942Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.lebara.co.uk/en/esimhelp.html",
+    "finalUrl": "https://www.lebara.co.uk/en/help/esim.html",
+    "words": 700,
+    "wordsFull": 2933,
+    "fetchedAt": "2026-10-04T20:47:07.947Z"
+   }
+  ]
+ },
+ "o2.co.uk": {
+  "sector": "telecom",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.o2.co.uk",
+    "finalUrl": "https://www.o2.co.uk/",
+    "words": 569,
+    "wordsFull": 569,
+    "fetchedAt": "2026-10-04T20:47:17.626Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.o2.co.uk/iphone",
+    "finalUrl": "https://www.o2.co.uk/iphone",
+    "words": 700,
+    "wordsFull": 1056,
+    "fetchedAt": "2026-10-04T20:47:22.823Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.o2.co.uk/business/solutions/mobile/tariffs",
+    "finalUrl": "https://www.o2.co.uk/business/solutions/mobile/tariffs",
+    "words": 700,
+    "wordsFull": 838,
+    "fetchedAt": "2026-10-04T20:47:28.247Z"
+   }
+  ]
+ },
+ "freeagent.com": {
+  "sector": "software",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.freeagent.com",
+    "finalUrl": "https://www.freeagent.com/",
+    "words": 700,
+    "wordsFull": 5874,
+    "fetchedAt": "2026-10-04T20:47:26.434Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.freeagent.com/company",
+    "finalUrl": "https://www.freeagent.com/company/",
+    "words": 323,
+    "wordsFull": 323,
+    "fetchedAt": "2026-10-04T20:47:30.637Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.freeagent.com/features/mobile",
+    "finalUrl": "https://www.freeagent.com/features/mobile/",
+    "words": 693,
+    "wordsFull": 693,
+    "fetchedAt": "2026-10-04T20:47:34.685Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.freeagent.com/pricing",
+    "finalUrl": "https://www.freeagent.com/pricing/",
+    "words": 700,
+    "wordsFull": 4426,
+    "fetchedAt": "2026-10-04T20:47:39.310Z"
+   }
+  ]
+ },
+ "zen.co.uk": {
+  "sector": "telecom",
+  "mapLinks": 400,
+  "log": [
+   "home short(70) https://www.zen.co.uk",
+   "home MISSING (1 tried)",
+   "product short(49) https://www.zen.co.uk/phone",
+   "product short(47) https://www.zen.co.uk/broadband",
+   "product short(31) https://www.zen.co.uk/cityfibre",
+   "product MISSING (3 tried)",
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "about",
+    "url": "https://www.zen.co.uk/our-story",
+    "finalUrl": "https://story.zen.co.uk/",
+    "words": 633,
+    "wordsFull": 633,
+    "fetchedAt": "2026-10-04T20:47:27.331Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.zen.co.uk/careers",
+    "finalUrl": "https://www.zen.co.uk/careers",
+    "words": 182,
+    "wordsFull": 182,
+    "fetchedAt": "2026-10-04T20:47:54.340Z"
+   }
+  ]
+ },
+ "gocardless.com": {
+  "sector": "software",
+  "mapLinks": 400,
+  "log": [
+   "home short(33) https://www.gocardless.com",
+   "home MISSING (1 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "about",
+    "url": "https://gocardless.com/en-us/about",
+    "finalUrl": "https://gocardless.com/en-us/about",
+    "words": 360,
+    "wordsFull": 360,
+    "fetchedAt": "2026-10-04T20:47:48.866Z"
+   },
+   {
+    "type": "product",
+    "url": "https://gocardless.com/features/invoicing",
+    "finalUrl": "https://gocardless.com/features/invoicing",
+    "words": 568,
+    "wordsFull": 568,
+    "fetchedAt": "2026-10-04T20:47:53.497Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://gocardless.com/pricing",
+    "finalUrl": "https://gocardless.com/pricing",
+    "words": 700,
+    "wordsFull": 942,
+    "fetchedAt": "2026-10-04T20:47:58.680Z"
+   }
+  ]
+ },
+ "xero.com": {
+  "sector": "software",
+  "mapLinks": 400,
+  "log": [],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.xero.com",
+    "finalUrl": "https://www.xero.com/uk/",
+    "words": 700,
+    "wordsFull": 1005,
+    "fetchedAt": "2026-10-04T20:47:47.702Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.xero.com/us/about/common-questions",
+    "finalUrl": "https://www.xero.com/us/about/common-questions/",
+    "words": 700,
+    "wordsFull": 3659,
+    "fetchedAt": "2026-10-04T20:47:52.330Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.xero.com/us/product-updates",
+    "finalUrl": "https://www.xero.com/us/product-updates/",
+    "words": 511,
+    "wordsFull": 511,
+    "fetchedAt": "2026-10-04T20:47:56.831Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.xero.com/pricing-plans",
+    "finalUrl": "https://www.xero.com/uk/pricing-plans/",
+    "words": 700,
+    "wordsFull": 2188,
+    "fetchedAt": "2026-10-04T20:48:01.520Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://careers.xero.com/jobs",
+    "finalUrl": "https://careers.xero.com/jobs",
+    "words": 441,
+    "wordsFull": 441,
+    "fetchedAt": "2026-10-04T20:48:07.170Z"
+   }
+  ]
+ },
+ "sage.com": {
+  "sector": "software",
+  "mapLinks": 400,
+  "log": [],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.sage.com",
+    "finalUrl": "https://www.sage.com/en-gb/",
+    "words": 700,
+    "wordsFull": 1254,
+    "fetchedAt": "2026-10-04T20:48:05.406Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.sage.com/en-ca/company",
+    "finalUrl": "https://www.sage.com/en-ca/company/",
+    "words": 152,
+    "wordsFull": 152,
+    "fetchedAt": "2026-10-04T20:48:09.892Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.sage.com/en-au/products",
+    "finalUrl": "https://www.sage.com/en-au/products/",
+    "words": 269,
+    "wordsFull": 269,
+    "fetchedAt": "2026-10-04T20:48:14.239Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.sage.com/de-de/sage-business-cloud/intacct/pricing",
+    "finalUrl": "https://www.sage.com/de-de/sage-business-cloud/intacct/pricing/",
+    "words": 700,
+    "wordsFull": 1050,
+    "fetchedAt": "2026-10-04T20:48:20.668Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.sage.com/en-gb/company/careers/working-at-sage",
+    "finalUrl": "https://www.sage.com/en-gb/company/careers/working-at-sage/",
+    "words": 700,
+    "wordsFull": 1489,
+    "fetchedAt": "2026-10-04T20:48:26.110Z"
+   }
+  ]
+ },
+ "intercom.com": {
+  "sector": "software",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.intercom.com",
+    "finalUrl": "https://www.intercom.com/",
+    "words": 700,
+    "wordsFull": 1063,
+    "fetchedAt": "2026-10-04T20:48:21.725Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.intercom.com/solutions/fintech",
+    "finalUrl": "https://www.intercom.com/solutions/fintech",
+    "words": 700,
+    "wordsFull": 1518,
+    "fetchedAt": "2026-10-04T20:48:26.734Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.intercom.com/pricing/calculator",
+    "finalUrl": "https://www.intercom.com/pricing/calculator",
+    "words": 273,
+    "wordsFull": 273,
+    "fetchedAt": "2026-10-04T20:48:31.647Z"
+   }
+  ]
+ },
+ "figma.com": {
+  "sector": "software",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.figma.com",
+    "finalUrl": "https://www.figma.com/",
+    "words": 257,
+    "wordsFull": 257,
+    "fetchedAt": "2026-10-04T20:48:45.384Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.figma.com/pl-pl/product-managers",
+    "finalUrl": "https://www.figma.com/pl-pl/product-managers/",
+    "words": 447,
+    "wordsFull": 447,
+    "fetchedAt": "2026-10-04T20:48:51.533Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.figma.com/pt-br/pricing",
+    "finalUrl": "https://www.figma.com/pt-br/pricing/",
+    "words": 700,
+    "wordsFull": 3893,
+    "fetchedAt": "2026-10-04T20:48:57.210Z"
+   }
+  ]
+ },
+ "canva.com": {
+  "sector": "software",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.canva.com",
+    "finalUrl": "https://www.canva.com/en_gb/",
+    "words": 442,
+    "wordsFull": 442,
+    "fetchedAt": "2026-10-04T20:48:43.550Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.canva.com/about",
+    "finalUrl": "https://www.canva.com/about/",
+    "words": 418,
+    "wordsFull": 418,
+    "fetchedAt": "2026-10-04T20:48:48.854Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.canva.com/templates",
+    "finalUrl": "https://www.canva.com/templates/",
+    "words": 700,
+    "wordsFull": 1197,
+    "fetchedAt": "2026-10-04T20:48:55.383Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.canva.com/mn_mn/pricing",
+    "finalUrl": "https://www.canva.com/mn_mn/pricing/",
+    "words": 700,
+    "wordsFull": 2318,
+    "fetchedAt": "2026-10-04T20:49:01.642Z"
+   }
+  ]
+ },
+ "clickup.com": {
+  "sector": "software",
+  "mapLinks": 400,
+  "log": [
+   "product short(98) https://clickup.com/features/inbox",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.clickup.com",
+    "finalUrl": "https://clickup.com/",
+    "words": 700,
+    "wordsFull": 1422,
+    "fetchedAt": "2026-10-04T20:48:51.722Z"
+   },
+   {
+    "type": "about",
+    "url": "https://clickup.com/about/zeb-evans",
+    "finalUrl": "https://clickup.com/about/zeb-evans",
+    "words": 186,
+    "wordsFull": 186,
+    "fetchedAt": "2026-10-04T20:48:56.107Z"
+   },
+   {
+    "type": "product",
+    "url": "https://clickup.com/features/views",
+    "finalUrl": "https://clickup.com/features/views",
+    "words": 700,
+    "wordsFull": 851,
+    "fetchedAt": "2026-10-04T20:49:05.479Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://clickup.com/pricing",
+    "finalUrl": "https://clickup.com/pricing",
+    "words": 418,
+    "wordsFull": 418,
+    "fetchedAt": "2026-10-04T20:49:10.217Z"
+   }
+  ]
+ },
+ "hubspot.com": {
+  "sector": "software",
+  "mapLinks": 400,
+  "log": [],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.hubspot.com",
+    "finalUrl": "https://www.hubspot.com/",
+    "words": 700,
+    "wordsFull": 812,
+    "fetchedAt": "2026-10-04T20:48:46.995Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.hubspot.com/company/management/alison-elworthy",
+    "finalUrl": "https://www.hubspot.com/company/management/alison-elworthy",
+    "words": 185,
+    "wordsFull": 185,
+    "fetchedAt": "2026-10-04T20:48:52.814Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.hubspot.com/products/crm",
+    "finalUrl": "https://www.hubspot.com/products/crm",
+    "words": 700,
+    "wordsFull": 1602,
+    "fetchedAt": "2026-10-04T20:48:59.510Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.hubspot.com/pricing/sales",
+    "finalUrl": "https://www.hubspot.com/pricing/",
+    "words": 700,
+    "wordsFull": 1319,
+    "fetchedAt": "2026-10-04T20:49:05.954Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.hubspot.com/careers/jobs/7449524",
+    "finalUrl": "https://www.hubspot.com/careers/jobs/7449524",
+    "words": 700,
+    "wordsFull": 1222,
+    "fetchedAt": "2026-10-04T20:49:11.297Z"
+   }
+  ]
+ },
+ "miro.com": {
+  "sector": "software",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.miro.com",
+    "finalUrl": "https://miro.com/",
+    "words": 290,
+    "wordsFull": 290,
+    "fetchedAt": "2026-10-04T20:49:15.658Z"
+   },
+   {
+    "type": "product",
+    "url": "https://miro.com/products/engage",
+    "finalUrl": "https://miro.com/products/engage/",
+    "words": 700,
+    "wordsFull": 1004,
+    "fetchedAt": "2026-10-04T20:49:21.329Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://miro.com/pricing",
+    "finalUrl": "https://miro.com/pricing/",
+    "words": 700,
+    "wordsFull": 2937,
+    "fetchedAt": "2026-10-04T20:49:27.398Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://miro.com/careers/teams/design",
+    "finalUrl": "https://miro.com/careers/teams/design/",
+    "words": 700,
+    "wordsFull": 958,
+    "fetchedAt": "2026-10-04T20:49:33.722Z"
+   }
+  ]
+ },
+ "sainsburys.co.uk": {
+  "sector": "grocery",
+  "mapLinks": 400,
+  "log": [
+   "product short(102) https://stores.sainsburys.co.uk/2369/bishopton",
+   "pricing duplicate https://www.sainsburys.co.uk/gol-ui/offers/top-picks",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.sainsburys.co.uk",
+    "finalUrl": "https://www.sainsburys.co.uk/",
+    "words": 700,
+    "wordsFull": 706,
+    "fetchedAt": "2026-10-04T20:49:27.050Z"
+   },
+   {
+    "type": "about",
+    "url": "https://corporate.sainsburys.co.uk/about-us",
+    "finalUrl": "https://corporate.sainsburys.co.uk/about-us",
+    "words": 700,
+    "wordsFull": 705,
+    "fetchedAt": "2026-10-04T20:49:31.596Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.sainsburys.co.uk/gol-ui/offers/top-picks",
+    "finalUrl": "https://www.sainsburys.co.uk/gol-ui/offers/top-picks",
+    "words": 700,
+    "wordsFull": 1138,
+    "fetchedAt": "2026-10-04T20:49:49.403Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.sainsburys.co.uk/gol-ui/offers/half-price",
+    "finalUrl": "https://www.sainsburys.co.uk/gol-ui/offers/half-price",
+    "words": 700,
+    "wordsFull": 1278,
+    "fetchedAt": "2026-10-04T20:49:56.610Z"
+   }
+  ]
+ },
+ "tesco.com": {
+  "sector": "grocery",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers short(32) https://www.tesco.com/careers/en-GB/not-found"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.tesco.com",
+    "finalUrl": "https://www.tesco.com/",
+    "words": 700,
+    "wordsFull": 3850,
+    "fetchedAt": "2026-10-04T20:49:43.974Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.tesco.com/shop/en-GB/promotions",
+    "finalUrl": "https://www.tesco.com/shop/en-GB/promotions",
+    "words": 154,
+    "wordsFull": 154,
+    "fetchedAt": "2026-10-04T20:49:49.006Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.tesco.com/careers/en-IE/our-teams/stores",
+    "finalUrl": "https://www.tesco.com/careers/en-IE/our-teams/stores",
+    "words": 700,
+    "wordsFull": 1030,
+    "fetchedAt": "2026-10-04T20:50:00.014Z"
+   }
+  ]
+ },
+ "asda.com": {
+  "sector": "grocery",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.asda.com",
+    "finalUrl": "https://www.asda.com/",
+    "words": 514,
+    "wordsFull": 514,
+    "fetchedAt": "2026-10-04T20:49:50.672Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.asda.com/about/instore",
+    "finalUrl": "https://www.asda.com/about/instore",
+    "words": 386,
+    "wordsFull": 386,
+    "fetchedAt": "2026-10-04T20:49:55.791Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.asda.com/groceries/christmas",
+    "finalUrl": "https://www.asda.com/groceries/christmas",
+    "words": 677,
+    "wordsFull": 677,
+    "fetchedAt": "2026-10-04T20:50:02.482Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://mobile.asda.com/rates-and-charges",
+    "finalUrl": "https://mobile.asda.com/rates-and-charges",
+    "words": 642,
+    "wordsFull": 642,
+    "fetchedAt": "2026-10-04T20:50:08.403Z"
+   }
+  ]
+ },
+ "aldi.co.uk": {
+  "sector": "grocery",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.aldi.co.uk",
+    "finalUrl": "https://www.aldi.co.uk/",
+    "words": 197,
+    "wordsFull": 197,
+    "fetchedAt": "2026-10-04T20:50:14.647Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.aldi.co.uk/corporate/about",
+    "finalUrl": "https://www.aldi.co.uk/corporate/about",
+    "words": 700,
+    "wordsFull": 1072,
+    "fetchedAt": "2026-10-04T20:50:19.777Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.aldi.co.uk/recipes",
+    "finalUrl": "https://www.aldi.co.uk/recipes",
+    "words": 235,
+    "wordsFull": 235,
+    "fetchedAt": "2026-10-04T20:50:24.924Z"
+   }
+  ]
+ },
+ "morrisons.com": {
+  "sector": "grocery",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "pricing short(82) https://groceries.morrisons.com/offers/now-5-was-5-25/1010549333",
+   "pricing short(68) https://groceries.morrisons.com/offers/now-8-20-was-9/1010749846",
+   "pricing short(70) https://groceries.morrisons.com/offers/now-35p-was-50p/1010731962",
+   "pricing MISSING (3 tried)",
+   "careers short(81) https://www.morrisons.com/help/join-us",
+   "careers short(106) https://www.morrisons.com/mccolls/careers/roles.aspx",
+   "careers MISSING (2 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.morrisons.com",
+    "finalUrl": "https://www.morrisons.com/",
+    "words": 443,
+    "wordsFull": 443,
+    "fetchedAt": "2026-10-04T20:49:53.148Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.morrisons.com/inspiration/food",
+    "finalUrl": "https://www.morrisons.com/inspiration/food",
+    "words": 700,
+    "wordsFull": 1089,
+    "fetchedAt": "2026-10-04T20:49:57.643Z"
+   }
+  ]
+ },
+ "lidl.co.uk": {
+  "sector": "grocery",
+  "mapLinks": 400,
+  "log": [
+   "home short(62) https://www.lidl.co.uk",
+   "home MISSING (1 tried)",
+   "about short(53) https://www.lidl.co.uk/c/about-us/s10023097",
+   "about MISSING (1 tried)",
+   "product short(81) https://www.lidl.co.uk/c/baby-food/s10025203",
+   "pricing MISSING (0 tried)",
+   "careers short(0) https://careers.lidl.co.uk/jobs"
+  ],
+  "pages": [
+   {
+    "type": "product",
+    "url": "https://www.lidl.co.uk/c/food-drink/s10068374",
+    "finalUrl": "https://www.lidl.co.uk/c/food-drink/s10068374",
+    "words": 183,
+    "wordsFull": 183,
+    "fetchedAt": "2026-10-04T20:50:29.180Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://careers.lidl.co.uk/jobs/customer-assistant-london-753539",
+    "finalUrl": "https://careers.lidl.co.uk/jobs/customer-assistant-london-753539",
+    "words": 505,
+    "wordsFull": 505,
+    "fetchedAt": "2026-10-04T20:50:37.707Z"
+   }
+  ]
+ },
+ "ocado.com": {
+  "sector": "grocery",
+  "mapLinks": 400,
+  "log": [
+   "about short(31) https://zoom.ocado.com/about",
+   "about MISSING (1 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.ocado.com",
+    "finalUrl": "https://www.ocado.com/",
+    "words": 700,
+    "wordsFull": 2031,
+    "fetchedAt": "2026-10-04T20:50:31.755Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.ocado.com/recipes",
+    "finalUrl": "https://www.ocado.com/recipes",
+    "words": 534,
+    "wordsFull": 534,
+    "fetchedAt": "2026-10-04T20:50:42.773Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.ocado.com/offers/now-5-50-was-8/7131d678-2b8e-4e71-83a9-1e118fc35331",
+    "finalUrl": "https://www.ocado.com/offers/now-5-50-was-8/7131d678-2b8e-4e71-83a9-1e118fc35331",
+    "words": 348,
+    "wordsFull": 348,
+    "fetchedAt": "2026-10-04T20:50:50.215Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.ocado.com/careers",
+    "finalUrl": "https://careers.ocadoretail.com/",
+    "words": 700,
+    "wordsFull": 2347,
+    "fetchedAt": "2026-10-04T20:50:54.696Z"
+   }
+  ]
+ },
+ "coop.co.uk": {
+  "sector": "grocery",
+  "mapLinks": 400,
+  "log": [
+   "product short(35) https://www.coop.co.uk/recipes",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.coop.co.uk",
+    "finalUrl": "https://www.coop.co.uk/",
+    "words": 258,
+    "wordsFull": 258,
+    "fetchedAt": "2026-10-04T20:50:54.813Z"
+   },
+   {
+    "type": "about",
+    "url": "https://jobs.coop.co.uk/about-us",
+    "finalUrl": "https://jobs.coop.co.uk/about-us",
+    "words": 700,
+    "wordsFull": 2303,
+    "fetchedAt": "2026-10-04T20:51:00.625Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.coop.co.uk/ways-to-shop",
+    "finalUrl": "https://www.coop.co.uk/ways-to-shop",
+    "words": 576,
+    "wordsFull": 576,
+    "fetchedAt": "2026-10-04T20:51:12.817Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.coop.co.uk/products/deals",
+    "finalUrl": "https://www.coop.co.uk/products/deals?query=&page=1",
+    "words": 700,
+    "wordsFull": 1033,
+    "fetchedAt": "2026-10-04T20:51:18.283Z"
+   }
+  ]
+ },
+ "booths.co.uk": {
+  "sector": "grocery",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.booths.co.uk",
+    "finalUrl": "https://www.booths.co.uk/",
+    "words": 290,
+    "wordsFull": 290,
+    "fetchedAt": "2026-10-04T20:51:05.067Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.booths.co.uk/about-booths",
+    "finalUrl": "https://www.booths.co.uk/about-booths/",
+    "words": 700,
+    "wordsFull": 849,
+    "fetchedAt": "2026-10-04T20:51:12.189Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.booths.co.uk/category/food",
+    "finalUrl": "https://www.booths.co.uk/category/food/",
+    "words": 296,
+    "wordsFull": 296,
+    "fetchedAt": "2026-10-04T20:51:21.913Z"
+   }
+  ]
+ },
+ "britishairways.com": {
+  "sector": "travel",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.britishairways.com",
+    "finalUrl": "https://www.britishairways.com/travel/home/public/en_gb/",
+    "words": 411,
+    "wordsFull": 411,
+    "fetchedAt": "2026-10-04T20:51:05.313Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.britishairways.com/content/information/about-ba",
+    "finalUrl": "https://www.britishairways.com/content/information/about-ba",
+    "words": 688,
+    "wordsFull": 688,
+    "fetchedAt": "2026-10-04T20:51:12.117Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.britishairways.com/content/flights",
+    "finalUrl": "https://www.britishairways.com/content/flights",
+    "words": 700,
+    "wordsFull": 1739,
+    "fetchedAt": "2026-10-04T20:51:19.999Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.britishairways.com/content/offers",
+    "finalUrl": "https://www.britishairways.com/content/offers",
+    "words": 700,
+    "wordsFull": 1513,
+    "fetchedAt": "2026-10-04T20:51:27.506Z"
+   }
+  ]
+ },
+ "iceland.co.uk": {
+  "sector": "grocery",
+  "mapLinks": 400,
+  "log": [
+   "product short(104) https://www.iceland.co.uk/food-hall",
+   "pricing short(120) https://www.iceland.co.uk/offers/football-feast",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.iceland.co.uk",
+    "finalUrl": "https://www.iceland.co.uk/",
+    "words": 359,
+    "wordsFull": 359,
+    "fetchedAt": "2026-10-04T20:50:54.797Z"
+   },
+   {
+    "type": "about",
+    "url": "https://about.iceland.co.uk/our-story",
+    "finalUrl": "https://about.iceland.co.uk/our-story/",
+    "words": 700,
+    "wordsFull": 1949,
+    "fetchedAt": "2026-10-04T20:50:58.624Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.iceland.co.uk/love2shop",
+    "finalUrl": "https://www.iceland.co.uk/love2shop",
+    "words": 221,
+    "wordsFull": 221,
+    "fetchedAt": "2026-10-04T20:51:14.656Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.iceland.co.uk/offers/grocery-offers",
+    "finalUrl": "https://www.iceland.co.uk/offers/big-branded-offers",
+    "words": 366,
+    "wordsFull": 366,
+    "fetchedAt": "2026-10-04T20:51:31.032Z"
+   }
+  ]
+ },
+ "virginatlantic.com": {
+  "sector": "travel",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.virginatlantic.com",
+    "finalUrl": "https://www.virginatlantic.com/",
+    "words": 700,
+    "wordsFull": 1314,
+    "fetchedAt": "2026-10-04T20:51:41.587Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.virginatlantic.com/en-IN/corporate/our-story",
+    "finalUrl": "https://www.virginatlantic.com/en-IN/corporate/our-story",
+    "words": 700,
+    "wordsFull": 839,
+    "fetchedAt": "2026-10-04T20:51:47.628Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.virginatlantic.com/holidays",
+    "finalUrl": "https://www.virginatlantic.com/holidays",
+    "words": 700,
+    "wordsFull": 1572,
+    "fetchedAt": "2026-10-04T20:51:53.186Z"
+   }
+  ]
+ },
+ "jet2.com": {
+  "sector": "travel",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.jet2.com",
+    "finalUrl": "https://www.jet2.com/",
+    "words": 700,
+    "wordsFull": 700,
+    "fetchedAt": "2026-10-04T20:51:44.837Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.jet2.com/about-us",
+    "finalUrl": "https://www.jet2.com/about-us",
+    "words": 687,
+    "wordsFull": 687,
+    "fetchedAt": "2026-10-04T20:51:49.808Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.jet2.com/flights/spain",
+    "finalUrl": "https://www.jet2.com/flights/spain",
+    "words": 700,
+    "wordsFull": 3620,
+    "fetchedAt": "2026-10-04T20:51:54.952Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.jet2.com/en/deals/october-deals",
+    "finalUrl": "https://www.jet2.com/en/deals/october-deals",
+    "words": 700,
+    "wordsFull": 6044,
+    "fetchedAt": "2026-10-04T20:52:01.523Z"
+   }
+  ]
+ },
+ "easyjet.com": {
+  "sector": "travel",
+  "mapLinks": 400,
+  "log": [
+   "home short(20) https://www.easyjet.com",
+   "home MISSING (1 tried)",
+   "about short(89) https://corporate.easyjet.com/about/strategy/default.aspx",
+   "about MISSING (1 tried)",
+   "product short(20) https://www.easyjet.com/en/buy/flights",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "product",
+    "url": "https://www.easyjet.com/en/cheap-flights",
+    "finalUrl": "https://www.easyjet.com/en/cheap-flights",
+    "words": 700,
+    "wordsFull": 1302,
+    "fetchedAt": "2026-10-04T20:52:00.196Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.easyjet.com/en/holidays/deals/promotions",
+    "finalUrl": "https://www.easyjet.com/en/holidays/deals/promotions",
+    "words": 700,
+    "wordsFull": 2051,
+    "fetchedAt": "2026-10-04T20:52:06.456Z"
+   }
+  ]
+ },
+ "ryanair.com": {
+  "sector": "travel",
+  "mapLinks": 0,
+  "log": [
+   "home fail https://www.ryanair.com",
+   "home MISSING (1 tried)",
+   "about MISSING (0 tried)",
+   "product MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": []
+ },
+ "nationalexpress.com": {
+  "sector": "travel",
+  "mapLinks": 230,
+  "log": [
+   "about MISSING (0 tried)",
+   "product MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.nationalexpress.com",
+    "finalUrl": "https://www.nationalexpress.com/en",
+    "words": 539,
+    "wordsFull": 539,
+    "fetchedAt": "2026-10-04T20:52:25.814Z"
+   }
+  ]
+ },
+ "loganair.co.uk": {
+  "sector": "travel",
+  "mapLinks": 149,
+  "log": [
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.loganair.co.uk",
+    "finalUrl": "https://www.loganair.co.uk/",
+    "words": 700,
+    "wordsFull": 742,
+    "fetchedAt": "2026-10-04T20:52:20.510Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.loganair.co.uk/flying-with-us/our-history",
+    "finalUrl": "https://www.loganair.co.uk/flying-with-us/our-history/",
+    "words": 700,
+    "wordsFull": 2550,
+    "fetchedAt": "2026-10-04T20:52:24.095Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.loganair.co.uk/en-fr/flights",
+    "finalUrl": "https://www.loganair.co.uk/en-fr/flights",
+    "words": 349,
+    "wordsFull": 349,
+    "fetchedAt": "2026-10-04T20:52:29.743Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.loganair.co.uk/careers/cabin-crew",
+    "finalUrl": "https://www.loganair.co.uk/careers/cabin-crew/",
+    "words": 274,
+    "wordsFull": 274,
+    "fetchedAt": "2026-10-04T20:52:33.634Z"
+   }
+  ]
+ },
+ "tui.co.uk": {
+  "sector": "travel",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.tui.co.uk",
+    "finalUrl": "https://www.tui.co.uk/",
+    "words": 380,
+    "wordsFull": 380,
+    "fetchedAt": "2026-10-04T20:52:15.223Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.tui.co.uk/destinations/info/about-us",
+    "finalUrl": "https://www.tui.co.uk/destinations/info/about-us",
+    "words": 700,
+    "wordsFull": 1446,
+    "fetchedAt": "2026-10-04T20:52:22.017Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.tui.co.uk/flight",
+    "finalUrl": "https://www.tui.co.uk/flight",
+    "words": 700,
+    "wordsFull": 1093,
+    "fetchedAt": "2026-10-04T20:52:27.254Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.tui.co.uk/cruise/deals",
+    "finalUrl": "https://www.tui.co.uk/cruise/deals",
+    "words": 700,
+    "wordsFull": 1129,
+    "fetchedAt": "2026-10-04T20:52:35.651Z"
+   }
+  ]
+ },
+ "thetrainline.com": {
+  "sector": "travel",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.thetrainline.com",
+    "finalUrl": "https://www.thetrainline.com/",
+    "words": 523,
+    "wordsFull": 523,
+    "fetchedAt": "2026-10-04T20:52:32.528Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.thetrainline.com/es/about-us",
+    "finalUrl": "https://www.thetrainline.com/es/about-us",
+    "words": 700,
+    "wordsFull": 3070,
+    "fetchedAt": "2026-10-04T20:52:38.099Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.thetrainline.com/ticketalert",
+    "finalUrl": "https://www.thetrainline.com/ticketalert",
+    "words": 700,
+    "wordsFull": 2174,
+    "fetchedAt": "2026-10-04T20:52:44.123Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.thetrainline.com/trains/deals-discounts",
+    "finalUrl": "https://www.thetrainline.com/trains/deals-discounts",
+    "words": 700,
+    "wordsFull": 8233,
+    "fetchedAt": "2026-10-04T20:52:49.984Z"
+   }
+  ]
+ },
+ "eurostar.com": {
+  "sector": "travel",
+  "mapLinks": 400,
+  "log": [],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.eurostar.com",
+    "finalUrl": "https://www.eurostar.com/uk-en",
+    "words": 424,
+    "wordsFull": 424,
+    "fetchedAt": "2026-10-04T20:52:45.371Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.eurostar.com/uk-en/about-eurostar",
+    "finalUrl": "https://www.eurostar.com/uk-en/about-eurostar",
+    "words": 160,
+    "wordsFull": 160,
+    "fetchedAt": "2026-10-04T20:52:51.755Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.eurostar.com/us-en/train",
+    "finalUrl": "https://www.eurostar.com/us-en/train",
+    "words": 700,
+    "wordsFull": 1194,
+    "fetchedAt": "2026-10-04T20:52:58.718Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.eurostar.com/us-en/deals",
+    "finalUrl": "https://www.eurostar.com/us-en/deals",
+    "words": 700,
+    "wordsFull": 1064,
+    "fetchedAt": "2026-10-04T20:53:06.010Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.eurostar.com/rw-en/about-eurostar/careers",
+    "finalUrl": "https://www.eurostar.com/rw-en/about-eurostar/careers",
+    "words": 216,
+    "wordsFull": 216,
+    "fetchedAt": "2026-10-04T20:53:11.322Z"
+   }
+  ]
+ },
+ "aviva.co.uk": {
+  "sector": "insurance",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.aviva.co.uk",
+    "finalUrl": "https://www.aviva.co.uk/",
+    "words": 403,
+    "wordsFull": 403,
+    "fetchedAt": "2026-10-04T20:52:53.328Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.aviva.co.uk/services/about-our-business",
+    "finalUrl": "https://www.aviva.co.uk/services/about-our-business/",
+    "words": 239,
+    "wordsFull": 239,
+    "fetchedAt": "2026-10-04T20:52:58.469Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.aviva.co.uk/insurance",
+    "finalUrl": "https://www.aviva.co.uk/insurance/",
+    "words": 700,
+    "wordsFull": 786,
+    "fetchedAt": "2026-10-04T20:53:03.766Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://careers.aviva.co.uk/early-careers/apprenticeships/pricing-underwriting",
+    "finalUrl": "https://careers.aviva.co.uk/early-careers/apprenticeships/pricing-underwriting/",
+    "words": 277,
+    "wordsFull": 277,
+    "fetchedAt": "2026-10-04T20:53:15.873Z"
+   }
+  ]
+ },
+ "directline.com": {
+  "sector": "insurance",
+  "mapLinks": 400,
+  "log": [
+   "home short(78) https://www.directline.com",
+   "home MISSING (1 tried)",
+   "about MISSING (0 tried)",
+   "product short(145) https://www.directline.com/help/life-cover",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "product",
+    "url": "https://www.directline.com/travel-insurance",
+    "finalUrl": "https://www.directline.com/travel-insurance",
+    "words": 237,
+    "wordsFull": 237,
+    "fetchedAt": "2026-10-04T20:53:09.074Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.directline.com/pricing-changes-at-direct-line",
+    "finalUrl": "https://www.directline.com/pricing-changes-at-direct-line",
+    "words": 700,
+    "wordsFull": 1098,
+    "fetchedAt": "2026-10-04T20:53:15.907Z"
+   }
+  ]
+ },
+ "admiral.com": {
+  "sector": "insurance",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.admiral.com",
+    "finalUrl": "https://www.admiral.com/",
+    "words": 438,
+    "wordsFull": 438,
+    "fetchedAt": "2026-10-04T20:53:06.351Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.admiral.com/about-us",
+    "finalUrl": "https://www.admiral.com/about-us",
+    "words": 281,
+    "wordsFull": 281,
+    "fetchedAt": "2026-10-04T20:53:10.835Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.admiral.com/car-insurance",
+    "finalUrl": "https://www.admiral.com/car-insurance",
+    "words": 700,
+    "wordsFull": 1508,
+    "fetchedAt": "2026-10-04T20:53:15.518Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.admiral.com/pricing",
+    "finalUrl": "https://www.admiral.com/pricing",
+    "words": 682,
+    "wordsFull": 682,
+    "fetchedAt": "2026-10-04T20:53:20.724Z"
+   }
+  ]
+ },
+ "hastingsdirect.com": {
+  "sector": "insurance",
+  "mapLinks": 304,
+  "log": [
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.hastingsdirect.com",
+    "finalUrl": "https://www.hastingsdirect.com/",
+    "words": 700,
+    "wordsFull": 858,
+    "fetchedAt": "2026-10-04T20:53:31.822Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.hastingsdirect.com/about-us",
+    "finalUrl": "https://www.hastingsdirect.com/about-us/",
+    "words": 700,
+    "wordsFull": 734,
+    "fetchedAt": "2026-10-04T20:53:37.126Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.hastingsdirect.com/car-insurance",
+    "finalUrl": "https://www.hastingsdirect.com/car-insurance/",
+    "words": 700,
+    "wordsFull": 3002,
+    "fetchedAt": "2026-10-04T20:53:43.172Z"
+   }
+  ]
+ },
+ "lv.com": {
+  "sector": "insurance",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.lv.com",
+    "finalUrl": "https://www.lv.com/",
+    "words": 190,
+    "wordsFull": 190,
+    "fetchedAt": "2026-10-04T20:53:30.746Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.lv.com/about-us/our-story",
+    "finalUrl": "https://www.lv.com/about-us/our-story",
+    "words": 700,
+    "wordsFull": 702,
+    "fetchedAt": "2026-10-04T20:53:35.995Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.lv.com/car-insurance",
+    "finalUrl": "https://www.lv.com/car-insurance",
+    "words": 700,
+    "wordsFull": 3166,
+    "fetchedAt": "2026-10-04T20:53:41.719Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.lv.com/car-insurance/compare",
+    "finalUrl": "https://www.lv.com/car-insurance/compare",
+    "words": 441,
+    "wordsFull": 441,
+    "fetchedAt": "2026-10-04T20:53:46.798Z"
+   }
+  ]
+ },
+ "esure.com": {
+  "sector": "insurance",
+  "mapLinks": 240,
+  "log": [
+   "home short(56) https://www.esure.com",
+   "home MISSING (1 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "about",
+    "url": "https://www.esure.com/our-history",
+    "finalUrl": "https://www.esure.com/our-history",
+    "words": 481,
+    "wordsFull": 481,
+    "fetchedAt": "2026-10-04T20:53:43.073Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.esure.com/car-insurance",
+    "finalUrl": "https://www.esure.com/car-insurance",
+    "words": 435,
+    "wordsFull": 435,
+    "fetchedAt": "2026-10-04T20:53:47.925Z"
+   }
+  ]
+ },
+ "axa.co.uk": {
+  "sector": "insurance",
+  "mapLinks": 400,
+  "log": [],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.axa.co.uk",
+    "finalUrl": "https://www.axa.co.uk/",
+    "words": 700,
+    "wordsFull": 949,
+    "fetchedAt": "2026-10-04T20:53:33.945Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.axa.co.uk/about",
+    "finalUrl": "https://www.axa.co.uk/about/",
+    "words": 700,
+    "wordsFull": 832,
+    "fetchedAt": "2026-10-04T20:53:37.979Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.axa.co.uk/car-insurance",
+    "finalUrl": "https://www.axa.co.uk/car-insurance/",
+    "words": 700,
+    "wordsFull": 2758,
+    "fetchedAt": "2026-10-04T20:53:42.335Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.axa.co.uk/pricing-and-renewals-made-simple",
+    "finalUrl": "https://www.axa.co.uk/pricing-and-renewals-made-simple/",
+    "words": 700,
+    "wordsFull": 970,
+    "fetchedAt": "2026-10-04T20:53:46.256Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://careers.axa.co.uk/careers-uk/jobs",
+    "finalUrl": "https://careers.axa.co.uk/careers-uk/jobs",
+    "words": 240,
+    "wordsFull": 240,
+    "fetchedAt": "2026-10-04T20:53:52.264Z"
+   }
+  ]
+ },
+ "legalandgeneral.com": {
+  "sector": "insurance",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "product MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.legalandgeneral.com",
+    "finalUrl": "https://www.legalandgeneral.com/",
+    "words": 537,
+    "wordsFull": 537,
+    "fetchedAt": "2026-10-04T20:54:04.018Z"
+   }
+  ]
+ },
+ "bupa.co.uk": {
+  "sector": "insurance",
+  "mapLinks": 400,
+  "log": [
+   "about short(108) https://careers.bupa.co.uk/about-bupa/applying-bupa",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.bupa.co.uk",
+    "finalUrl": "https://www.bupa.co.uk/",
+    "words": 700,
+    "wordsFull": 1045,
+    "fetchedAt": "2026-10-04T20:54:03.394Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.bupa.co.uk/dental/dental-care/about-us/trading-names",
+    "finalUrl": "https://www.bupa.co.uk/dental/dental-care/about-us/trading-names",
+    "words": 315,
+    "wordsFull": 315,
+    "fetchedAt": "2026-10-04T20:54:11.727Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.bupa.co.uk/health/payg",
+    "finalUrl": "https://www.bupa.co.uk/health/payg",
+    "words": 700,
+    "wordsFull": 880,
+    "fetchedAt": "2026-10-04T20:54:15.691Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.bupa.co.uk/health/health-insurance/compare-cover-options",
+    "finalUrl": "https://www.bupa.co.uk/health/health-insurance/compare-cover-options",
+    "words": 700,
+    "wordsFull": 9061,
+    "fetchedAt": "2026-10-04T20:54:20.662Z"
+   }
+  ]
+ },
+ "zurich.co.uk": {
+  "sector": "insurance",
+  "mapLinks": 400,
+  "log": [],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.zurich.co.uk",
+    "finalUrl": "https://www.zurich.co.uk/",
+    "words": 513,
+    "wordsFull": 513,
+    "fetchedAt": "2026-10-04T20:54:07.853Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.zurich.co.uk/about-us",
+    "finalUrl": "https://www.zurich.co.uk/about-us",
+    "words": 700,
+    "wordsFull": 760,
+    "fetchedAt": "2026-10-04T20:54:15.662Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.zurich.co.uk/insurance",
+    "finalUrl": "https://www.zurich.co.uk/insurance",
+    "words": 272,
+    "wordsFull": 272,
+    "fetchedAt": "2026-10-04T20:54:23.701Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.zurich.co.uk/investments/guide-to-unit-linked-funds/pricing",
+    "finalUrl": "https://www.zurich.co.uk/investments/guide-to-unit-linked-funds/pricing",
+    "words": 679,
+    "wordsFull": 679,
+    "fetchedAt": "2026-10-04T20:54:30.809Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.zurich.co.uk/careers",
+    "finalUrl": "https://www.zurich.co.uk/careers",
+    "words": 523,
+    "wordsFull": 523,
+    "fetchedAt": "2026-10-04T20:54:38.618Z"
+   }
+  ]
+ },
+ "marksandspencer.com": {
+  "sector": "fashion",
+  "mapLinks": 400,
+  "log": [
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.marksandspencer.com",
+    "finalUrl": "https://www.marksandspencer.com/",
+    "words": 536,
+    "wordsFull": 536,
+    "fetchedAt": "2026-10-04T20:54:25.455Z"
+   },
+   {
+    "type": "about",
+    "url": "https://corporate.marksandspencer.com/about-us",
+    "finalUrl": "https://corporate.marksandspencer.com/about-us",
+    "words": 259,
+    "wordsFull": 259,
+    "fetchedAt": "2026-10-04T20:54:29.882Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.marksandspencer.com/c/men",
+    "finalUrl": "https://www.marksandspencer.com/c/men",
+    "words": 457,
+    "wordsFull": 457,
+    "fetchedAt": "2026-10-04T20:54:34.766Z"
+   },
+   {
+    "type": "pricing",
+    "url": "https://www.marksandspencer.com/l/offers/sale/mens",
+    "finalUrl": "https://www.marksandspencer.com/l/offers/sale/mens",
+    "words": 526,
+    "wordsFull": 526,
+    "fetchedAt": "2026-10-04T20:54:39.824Z"
+   }
+  ]
+ },
+ "next.co.uk": {
+  "sector": "fashion",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers short(108) https://careers.next.co.uk/jobs"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.next.co.uk",
+    "finalUrl": "https://www.next.co.uk/",
+    "words": 700,
+    "wordsFull": 915,
+    "fetchedAt": "2026-10-04T20:54:26.352Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.next.co.uk/homeware",
+    "finalUrl": "https://www.next.co.uk/homeware",
+    "words": 700,
+    "wordsFull": 1073,
+    "fetchedAt": "2026-10-04T20:54:34.214Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://careers.next.co.uk/jobs/N130015",
+    "finalUrl": "https://careers.next.co.uk/jobs/N130015",
+    "words": 700,
+    "wordsFull": 1074,
+    "fetchedAt": "2026-10-04T20:54:47.421Z"
+   }
+  ]
+ },
+ "johnlewis.com": {
+  "sector": "fashion",
+  "mapLinks": 400,
+  "log": [
+   "pricing short(39) https://www.johnlewis.com/electricals/networking-broadband/offers/c10139200020",
+   "pricing MISSING (1 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.johnlewis.com",
+    "finalUrl": "https://www.johnlewis.com/",
+    "words": 340,
+    "wordsFull": 340,
+    "fetchedAt": "2026-10-04T20:54:41.749Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.johnlewis.com/customer-services/about-us",
+    "finalUrl": "https://www.johnlewis.com/customer-services/about-us",
+    "words": 700,
+    "wordsFull": 893,
+    "fetchedAt": "2026-10-04T20:54:47.445Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.johnlewis.com/content/fashion/women",
+    "finalUrl": "https://www.johnlewis.com/content/fashion/women",
+    "words": 700,
+    "wordsFull": 1273,
+    "fetchedAt": "2026-10-04T20:54:52.990Z"
+   }
+  ]
+ },
+ "asos.com": {
+  "sector": "fashion",
+  "mapLinks": 400,
+  "log": [
+   "home short(12) https://www.asos.com",
+   "home MISSING (1 tried)",
+   "about MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "product",
+    "url": "https://www.asos.com/us/women",
+    "finalUrl": "https://www.asos.com/us/women/",
+    "words": 700,
+    "wordsFull": 942,
+    "fetchedAt": "2026-10-04T20:55:22.614Z"
+   }
+  ]
+ },
+ "primark.com": {
+  "sector": "fashion",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "product short(146) https://www.primark.com/en-gb/c/women",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.primark.com",
+    "finalUrl": "https://www.primark.com/de-de",
+    "words": 700,
+    "wordsFull": 1055,
+    "fetchedAt": "2026-10-04T20:55:10.014Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.primark.com/en-gb/c/men/clothing",
+    "finalUrl": "https://www.primark.com/en-gb/c/men/clothing",
+    "words": 601,
+    "wordsFull": 601,
+    "fetchedAt": "2026-10-04T20:55:25.629Z"
+   }
+  ]
+ },
+ "boohoo.com": {
+  "sector": "fashion",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "product duplicate https://eu.boohoo.com/pages/menswear",
+   "product duplicate https://www.boohoo.com/pages/menswear",
+   "product duplicate https://www.boohoo.com/categories/home",
+   "product MISSING (3 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.boohoo.com",
+    "finalUrl": "https://www.boohoo.com/",
+    "words": 700,
+    "wordsFull": 3254,
+    "fetchedAt": "2026-10-04T20:55:05.447Z"
+   }
+  ]
+ },
+ "superdry.com": {
+  "sector": "fashion",
+  "mapLinks": 245,
+  "log": [
+   "home short(95) https://www.superdry.com",
+   "home MISSING (1 tried)",
+   "about short(120) https://corporate.superdry.com/about-superdry",
+   "about short(107) https://corporate.superdry.com/about-superdry/leadership",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "about",
+    "url": "https://corporate.superdry.com/about-superdry/at-a-glance",
+    "finalUrl": "https://corporate.superdry.com/about-superdry/at-a-glance",
+    "words": 172,
+    "wordsFull": 172,
+    "fetchedAt": "2026-10-04T20:55:28.428Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.superdry.com/mens",
+    "finalUrl": "https://www.superdry.com/mens/",
+    "words": 700,
+    "wordsFull": 1485,
+    "fetchedAt": "2026-10-04T20:55:33.131Z"
+   }
+  ]
+ },
+ "newlook.com": {
+  "sector": "fashion",
+  "mapLinks": 400,
+  "log": [
+   "home short(0) https://www.newlook.com",
+   "home MISSING (1 tried)",
+   "about MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "product",
+    "url": "https://www.newlook.com/uk/mens/c/uk-mens",
+    "finalUrl": "https://www.newlook.com/uk/mens/c/uk-mens",
+    "words": 700,
+    "wordsFull": 1592,
+    "fetchedAt": "2026-10-04T20:55:54.243Z"
+   }
+  ]
+ },
+ "cancerresearchuk.org": {
+  "sector": "charity",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "product MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.cancerresearchuk.org",
+    "finalUrl": "https://www.cancerresearchuk.org/",
+    "words": 324,
+    "wordsFull": 324,
+    "fetchedAt": "2026-10-04T20:56:00.113Z"
+   }
+  ]
+ },
+ "fatface.com": {
+  "sector": "fashion",
+  "mapLinks": 400,
+  "log": [
+   "home short(125) https://www.fatface.com",
+   "home MISSING (1 tried)",
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "about",
+    "url": "https://www.fatface.com/our-story",
+    "finalUrl": "https://www.fatface.com/our-story",
+    "words": 369,
+    "wordsFull": 369,
+    "fetchedAt": "2026-10-04T20:55:51.729Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.fatface.com/shop/mens/f/feat-sale",
+    "finalUrl": "https://www.fatface.com/shop/mens/f/feat-sale",
+    "words": 291,
+    "wordsFull": 291,
+    "fetchedAt": "2026-10-04T20:55:59.400Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://careers.fatface.com/jobs",
+    "finalUrl": "https://careers.fatface.com/jobs?source=google.com",
+    "words": 700,
+    "wordsFull": 1061,
+    "fetchedAt": "2026-10-04T20:56:05.346Z"
+   }
+  ]
+ },
+ "riverisland.com": {
+  "sector": "fashion",
+  "mapLinks": 390,
+  "log": [
+   "about short(83) https://www.riverisland.com/about-us",
+   "about short(83) https://www.riverisland.com/inside-river-island/about-us",
+   "about short(149) https://www.riverisland.com/inside-river-island/about-us/suppliers",
+   "about MISSING (3 tried)",
+   "product short(72) https://www.riverisland.com/men",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.riverisland.com",
+    "finalUrl": "https://www.riverisland.com/",
+    "words": 549,
+    "wordsFull": 549,
+    "fetchedAt": "2026-10-04T20:55:40.566Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.riverisland.com/c/men",
+    "finalUrl": "https://www.riverisland.com/c/men?pg=2",
+    "words": 693,
+    "wordsFull": 693,
+    "fetchedAt": "2026-10-04T20:56:05.842Z"
+   }
+  ]
+ },
+ "oxfam.org.uk": {
+  "sector": "charity",
+  "mapLinks": 400,
+  "log": [
+   "home short(137) https://www.oxfam.org.uk",
+   "home MISSING (1 tried)",
+   "pricing MISSING (0 tried)",
+   "careers short(138) https://jobs.oxfam.org.uk/jobs/home"
+  ],
+  "pages": [
+   {
+    "type": "about",
+    "url": "https://www.oxfam.org.uk/about-us",
+    "finalUrl": "https://www.oxfam.org.uk/about-us/",
+    "words": 378,
+    "wordsFull": 378,
+    "fetchedAt": "2026-10-04T20:56:16.371Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.oxfam.org.uk/get-involved/shop-with-us",
+    "finalUrl": "https://www.oxfam.org.uk/get-involved/shop-with-us/",
+    "words": 218,
+    "wordsFull": 218,
+    "fetchedAt": "2026-10-04T20:56:20.636Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://jobs.oxfam.org.uk/jobs/vacancy/find/results",
+    "finalUrl": "https://jobs.oxfam.org.uk/jobs/vacancy/find/results",
+    "words": 343,
+    "wordsFull": 343,
+    "fetchedAt": "2026-10-04T20:56:30.493Z"
+   }
+  ]
+ },
+ "rnli.org": {
+  "sector": "charity",
+  "mapLinks": 146,
+  "log": [
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.rnli.org",
+    "finalUrl": "https://rnli.org/",
+    "words": 650,
+    "wordsFull": 650,
+    "fetchedAt": "2026-10-04T20:56:24.526Z"
+   },
+   {
+    "type": "about",
+    "url": "https://rnli.org/about-us/our-work-in-the-channel",
+    "finalUrl": "https://rnli.org/about-us/our-work-in-the-channel",
+    "words": 700,
+    "wordsFull": 3183,
+    "fetchedAt": "2026-10-04T20:56:28.891Z"
+   },
+   {
+    "type": "product",
+    "url": "https://rnli.org/support-us/become-a-member",
+    "finalUrl": "https://rnli.org/support-us/become-a-member",
+    "words": 700,
+    "wordsFull": 927,
+    "fetchedAt": "2026-10-04T20:56:33.211Z"
+   }
+  ]
+ },
+ "redcross.org.uk": {
+  "sector": "charity",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.redcross.org.uk",
+    "finalUrl": "https://www.redcross.org.uk/",
+    "words": 404,
+    "wordsFull": 404,
+    "fetchedAt": "2026-10-04T20:56:17.048Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.redcross.org.uk/about-us",
+    "finalUrl": "https://www.redcross.org.uk/about-us",
+    "words": 404,
+    "wordsFull": 404,
+    "fetchedAt": "2026-10-04T20:56:21.954Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.redcross.org.uk/get-involved",
+    "finalUrl": "https://www.redcross.org.uk/get-involved",
+    "words": 203,
+    "wordsFull": 203,
+    "fetchedAt": "2026-10-04T20:56:28.292Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.redcross.org.uk/get-involved/jobs",
+    "finalUrl": "https://www.redcross.org.uk/get-involved/jobs",
+    "words": 700,
+    "wordsFull": 1721,
+    "fetchedAt": "2026-10-04T20:56:33.256Z"
+   }
+  ]
+ },
+ "macmillan.org.uk": {
+  "sector": "charity",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.macmillan.org.uk",
+    "finalUrl": "https://www.macmillan.org.uk/",
+    "words": 700,
+    "wordsFull": 1088,
+    "fetchedAt": "2026-10-04T20:56:26.995Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.macmillan.org.uk/about-us",
+    "finalUrl": "https://www.macmillan.org.uk/about-us",
+    "words": 387,
+    "wordsFull": 387,
+    "fetchedAt": "2026-10-04T20:56:32.694Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.macmillan.org.uk/get-support-email-signup",
+    "finalUrl": "https://www.macmillan.org.uk/get-support-email-signup",
+    "words": 263,
+    "wordsFull": 263,
+    "fetchedAt": "2026-10-04T20:56:39.172Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://jobs.macmillan.org.uk/jobs/vacancy/marketing-manager-11262/11310/description",
+    "finalUrl": "https://jobs.macmillan.org.uk/jobs/vacancy/marketing-manager-11262/11310/description",
+    "words": 700,
+    "wordsFull": 863,
+    "fetchedAt": "2026-10-04T20:56:46.021Z"
+   }
+  ]
+ },
+ "nspcc.org.uk": {
+  "sector": "charity",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.nspcc.org.uk",
+    "finalUrl": "https://www.nspcc.org.uk/",
+    "words": 414,
+    "wordsFull": 414,
+    "fetchedAt": "2026-10-04T20:56:43.379Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.nspcc.org.uk/about-us",
+    "finalUrl": "https://www.nspcc.org.uk/about-us",
+    "words": 302,
+    "wordsFull": 302,
+    "fetchedAt": "2026-10-04T20:56:48.165Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.nspcc.org.uk/support-us",
+    "finalUrl": "https://www.nspcc.org.uk/support-us",
+    "words": 625,
+    "wordsFull": 625,
+    "fetchedAt": "2026-10-04T20:56:51.793Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://join-us.nspcc.org.uk/jobs/directorate/people",
+    "finalUrl": "https://join-us.nspcc.org.uk/jobs/directorate/people",
+    "words": 700,
+    "wordsFull": 1995,
+    "fetchedAt": "2026-10-04T20:56:57.048Z"
+   }
+  ]
+ },
+ "barnardos.org.uk": {
+  "sector": "charity",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.barnardos.org.uk",
+    "finalUrl": "https://www.barnardos.org.uk/",
+    "words": 496,
+    "wordsFull": 496,
+    "fetchedAt": "2026-10-04T20:56:55.455Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.barnardos.org.uk/who-we-are",
+    "finalUrl": "https://www.barnardos.org.uk/who-we-are",
+    "words": 362,
+    "wordsFull": 362,
+    "fetchedAt": "2026-10-04T20:56:58.691Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.barnardos.org.uk/test-support-hub",
+    "finalUrl": "https://www.barnardos.org.uk/test-support-hub",
+    "words": 490,
+    "wordsFull": 490,
+    "fetchedAt": "2026-10-04T20:57:01.636Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://jobs.barnardos.org.uk/jobs/home",
+    "finalUrl": "https://jobs.barnardos.org.uk/jobs/home",
+    "words": 207,
+    "wordsFull": 207,
+    "fetchedAt": "2026-10-04T20:57:06.615Z"
+   }
+  ]
+ },
+ "mind.org.uk": {
+  "sector": "charity",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)",
+   "careers short(16) https://careers.mind.org.uk/jobs/vacancy/business-administrator-0353-mind-cymru-hybrid-cardiff/371/description",
+   "careers short(16) https://careers.mind.org.uk/jobs/vacancy/data-selections-analyst-0359-national-mind-hybrid-stratford---london/377/description",
+   "careers MISSING (2 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.mind.org.uk",
+    "finalUrl": "https://www.mind.org.uk/",
+    "words": 700,
+    "wordsFull": 1228,
+    "fetchedAt": "2026-10-04T20:56:51.779Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.mind.org.uk/about-us",
+    "finalUrl": "https://www.mind.org.uk/about-us/",
+    "words": 700,
+    "wordsFull": 745,
+    "fetchedAt": "2026-10-04T20:56:59.890Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.mind.org.uk/get-involved",
+    "finalUrl": "https://www.mind.org.uk/get-involved/",
+    "words": 543,
+    "wordsFull": 543,
+    "fetchedAt": "2026-10-04T20:57:03.944Z"
+   }
+  ]
+ },
+ "rspca.org.uk": {
+  "sector": "charity",
+  "mapLinks": 400,
+  "log": [
+   "product short(54) https://www.rspca.org.uk/whatwedo/whoweare/highprofilesupporters",
+   "product short(94) https://www.rspca.org.uk/utilities/contactus/supporterservices/update",
+   "product MISSING (2 tried)",
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.rspca.org.uk",
+    "finalUrl": "https://www.rspca.org.uk/",
+    "words": 577,
+    "wordsFull": 577,
+    "fetchedAt": "2026-10-04T20:57:11.938Z"
+   },
+   {
+    "type": "about",
+    "url": "https://evidence-centre.rspca.org.uk/about/funding",
+    "finalUrl": "https://evidence-centre.rspca.org.uk/about/funding",
+    "words": 407,
+    "wordsFull": 407,
+    "fetchedAt": "2026-10-04T20:57:17.370Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://jobs.rspca.org.uk/jobs/faqs",
+    "finalUrl": "https://jobs.rspca.org.uk/jobs/faqs",
+    "words": 700,
+    "wordsFull": 1573,
+    "fetchedAt": "2026-10-04T20:57:31.633Z"
+   }
+  ]
+ },
+ "innocentdrinks.co.uk": {
+  "sector": "food",
+  "mapLinks": 131,
+  "log": [
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.innocentdrinks.co.uk",
+    "finalUrl": "https://www.innocentdrinks.co.uk/",
+    "words": 588,
+    "wordsFull": 588,
+    "fetchedAt": "2026-10-04T20:57:22.244Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.innocentdrinks.co.uk/big-knit/about",
+    "finalUrl": "https://www.innocentdrinks.co.uk/big-knit/about",
+    "words": 700,
+    "wordsFull": 1061,
+    "fetchedAt": "2026-10-04T20:57:27.948Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.innocentdrinks.co.uk/things-we-make/smoothies",
+    "finalUrl": "https://www.innocentdrinks.co.uk/things-we-make/smoothies",
+    "words": 614,
+    "wordsFull": 614,
+    "fetchedAt": "2026-10-04T20:57:32.545Z"
+   }
+  ]
+ },
+ "savethechildren.org.uk": {
+  "sector": "charity",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)",
+   "careers short(117) https://jobs.savethechildren.org.uk/jobs/home",
+   "careers short(137) https://jobs.savethechildren.org.uk/jobs/vacancy/find/results"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.savethechildren.org.uk",
+    "finalUrl": "https://www.savethechildren.org.uk/",
+    "words": 506,
+    "wordsFull": 506,
+    "fetchedAt": "2026-10-04T20:57:05.662Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.savethechildren.org.uk/about-us",
+    "finalUrl": "https://www.savethechildren.org.uk/about-us",
+    "words": 593,
+    "wordsFull": 593,
+    "fetchedAt": "2026-10-04T20:57:13.691Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.savethechildren.org.uk/what-we-do/hunger",
+    "finalUrl": "https://www.savethechildren.org.uk/what-we-do/hunger",
+    "words": 700,
+    "wordsFull": 1058,
+    "fetchedAt": "2026-10-04T20:57:20.507Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://jobs.savethechildren.org.uk/jobs/diversity-and-inclusion",
+    "finalUrl": "https://jobs.savethechildren.org.uk/jobs/diversity-and-inclusion",
+    "words": 700,
+    "wordsFull": 1477,
+    "fetchedAt": "2026-10-04T20:57:38.903Z"
+   }
+  ]
+ },
+ "leon.co": {
+  "sector": "food",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.leon.co",
+    "finalUrl": "https://leon.co/",
+    "words": 155,
+    "wordsFull": 155,
+    "fetchedAt": "2026-10-04T20:57:55.742Z"
+   },
+   {
+    "type": "product",
+    "url": "https://leon.co/menu",
+    "finalUrl": "https://leon.co/menu/",
+    "words": 273,
+    "wordsFull": 273,
+    "fetchedAt": "2026-10-04T20:58:00.250Z"
+   }
+  ]
+ },
+ "nandos.co.uk": {
+  "sector": "food",
+  "mapLinks": 400,
+  "log": [
+   "home short(128) https://www.nandos.co.uk",
+   "home MISSING (1 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "about",
+    "url": "https://www.nandos.co.uk/our-story",
+    "finalUrl": "https://www.nandos.co.uk/our-story",
+    "words": 339,
+    "wordsFull": 339,
+    "fetchedAt": "2026-10-04T20:57:59.532Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.nandos.co.uk/food",
+    "finalUrl": "https://www.nandos.co.uk/food",
+    "words": 331,
+    "wordsFull": 331,
+    "fetchedAt": "2026-10-04T20:58:03.969Z"
+   }
+  ]
+ },
+ "pret.com": {
+  "sector": "food",
+  "mapLinks": 400,
+  "log": [
+   "product short(44) https://www.pret.com/fr-FR/food",
+   "product short(44) https://www.pret.com/fr-FR/shops",
+   "product short(131) https://www.pret.com/en-AE/our-menu",
+   "product MISSING (3 tried)",
+   "pricing short(24) https://www.pret.com/en-US/pricing",
+   "pricing MISSING (1 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.pret.com",
+    "finalUrl": "https://www.pret.com/en-US",
+    "words": 232,
+    "wordsFull": 232,
+    "fetchedAt": "2026-10-04T20:57:50.405Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.pret.com/en-AE/about-pret",
+    "finalUrl": "https://www.pret.com/en-AE/about-pret",
+    "words": 204,
+    "wordsFull": 204,
+    "fetchedAt": "2026-10-04T20:57:54.498Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.pret.com/en-US/jobs",
+    "finalUrl": "https://www.pret.com/en-US/jobs",
+    "words": 700,
+    "wordsFull": 829,
+    "fetchedAt": "2026-10-04T20:58:19.050Z"
+   }
+  ]
+ },
+ "itsu.com": {
+  "sector": "food",
+  "mapLinks": 400,
+  "log": [
+   "about MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.itsu.com",
+    "finalUrl": "https://www.itsu.com/",
+    "words": 172,
+    "wordsFull": 172,
+    "fetchedAt": "2026-10-04T20:58:19.742Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.itsu.com/menu",
+    "finalUrl": "https://www.itsu.com/menu/",
+    "words": 316,
+    "wordsFull": 316,
+    "fetchedAt": "2026-10-04T20:58:20.297Z"
+   }
+  ]
+ },
+ "greggs.co.uk": {
+  "sector": "food",
+  "mapLinks": 159,
+  "log": [
+   "product short(100) https://www.greggs.co.uk/shops/bath/u56/2462",
+   "product short(100) https://www.greggs.co.uk/shops/denny/u7/3851",
+   "product short(101) https://www.greggs.co.uk/shops/leeds/uc/5782",
+   "product MISSING (3 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.greggs.co.uk",
+    "finalUrl": "https://www.greggs.com/",
+    "words": 248,
+    "wordsFull": 248,
+    "fetchedAt": "2026-10-04T20:57:51.912Z"
+   },
+   {
+    "type": "about",
+    "url": "https://corporate.greggs.co.uk/about-us",
+    "finalUrl": "https://corporate.greggs.co.uk/about-us",
+    "words": 600,
+    "wordsFull": 600,
+    "fetchedAt": "2026-10-04T20:57:57.255Z"
+   }
+  ]
+ },
+ "wagamama.com": {
+  "sector": "food",
+  "mapLinks": 400,
+  "log": [
+   "product short(49) https://www.wagamama.com/menu",
+   "product short(42) https://www.wagamama.com/menu-ni",
+   "product short(59) https://www.wagamama.com/set-menu",
+   "product MISSING (3 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.wagamama.com",
+    "finalUrl": "https://www.wagamama.com/",
+    "words": 437,
+    "wordsFull": 437,
+    "fetchedAt": "2026-10-04T20:58:19.687Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.wagamama.com/about-us",
+    "finalUrl": "https://www.wagamama.com/about-us",
+    "words": 303,
+    "wordsFull": 303,
+    "fetchedAt": "2026-10-04T20:58:26.482Z"
+   }
+  ]
+ },
+ "gailsbread.co.uk": {
+  "sector": "food",
+  "mapLinks": 13,
+  "log": [
+   "about MISSING (0 tried)",
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.gailsbread.co.uk",
+    "finalUrl": "https://gails.com/",
+    "words": 449,
+    "wordsFull": 449,
+    "fetchedAt": "2026-10-04T20:58:39.745Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.gailsbread.co.uk/shop-categories/gails-at-home",
+    "finalUrl": "https://gails.com/collections/order-home",
+    "words": 656,
+    "wordsFull": 656,
+    "fetchedAt": "2026-10-04T20:58:45.268Z"
+   }
+  ]
+ },
+ "cookfood.net": {
+  "sector": "food",
+  "mapLinks": 400,
+  "log": [
+   "about short(115) https://www.cookfood.net/info/about-cook",
+   "pricing MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.cookfood.net",
+    "finalUrl": "https://www.cookfood.net/",
+    "words": 213,
+    "wordsFull": 213,
+    "fetchedAt": "2026-10-04T20:58:39.972Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.cookfood.net/info/about-cook/our-story",
+    "finalUrl": "https://www.cookfood.net/info/about-cook/our-story",
+    "words": 401,
+    "wordsFull": 401,
+    "fetchedAt": "2026-10-04T20:58:47.920Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.cookfood.net/shops",
+    "finalUrl": "https://www.cookfood.net/shops",
+    "words": 700,
+    "wordsFull": 970,
+    "fetchedAt": "2026-10-04T20:58:52.169Z"
+   },
+   {
+    "type": "careers",
+    "url": "https://www.cookfood.net/info/jobs",
+    "finalUrl": "https://jobs.cookfood.net/?source=google.com",
+    "words": 188,
+    "wordsFull": 188,
+    "fetchedAt": "2026-10-04T20:58:57.284Z"
+   }
+  ]
+ },
+ "deliciouslyella.com": {
+  "sector": "food",
+  "mapLinks": 400,
+  "log": [
+   "pricing MISSING (0 tried)",
+   "careers MISSING (0 tried)"
+  ],
+  "pages": [
+   {
+    "type": "home",
+    "url": "https://www.deliciouslyella.com",
+    "finalUrl": "https://www.deliciouslyella.com/",
+    "words": 700,
+    "wordsFull": 1960,
+    "fetchedAt": "2026-10-04T20:58:42.428Z"
+   },
+   {
+    "type": "about",
+    "url": "https://www.deliciouslyella.com/our-story",
+    "finalUrl": "https://www.deliciouslyella.com/our-story",
+    "words": 700,
+    "wordsFull": 1009,
+    "fetchedAt": "2026-10-04T20:58:49.433Z"
+   },
+   {
+    "type": "product",
+    "url": "https://www.deliciouslyella.com/category/shop",
+    "finalUrl": "https://www.deliciouslyella.com/category/shop",
+    "words": 633,
+    "wordsFull": 633,
+    "fetchedAt": "2026-10-04T20:58:57.639Z"
+   }
+  ]
+ }
+}

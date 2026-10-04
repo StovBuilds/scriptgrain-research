@@ -1,0 +1,9 @@
+{
+ "model": "claude-sonnet-5-5",
+ "input": 529313,
+ "output": 52866,
+ "cache_read": 0,
+ "cache_write": 0,
+ "calls": 305,
+ "parse_fail": 0
+}

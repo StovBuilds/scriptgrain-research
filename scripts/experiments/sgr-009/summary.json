@@ -1,0 +1,533 @@
+{
+ "pages": 299,
+ "brands": 89,
+ "pairs": 89102,
+ "bootstrap": 2000,
+ "counts": {
+  "SB": 782,
+  "SS": 8336,
+  "XS": 79984,
+  "SB_DT": 782,
+  "SS_ST": 1880
+ },
+ "byType": {
+  "home": 76,
+  "about": 66,
+  "product": 83,
+  "pricing": 41,
+  "careers": 33
+ },
+ "bySector": {
+  "bank": {
+   "brands": 10,
+   "pages": 38
+  },
+  "energy": {
+   "brands": 6,
+   "pages": 18
+  },
+  "telecom": {
+   "brands": 10,
+   "pages": 31
+  },
+  "software": {
+   "brands": 10,
+   "pages": 40
+  },
+  "grocery": {
+   "brands": 10,
+   "pages": 33
+  },
+  "travel": {
+   "brands": 8,
+   "pages": 30
+  },
+  "insurance": {
+   "brands": 9,
+   "pages": 33
+  },
+  "fashion": {
+   "brands": 7,
+   "pages": 19
+  },
+  "charity": {
+   "brands": 9,
+   "pages": 32
+  },
+  "food": {
+   "brands": 10,
+   "pages": 25
+  }
+ },
+ "confirmatory": {
+  "run": "J1a",
+  "h1": {
+   "point": 0.551,
+   "lo": 0.521,
+   "hi": 0.582
+  },
+  "h2": {
+   "point": 0.003,
+   "lo": -0.012,
+   "hi": 0.028
+  },
+  "h3": {
+   "point": 0.563,
+   "lo": 0.542,
+   "hi": 0.586
+  },
+  "sbx": {
+   "point": 0.61,
+   "lo": 0.578,
+   "hi": 0.643
+  },
+  "medians": {
+   "SS_ST": 0.657,
+   "SB_DT": 0.654
+  },
+  "H1": "supported",
+  "H2": "not supported",
+  "H3": "supported"
+ },
+ "robustness": [
+  {
+   "run": "J1b",
+   "h1": {
+    "point": 0.55
+   },
+   "h2": {
+    "point": 0.004
+   },
+   "h3": {
+    "point": 0.563
+   },
+   "sbx": {
+    "point": 0.611
+   }
+  },
+  {
+   "run": "J2a",
+   "h1": {
+    "point": 0.558,
+    "lo": 0.528,
+    "hi": 0.588
+   },
+   "h2": {
+    "point": 0.002,
+    "lo": -0.017,
+    "hi": 0.021
+   },
+   "h3": {
+    "point": 0.558,
+    "lo": 0.537,
+    "hi": 0.58
+   },
+   "sbx": {
+    "point": 0.615,
+    "lo": 0.582,
+    "hi": 0.647
+   },
+   "medians": {
+    "SS_ST": 0.666,
+    "SB_DT": 0.664
+   },
+   "H1": "supported",
+   "H2": "not supported",
+   "H3": "supported"
+  },
+  {
+   "run": "J2b",
+   "h1": {
+    "point": 0.564,
+    "lo": 0.533,
+    "hi": 0.595
+   },
+   "h2": {
+    "point": 0,
+    "lo": -0.022,
+    "hi": 0.018
+   },
+   "h3": {
+    "point": 0.559,
+    "lo": 0.538,
+    "hi": 0.581
+   },
+   "sbx": {
+    "point": 0.621,
+    "lo": 0.591,
+    "hi": 0.653
+   },
+   "medians": {
+    "SS_ST": 0.664,
+    "SB_DT": 0.664
+   },
+   "H1": "supported",
+   "H2": "not supported",
+   "H3": "supported"
+  },
+  {
+   "run": "J2c",
+   "h1": {
+    "point": 0.558,
+    "lo": 0.529,
+    "hi": 0.589
+   },
+   "h2": {
+    "point": 0,
+    "lo": -0.016,
+    "hi": 0.02
+   },
+   "h3": {
+    "point": 0.557,
+    "lo": 0.536,
+    "hi": 0.581
+   },
+   "sbx": {
+    "point": 0.615,
+    "lo": 0.582,
+    "hi": 0.646
+   },
+   "medians": {
+    "SS_ST": 0.665,
+    "SB_DT": 0.665
+   },
+   "H1": "supported",
+   "H2": "not supported",
+   "H3": "supported"
+  },
+  {
+   "run": "none",
+   "h1": {
+    "point": 0.553,
+    "lo": 0.523,
+    "hi": 0.585
+   },
+   "h2": {
+    "point": -0.005,
+    "lo": -0.029,
+    "hi": 0.022
+   },
+   "h3": {
+    "point": 0.538,
+    "lo": 0.519,
+    "hi": 0.559
+   },
+   "sbx": {
+    "point": 0.589,
+    "lo": 0.561,
+    "hi": 0.618
+   },
+   "medians": {
+    "SS_ST": 0.559,
+    "SB_DT": 0.564
+   },
+   "H1": "supported",
+   "H2": "not supported",
+   "H3": "supported"
+  }
+ ],
+ "bands": {
+  "J1a": {
+   "SB": {
+    "n": 782,
+    "p10": 0.496,
+    "p50": 0.654,
+    "p90": 0.77,
+    "on": 0.256,
+    "drifting": 0.501,
+    "off": 0.243
+   },
+   "SS": {
+    "n": 8336,
+    "p10": 0.49,
+    "p50": 0.629,
+    "p90": 0.75,
+    "on": 0.175,
+    "drifting": 0.564,
+    "off": 0.26
+   },
+   "XS": {
+    "n": 79984,
+    "p10": 0.472,
+    "p50": 0.605,
+    "p90": 0.727,
+    "on": 0.117,
+    "drifting": 0.554,
+    "off": 0.33
+   }
+  },
+  "J1b": {
+   "SB": {
+    "n": 782,
+    "p10": 0.498,
+    "p50": 0.653,
+    "p90": 0.771,
+    "on": 0.252,
+    "drifting": 0.509,
+    "off": 0.239
+   },
+   "SS": {
+    "n": 8336,
+    "p10": 0.489,
+    "p50": 0.629,
+    "p90": 0.749,
+    "on": 0.176,
+    "drifting": 0.562,
+    "off": 0.262
+   },
+   "XS": {
+    "n": 79984,
+    "p10": 0.471,
+    "p50": 0.605,
+    "p90": 0.726,
+    "on": 0.115,
+    "drifting": 0.554,
+    "off": 0.331
+   }
+  },
+  "J2a": {
+   "SB": {
+    "n": 782,
+    "p10": 0.5,
+    "p50": 0.664,
+    "p90": 0.78,
+    "on": 0.288,
+    "drifting": 0.508,
+    "off": 0.205
+   },
+   "SS": {
+    "n": 8336,
+    "p10": 0.489,
+    "p50": 0.64,
+    "p90": 0.76,
+    "on": 0.209,
+    "drifting": 0.556,
+    "off": 0.236
+   },
+   "XS": {
+    "n": 79984,
+    "p10": 0.472,
+    "p50": 0.62,
+    "p90": 0.735,
+    "on": 0.137,
+    "drifting": 0.585,
+    "off": 0.278
+   }
+  },
+  "J2b": {
+   "SB": {
+    "n": 782,
+    "p10": 0.505,
+    "p50": 0.665,
+    "p90": 0.778,
+    "on": 0.292,
+    "drifting": 0.506,
+    "off": 0.202
+   },
+   "SS": {
+    "n": 8336,
+    "p10": 0.487,
+    "p50": 0.638,
+    "p90": 0.758,
+    "on": 0.199,
+    "drifting": 0.562,
+    "off": 0.239
+   },
+   "XS": {
+    "n": 79984,
+    "p10": 0.47,
+    "p50": 0.617,
+    "p90": 0.732,
+    "on": 0.129,
+    "drifting": 0.584,
+    "off": 0.287
+   }
+  },
+  "J2c": {
+   "SB": {
+    "n": 782,
+    "p10": 0.51,
+    "p50": 0.666,
+    "p90": 0.777,
+    "on": 0.283,
+    "drifting": 0.528,
+    "off": 0.189
+   },
+   "SS": {
+    "n": 8336,
+    "p10": 0.489,
+    "p50": 0.64,
+    "p90": 0.759,
+    "on": 0.207,
+    "drifting": 0.553,
+    "off": 0.24
+   },
+   "XS": {
+    "n": 79984,
+    "p10": 0.472,
+    "p50": 0.619,
+    "p90": 0.734,
+    "on": 0.133,
+    "drifting": 0.59,
+    "off": 0.276
+   }
+  },
+  "none": {
+   "SB": {
+    "n": 782,
+    "p10": 0.393,
+    "p50": 0.564,
+    "p90": 0.727,
+    "on": 0.116,
+    "drifting": 0.391,
+    "off": 0.492
+   },
+   "SS": {
+    "n": 8336,
+    "p10": 0.372,
+    "p50": 0.534,
+    "p90": 0.698,
+    "on": 0.071,
+    "drifting": 0.35,
+    "off": 0.579
+   },
+   "XS": {
+    "n": 79984,
+    "p10": 0.357,
+    "p50": 0.518,
+    "p90": 0.678,
+    "on": 0.051,
+    "drifting": 0.324,
+    "off": 0.625
+   }
+  }
+ },
+ "perSector": {
+  "bank": 0.492,
+  "energy": 0.66,
+  "telecom": 0.579,
+  "software": 0.522,
+  "grocery": 0.549,
+  "travel": 0.609,
+  "insurance": 0.528,
+  "fashion": 0.581,
+  "charity": 0.551,
+  "food": 0.556
+ },
+ "perType": {
+  "home": 0.565,
+  "about": 0.527,
+  "product": 0.559,
+  "pricing": 0.541,
+  "careers": 0.564
+ },
+ "long600": 0.555,
+ "typeBrandGrid": {
+  "sameBrand_sameType": null,
+  "sameBrand_diffType": 0.654,
+  "sameSector_sameType": 0.657,
+  "sameSector_diffType": 0.62,
+  "otherSector_sameType": 0.626,
+  "otherSector_diffType": 0.6
+ },
+ "typeAUC": 0.578,
+ "judgeAgreement": {
+  "J1a~J1b": {
+   "attrExactAgreement": 0.984,
+   "meanAbsNumericDiff": 0.023,
+   "pairRaw": {
+    "medianAbs": 0,
+    "p95Abs": 0.038,
+    "max": 0.114
+   }
+  },
+  "J1a~J2a": {
+   "attrExactAgreement": 0.553,
+   "meanAbsNumericDiff": 1.476,
+   "pairRaw": {
+    "medianAbs": 0.038,
+    "p95Abs": 0.119,
+    "max": 0.293
+   }
+  },
+  "J1a~J2b": {
+   "attrExactAgreement": 0.555,
+   "meanAbsNumericDiff": 1.486,
+   "pairRaw": {
+    "medianAbs": 0.038,
+    "p95Abs": 0.118,
+    "max": 0.293
+   }
+  },
+  "J1a~J2c": {
+   "attrExactAgreement": 0.557,
+   "meanAbsNumericDiff": 1.469,
+   "pairRaw": {
+    "medianAbs": 0.037,
+    "p95Abs": 0.118,
+    "max": 0.293
+   }
+  },
+  "J1b~J2a": {
+   "attrExactAgreement": 0.553,
+   "meanAbsNumericDiff": 1.481,
+   "pairRaw": {
+    "medianAbs": 0.037,
+    "p95Abs": 0.119,
+    "max": 0.293
+   }
+  },
+  "J1b~J2b": {
+   "attrExactAgreement": 0.555,
+   "meanAbsNumericDiff": 1.49,
+   "pairRaw": {
+    "medianAbs": 0.037,
+    "p95Abs": 0.118,
+    "max": 0.293
+   }
+  },
+  "J1b~J2c": {
+   "attrExactAgreement": 0.556,
+   "meanAbsNumericDiff": 1.47,
+   "pairRaw": {
+    "medianAbs": 0.037,
+    "p95Abs": 0.118,
+    "max": 0.293
+   }
+  },
+  "J2a~J2b": {
+   "attrExactAgreement": 0.894,
+   "meanAbsNumericDiff": 0.303,
+   "pairRaw": {
+    "medianAbs": 0.011,
+    "p95Abs": 0.051,
+    "max": 0.147
+   }
+  },
+  "J2a~J2c": {
+   "attrExactAgreement": 0.888,
+   "meanAbsNumericDiff": 0.322,
+   "pairRaw": {
+    "medianAbs": 0.011,
+    "p95Abs": 0.056,
+    "max": 0.15
+   }
+  },
+  "J2b~J2c": {
+   "attrExactAgreement": 0.893,
+   "meanAbsNumericDiff": 0.276,
+   "pairRaw": {
+    "medianAbs": 0.011,
+    "p95Abs": 0.05,
+    "max": 0.127
+   }
+  }
+ },
+ "judgeNulls": {
+  "J1a": 0,
+  "J1b": 0,
+  "J2a": 0,
+  "J2b": 0,
+  "J2c": 0
+ }
+}
