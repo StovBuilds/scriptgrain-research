@@ -1,0 +1,23 @@
+arxiv:2504.12317	Measures lexical and syntactic complexity shifts in 21.36M abstracts; no estimate of LLM-written share or excess-word frequency change in the text retrieved.
+arxiv:2506.21817	Studies the structure of word-frequency shifts (synonym clusters, collapsing words); no prevalence estimate or magnitude quoted in the abstract.
+arxiv:2412.11385	Identifies 21 focal words and tests why LLMs overuse them; not a prevalence estimate.
+arxiv:2603.25638	Number not found: abstract and retrieved passages give no percentage share; estimates are shown only in figures/equations (word-frequency impact estimate).
+arxiv:2601.13187	Reports productivity gains (23.7-89.3%) for LLM adopters; no share of LLM-written text found in abstract or retrieved passages.
+arxiv:2406.07016	Duplicate: preprint of Kobak et al. Science Advances version (kept as pmcid:PMC12219543). Same 13.5% lower bound.
+arxiv:2502.09606	Number not found: word-frequency coevolution analysis; abstract and retrieved passages give no quantitative share or fold change.
+arxiv:2509.08306	Number not found: zero-shot AI-likeness scores linked to citations; no share of AI-written articles in abstract or retrieved passages.
+arxiv:2404.01268	Duplicate: preprint of Liang et al. Nature Human Behaviour version (kept as pmid:40760036). Preprint abstract: up to 17.5% (computer science), 6.3% (mathematics, Nature portfolio), 950,965 papers to Feb 2024.
+pmcid:PMC12679996	Reports that 103 of 135 AI-associated terms increased in 2024 (modified Z-score >= 3.5) with no frequency magnitude or share in abstract; medRxiv preprint doi:10.1101/2024.05.14.24307373 is the earlier version.
+doi:10.1101/2024.05.14.24307373	Duplicate: medRxiv preprint of Matsui (kept/considered as pmcid:PMC12679996); also excluded for lack of magnitude (term counts only).
+arxiv:2406.17324	Number not found: astronomy word-frequency analysis (1 million articles); abstract and retrieved passages report only significance tests and figures, no numeric estimate.
+pmcid:PMC12353330	Abstract reports only p-values for increased GPT-associated adjective frequency in otolaryngology (7,702 articles); no magnitude or share.
+arxiv:2511.15872	Number not found: distribution-based estimate of AI-generated content in 2M+ PMC full texts; abstract and retrieved passages give changes only in figures/coefficients, no headline share.
+arxiv:2502.11193	Framework/dataset (ScholarLens, LLMetrica); abstract gives no prevalence number.
+arxiv:2602.05930	Analyses 100 hallucinated citations in NeurIPS 2025 papers (about 1% of accepted papers); not an estimate of LLM-written text share.
+pmcid:PMC11371107	ASCO abstracts 2021-2023: reports adjusted odds ratios of being flagged (1.79-2.37) and detector accuracy, not a share of AI text.
+arxiv:2403.13812	Detector benchmark (Originality.ai accuracy 98%); no corpus prevalence estimate.
+pmid:40603674	Nature news item (Mallapaty) reporting the Kobak et al. 14% finding; no abstract or own data; duplicate of pmcid:PMC12219543.
+arxiv:2605.26662	Methodology paper on benchmark bias in AI-use estimates; about 4-5% chance overlap in pre-LLM data is quoted, but no headline prevalence estimate for a corpus.
+arxiv:2604.14126	Association study (AI-assisted writing intensity vs disruption in ~2M full texts); no share reported in abstract or retrieved passages.
+arxiv:2605.27404	Association study of AI-assisted writing and team structure (147,074 papers); no prevalence share found in abstract or retrieved passages.
+doi:10.1101/2024.03.25.586710	Number not found: Binoculars-based preprint study (45,129 manuscripts) with results shown in figures; abstract and bioRxiv full-text XML contain no percentage share.
