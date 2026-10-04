@@ -1,0 +1,194 @@
+{
+ "A_actual_sets": {
+  "set2024": {
+   "2018": {
+    "placebo_bound_pct": 2.38,
+    "ci95": [
+     0.23,
+     4.52
+    ],
+    "real_year_equivalent": "2023"
+   },
+   "2019": {
+    "placebo_bound_pct": 4.98,
+    "ci95": [
+     1.5,
+     8.38
+    ],
+    "real_year_equivalent": "2024"
+   },
+   "2020": {
+    "placebo_bound_pct": 8.17,
+    "ci95": [
+     3.37,
+     12.9
+    ],
+    "real_year_equivalent": "2025"
+   },
+   "2021": {
+    "placebo_bound_pct": 10.2,
+    "ci95": [
+     4.22,
+     15.74
+    ],
+    "real_year_equivalent": "2026"
+   }
+  },
+  "set2026": {
+   "2018": {
+    "placebo_bound_pct": -0.22,
+    "ci95": [
+     -3.27,
+     2.72
+    ],
+    "real_year_equivalent": "2023"
+   },
+   "2019": {
+    "placebo_bound_pct": -1.02,
+    "ci95": [
+     -6.06,
+     3.65
+    ],
+    "real_year_equivalent": "2024"
+   },
+   "2020": {
+    "placebo_bound_pct": 0.68,
+    "ci95": [
+     -7.05,
+     7.21
+    ],
+    "real_year_equivalent": "2025"
+   },
+   "2021": {
+    "placebo_bound_pct": 0.47,
+    "ci95": [
+     -9.44,
+     9.74
+    ],
+    "real_year_equivalent": "2026"
+   }
+  }
+ },
+ "B_reselected_on_pre_llm_data": {
+  "2019": {
+   "words": [
+    "accurate",
+    "additional",
+    "aims",
+    "attack",
+    "bert",
+    "bias",
+    "com",
+    "control",
+    "create",
+    "crucial",
+    "currently",
+    "dataset",
+    "detection",
+    "devices",
+    "environment",
+    "environments",
+    "especially",
+    "evaluation",
+    "extensive",
+    "findings",
+    "focus",
+    "future",
+    "generalization",
+    "github",
+    "https",
+    "importance",
+    "improve",
+    "issues",
+    "less",
+    "machine",
+    "mechanism",
+    "need",
+    "progress",
+    "promising",
+    "real-world",
+    "research",
+    "respectively",
+    "signal",
+    "simultaneously",
+    "solve",
+    "specific",
+    "structures",
+    "studies",
+    "tasks",
+    "test",
+    "therefore",
+    "towards",
+    "understanding",
+    "widely",
+    "years"
+   ],
+   "placebo_bound_pct": 2.55,
+   "ci95": [
+    -4.35,
+    8.66
+   ],
+   "real_year_equivalent": "2024"
+  },
+  "2021": {
+   "words": [
+    "accurate",
+    "aims",
+    "attention",
+    "being",
+    "bias",
+    "challenges",
+    "code",
+    "com",
+    "context",
+    "contrastive",
+    "covid-",
+    "create",
+    "crucial",
+    "detection",
+    "developed",
+    "downstream",
+    "especially",
+    "essential",
+    "evaluation",
+    "extensive",
+    "findings",
+    "focus",
+    "future",
+    "gap",
+    "generalization",
+    "github",
+    "global",
+    "https",
+    "importance",
+    "issues",
+    "lack",
+    "mechanism",
+    "need",
+    "pandemic",
+    "pre-trained",
+    "predictions",
+    "progress",
+    "promising",
+    "remains",
+    "respectively",
+    "self-supervised",
+    "solve",
+    "source",
+    "test",
+    "therefore",
+    "towards",
+    "transformer",
+    "understanding",
+    "widely",
+    "years"
+   ],
+   "placebo_bound_pct": 10.07,
+   "ci95": [
+    -1.68,
+    19.13
+   ],
+   "real_year_equivalent": "2026"
+  }
+ }
+}

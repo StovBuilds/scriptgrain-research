@@ -147,3 +147,12 @@ is CC0. Our dataset: CC BY 4.0. Abstract text is not republished.
      thresholds are otherwise unchanged, and the full candidate list (all q) is still published.
   6. The revision rule is applied to every paper submitted up to 2022-11 (not only
      2020-22), so the descriptive 2015-2022 series follows the same rule as BASE.
+
+## Added after the confirmatory run (exploratory, labelled as such on the page)
+- 2026-10-04 ~15:35Z, after H1-H3 and H5/bounds were computed: a placebo test (census-placebo.py)
+  shifts the bound method five years earlier (2016-17 trend, 2018-21 targets) to measure how much
+  ordinary drift and the selection procedure produce with no language models. Added because the
+  bounds were larger than expected; reported in full whatever it showed.
+- The revised-vs-unrevised comparison of 2020-22 papers (retro-polish.json), from the H1-H3 counts.
+- Lower bounds whose 95% interval is wider than 40 points are shown as "too uncertain" on the page.
+

@@ -1,0 +1,340 @@
+{
+ "style_2024": [
+  "challenges",
+  "additionally",
+  "findings",
+  "enhance",
+  "insights",
+  "crucial",
+  "comprehensive",
+  "enhancing",
+  "capabilities",
+  "introduces",
+  "effectively",
+  "particularly",
+  "diverse",
+  "leveraging",
+  "enabling",
+  "challenge",
+  "enhances",
+  "offering",
+  "traditional",
+  "thereby",
+  "remains",
+  "providing",
+  "limitations",
+  "advancements",
+  "like",
+  "achieving",
+  "offers",
+  "critical",
+  "utilizing",
+  "addressing",
+  "designed",
+  "leading",
+  "practical",
+  "integrating",
+  "notably",
+  "ensuring",
+  "distinct",
+  "exhibit",
+  "employing",
+  "presents",
+  "substantial",
+  "demonstrates",
+  "tailored",
+  "leverages",
+  "explore",
+  "valuable",
+  "integrates",
+  "employs",
+  "highlighting",
+  "innovative"
+ ],
+ "style_2026": [
+  "remains",
+  "yet",
+  "rather",
+  "establish",
+  "explicit",
+  "enabling",
+  "every",
+  "remain",
+  "fixed",
+  "yields",
+  "improves",
+  "practical",
+  "structured",
+  "findings",
+  "consistently",
+  "substantially",
+  "structural",
+  "whether",
+  "reduces",
+  "enables",
+  "resulting",
+  "support",
+  "evidence",
+  "consistent",
+  "distinct",
+  "toward",
+  "controlled",
+  "increasingly",
+  "rely",
+  "together",
+  "beyond",
+  "constraints",
+  "gap",
+  "whose",
+  "unified",
+  "exact",
+  "preserving",
+  "gains",
+  "whereas",
+  "combines",
+  "spanning",
+  "behavior",
+  "relative",
+  "against",
+  "complementary",
+  "foundation",
+  "alone",
+  "critical",
+  "settings",
+  "requires"
+ ],
+ "H5": {
+  "jaccard": 0.064,
+  "supported": true,
+  "overlap": [
+   "critical",
+   "distinct",
+   "enabling",
+   "findings",
+   "practical",
+   "remains"
+  ]
+ },
+ "bounds": {
+  "set2024": {
+   "2023": {
+    "lower_bound_pct": 12.74,
+    "ci95": [
+     7.62,
+     17.28
+    ]
+   },
+   "2024": {
+    "lower_bound_pct": 29.19,
+    "ci95": [
+     20.33,
+     36.88
+    ]
+   },
+   "2025": {
+    "lower_bound_pct": 39.89,
+    "ci95": [
+     31.21,
+     47.39
+    ]
+   },
+   "2026": {
+    "lower_bound_pct": 20.36,
+    "ci95": [
+     13.14,
+     26.43
+    ]
+   }
+  },
+  "set2026": {
+   "2023": {
+    "lower_bound_pct": 12.25,
+    "ci95": [
+     9.31,
+     14.36
+    ]
+   },
+   "2024": {
+    "lower_bound_pct": 23.07,
+    "ci95": [
+     17.82,
+     26.54
+    ]
+   },
+   "2025": {
+    "lower_bound_pct": 47.96,
+    "ci95": [
+     41.14,
+     52.54
+    ]
+   },
+   "2026": {
+    "lower_bound_pct": 68.39,
+    "ci95": [
+     61.71,
+     72.86
+    ]
+   }
+  },
+  "union": {
+   "2023": {
+    "lower_bound_pct": 16.83,
+    "ci95": [
+     11.23,
+     21.62
+    ]
+   },
+   "2024": {
+    "lower_bound_pct": 32.77,
+    "ci95": [
+     24.58,
+     40.16
+    ]
+   },
+   "2025": {
+    "lower_bound_pct": 51.02,
+    "ci95": [
+     42.89,
+     57.92
+    ]
+   },
+   "2026": {
+    "lower_bound_pct": 63.8,
+    "ci95": [
+     56.11,
+     69.54
+    ]
+   }
+  }
+ },
+ "bounds_by_group_union": {
+  "cs": {
+   "2024": {
+    "lower_bound_pct": 53.54,
+    "ci95": [
+     38.51,
+     61.55
+    ]
+   },
+   "2026": {
+    "lower_bound_pct": 80.26,
+    "ci95": [
+     67.43,
+     85.98
+    ]
+   }
+  },
+  "econ": {
+   "2024": {
+    "lower_bound_pct": null,
+    "ci95": [
+     -481.37,
+     9.63
+    ]
+   },
+   "2026": {
+    "lower_bound_pct": null,
+    "ci95": [
+     -631.16,
+     20.57
+    ]
+   }
+  },
+  "eess": {
+   "2024": {
+    "lower_bound_pct": 45.55,
+    "ci95": [
+     29.63,
+     57.44
+    ]
+   },
+   "2026": {
+    "lower_bound_pct": 70.91,
+    "ci95": [
+     39.44,
+     83.98
+    ]
+   }
+  },
+  "math": {
+   "2024": {
+    "lower_bound_pct": 14.44,
+    "ci95": [
+     6.56,
+     19.57
+    ]
+   },
+   "2026": {
+    "lower_bound_pct": 48.91,
+    "ci95": [
+     38.83,
+     53.64
+    ]
+   }
+  },
+  "physics": {
+   "2024": {
+    "lower_bound_pct": 28.64,
+    "ci95": [
+     20.49,
+     32.58
+    ]
+   },
+   "2026": {
+    "lower_bound_pct": 63.17,
+    "ci95": [
+     55.32,
+     66.17
+    ]
+   }
+  },
+  "q-bio": {
+   "2024": {
+    "lower_bound_pct": 10.71,
+    "ci95": [
+     -124.27,
+     42.23
+    ]
+   },
+   "2026": {
+    "lower_bound_pct": 28.28,
+    "ci95": [
+     -795.95,
+     82.33
+    ]
+   }
+  },
+  "q-fin": {
+   "2024": {
+    "lower_bound_pct": 24.47,
+    "ci95": [
+     -608.2,
+     66.67
+    ]
+   },
+   "2026": {
+    "lower_bound_pct": 27.18,
+    "ci95": [
+     -867.44,
+     89.35
+    ]
+   }
+  },
+  "stat": {
+   "2024": {
+    "lower_bound_pct": 45.79,
+    "ci95": [
+     15.51,
+     47.94
+    ]
+   },
+   "2026": {
+    "lower_bound_pct": 77.13,
+    "ci95": [
+     19.73,
+     81.03
+    ]
+   }
+  }
+ }
+}

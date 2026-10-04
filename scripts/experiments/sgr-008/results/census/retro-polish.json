@@ -1,0 +1,101 @@
+{
+ "2015": {
+  "n_revised": 270,
+  "n_unrevised": 96592,
+  "pct_revised": 0.28,
+  "old_revised": 1.85,
+  "old_unrevised": 1.87,
+  "new_revised": 1.11,
+  "new_unrevised": 1.46,
+  "control_revised": 64.07,
+  "control_unrevised": 66.49
+ },
+ "2016": {
+  "n_revised": 443,
+  "n_unrevised": 104162,
+  "pct_revised": 0.42,
+  "old_revised": 1.81,
+  "old_unrevised": 2.2,
+  "new_revised": 1.35,
+  "new_unrevised": 1.57,
+  "control_revised": 65.46,
+  "control_unrevised": 67.91
+ },
+ "2017": {
+  "n_revised": 693,
+  "n_unrevised": 114082,
+  "pct_revised": 0.6,
+  "old_revised": 2.74,
+  "old_unrevised": 2.56,
+  "new_revised": 1.3,
+  "new_unrevised": 1.55,
+  "control_revised": 66.81,
+  "control_unrevised": 69.27
+ },
+ "2018": {
+  "n_revised": 1199,
+  "n_unrevised": 130133,
+  "pct_revised": 0.91,
+  "old_revised": 2.0,
+  "old_unrevised": 3.07,
+  "new_revised": 1.92,
+  "new_unrevised": 1.63,
+  "control_revised": 62.3,
+  "control_unrevised": 70.42
+ },
+ "2019": {
+  "n_revised": 2278,
+  "n_unrevised": 143975,
+  "pct_revised": 1.56,
+  "old_revised": 2.68,
+  "old_unrevised": 3.56,
+  "new_revised": 2.55,
+  "new_unrevised": 1.77,
+  "control_revised": 67.82,
+  "control_unrevised": 71.71
+ },
+ "2020": {
+  "n_revised": 4900,
+  "n_unrevised": 163587,
+  "pct_revised": 2.91,
+  "old_revised": 3.39,
+  "old_unrevised": 4.03,
+  "new_revised": 1.98,
+  "new_unrevised": 1.82,
+  "control_revised": 70.88,
+  "control_unrevised": 72.92
+ },
+ "2021": {
+  "n_revised": 12351,
+  "n_unrevised": 159962,
+  "pct_revised": 7.17,
+  "old_revised": 4.05,
+  "old_unrevised": 4.62,
+  "new_revised": 2.05,
+  "new_unrevised": 1.93,
+  "control_revised": 72.85,
+  "control_unrevised": 73.67
+ },
+ "2022": {
+  "n_revised": 39183,
+  "n_unrevised": 136958,
+  "pct_revised": 22.25,
+  "old_revised": 4.63,
+  "old_unrevised": 5.11,
+  "new_revised": 2.38,
+  "new_unrevised": 1.97,
+  "control_revised": 74.12,
+  "control_unrevised": 74.03
+ },
+ "BASE": {
+  "n_revised": 56434,
+  "n_unrevised": 446418,
+  "pct_revised": 11.22,
+  "old_revised": 4.39,
+  "old_unrevised": 4.54,
+  "new_revised": 2.27,
+  "new_unrevised": 1.9,
+  "control_revised": 73.56,
+  "control_unrevised": 73.48
+ }
+}
