@@ -1,0 +1,208 @@
+{
+ "_readme": "SGR-006 sources, frozen 2026-10-04 with docs/research/sgr-006-preregistration.md before any text was measured. Genre rules were checked only for book COUNTS per cell.",
+ "seed": 20261004,
+ "books": {
+  "per_cell": 30,
+  "min_body_words": 5000,
+  "positions": [
+   0.2,
+   0.5,
+   0.8
+  ],
+  "piece_words": 1000,
+  "eras": {
+   "1700s": [
+    1700,
+    1799
+   ],
+   "1800s": [
+    1800,
+    1899
+   ],
+   "early 1900s": [
+    1900,
+    1999
+   ]
+  },
+  "era_rule": "century in which the author turned 40 (first listed author with a birth year)",
+  "genres": {
+   "fiction": {
+    "subject_any": [
+     "Fiction"
+    ],
+    "locc_prefix": [
+     "PR",
+     "PS",
+     "PZ"
+    ],
+    "subject_none": [
+     "Juvenile"
+    ]
+   },
+   "essays": {
+    "subject_any": [
+     "Essays"
+    ],
+    "subject_none": [
+     "Fiction"
+    ]
+   },
+   "history": {
+    "locc_prefix": [
+     "D",
+     "E",
+     "F"
+    ],
+    "subject_none": [
+     "Fiction",
+     "Juvenile"
+    ]
+   },
+   "science": {
+    "locc_prefix": [
+     "Q"
+    ],
+    "subject_none": [
+     "Fiction",
+     "Juvenile"
+    ]
+   },
+   "philosophy_religion": {
+    "locc_prefix": [
+     "B"
+    ],
+    "subject_none": [
+     "Fiction",
+     "Juvenile"
+    ]
+   },
+   "travel": {
+    "subject_any": [
+     "Description and travel"
+    ],
+    "subject_none": [
+     "Fiction",
+     "Juvenile"
+    ]
+   },
+   "biography": {
+    "subject_any": [
+     "Biography"
+    ],
+    "subject_none": [
+     "Fiction",
+     "Juvenile"
+    ]
+   },
+   "letters": {
+    "subject_any": [
+     "Correspondence"
+    ],
+    "subject_none": [
+     "Fiction"
+    ]
+   },
+   "children": {
+    "subject_any": [
+     "Juvenile"
+    ]
+   },
+   "drama": {
+    "subject_any": [
+     "Drama"
+    ]
+   }
+  },
+  "exclude_subject": [
+   "Poetry",
+   "Poems",
+   "Verse"
+  ],
+  "nonfiction_for_H2_H3": [
+   "history",
+   "science",
+   "philosophy_religion",
+   "travel",
+   "biography"
+  ]
+ },
+ "web": {
+  "collection": "CC-MAIN-2021-43",
+  "pages_per_source": 100,
+  "min_words": 200,
+  "from": "SGR-007 sources.json (frozen 2026-10-04)",
+  "groups": {
+   "news": [
+    "bbc.co.uk/news/",
+    "theguardian.com/",
+    "apnews.com/article/",
+    "npr.org/2021/",
+    "usatoday.com/story/"
+   ],
+   "press_releases": [
+    "prnewswire.com/news-releases/",
+    "businesswire.com/news/home/",
+    "globenewswire.com/news-release/"
+   ],
+   "wikipedia": [
+    "en.wikipedia.org/wiki/"
+   ],
+   "qa_forum": [
+    "english.stackexchange.com/questions/"
+   ],
+   "marketing_seo_blogs": [
+    "blog.hubspot.com/",
+    "neilpatel.com/blog/",
+    "searchenginejournal.com/"
+   ],
+   "essay_mills": [
+    "ukessays.com/essays/",
+    "ivypanda.com/essays/",
+    "studycorgi.com/"
+   ],
+   "how_to_content": [
+    "wikihow.com/",
+    "thespruce.com/"
+   ],
+   "self_help": [
+    "lifehack.org/",
+    "tinybuddha.com/blog/",
+    "success.com/"
+   ],
+   "blogging_platform": [
+    "medium.com/"
+   ]
+  },
+  "nonfiction_for_H2_H3": [
+   "news",
+   "wikipedia",
+   "how_to_content"
+  ]
+ },
+ "arxiv": {
+  "n": 1000,
+  "from": "SGR-008 census, base_ok, ym 2015-01..2022-11, read-only; LaTeX cleaned as in SGR-007"
+ },
+ "labels": {
+  "fiction": "Fiction",
+  "essays": "Essays",
+  "history": "History",
+  "science": "Science",
+  "philosophy_religion": "Philosophy and religion",
+  "travel": "Travel",
+  "biography": "Biography",
+  "letters": "Letters",
+  "children": "Children's books",
+  "drama": "Drama",
+  "news": "News (UK and US)",
+  "press_releases": "Press releases",
+  "wikipedia": "Wikipedia",
+  "qa_forum": "Q&A forum",
+  "marketing_seo_blogs": "Marketing and SEO blogs",
+  "essay_mills": "Essay-mill essays",
+  "how_to_content": "How-to content",
+  "self_help": "Self-help and productivity",
+  "blogging_platform": "Medium posts",
+  "arxiv": "Scientific abstracts (arXiv)"
+ }
+}
