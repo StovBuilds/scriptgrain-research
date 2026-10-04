@@ -1,0 +1,21 @@
+{
+  "_readme": "Analyst profiles for research pages (E-E-A-T). One source for every study builder and for the hand-edited studies. Facts only, approved by Jack before publishing.",
+  "jack-stovell": {
+    "name": "Jack Stovell",
+    "role": "founder, ScriptGrain",
+    "bio": "Jack Stovell has worked in finance and data for more than twelve years, building management reporting, forecasting and profitability models for advertising agencies and tech scale-ups, from SQL and Power BI reporting to board-level analysis. Since 2016 he has run Adapt Progress Evolve, an applied AI studio, where he builds and operates AI systems and data products: ScriptGrain's measurement of writing voice across 45 attributes, UK Spend, which brings 16.7 million rows of UK council spending into one queryable dataset, and more than thirty AI agents running in production. He designs ScriptGrain's studies and is accountable for every number in them.",
+    "url": "https://jstov.uk",
+    "sameAs": [
+      "https://jstov.uk",
+      "https://www.linkedin.com/in/jackstovell",
+      "https://github.com/StovBuilds"
+    ],
+    "knowsAbout": [
+      "Financial data analysis",
+      "Data analysis",
+      "Stylometry",
+      "Applied AI",
+      "Natural language processing"
+    ]
+  }
+}

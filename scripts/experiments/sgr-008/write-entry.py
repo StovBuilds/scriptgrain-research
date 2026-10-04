@@ -173,7 +173,7 @@ entry = {
   {"term": "Lower bound", "definition": "If a share s of abstracts were written with a model, and such an abstract always contained a word from the set, the set's share would be (1 minus s) times the predicted share plus s. Solving for s gives the smallest share consistent with the data. The true share is higher whenever the model sometimes avoids every word in the set."},
   {"term": "Baseline (2020 to 2022)", "definition": "Abstracts first submitted from January 2020 to November 2022, keeping only papers with no revision dated after 30 November 2022, so no baseline abstract can have been rewritten in the ChatGPT era."},
  ],
- "analyst": {"name": "Jack Stovell", "role": "founder, ScriptGrain"},
+ "analyst": None,  # filled below from the published studies' analyst block (single source)
  "competingInterests": "ScriptGrain sells writing-voice measurement and generation, and the analyst builds it. The hypotheses, word lists and tests were written down and committed before the census was measured; every change after that is listed in the pre-registration with its reason. Word labelling and the literature extraction used Claude models; their outputs are published so they can be checked.",
  "notShown": [
   "That voice measurement, ScriptGrain's or anyone's, can tell whether a text was written by AI. Nothing in this study tests that.",
@@ -220,7 +220,7 @@ entry = {
    "explanation": "Ranking every style word by how far it rose above its own trend, the top 50 for 2024 and the top 50 for 2026 share six words: " + ", ".join(hb["H5"]["overlap"]) + ". The 2024 list leads with " + ", ".join(top24[:8]) + "; the 2026 list with " + ", ".join(top26[:8]) + ". Both lists are below in full."},
   {"label": "Lists built on 2024 vocabulary now undercount",
    "value": f"at least {lb(a26)} (2026 words) against {lb(a24)} (2024 words) of 2026 abstracts",
-   "explanation": f"The same lower-bound method, on the same 2026 abstracts, gives at least {lb(a26)} (interval {lbci(a26)}) with the 50 style words that rose most in 2026 and {lb(a24)} (interval {lbci(a24)}) with the 50 that rose most in 2024. With 2024 words the bound peaks in 2025 ({lb(B['set2024']['2025'])}) and falls; with 2026 words it rises every year: {rising26}. A placebo run on 2016 to 2021, before any language model, gave {pA26['placebo_bound_pct']:.0f}% for the 2026 words and {pA24['placebo_bound_pct']:.0f}% for the 2024 words, which were already drifting upward; re-running the whole selection on pre-LLM years produced up to {pB['placebo_bound_pct']:.0f}% (interval up to {pB['ci95'][1]:.0f}%). Read the bounds with that margin in mind."},
+   "explanation": f"The same lower-bound method, on the same 2026 abstracts, gives at least {lb(a26)} (interval {lbci(a26)}) with the 50 style words that rose most in 2026 and {lb(a24)} (interval {lbci(a24)}) with the 50 that rose most in 2024. With 2024 words the bound peaks in 2025 ({lb(B['set2024']['2025'])}) and falls; with 2026 words it rises every year: {rising26}. A placebo run on 2016 to 2021, before any language model, gave {pA26['placebo_bound_pct']:.0f}% for the 2026 words and {pA24['placebo_bound_pct']:.0f}% for the 2024 words, which were already drifting upward (Study SGR-007 traces where those habits came from); re-running the whole selection on pre-LLM years produced up to {pB['placebo_bound_pct']:.0f}% (interval up to {pB['ci95'][1]:.0f}%). Read the bounds with that margin in mind."},
   {"label": "Sentence length did not move",
    "value": f"{f1(per['BASE']['avg_sentence_length'])} to {f1(per['Y2026']['avg_sentence_length'])} words per sentence",
    "explanation": f"Average sentence length was {f2(per['BASE']['avg_sentence_length'])} words in 2020 to 2022 and {f2(per['Y2026']['avg_sentence_length'])} in 2026 (difference {h4['diff_2026_minus_base']:+.2f}; 90% interval {h4['ci90'][0]:+.2f} to {h4['ci90'][1]:+.2f}, inside the pre-registered one-word margin). The change is in vocabulary, not rhythm."},
@@ -302,10 +302,12 @@ entry = {
   {"name": "How much are LLMs changing the language of academic papers after ChatGPT? (arXiv 2509.09596)", "url": "https://arxiv.org/abs/2509.09596"},
   {"name": "More than half of recent astronomy papers are written with language-model assistance (arXiv 2609.10664)", "url": "https://arxiv.org/abs/2609.10664"},
   {"name": "Firecrawl Research Index", "url": "https://docs.firecrawl.dev/api-reference/endpoint/research-search-papers"},
+  {"name": "ScriptGrain SGR-007, Where did the AI-isms come from? (uses this study's census and word lists)", "url": "https://scriptgrain.com/research/where-did-ai-isms-come-from"},
  ],
 }
 RP = f"{ROOT}/src/data/research-pages.json"
 d = json.load(open(RP))
+entry["analyst"] = next(x["analyst"] for x in d["studies"] if x["id"] == "SGR-004")
 d["studies"] = [s for s in d["studies"] if s["id"] != "SGR-008"] + [entry]
 json.dump(d, open(RP, "w"), indent=2, ensure_ascii=False); open(RP, "a").write("\n")
 print("entry written;", len(entry["findings"]), "findings,", len(entry["sections"]), "sections")

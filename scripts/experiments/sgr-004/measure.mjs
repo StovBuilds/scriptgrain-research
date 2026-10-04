@@ -8,7 +8,7 @@
 // Text extraction. The product's htmlToText is built for ARTICLES: it drops
 // <header>, <form> and <aside> subtrees, which on a homepage is where the hero
 // copy lives (and ASP.NET sites wrap the whole page in one <form>). So this
-// study uses homepageText below: the same block splitting, entity decoding and
+// study uses homepageText (homepage-text.mjs): the same block splitting, entity decoding and
 // prose-line rule as htmlToText, minus those three drops, plus removal of exact
 // repeated lines (desktop and mobile copies of one carousel). The article
 // extractor's word count is kept alongside (words_article) for comparison.
@@ -18,7 +18,8 @@
 // --source raw|rendered: raw = Wayback's original HTML (crawl.mjs); rendered =
 // the same capture rendered with JavaScript by Firecrawl (render.mjs).
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
-import { htmlToText, decodeEntities, wordCount } from "../../../supabase/functions/_shared/html-text.ts";
+import { htmlToText } from "../../../supabase/functions/_shared/html-text.ts";
+import { homepageText } from "./homepage-text.mjs";
 import { measureTextFeatures } from "../../../supabase/functions/_shared/voice-match.ts";
 import { scanCliches } from "../../../supabase/functions/_shared/ai-cliches.ts";
 
@@ -36,34 +37,6 @@ const sectorOf = Object.fromEntries(sites.map((s) => [s.domain, s.sector]));
 const toRe = (w) => new RegExp(`\\b${w.replace(/[.+?^${}()|[\]\\-]/g, (c) => (c === "-" ? "[- ]" : `\\${c}`)).replace(/\\\*$|\*$/, "\\w*")}\\b`, "gi");
 const lexRes = Object.fromEntries(["ai_era", "dotcom_corporate"].map((k) => [k, lex[k].map((w) => [w, toRe(w)])]));
 const r1 = (x) => (x == null ? null : Math.round(x * 100) / 100);
-
-// Mirrors html-text.ts (DROP_SUBTREE, BLOCK_TAGS, proseLines) except as noted above.
-const DROP = ["script", "style", "noscript", "template", "svg", "iframe", "canvas", "video", "audio", "object", "nav", "footer", "dialog", "menu"];
-const BLOCK = "p|div|br|li|ul|ol|h[1-6]|tr|td|th|table|section|article|main|header|aside|form|blockquote|pre|figcaption|dd|dt|dl|hr|summary|details";
-function homepageText(html) {
-  const titleM = html.match(/<title\b[^>]*>([\s\S]*?)<\/title\s*>/i);
-  const title = titleM ? decodeEntities(titleM[1].replace(/<[^>]+>/g, "")).replace(/\s+/g, " ").trim() : "";
-  // Wayback's own toolbar, present in rendered replays.
-  let h = html.replace(/<!-- BEGIN WAYBACK TOOLBAR INSERT -->[\s\S]*?<!-- END WAYBACK TOOLBAR INSERT -->/gi, " ")
-    .replace(/<div id="(wm-ipp-base|wm-ipp|donato|wm-ipp-print)"[\s\S]*?<\/div>/gi, " ");
-  for (const tag of DROP) {
-    h = h.replace(new RegExp(`<${tag}\\b[^>]*>[\\s\\S]*?<\\/${tag}\\s*>`, "gi"), " ").replace(new RegExp(`<${tag}\\b[^>]*\\/>`, "gi"), " ");
-  }
-  const bodyM = h.match(/<body\b[^>]*>([\s\S]*)<\/body\s*>/i);
-  const frag = bodyM ? bodyM[1] : h;
-  const lines = decodeEntities(frag.replace(/<!--[\s\S]*?-->/g, " ").replace(new RegExp(`<\\/?(?:${BLOCK})\\b[^>]*>`, "gi"), "\n").replace(/<[^>]+>/g, " "))
-    .replace(/\u00a0/g, " ").split("\n").map((l) => l.replace(/[ \t\r\f\v]+/g, " ").trim()).filter(Boolean);
-  const seen = new Set();
-  const prose = lines.filter((line) => {
-    const w = wordCount(line);
-    const keep = w >= 8 || (w >= 4 && /[.!?:;\u2026"\u201d')]$/.test(line)) || (w >= 4 && !/^(home|menu|login|log in|sign up|sign in|contact|about)\b/i.test(line));
-    if (!keep || seen.has(line)) return false;
-    seen.add(line);
-    return true;
-  });
-  const text = prose.join("\n\n");
-  return { title, text, words: wordCount(text) };
-}
 
 const rows = [];
 const files = readdirSync(CACHE);
