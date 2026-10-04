@@ -1,0 +1,221 @@
+{
+ "_readme": "SGR-007 sources, frozen 2026-10-04 with docs/research/sgr-007-preregistration.md, before any page was measured. Web prefixes were checked only for capture COUNTS in CC-MAIN-2021-43 (linkedin.com/pulse/ had none and was dropped before freezing); no text was read. H2 compares news_nigeria+news_kenya with news_uk+news_us; news_india and news_philippines are exploratory.",
+ "collection": "CC-MAIN-2021-43",
+ "seed": 20261004,
+ "pages_per_source": 200,
+ "min_words": 200,
+ "exclude_url_patterns": [
+  "/tag/",
+  "/tags/",
+  "/category/",
+  "/categories/",
+  "/author/",
+  "/authors/",
+  "/search",
+  "[?&]s=",
+  "/page/\\d",
+  "/feed",
+  "/archive",
+  "/topics?/",
+  "/login",
+  "/signin",
+  "/subscribe",
+  "/privacy",
+  "/terms",
+  "/cookie",
+  "/contact",
+  "/about"
+ ],
+ "web_groups": {
+  "news_uk": [
+   "bbc.co.uk/news/",
+   "theguardian.com/"
+  ],
+  "news_us": [
+   "apnews.com/article/",
+   "npr.org/2021/",
+   "usatoday.com/story/"
+  ],
+  "news_nigeria": [
+   "punchng.com/",
+   "vanguardngr.com/2021/",
+   "premiumtimesng.com/news/"
+  ],
+  "news_kenya": [
+   "nation.africa/kenya/",
+   "standardmedia.co.ke/",
+   "the-star.co.ke/news/"
+  ],
+  "news_india": [
+   "thehindu.com/news/",
+   "indianexpress.com/article/"
+  ],
+  "news_philippines": [
+   "newsinfo.inquirer.net/"
+  ],
+  "press_releases": [
+   "prnewswire.com/news-releases/",
+   "businesswire.com/news/home/",
+   "globenewswire.com/news-release/"
+  ],
+  "essay_mills": [
+   "ukessays.com/essays/",
+   "ivypanda.com/essays/",
+   "studycorgi.com/"
+  ],
+  "marketing_seo_blogs": [
+   "blog.hubspot.com/",
+   "neilpatel.com/blog/",
+   "searchenginejournal.com/"
+  ],
+  "how_to_content": [
+   "wikihow.com/",
+   "thespruce.com/"
+  ],
+  "self_help": [
+   "lifehack.org/",
+   "tinybuddha.com/blog/",
+   "success.com/"
+  ],
+  "careers_advice": [
+   "thebalancecareers.com/"
+  ],
+  "blogging_platform": [
+   "medium.com/"
+  ],
+  "wikipedia": [
+   "en.wikipedia.org/wiki/"
+  ],
+  "qa_forum": [
+   "english.stackexchange.com/questions/"
+  ],
+  "government": [
+   "gov.uk/government/news/"
+  ]
+ },
+ "homepages": {
+  "group": "homepages",
+  "panel": "scripts/experiments/sgr-004/panel.json",
+  "note": "root URL of each SGR-004 panel domain, as captured in CC-MAIN-2021-43"
+ },
+ "gutenberg": {
+  "books_per_class": 25,
+  "pieces_per_book": 3,
+  "piece_words": 800,
+  "positions": [
+   0.2,
+   0.5,
+   0.8
+  ],
+  "classes": {
+   "gutenberg_fiction": {
+    "subject_any": [
+     "Fiction"
+    ],
+    "locc_prefix": [
+     "PR",
+     "PS"
+    ]
+   },
+   "gutenberg_essays": {
+    "subject_any": [
+     "Essays"
+    ],
+    "locc_prefix": [
+     "PR",
+     "PS"
+    ],
+    "subject_none": [
+     "Fiction"
+    ]
+   },
+   "gutenberg_sermons": {
+    "subject_any": [
+     "Sermons"
+    ],
+    "subject_none": [
+     "Fiction"
+    ]
+   },
+   "gutenberg_conduct": {
+    "subject_any": [
+     "Conduct of life",
+     "Self-help",
+     "Success"
+    ],
+    "subject_none": [
+     "Fiction"
+    ]
+   },
+   "gutenberg_oratory": {
+    "subject_any": [
+     "Speeches, addresses"
+    ],
+    "subject_none": [
+     "Fiction"
+    ]
+   },
+   "gutenberg_commerce": {
+    "locc_prefix": [
+     "HF"
+    ],
+    "subject_none": [
+     "Fiction"
+    ]
+   },
+   "gutenberg_history": {
+    "locc_prefix": [
+     "D",
+     "E",
+     "F"
+    ],
+    "subject_none": [
+     "Fiction"
+    ]
+   },
+   "gutenberg_science": {
+    "locc_prefix": [
+     "Q"
+    ],
+    "subject_none": [
+     "Fiction"
+    ]
+   }
+  },
+  "language": "en"
+ },
+ "arxiv": {
+  "group": "arxiv",
+  "source": "SGR-008 census: ids and eligibility from census-papers.jsonl.gz (base_ok, ym 2015-01..2022-11); abstract text from census/part-*.jsonl.gz (first record per id), LaTeX cleaned with SGR-008's clean(); seeded sample of 10,000 measured with instruments.mjs (changed before reading any abstract; see preregistration section 7)",
+  "agreement": "read-only, agreed with the SGR-008 lane 2026-10-04",
+  "sample": 10000
+ },
+ "labels": {
+  "news_uk": "News, UK",
+  "news_us": "News, US",
+  "news_nigeria": "News, Nigeria",
+  "news_kenya": "News, Kenya",
+  "news_india": "News, India",
+  "news_philippines": "News, Philippines",
+  "press_releases": "Press releases",
+  "essay_mills": "Essay-mill essays",
+  "marketing_seo_blogs": "Marketing and SEO blogs",
+  "how_to_content": "How-to content",
+  "self_help": "Self-help and productivity",
+  "careers_advice": "Careers advice",
+  "blogging_platform": "Medium posts",
+  "wikipedia": "Wikipedia",
+  "qa_forum": "Q&A forum",
+  "government": "Government news",
+  "homepages": "Company homepages",
+  "gutenberg_fiction": "Books before 1928: fiction",
+  "gutenberg_essays": "Books before 1928: essays",
+  "gutenberg_sermons": "Books before 1928: sermons and religion",
+  "gutenberg_conduct": "Books before 1928: conduct of life and self-help",
+  "gutenberg_oratory": "Books before 1928: speeches",
+  "gutenberg_commerce": "Books before 1928: commerce",
+  "gutenberg_history": "Books before 1928: history",
+  "gutenberg_science": "Books before 1928: science",
+  "arxiv": "Scientific abstracts (arXiv, before 2023)"
+ }
+}

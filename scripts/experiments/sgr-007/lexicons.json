@@ -1,0 +1,83 @@
+{
+ "_readme": "SGR-007 word lists, frozen 2026-10-04 before any page was measured. Exact lowercase whole words unless a trailing * (any ending). OLD is SGR-008's frozen 2024 tells (docs/research/sgr-008-preregistration.md section 3, branch research/sgr-008-abstracts). CALLED_OUT and QUIET are SGR-008's pilot lexicon (words publicly mocked as ChatGPT tells, and quieter LLM-favoured words; sources there: arXiv 2509.09596, 2506.21817, 2502.09606). MARKETING is SGR-004's AI-era vocabulary, style words only. The AI-ism rate (primary outcome) counts OLD + CALLED_OUT + MARKETING, each word once. No list says a text was written by AI.",
+ "OLD": [
+  "innovative",
+  "utilized",
+  "advancements",
+  "pivotal",
+  "facilitates",
+  "firstly",
+  "tackle",
+  "showcasing",
+  "underscores",
+  "delve",
+  "delves",
+  "intricate"
+ ],
+ "CALLED_OUT": [
+  "delve*",
+  "intricate*",
+  "meticulous*",
+  "tapestry",
+  "commendable",
+  "showcas*",
+  "pivotal",
+  "realm"
+ ],
+ "QUIET": [
+  "underscor*",
+  "crucial",
+  "notabl*",
+  "comprehensive*",
+  "enhanc*",
+  "insights",
+  "additionally",
+  "potential",
+  "significant*"
+ ],
+ "MARKETING": [
+  "seamless*",
+  "elevate*",
+  "unlock*",
+  "empower*",
+  "streamline*",
+  "supercharge*",
+  "unleash*",
+  "effortless*",
+  "transformative",
+  "game-changer",
+  "game changer",
+  "cutting-edge",
+  "next-level",
+  "revolutionis*",
+  "revolutioniz*",
+  "harness*",
+  "delve*",
+  "tapestry",
+  "realm",
+  "embark*",
+  "navigate the",
+  "landscape",
+  "journey",
+  "reimagin*",
+  "redefin*",
+  "at scale",
+  "in seconds"
+ ],
+ "DELVE": [
+  "delve",
+  "delves",
+  "delved",
+  "delving"
+ ],
+ "CONTROL": [
+  "however",
+  "results",
+  "using",
+  "show",
+  "method",
+  "people",
+  "time",
+  "year"
+ ]
+}
