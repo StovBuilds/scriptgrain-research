@@ -1,0 +1,322 @@
+{
+ "metrobankonline.co.uk": {
+  "under_150_words": 1,
+  "duplicate_text": 3
+ },
+ "tsb.co.uk": {
+  "under_150_words": 2,
+  "duplicate_text": 3,
+  "list_like": 1
+ },
+ "virginmoney.com": {
+  "list_like": 4
+ },
+ "co-operativebank.co.uk": {
+  "list_like": 4
+ },
+ "atombank.co.uk": {
+  "list_like": 2
+ },
+ "skipton.co.uk": {
+  "list_like": 8
+ },
+ "coventrybuildingsociety.co.uk": {
+  "duplicate_text": 1
+ },
+ "utilita.co.uk": {
+  "under_150_words": 3
+ },
+ "goodenergy.co.uk": {
+  "list_like": 1
+ },
+ "ecotricity.co.uk": {
+  "under_150_words": 1
+ },
+ "ee.co.uk": {
+  "under_150_words": 42
+ },
+ "talktalk.co.uk": {
+  "list_like": 3
+ },
+ "hyperoptic.com": {
+  "list_like": 13,
+  "duplicate_text": 4
+ },
+ "smarty.co.uk": {
+  "list_like": 1,
+  "under_150_words": 2
+ },
+ "idmobile.co.uk": {
+  "list_like": 1
+ },
+ "o2.co.uk": {
+  "list_like": 1
+ },
+ "zen.co.uk": {
+  "duplicate_text": 8,
+  "under_150_words": 1
+ },
+ "freeagent.com": {
+  "under_150_words": 1
+ },
+ "gocardless.com": {
+  "list_like": 13,
+  "under_150_words": 3
+ },
+ "xero.com": {
+  "list_like": 1,
+  "duplicate_text": 4
+ },
+ "sage.com": {
+  "list_like": 26,
+  "under_150_words": 26,
+  "duplicate_text": 3
+ },
+ "hubspot.com": {
+  "list_like": 34,
+  "under_150_words": 9
+ },
+ "canva.com": {
+  "list_like": 8
+ },
+ "figma.com": {
+  "list_like": 5
+ },
+ "clickup.com": {
+  "list_like": 6,
+  "under_150_words": 3
+ },
+ "tesco.com": {
+  "list_like": 2,
+  "duplicate_text": 1
+ },
+ "sainsburys.co.uk": {
+  "list_like": 2
+ },
+ "asda.com": {
+  "list_like": 6
+ },
+ "morrisons.com": {
+  "list_like": 2,
+  "under_150_words": 1
+ },
+ "lidl.co.uk": {
+  "list_like": 2
+ },
+ "ocado.com": {
+  "list_like": 34
+ },
+ "coop.co.uk": {
+  "under_150_words": 22,
+  "duplicate_text": 1,
+  "list_like": 1
+ },
+ "iceland.co.uk": {
+  "list_like": 126,
+  "under_150_words": 11
+ },
+ "britishairways.com": {
+  "duplicate_text": 5
+ },
+ "jet2.com": {
+  "list_like": 7
+ },
+ "virginatlantic.com": {
+  "list_like": 30,
+  "duplicate_text": 2,
+  "under_150_words": 2
+ },
+ "tui.co.uk": {
+  "duplicate_text": 49
+ },
+ "aviva.co.uk": {
+  "list_like": 11,
+  "duplicate_text": 1,
+  "under_150_words": 1
+ },
+ "directline.com": {
+  "duplicate_text": 1
+ },
+ "admiral.com": {
+  "list_like": 4
+ },
+ "lv.com": {
+  "list_like": 1,
+  "duplicate_text": 1,
+  "under_150_words": 6
+ },
+ "axa.co.uk": {
+  "list_like": 6
+ },
+ "legalandgeneral.com": {
+  "list_like": 15,
+  "under_150_words": 2
+ },
+ "zurich.co.uk": {
+  "list_like": 6
+ },
+ "bupa.co.uk": {
+  "list_like": 2,
+  "under_150_words": 1
+ },
+ "marksandspencer.com": {
+  "list_like": 2,
+  "under_150_words": 1
+ },
+ "johnlewis.com": {
+  "under_150_words": 1,
+  "list_like": 3,
+  "duplicate_text": 1
+ },
+ "superdry.com": {
+  "under_150_words": 5,
+  "list_like": 13,
+  "duplicate_text": 6
+ },
+ "cancerresearchuk.org": {
+  "under_150_words": 2,
+  "list_like": 12,
+  "duplicate_text": 1
+ },
+ "oxfam.org.uk": {
+  "list_like": 13
+ },
+ "redcross.org.uk": {
+  "under_150_words": 2
+ },
+ "macmillan.org.uk": {
+  "list_like": 3,
+  "under_150_words": 1
+ },
+ "rnli.org": {
+  "list_like": 2,
+  "under_150_words": 2
+ },
+ "nspcc.org.uk": {
+  "list_like": 2,
+  "duplicate_text": 1
+ },
+ "barnardos.org.uk": {
+  "list_like": 3,
+  "duplicate_text": 1
+ },
+ "mind.org.uk": {
+  "list_like": 17,
+  "duplicate_text": 7
+ },
+ "savethechildren.org.uk": {
+  "list_like": 2
+ },
+ "rspca.org.uk": {
+  "list_like": 1
+ },
+ "innocentdrinks.co.uk": {
+  "under_150_words": 1,
+  "list_like": 1
+ },
+ "greggs.co.uk": {
+  "under_150_words": 2,
+  "list_like": 4
+ },
+ "nandos.co.uk": {
+  "under_150_words": 4,
+  "duplicate_text": 1,
+  "list_like": 9
+ },
+ "itsu.com": {
+  "duplicate_text": 1
+ },
+ "cookfood.net": {
+  "list_like": 22,
+  "under_150_words": 1
+ },
+ "gailsbread.co.uk": {
+  "list_like": 12,
+  "under_150_words": 1
+ },
+ "lloydsbank.com": {
+  "under_150_words": 5,
+  "list_like": 3
+ },
+ "nationwide.co.uk": {
+  "under_150_words": 19
+ },
+ "monzo.com": {
+  "list_like": 1
+ },
+ "barclays.co.uk": {
+  "list_like": 1,
+  "under_150_words": 1
+ },
+ "natwest.com": {
+  "list_like": 9
+ },
+ "starlingbank.com": {
+  "list_like": 3,
+  "duplicate_text": 1
+ },
+ "santander.co.uk": {
+  "list_like": 1
+ },
+ "hsbc.co.uk": {
+  "list_like": 1
+ },
+ "octopus.energy": {
+  "duplicate_text": 1,
+  "under_150_words": 1,
+  "list_like": 3
+ },
+ "britishgas.co.uk": {
+  "duplicate_text": 1
+ },
+ "edfenergy.com": {
+  "under_150_words": 2,
+  "list_like": 35
+ },
+ "bt.com": {
+  "list_like": 2
+ },
+ "sky.com": {
+  "list_like": 12,
+  "duplicate_text": 4
+ },
+ "virginmedia.com": {
+  "under_150_words": 3,
+  "list_like": 4
+ },
+ "vodafone.co.uk": {
+  "list_like": 43,
+  "under_150_words": 7
+ },
+ "three.co.uk": {
+  "list_like": 1
+ },
+ "giffgaff.com": {
+  "list_like": 1
+ },
+ "notion.com": {
+  "list_like": 68,
+  "duplicate_text": 24,
+  "under_150_words": 5
+ },
+ "slack.com": {
+  "duplicate_text": 16,
+  "list_like": 3
+ },
+ "asana.com": {
+  "under_150_words": 6,
+  "list_like": 19
+ },
+ "monday.com": {
+  "under_150_words": 8,
+  "list_like": 8
+ },
+ "airtable.com": {
+  "list_like": 7,
+  "under_150_words": 11
+ },
+ "mailchimp.com": {
+  "list_like": 4,
+  "under_150_words": 3
+ }
+}

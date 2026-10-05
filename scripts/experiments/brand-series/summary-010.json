@@ -1,0 +1,5284 @@
+{
+ "pages": 16392,
+ "brands": 117,
+ "byCategory": {
+  "blog": {
+   "ai_ism_per1000": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.47,
+     3.15
+    ],
+    "brand_mean_p": [
+     0,
+     0.365,
+     0.795,
+     1.413,
+     2.028
+    ],
+    "brand_weighted_mean": 1.011
+   },
+   "old_per1000": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.7
+    ],
+    "brand_mean_p": [
+     0,
+     0.055,
+     0.133,
+     0.225,
+     0.35
+    ],
+    "brand_weighted_mean": 0.17
+   },
+   "called_out_per1000": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.028,
+     0.076,
+     0.175
+    ],
+    "brand_weighted_mean": 0.06
+   },
+   "marketing_per1000": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.208,
+     2.66
+    ],
+    "brand_mean_p": [
+     0,
+     0.254,
+     0.577,
+     1.246,
+     1.839
+    ],
+    "brand_weighted_mean": 0.822
+   },
+   "quiet_per1000": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.63,
+     3.46
+    ],
+    "brand_mean_p": [
+     0,
+     0.23,
+     0.776,
+     1.265,
+     2.265
+    ],
+    "brand_weighted_mean": 0.968
+   },
+   "ai_shape_per1000": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.9
+    ],
+    "brand_mean_p": [
+     0,
+     0.107,
+     0.179,
+     0.272,
+     0.403
+    ],
+    "brand_weighted_mean": 0.206
+   },
+   "em_dash_per1000": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0,
+     0,
+     1.401,
+     3.782,
+     6.672
+    ],
+    "brand_mean_p": [
+     0.48,
+     1.262,
+     2.278,
+     3.076,
+     4.441
+    ],
+    "brand_weighted_mean": 2.434
+   },
+   "avg_sentence_length": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     8.59,
+     10.81,
+     12.94,
+     15.14,
+     17.34
+    ],
+    "brand_mean_p": [
+     9.158,
+     10.837,
+     12.573,
+     13.909,
+     14.96
+    ],
+    "brand_weighted_mean": 12.287
+   },
+   "sentence_variation": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0.55,
+     0.61,
+     0.7,
+     0.81,
+     0.93
+    ],
+    "brand_mean_p": [
+     0.624,
+     0.676,
+     0.737,
+     0.811,
+     0.898
+    ],
+    "brand_weighted_mean": 0.752
+   },
+   "short_sentence_share": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0.21,
+     0.27,
+     0.36,
+     0.47,
+     0.6
+    ],
+    "brand_mean_p": [
+     0.296,
+     0.338,
+     0.406,
+     0.502,
+     0.548
+    ],
+    "brand_weighted_mean": 0.421
+   },
+   "contractions_per1000": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     5.499,
+     9.923,
+     16.11,
+     23.63,
+     31.17
+    ],
+    "brand_mean_p": [
+     10.014,
+     12.411,
+     16.733,
+     21.312,
+     24.896
+    ],
+    "brand_weighted_mean": 17.426
+   },
+   "commas_per_sentence": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0.26,
+     0.39,
+     0.55,
+     0.73,
+     0.91
+    ],
+    "brand_mean_p": [
+     0.293,
+     0.417,
+     0.536,
+     0.63,
+     0.692
+    ],
+    "brand_weighted_mean": 0.52
+   },
+   "exclamations_per1000": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.131,
+     3.781
+    ],
+    "brand_mean_p": [
+     0.042,
+     0.228,
+     0.697,
+     1.692,
+     3.496
+    ],
+    "brand_weighted_mean": 1.405
+   },
+   "questions_per1000": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0,
+     1.184,
+     3.177,
+     6.098,
+     9.667
+    ],
+    "brand_mean_p": [
+     1.536,
+     2.716,
+     3.831,
+     5.453,
+     6.661
+    ],
+    "brand_weighted_mean": 4.119
+   },
+   "you_share": {
+    "pages": 10244,
+    "brands": 104,
+    "page_p": [
+     0.143,
+     0.391,
+     0.686,
+     0.857,
+     0.943
+    ],
+    "brand_mean_p": [
+     0.365,
+     0.517,
+     0.639,
+     0.74,
+     0.809
+    ],
+    "brand_weighted_mean": 0.608
+   },
+   "we_share": {
+    "pages": 10244,
+    "brands": 104,
+    "page_p": [
+     0.036,
+     0.101,
+     0.241,
+     0.474,
+     0.75
+    ],
+    "brand_mean_p": [
+     0.131,
+     0.211,
+     0.293,
+     0.424,
+     0.512
+    ],
+    "brand_weighted_mean": 0.323
+   },
+   "i_share": {
+    "pages": 10244,
+    "brands": 104,
+    "page_p": [
+     0,
+     0,
+     0.005,
+     0.071,
+     0.216
+    ],
+    "brand_mean_p": [
+     0.016,
+     0.031,
+     0.049,
+     0.091,
+     0.159
+    ],
+    "brand_weighted_mean": 0.069
+   },
+   "long_word_share": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     0.17,
+     0.199,
+     0.239,
+     0.286,
+     0.331
+    ],
+    "brand_mean_p": [
+     0.191,
+     0.211,
+     0.239,
+     0.273,
+     0.311
+    ],
+    "brand_weighted_mean": 0.243
+   },
+   "words": {
+    "pages": 10310,
+    "brands": 104,
+    "page_p": [
+     381.9,
+     636,
+     995,
+     1466,
+     2204.2
+    ],
+    "brand_mean_p": [
+     536.032,
+     833.307,
+     1036.996,
+     1311.466,
+     1716.082
+    ],
+    "brand_weighted_mean": 1128.881
+   }
+  },
+  "press": {
+   "ai_ism_per1000": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.99,
+     4.39
+    ],
+    "brand_mean_p": [
+     0.058,
+     0.59,
+     1.018,
+     1.844,
+     3.537
+    ],
+    "brand_weighted_mean": 1.516
+   },
+   "old_per1000": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.427
+    ],
+    "brand_mean_p": [
+     0,
+     0.071,
+     0.274,
+     0.44,
+     0.707
+    ],
+    "brand_weighted_mean": 0.325
+   },
+   "called_out_per1000": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.035,
+     0.124,
+     0.193
+    ],
+    "brand_weighted_mean": 0.084
+   },
+   "marketing_per1000": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.3,
+     3.26
+    ],
+    "brand_mean_p": [
+     0,
+     0.208,
+     0.625,
+     1.46,
+     3.192
+    ],
+    "brand_weighted_mean": 1.171
+   },
+   "quiet_per1000": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0,
+     0,
+     0,
+     2.118,
+     4.31
+    ],
+    "brand_mean_p": [
+     0,
+     0.563,
+     1.021,
+     1.514,
+     3.294
+    ],
+    "brand_weighted_mean": 1.351
+   },
+   "ai_shape_per1000": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.1
+    ],
+    "brand_mean_p": [
+     0,
+     0.066,
+     0.21,
+     0.316,
+     0.47
+    ],
+    "brand_weighted_mean": 0.224
+   },
+   "em_dash_per1000": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0,
+     0,
+     1.06,
+     3.322,
+     6.004
+    ],
+    "brand_mean_p": [
+     0,
+     0.911,
+     1.793,
+     2.967,
+     3.988
+    ],
+    "brand_weighted_mean": 2.037
+   },
+   "avg_sentence_length": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     9.73,
+     12.83,
+     15.62,
+     18.33,
+     20.76
+    ],
+    "brand_mean_p": [
+     10.077,
+     12.416,
+     14.608,
+     17.119,
+     18.613
+    ],
+    "brand_weighted_mean": 14.552
+   },
+   "sentence_variation": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0.55,
+     0.61,
+     0.71,
+     0.82,
+     0.99
+    ],
+    "brand_mean_p": [
+     0.617,
+     0.675,
+     0.735,
+     0.831,
+     1.001
+    ],
+    "brand_weighted_mean": 0.799
+   },
+   "short_sentence_share": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0.163,
+     0.23,
+     0.32,
+     0.44,
+     0.6
+    ],
+    "brand_mean_p": [
+     0.232,
+     0.286,
+     0.366,
+     0.46,
+     0.563
+    ],
+    "brand_weighted_mean": 0.388
+   },
+   "contractions_per1000": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     3.56,
+     6.815,
+     11.34,
+     17.148,
+     23.76
+    ],
+    "brand_mean_p": [
+     6.466,
+     9.313,
+     11.752,
+     15.058,
+     19.41
+    ],
+    "brand_weighted_mean": 12.378
+   },
+   "commas_per_sentence": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0.3,
+     0.48,
+     0.69,
+     0.9,
+     1.157
+    ],
+    "brand_mean_p": [
+     0.303,
+     0.516,
+     0.669,
+     0.837,
+     1.08
+    ],
+    "brand_weighted_mean": 0.67
+   },
+   "exclamations_per1000": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.357
+    ],
+    "brand_mean_p": [
+     0,
+     0.03,
+     0.155,
+     0.676,
+     1.414
+    ],
+    "brand_weighted_mean": 1.059
+   },
+   "questions_per1000": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.684,
+     3.849
+    ],
+    "brand_mean_p": [
+     0,
+     0.207,
+     0.895,
+     2.023,
+     2.837
+    ],
+    "brand_weighted_mean": 1.45
+   },
+   "you_share": {
+    "pages": 4989,
+    "brands": 94,
+    "page_p": [
+     0,
+     0,
+     0.217,
+     0.474,
+     0.75
+    ],
+    "brand_mean_p": [
+     0.065,
+     0.122,
+     0.268,
+     0.429,
+     0.549
+    ],
+    "brand_weighted_mean": 0.29
+   },
+   "we_share": {
+    "pages": 4989,
+    "brands": 94,
+    "page_p": [
+     0.182,
+     0.4,
+     0.667,
+     0.901,
+     1
+    ],
+    "brand_mean_p": [
+     0.388,
+     0.5,
+     0.677,
+     0.8,
+     0.874
+    ],
+    "brand_weighted_mean": 0.648
+   },
+   "i_share": {
+    "pages": 4989,
+    "brands": 94,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.091,
+     0.251
+    ],
+    "brand_mean_p": [
+     0,
+     0.021,
+     0.049,
+     0.081,
+     0.145
+    ],
+    "brand_weighted_mean": 0.062
+   },
+   "long_word_share": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     0.219,
+     0.247,
+     0.28,
+     0.316,
+     0.349
+    ],
+    "brand_mean_p": [
+     0.233,
+     0.254,
+     0.286,
+     0.31,
+     0.339
+    ],
+    "brand_weighted_mean": 0.283
+   },
+   "words": {
+    "pages": 5094,
+    "brands": 94,
+    "page_p": [
+     295,
+     474,
+     746,
+     1099.75,
+     1473
+    ],
+    "brand_mean_p": [
+     431.2,
+     607.828,
+     784.988,
+     1036.691,
+     1385.824
+    ],
+    "brand_weighted_mean": 1061.091
+   }
+  },
+  "announcement": {
+   "ai_ism_per1000": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0,
+     0,
+     0,
+     2.27,
+     4.604
+    ],
+    "brand_mean_p": [
+     0,
+     0.365,
+     1.1,
+     1.958,
+     2.877
+    ],
+    "brand_weighted_mean": 1.461
+   },
+   "old_per1000": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.044
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.083,
+     0.347,
+     0.699
+    ],
+    "brand_weighted_mean": 0.295
+   },
+   "called_out_per1000": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0,
+     0.087,
+     0.368
+    ],
+    "brand_weighted_mean": 0.124
+   },
+   "marketing_per1000": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.72,
+     3.854
+    ],
+    "brand_mean_p": [
+     0,
+     0.084,
+     0.791,
+     1.638,
+     2.565
+    ],
+    "brand_weighted_mean": 1.178
+   },
+   "quiet_per1000": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.84,
+     3.604
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.856,
+     1.659,
+     2.08
+    ],
+    "brand_weighted_mean": 0.954
+   },
+   "ai_shape_per1000": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.74
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.104,
+     0.276,
+     0.472
+    ],
+    "brand_weighted_mean": 0.247
+   },
+   "em_dash_per1000": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0,
+     0,
+     1.212,
+     3.995,
+     6.935
+    ],
+    "brand_mean_p": [
+     0,
+     0.902,
+     2.27,
+     3.473,
+     5.566
+    ],
+    "brand_weighted_mean": 2.753
+   },
+   "avg_sentence_length": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     7.318,
+     10.25,
+     12.8,
+     15.46,
+     17.912
+    ],
+    "brand_mean_p": [
+     9.028,
+     10.604,
+     12.704,
+     14.826,
+     16.036
+    ],
+    "brand_weighted_mean": 12.758
+   },
+   "sentence_variation": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0.57,
+     0.64,
+     0.73,
+     0.83,
+     0.96
+    ],
+    "brand_mean_p": [
+     0.625,
+     0.683,
+     0.761,
+     0.836,
+     0.914
+    ],
+    "brand_weighted_mean": 0.776
+   },
+   "short_sentence_share": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0.21,
+     0.3,
+     0.4,
+     0.51,
+     0.65
+    ],
+    "brand_mean_p": [
+     0.281,
+     0.349,
+     0.423,
+     0.495,
+     0.599
+    ],
+    "brand_weighted_mean": 0.429
+   },
+   "contractions_per1000": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     3.898,
+     9.24,
+     15.43,
+     22.44,
+     30.258
+    ],
+    "brand_mean_p": [
+     8.767,
+     12.174,
+     16.132,
+     19.637,
+     21.84
+    ],
+    "brand_weighted_mean": 16.048
+   },
+   "commas_per_sentence": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0.23,
+     0.36,
+     0.56,
+     0.79,
+     1.014
+    ],
+    "brand_mean_p": [
+     0.332,
+     0.419,
+     0.512,
+     0.682,
+     0.808
+    ],
+    "brand_weighted_mean": 0.544
+   },
+   "exclamations_per1000": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.626,
+     4.188
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.522,
+     1.946,
+     3.361
+    ],
+    "brand_weighted_mean": 1.175
+   },
+   "questions_per1000": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0,
+     0,
+     1.808,
+     4.845,
+     9.075
+    ],
+    "brand_mean_p": [
+     0.38,
+     1.63,
+     2.836,
+     4.812,
+     6.817
+    ],
+    "brand_weighted_mean": 3.417
+   },
+   "you_share": {
+    "pages": 824,
+    "brands": 68,
+    "page_p": [
+     0,
+     0.22,
+     0.526,
+     0.743,
+     0.909
+    ],
+    "brand_mean_p": [
+     0.227,
+     0.334,
+     0.542,
+     0.664,
+     0.78
+    ],
+    "brand_weighted_mean": 0.501
+   },
+   "we_share": {
+    "pages": 824,
+    "brands": 68,
+    "page_p": [
+     0.057,
+     0.188,
+     0.389,
+     0.692,
+     0.948
+    ],
+    "brand_mean_p": [
+     0.165,
+     0.28,
+     0.396,
+     0.607,
+     0.753
+    ],
+    "brand_weighted_mean": 0.441
+   },
+   "i_share": {
+    "pages": 824,
+    "brands": 68,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.056,
+     0.179
+    ],
+    "brand_mean_p": [
+     0,
+     0.01,
+     0.043,
+     0.077,
+     0.143
+    ],
+    "brand_weighted_mean": 0.058
+   },
+   "long_word_share": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     0.184,
+     0.221,
+     0.267,
+     0.314,
+     0.361
+    ],
+    "brand_mean_p": [
+     0.193,
+     0.222,
+     0.246,
+     0.282,
+     0.32
+    ],
+    "brand_weighted_mean": 0.251
+   },
+   "words": {
+    "pages": 857,
+    "brands": 68,
+    "page_p": [
+     236,
+     436,
+     721,
+     1059,
+     1716.2
+    ],
+    "brand_mean_p": [
+     437.113,
+     612.875,
+     827.75,
+     1178.611,
+     1536.431
+    ],
+    "brand_weighted_mean": 940.276
+   }
+  },
+  "info_pack": {
+   "ai_ism_per1000": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0,
+     0.125,
+     0.38,
+     0.7,
+     1.09
+    ],
+    "brand_mean_p": [
+     0.089,
+     0.26,
+     0.455,
+     0.753,
+     1.147
+    ],
+    "brand_weighted_mean": 0.611
+   },
+   "old_per1000": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0,
+     0,
+     0.07,
+     0.15,
+     0.32
+    ],
+    "brand_mean_p": [
+     0,
+     0.04,
+     0.093,
+     0.175,
+     0.325
+    ],
+    "brand_weighted_mean": 0.166
+   },
+   "called_out_per1000": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.02,
+     0.06
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.008,
+     0.03,
+     0.096
+    ],
+    "brand_weighted_mean": 0.058
+   },
+   "marketing_per1000": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0,
+     0,
+     0.26,
+     0.46,
+     0.8
+    ],
+    "brand_mean_p": [
+     0,
+     0.145,
+     0.315,
+     0.49,
+     0.966
+    ],
+    "brand_weighted_mean": 0.416
+   },
+   "quiet_per1000": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0,
+     0.785,
+     2.04,
+     2.725,
+     3.05
+    ],
+    "brand_mean_p": [
+     0.378,
+     0.955,
+     1.98,
+     2.51,
+     2.76
+    ],
+    "brand_weighted_mean": 1.771
+   },
+   "ai_shape_per1000": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0,
+     0,
+     0.1,
+     0.2,
+     0.4
+    ],
+    "brand_mean_p": [
+     0,
+     0.05,
+     0.1,
+     0.2,
+     0.31
+    ],
+    "brand_weighted_mean": 0.161
+   },
+   "em_dash_per1000": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0.178,
+     0.703,
+     1.813,
+     4.583,
+     9.972
+    ],
+    "brand_mean_p": [
+     0.511,
+     1.321,
+     2.63,
+     5.356,
+     8.105
+    ],
+    "brand_weighted_mean": 3.856
+   },
+   "avg_sentence_length": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     6.26,
+     6.71,
+     7.61,
+     8.905,
+     10.14
+    ],
+    "brand_mean_p": [
+     6.351,
+     6.735,
+     7.523,
+     8.51,
+     10.124
+    ],
+    "brand_weighted_mean": 8.278
+   },
+   "sentence_variation": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0.49,
+     0.555,
+     0.62,
+     0.67,
+     0.71
+    ],
+    "brand_mean_p": [
+     0.513,
+     0.57,
+     0.62,
+     0.65,
+     0.693
+    ],
+    "brand_weighted_mean": 0.616
+   },
+   "short_sentence_share": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0.38,
+     0.49,
+     0.57,
+     0.66,
+     0.72
+    ],
+    "brand_mean_p": [
+     0.407,
+     0.535,
+     0.59,
+     0.645,
+     0.701
+    ],
+    "brand_weighted_mean": 0.57
+   },
+   "contractions_per1000": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     1.52,
+     3.305,
+     5.17,
+     6.895,
+     11.74
+    ],
+    "brand_mean_p": [
+     2.315,
+     3.563,
+     5.28,
+     9.593,
+     11.772
+    ],
+    "brand_weighted_mean": 6.487
+   },
+   "commas_per_sentence": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0.25,
+     0.3,
+     0.34,
+     0.41,
+     0.54
+    ],
+    "brand_mean_p": [
+     0.295,
+     0.318,
+     0.35,
+     0.4,
+     0.542
+    ],
+    "brand_weighted_mean": 0.386
+   },
+   "exclamations_per1000": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.012,
+     0.147
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.005,
+     0.079,
+     0.513
+    ],
+    "brand_weighted_mean": 0.24
+   },
+   "questions_per1000": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0,
+     0,
+     0.02,
+     0.173,
+     0.645
+    ],
+    "brand_mean_p": [
+     0,
+     0.011,
+     0.091,
+     0.323,
+     1.001
+    ],
+    "brand_weighted_mean": 0.564
+   },
+   "you_share": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0,
+     0.004,
+     0.014,
+     0.093,
+     0.61
+    ],
+    "brand_mean_p": [
+     0.006,
+     0.009,
+     0.039,
+     0.252,
+     0.433
+    ],
+    "brand_weighted_mean": 0.143
+   },
+   "we_share": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0.31,
+     0.75,
+     0.943,
+     0.98,
+     1
+    ],
+    "brand_mean_p": [
+     0.519,
+     0.671,
+     0.874,
+     0.965,
+     0.978
+    ],
+    "brand_weighted_mean": 0.8
+   },
+   "i_share": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0,
+     0.009,
+     0.027,
+     0.058,
+     0.14
+    ],
+    "brand_mean_p": [
+     0.005,
+     0.017,
+     0.037,
+     0.072,
+     0.138
+    ],
+    "brand_weighted_mean": 0.057
+   },
+   "long_word_share": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     0.264,
+     0.308,
+     0.337,
+     0.355,
+     0.376
+    ],
+    "brand_mean_p": [
+     0.278,
+     0.307,
+     0.331,
+     0.349,
+     0.363
+    ],
+    "brand_weighted_mean": 0.323
+   },
+   "words": {
+    "pages": 131,
+    "brands": 57,
+    "page_p": [
+     1109,
+     3698,
+     25175,
+     93354,
+     141150
+    ],
+    "brand_mean_p": [
+     1982.533,
+     9970,
+     42131.5,
+     68046.5,
+     119922.3
+    ],
+    "brand_weighted_mean": 54496.026
+   }
+  }
+ },
+ "bySector": {
+  "bank": {
+   "ai_ism_per1000": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.49,
+     3.18
+    ],
+    "brand_mean_p": [
+     0.351,
+     0.534,
+     0.952,
+     1.331,
+     1.55
+    ],
+    "brand_weighted_mean": 0.962
+   },
+   "old_per1000": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.96
+    ],
+    "brand_mean_p": [
+     0.087,
+     0.168,
+     0.218,
+     0.325,
+     0.436
+    ],
+    "brand_weighted_mean": 0.244
+   },
+   "called_out_per1000": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0,
+     0.01,
+     0.025,
+     0.048,
+     0.09
+    ],
+    "brand_weighted_mean": 0.042
+   },
+   "marketing_per1000": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.17,
+     2.51
+    ],
+    "brand_mean_p": [
+     0.226,
+     0.299,
+     0.659,
+     0.941,
+     1.371
+    ],
+    "brand_weighted_mean": 0.709
+   },
+   "quiet_per1000": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0,
+     0,
+     0.78,
+     2.21,
+     4.04
+    ],
+    "brand_mean_p": [
+     0.283,
+     0.863,
+     1.031,
+     1.586,
+     2.148
+    ],
+    "brand_weighted_mean": 1.294
+   },
+   "ai_shape_per1000": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "brand_mean_p": [
+     0.035,
+     0.106,
+     0.202,
+     0.257,
+     0.334
+    ],
+    "brand_weighted_mean": 0.197
+   },
+   "em_dash_per1000": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0,
+     0,
+     1.214,
+     3.594,
+     6.541
+    ],
+    "brand_mean_p": [
+     1.558,
+     1.734,
+     2.032,
+     2.589,
+     3.728
+    ],
+    "brand_weighted_mean": 2.252
+   },
+   "avg_sentence_length": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     9.95,
+     12.05,
+     14.4,
+     17.11,
+     19.28
+    ],
+    "brand_mean_p": [
+     12.458,
+     13.12,
+     13.921,
+     14.903,
+     16.166
+    ],
+    "brand_weighted_mean": 14.21
+   },
+   "sentence_variation": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0.56,
+     0.62,
+     0.7,
+     0.79,
+     0.93
+    ],
+    "brand_mean_p": [
+     0.644,
+     0.679,
+     0.71,
+     0.74,
+     0.808
+    ],
+    "brand_weighted_mean": 0.718
+   },
+   "short_sentence_share": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0.2,
+     0.25,
+     0.33,
+     0.43,
+     0.55
+    ],
+    "brand_mean_p": [
+     0.296,
+     0.331,
+     0.357,
+     0.407,
+     0.451
+    ],
+    "brand_weighted_mean": 0.363
+   },
+   "contractions_per1000": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     4.188,
+     8,
+     14.37,
+     21.94,
+     29.96
+    ],
+    "brand_mean_p": [
+     9.769,
+     12.498,
+     16.706,
+     18.357,
+     21.472
+    ],
+    "brand_weighted_mean": 16.348
+   },
+   "commas_per_sentence": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0.3,
+     0.44,
+     0.59,
+     0.78,
+     0.97
+    ],
+    "brand_mean_p": [
+     0.467,
+     0.551,
+     0.603,
+     0.643,
+     0.764
+    ],
+    "brand_weighted_mean": 0.603
+   },
+   "exclamations_per1000": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     2.457
+    ],
+    "brand_mean_p": [
+     0.025,
+     0.052,
+     0.123,
+     0.847,
+     1.782
+    ],
+    "brand_weighted_mean": 0.647
+   },
+   "questions_per1000": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0,
+     0,
+     1.656,
+     4.662,
+     7.923
+    ],
+    "brand_mean_p": [
+     1.169,
+     2.071,
+     3.014,
+     3.791,
+     4.532
+    ],
+    "brand_weighted_mean": 2.876
+   },
+   "you_share": {
+    "pages": 2653,
+    "brands": 18,
+    "page_p": [
+     0,
+     0.152,
+     0.455,
+     0.752,
+     0.87
+    ],
+    "brand_mean_p": [
+     0.305,
+     0.379,
+     0.473,
+     0.571,
+     0.637
+    ],
+    "brand_weighted_mean": 0.473
+   },
+   "we_share": {
+    "pages": 2653,
+    "brands": 18,
+    "page_p": [
+     0.098,
+     0.2,
+     0.438,
+     0.783,
+     1
+    ],
+    "brand_mean_p": [
+     0.321,
+     0.373,
+     0.457,
+     0.596,
+     0.639
+    ],
+    "brand_weighted_mean": 0.475
+   },
+   "i_share": {
+    "pages": 2653,
+    "brands": 18,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.053,
+     0.188
+    ],
+    "brand_mean_p": [
+     0.025,
+     0.034,
+     0.048,
+     0.067,
+     0.084
+    ],
+    "brand_weighted_mean": 0.052
+   },
+   "long_word_share": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     0.178,
+     0.21,
+     0.253,
+     0.296,
+     0.332
+    ],
+    "brand_mean_p": [
+     0.214,
+     0.232,
+     0.25,
+     0.268,
+     0.296
+    ],
+    "brand_weighted_mean": 0.252
+   },
+   "words": {
+    "pages": 2669,
+    "brands": 18,
+    "page_p": [
+     389,
+     580,
+     877,
+     1279,
+     1623.4
+    ],
+    "brand_mean_p": [
+     719.33,
+     884.69,
+     958.305,
+     1052.667,
+     1411.645
+    ],
+    "brand_weighted_mean": 1012.61
+   }
+  },
+  "energy": {
+   "ai_ism_per1000": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0,
+     0,
+     0.72,
+     2.12,
+     4.078
+    ],
+    "brand_mean_p": [
+     0.623,
+     0.694,
+     1.012,
+     1.588,
+     2.08
+    ],
+    "brand_weighted_mean": 1.247
+   },
+   "old_per1000": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.388
+    ],
+    "brand_mean_p": [
+     0.14,
+     0.228,
+     0.323,
+     0.497,
+     0.551
+    ],
+    "brand_weighted_mean": 0.343
+   },
+   "called_out_per1000": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0,
+     0.016,
+     0.045,
+     0.079,
+     0.105
+    ],
+    "brand_weighted_mean": 0.055
+   },
+   "marketing_per1000": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.54,
+     3.18
+    ],
+    "brand_mean_p": [
+     0.331,
+     0.456,
+     0.747,
+     1.19,
+     1.477
+    ],
+    "brand_weighted_mean": 0.896
+   },
+   "quiet_per1000": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0,
+     0,
+     1.03,
+     2.37,
+     4.85
+    ],
+    "brand_mean_p": [
+     0.573,
+     0.892,
+     1.192,
+     1.417,
+     1.932
+    ],
+    "brand_weighted_mean": 1.524
+   },
+   "ai_shape_per1000": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "brand_mean_p": [
+     0.121,
+     0.169,
+     0.199,
+     0.248,
+     0.299
+    ],
+    "brand_weighted_mean": 0.218
+   },
+   "em_dash_per1000": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0,
+     0,
+     1.403,
+     4.065,
+     7.282
+    ],
+    "brand_mean_p": [
+     0.69,
+     1.607,
+     2.92,
+     3.988,
+     4.861
+    ],
+    "brand_weighted_mean": 3.001
+   },
+   "avg_sentence_length": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     11.132,
+     12.92,
+     14.53,
+     16.73,
+     19.35
+    ],
+    "brand_mean_p": [
+     13.528,
+     14.099,
+     14.624,
+     15.669,
+     15.952
+    ],
+    "brand_weighted_mean": 14.74
+   },
+   "sentence_variation": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0.54,
+     0.58,
+     0.65,
+     0.75,
+     0.86
+    ],
+    "brand_mean_p": [
+     0.601,
+     0.61,
+     0.698,
+     0.75,
+     0.83
+    ],
+    "brand_weighted_mean": 0.704
+   },
+   "short_sentence_share": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0.18,
+     0.23,
+     0.29,
+     0.38,
+     0.49
+    ],
+    "brand_mean_p": [
+     0.263,
+     0.28,
+     0.318,
+     0.375,
+     0.412
+    ],
+    "brand_weighted_mean": 0.331
+   },
+   "contractions_per1000": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     5.576,
+     9.15,
+     14.06,
+     21.08,
+     28.12
+    ],
+    "brand_mean_p": [
+     12.104,
+     14.351,
+     16.5,
+     18.888,
+     20.784
+    ],
+    "brand_weighted_mean": 16.417
+   },
+   "commas_per_sentence": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0.34,
+     0.47,
+     0.61,
+     0.77,
+     0.96
+    ],
+    "brand_mean_p": [
+     0.525,
+     0.544,
+     0.606,
+     0.686,
+     0.704
+    ],
+    "brand_weighted_mean": 0.619
+   },
+   "exclamations_per1000": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.67,
+     2.723
+    ],
+    "brand_mean_p": [
+     0.316,
+     0.444,
+     0.752,
+     1.491,
+     1.595
+    ],
+    "brand_weighted_mean": 0.903
+   },
+   "questions_per1000": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0,
+     0.697,
+     2.426,
+     5.917,
+     9.769
+    ],
+    "brand_mean_p": [
+     1.924,
+     2.107,
+     3.981,
+     5.048,
+     5.571
+    ],
+    "brand_weighted_mean": 3.866
+   },
+   "you_share": {
+    "pages": 1965,
+    "brands": 11,
+    "page_p": [
+     0,
+     0.208,
+     0.5,
+     0.806,
+     0.919
+    ],
+    "brand_mean_p": [
+     0.278,
+     0.314,
+     0.48,
+     0.677,
+     0.791
+    ],
+    "brand_weighted_mean": 0.511
+   },
+   "we_share": {
+    "pages": 1965,
+    "brands": 11,
+    "page_p": [
+     0.06,
+     0.152,
+     0.4,
+     0.714,
+     0.909
+    ],
+    "brand_mean_p": [
+     0.178,
+     0.283,
+     0.46,
+     0.6,
+     0.622
+    ],
+    "brand_weighted_mean": 0.424
+   },
+   "i_share": {
+    "pages": 1965,
+    "brands": 11,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.069,
+     0.194
+    ],
+    "brand_mean_p": [
+     0.031,
+     0.034,
+     0.06,
+     0.095,
+     0.114
+    ],
+    "brand_weighted_mean": 0.065
+   },
+   "long_word_share": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     0.177,
+     0.207,
+     0.247,
+     0.294,
+     0.325
+    ],
+    "brand_mean_p": [
+     0.206,
+     0.223,
+     0.238,
+     0.248,
+     0.284
+    ],
+    "brand_weighted_mean": 0.241
+   },
+   "words": {
+    "pages": 1973,
+    "brands": 11,
+    "page_p": [
+     456.2,
+     650,
+     958,
+     1404,
+     1829.4
+    ],
+    "brand_mean_p": [
+     696.333,
+     776.044,
+     976.514,
+     1288.232,
+     1458.207
+    ],
+    "brand_weighted_mean": 1049.131
+   }
+  },
+  "telecom": {
+   "ai_ism_per1000": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.58,
+     3.32
+    ],
+    "brand_mean_p": [
+     0.572,
+     0.863,
+     1.069,
+     1.604,
+     2.206
+    ],
+    "brand_weighted_mean": 1.296
+   },
+   "old_per1000": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.98
+    ],
+    "brand_mean_p": [
+     0.065,
+     0.082,
+     0.176,
+     0.246,
+     0.479
+    ],
+    "brand_weighted_mean": 0.21
+   },
+   "called_out_per1000": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0.005,
+     0.029,
+     0.08,
+     0.131,
+     0.169
+    ],
+    "brand_weighted_mean": 0.084
+   },
+   "marketing_per1000": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.35,
+     2.632
+    ],
+    "brand_mean_p": [
+     0.401,
+     0.633,
+     0.912,
+     1.35,
+     1.958
+    ],
+    "brand_weighted_mean": 1.07
+   },
+   "quiet_per1000": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.39,
+     2.788
+    ],
+    "brand_mean_p": [
+     0.481,
+     0.68,
+     0.935,
+     1.297,
+     1.744
+    ],
+    "brand_weighted_mean": 1.066
+   },
+   "ai_shape_per1000": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.1
+    ],
+    "brand_mean_p": [
+     0.131,
+     0.191,
+     0.273,
+     0.397,
+     0.425
+    ],
+    "brand_weighted_mean": 0.298
+   },
+   "em_dash_per1000": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0,
+     0,
+     1.577,
+     4.049,
+     6.888
+    ],
+    "brand_mean_p": [
+     1.498,
+     1.859,
+     2.859,
+     3.088,
+     3.698
+    ],
+    "brand_weighted_mean": 2.617
+   },
+   "avg_sentence_length": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     8.87,
+     11.145,
+     13.66,
+     16.435,
+     19.492
+    ],
+    "brand_mean_p": [
+     11.065,
+     11.496,
+     13.265,
+     15.366,
+     16.331
+    ],
+    "brand_weighted_mean": 13.336
+   },
+   "sentence_variation": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0.56,
+     0.63,
+     0.71,
+     0.82,
+     0.96
+    ],
+    "brand_mean_p": [
+     0.651,
+     0.682,
+     0.714,
+     0.801,
+     0.913
+    ],
+    "brand_weighted_mean": 0.762
+   },
+   "short_sentence_share": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0.2,
+     0.27,
+     0.36,
+     0.455,
+     0.6
+    ],
+    "brand_mean_p": [
+     0.306,
+     0.334,
+     0.354,
+     0.465,
+     0.513
+    ],
+    "brand_weighted_mean": 0.399
+   },
+   "contractions_per1000": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     5.866,
+     10.2,
+     15.82,
+     23.265,
+     30.086
+    ],
+    "brand_mean_p": [
+     12.841,
+     14.128,
+     16.232,
+     21.558,
+     23.598
+    ],
+    "brand_weighted_mean": 17.718
+   },
+   "commas_per_sentence": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0.28,
+     0.39,
+     0.59,
+     0.83,
+     1.07
+    ],
+    "brand_mean_p": [
+     0.394,
+     0.484,
+     0.606,
+     0.718,
+     0.765
+    ],
+    "brand_weighted_mean": 0.597
+   },
+   "exclamations_per1000": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     2.166
+    ],
+    "brand_mean_p": [
+     0.084,
+     0.196,
+     0.395,
+     0.665,
+     1.586
+    ],
+    "brand_weighted_mean": 0.612
+   },
+   "questions_per1000": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0,
+     0,
+     2.144,
+     5.378,
+     8.986
+    ],
+    "brand_mean_p": [
+     1.512,
+     2.634,
+     3.874,
+     5.349,
+     6.218
+    ],
+    "brand_weighted_mean": 3.914
+   },
+   "you_share": {
+    "pages": 1958,
+    "brands": 15,
+    "page_p": [
+     0,
+     0.235,
+     0.6,
+     0.818,
+     0.913
+    ],
+    "brand_mean_p": [
+     0.328,
+     0.509,
+     0.539,
+     0.745,
+     0.801
+    ],
+    "brand_weighted_mean": 0.566
+   },
+   "we_share": {
+    "pages": 1958,
+    "brands": 15,
+    "page_p": [
+     0.059,
+     0.148,
+     0.333,
+     0.6,
+     0.881
+    ],
+    "brand_mean_p": [
+     0.182,
+     0.219,
+     0.373,
+     0.434,
+     0.575
+    ],
+    "brand_weighted_mean": 0.367
+   },
+   "i_share": {
+    "pages": 1958,
+    "brands": 15,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.087,
+     0.242
+    ],
+    "brand_mean_p": [
+     0.017,
+     0.025,
+     0.052,
+     0.097,
+     0.13
+    ],
+    "brand_weighted_mean": 0.068
+   },
+   "long_word_share": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     0.171,
+     0.208,
+     0.251,
+     0.285,
+     0.321
+    ],
+    "brand_mean_p": [
+     0.198,
+     0.216,
+     0.26,
+     0.276,
+     0.301
+    ],
+    "brand_weighted_mean": 0.25
+   },
+   "words": {
+    "pages": 2035,
+    "brands": 15,
+    "page_p": [
+     296.4,
+     520,
+     794,
+     1224.5,
+     1660.6
+    ],
+    "brand_mean_p": [
+     704.765,
+     779.173,
+     956.284,
+     1135.829,
+     1373.21
+    ],
+    "brand_weighted_mean": 1010.151
+   }
+  },
+  "software": {
+   "ai_ism_per1000": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0,
+     0,
+     1.18,
+     2.86,
+     5.32
+    ],
+    "brand_mean_p": [
+     1.106,
+     1.503,
+     2.141,
+     2.915,
+     3.015
+    ],
+    "brand_weighted_mean": 2.119
+   },
+   "old_per1000": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.97
+    ],
+    "brand_mean_p": [
+     0.125,
+     0.18,
+     0.257,
+     0.324,
+     0.398
+    ],
+    "brand_weighted_mean": 0.269
+   },
+   "called_out_per1000": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.27
+    ],
+    "brand_mean_p": [
+     0.024,
+     0.044,
+     0.07,
+     0.173,
+     0.204
+    ],
+    "brand_weighted_mean": 0.108
+   },
+   "marketing_per1000": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0,
+     0,
+     0.92,
+     2.45,
+     4.758
+    ],
+    "brand_mean_p": [
+     0.941,
+     1.208,
+     1.907,
+     2.391,
+     2.621
+    ],
+    "brand_weighted_mean": 1.804
+   },
+   "quiet_per1000": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0,
+     0,
+     1.08,
+     2.52,
+     4.918
+    ],
+    "brand_mean_p": [
+     1.099,
+     1.329,
+     1.564,
+     2.126,
+     2.479
+    ],
+    "brand_weighted_mean": 1.781
+   },
+   "ai_shape_per1000": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.3,
+     0.9
+    ],
+    "brand_mean_p": [
+     0.161,
+     0.188,
+     0.241,
+     0.274,
+     0.323
+    ],
+    "brand_weighted_mean": 0.245
+   },
+   "em_dash_per1000": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0,
+     0,
+     1.771,
+     3.995,
+     6.711
+    ],
+    "brand_mean_p": [
+     1.84,
+     2.273,
+     2.704,
+     3.788,
+     4.628
+    ],
+    "brand_weighted_mean": 2.943
+   },
+   "avg_sentence_length": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     8.88,
+     10.91,
+     12.93,
+     15.53,
+     17.8
+    ],
+    "brand_mean_p": [
+     11.377,
+     12.278,
+     13.016,
+     14.143,
+     15.426
+    ],
+    "brand_weighted_mean": 13.212
+   },
+   "sentence_variation": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0.55,
+     0.61,
+     0.69,
+     0.8,
+     0.92
+    ],
+    "brand_mean_p": [
+     0.648,
+     0.688,
+     0.728,
+     0.743,
+     0.784
+    ],
+    "brand_weighted_mean": 0.721
+   },
+   "short_sentence_share": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0.2,
+     0.27,
+     0.35,
+     0.47,
+     0.58
+    ],
+    "brand_mean_p": [
+     0.279,
+     0.336,
+     0.376,
+     0.421,
+     0.455
+    ],
+    "brand_weighted_mean": 0.377
+   },
+   "contractions_per1000": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     5.13,
+     9.03,
+     13.81,
+     19.74,
+     26.428
+    ],
+    "brand_mean_p": [
+     11.644,
+     13.308,
+     16.262,
+     16.929,
+     18.292
+    ],
+    "brand_weighted_mean": 15.182
+   },
+   "commas_per_sentence": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0.32,
+     0.46,
+     0.63,
+     0.83,
+     1.05
+    ],
+    "brand_mean_p": [
+     0.582,
+     0.604,
+     0.669,
+     0.738,
+     0.837
+    ],
+    "brand_weighted_mean": 0.68
+   },
+   "exclamations_per1000": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.618,
+     4.685
+    ],
+    "brand_mean_p": [
+     0.272,
+     0.441,
+     0.898,
+     1.944,
+     3.441
+    ],
+    "brand_weighted_mean": 1.447
+   },
+   "questions_per1000": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0,
+     0,
+     2.392,
+     4.615,
+     7.404
+    ],
+    "brand_mean_p": [
+     2.145,
+     2.549,
+     3.103,
+     3.584,
+     4.569
+    ],
+    "brand_weighted_mean": 3.18
+   },
+   "you_share": {
+    "pages": 3420,
+    "brands": 16,
+    "page_p": [
+     0.125,
+     0.37,
+     0.73,
+     0.907,
+     0.966
+    ],
+    "brand_mean_p": [
+     0.51,
+     0.568,
+     0.637,
+     0.684,
+     0.724
+    ],
+    "brand_weighted_mean": 0.62
+   },
+   "we_share": {
+    "pages": 3420,
+    "brands": 16,
+    "page_p": [
+     0.011,
+     0.059,
+     0.2,
+     0.5,
+     0.8
+    ],
+    "brand_mean_p": [
+     0.215,
+     0.275,
+     0.322,
+     0.364,
+     0.421
+    ],
+    "brand_weighted_mean": 0.316
+   },
+   "i_share": {
+    "pages": 3420,
+    "brands": 16,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.062,
+     0.182
+    ],
+    "brand_mean_p": [
+     0.031,
+     0.036,
+     0.048,
+     0.083,
+     0.127
+    ],
+    "brand_weighted_mean": 0.064
+   },
+   "long_word_share": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     0.217,
+     0.248,
+     0.29,
+     0.336,
+     0.376
+    ],
+    "brand_mean_p": [
+     0.248,
+     0.271,
+     0.291,
+     0.314,
+     0.326
+    ],
+    "brand_weighted_mean": 0.29
+   },
+   "words": {
+    "pages": 3433,
+    "brands": 16,
+    "page_p": [
+     395,
+     677,
+     1094,
+     1998,
+     3152.2
+    ],
+    "brand_mean_p": [
+     813.906,
+     1040.649,
+     1370.308,
+     1653.979,
+     2394.76
+    ],
+    "brand_weighted_mean": 1510.932
+   }
+  },
+  "grocery": {
+   "ai_ism_per1000": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.54,
+     3.827
+    ],
+    "brand_mean_p": [
+     0.393,
+     0.785,
+     1.191,
+     1.478,
+     1.633
+    ],
+    "brand_weighted_mean": 1.09
+   },
+   "old_per1000": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.411
+    ],
+    "brand_mean_p": [
+     0,
+     0.148,
+     0.366,
+     0.457,
+     0.511
+    ],
+    "brand_weighted_mean": 0.308
+   },
+   "called_out_per1000": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0,
+     0.007,
+     0.078,
+     0.131,
+     0.166
+    ],
+    "brand_weighted_mean": 0.09
+   },
+   "marketing_per1000": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.795,
+     2.484
+    ],
+    "brand_mean_p": [
+     0.262,
+     0.501,
+     0.742,
+     0.981,
+     1.199
+    ],
+    "brand_weighted_mean": 0.742
+   },
+   "quiet_per1000": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.995,
+     2.502
+    ],
+    "brand_mean_p": [
+     0.179,
+     0.686,
+     0.938,
+     1.135,
+     1.282
+    ],
+    "brand_weighted_mean": 0.824
+   },
+   "ai_shape_per1000": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "brand_mean_p": [
+     0,
+     0.12,
+     0.19,
+     0.222,
+     0.33
+    ],
+    "brand_weighted_mean": 0.179
+   },
+   "em_dash_per1000": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0.715,
+     3.002,
+     5.491
+    ],
+    "brand_mean_p": [
+     0.952,
+     1.231,
+     1.652,
+     2.472,
+     3.399
+    ],
+    "brand_weighted_mean": 1.92
+   },
+   "avg_sentence_length": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     8.308,
+     11.725,
+     15.6,
+     18.658,
+     21.394
+    ],
+    "brand_mean_p": [
+     7.91,
+     12.693,
+     16.166,
+     17.442,
+     18.76
+    ],
+    "brand_weighted_mean": 14.747
+   },
+   "sentence_variation": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0.52,
+     0.6,
+     0.68,
+     0.83,
+     1.18
+    ],
+    "brand_mean_p": [
+     0.648,
+     0.663,
+     0.709,
+     0.82,
+     1.033
+    ],
+    "brand_weighted_mean": 0.784
+   },
+   "short_sentence_share": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0.13,
+     0.21,
+     0.31,
+     0.47,
+     0.71
+    ],
+    "brand_mean_p": [
+     0.249,
+     0.274,
+     0.339,
+     0.427,
+     0.703
+    ],
+    "brand_weighted_mean": 0.39
+   },
+   "contractions_per1000": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     3.464,
+     7.373,
+     12.345,
+     19.208,
+     26.754
+    ],
+    "brand_mean_p": [
+     8.286,
+     9.569,
+     11.737,
+     15.019,
+     19.025
+    ],
+    "brand_weighted_mean": 12.709
+   },
+   "commas_per_sentence": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0.27,
+     0.42,
+     0.67,
+     0.9,
+     1.1
+    ],
+    "brand_mean_p": [
+     0.305,
+     0.585,
+     0.671,
+     0.845,
+     0.911
+    ],
+    "brand_weighted_mean": 0.647
+   },
+   "exclamations_per1000": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     2.258
+    ],
+    "brand_mean_p": [
+     0.131,
+     0.354,
+     0.724,
+     0.787,
+     1.317
+    ],
+    "brand_weighted_mean": 0.749
+   },
+   "questions_per1000": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.278,
+     4.953
+    ],
+    "brand_mean_p": [
+     0,
+     0.184,
+     0.356,
+     0.737,
+     2.021
+    ],
+    "brand_weighted_mean": 0.78
+   },
+   "you_share": {
+    "pages": 599,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0.1,
+     0.5,
+     0.819
+    ],
+    "brand_mean_p": [
+     0.056,
+     0.068,
+     0.138,
+     0.248,
+     0.376
+    ],
+    "brand_weighted_mean": 0.195
+   },
+   "we_share": {
+    "pages": 599,
+    "brands": 10,
+    "page_p": [
+     0.104,
+     0.375,
+     0.8,
+     1,
+     1
+    ],
+    "brand_mean_p": [
+     0.614,
+     0.713,
+     0.815,
+     0.878,
+     0.89
+    ],
+    "brand_weighted_mean": 0.758
+   },
+   "i_share": {
+    "pages": 599,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.043,
+     0.224
+    ],
+    "brand_mean_p": [
+     0,
+     0.042,
+     0.049,
+     0.057,
+     0.077
+    ],
+    "brand_weighted_mean": 0.047
+   },
+   "long_word_share": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     0.197,
+     0.227,
+     0.269,
+     0.308,
+     0.34
+    ],
+    "brand_mean_p": [
+     0.218,
+     0.256,
+     0.287,
+     0.295,
+     0.306
+    ],
+    "brand_weighted_mean": 0.271
+   },
+   "words": {
+    "pages": 620,
+    "brands": 10,
+    "page_p": [
+     244.5,
+     396,
+     636,
+     948.5,
+     1283
+    ],
+    "brand_mean_p": [
+     352.672,
+     535.473,
+     748.655,
+     929.5,
+     1581.412
+    ],
+    "brand_weighted_mean": 960.006
+   }
+  },
+  "travel": {
+   "ai_ism_per1000": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.72,
+     2.17
+    ],
+    "brand_mean_p": [
+     0.108,
+     0.156,
+     0.475,
+     1.598,
+     3.279
+    ],
+    "brand_weighted_mean": 1.122
+   },
+   "old_per1000": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0,
+     0.01,
+     0.065,
+     0.119,
+     0.136
+    ],
+    "brand_weighted_mean": 0.068
+   },
+   "called_out_per1000": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.041,
+     0.081,
+     0.125
+    ],
+    "brand_weighted_mean": 0.052
+   },
+   "marketing_per1000": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.714
+    ],
+    "brand_mean_p": [
+     0.018,
+     0.084,
+     0.364,
+     1.451,
+     3.262
+    ],
+    "brand_weighted_mean": 1.039
+   },
+   "quiet_per1000": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.755,
+     1.33
+    ],
+    "brand_mean_p": [
+     0,
+     0.103,
+     0.258,
+     0.907,
+     1.141
+    ],
+    "brand_weighted_mean": 0.502
+   },
+   "ai_shape_per1000": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.7
+    ],
+    "brand_mean_p": [
+     0,
+     0.02,
+     0.09,
+     0.241,
+     0.356
+    ],
+    "brand_weighted_mean": 0.15
+   },
+   "em_dash_per1000": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     1.896,
+     5.389,
+     8.396
+    ],
+    "brand_mean_p": [
+     0.553,
+     0.95,
+     1.515,
+     2.503,
+     3.671
+    ],
+    "brand_weighted_mean": 1.939
+   },
+   "avg_sentence_length": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     9.058,
+     10.405,
+     12.12,
+     14.525,
+     16.44
+    ],
+    "brand_mean_p": [
+     9.704,
+     11.534,
+     12.136,
+     12.802,
+     13.283
+    ],
+    "brand_weighted_mean": 11.632
+   },
+   "sentence_variation": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0.68,
+     0.79,
+     0.89,
+     2.58,
+     4.262
+    ],
+    "brand_mean_p": [
+     0.803,
+     0.81,
+     0.847,
+     0.898,
+     1.931
+    ],
+    "brand_weighted_mean": 1.255
+   },
+   "short_sentence_share": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0.32,
+     0.415,
+     0.51,
+     0.67,
+     0.76
+    ],
+    "brand_mean_p": [
+     0.441,
+     0.446,
+     0.467,
+     0.675,
+     0.704
+    ],
+    "brand_weighted_mean": 0.545
+   },
+   "contractions_per1000": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     1.98,
+     4.725,
+     11.29,
+     22.125,
+     29.99
+    ],
+    "brand_mean_p": [
+     2.595,
+     5.674,
+     10.267,
+     16.09,
+     17.818
+    ],
+    "brand_weighted_mean": 10.448
+   },
+   "commas_per_sentence": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0.18,
+     0.29,
+     0.46,
+     0.62,
+     0.812
+    ],
+    "brand_mean_p": [
+     0.161,
+     0.238,
+     0.463,
+     0.582,
+     0.622
+    ],
+    "brand_weighted_mean": 0.416
+   },
+   "exclamations_per1000": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.672,
+     2.32
+    ],
+    "brand_mean_p": [
+     0.036,
+     0.11,
+     0.501,
+     1.495,
+     2.159
+    ],
+    "brand_weighted_mean": 0.876
+   },
+   "questions_per1000": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0,
+     0.879,
+     1.773,
+     3.747,
+     6.459
+    ],
+    "brand_mean_p": [
+     0.506,
+     0.925,
+     1.457,
+     3.129,
+     4.747
+    ],
+    "brand_weighted_mean": 2.206
+   },
+   "you_share": {
+    "pages": 457,
+    "brands": 8,
+    "page_p": [
+     0.068,
+     0.224,
+     0.481,
+     0.609,
+     0.698
+    ],
+    "brand_mean_p": [
+     0.364,
+     0.449,
+     0.494,
+     0.517,
+     0.557
+    ],
+    "brand_weighted_mean": 0.471
+   },
+   "we_share": {
+    "pages": 457,
+    "brands": 8,
+    "page_p": [
+     0.25,
+     0.353,
+     0.472,
+     0.611,
+     0.823
+    ],
+    "brand_mean_p": [
+     0.36,
+     0.412,
+     0.451,
+     0.534,
+     0.591
+    ],
+    "brand_weighted_mean": 0.463
+   },
+   "i_share": {
+    "pages": 457,
+    "brands": 8,
+    "page_p": [
+     0,
+     0.017,
+     0.032,
+     0.1,
+     0.184
+    ],
+    "brand_mean_p": [
+     0.016,
+     0.029,
+     0.057,
+     0.103,
+     0.123
+    ],
+    "brand_weighted_mean": 0.066
+   },
+   "long_word_share": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     0.195,
+     0.22,
+     0.267,
+     0.328,
+     0.36
+    ],
+    "brand_mean_p": [
+     0.238,
+     0.244,
+     0.3,
+     0.316,
+     0.324
+    ],
+    "brand_weighted_mean": 0.287
+   },
+   "words": {
+    "pages": 459,
+    "brands": 8,
+    "page_p": [
+     566.6,
+     836,
+     1045,
+     1284,
+     1600.4
+    ],
+    "brand_mean_p": [
+     440.1,
+     649.897,
+     1040.488,
+     1261.479,
+     1339.943
+    ],
+    "brand_weighted_mean": 942.153
+   }
+  },
+  "insurance": {
+   "ai_ism_per1000": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.78,
+     2.13
+    ],
+    "brand_mean_p": [
+     0.369,
+     0.404,
+     0.619,
+     0.758,
+     0.925
+    ],
+    "brand_weighted_mean": 0.619
+   },
+   "old_per1000": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.42
+    ],
+    "brand_mean_p": [
+     0.066,
+     0.109,
+     0.151,
+     0.174,
+     0.22
+    ],
+    "brand_weighted_mean": 0.142
+   },
+   "called_out_per1000": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0.009,
+     0.017,
+     0.024,
+     0.058,
+     0.066
+    ],
+    "brand_weighted_mean": 0.036
+   },
+   "marketing_per1000": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.605
+    ],
+    "brand_mean_p": [
+     0.265,
+     0.314,
+     0.44,
+     0.54,
+     0.756
+    ],
+    "brand_weighted_mean": 0.472
+   },
+   "quiet_per1000": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.66,
+     3.73
+    ],
+    "brand_mean_p": [
+     0.52,
+     0.56,
+     0.704,
+     1.57,
+     2.389
+    ],
+    "brand_weighted_mean": 1.273
+   },
+   "ai_shape_per1000": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.9
+    ],
+    "brand_mean_p": [
+     0.126,
+     0.144,
+     0.185,
+     0.234,
+     0.258
+    ],
+    "brand_weighted_mean": 0.196
+   },
+   "em_dash_per1000": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     1.208,
+     3.135,
+     5.525
+    ],
+    "brand_mean_p": [
+     1.499,
+     1.65,
+     1.856,
+     2.693,
+     3.094
+    ],
+    "brand_weighted_mean": 2.168
+   },
+   "avg_sentence_length": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     9.01,
+     11.133,
+     13.615,
+     15.778,
+     18.265
+    ],
+    "brand_mean_p": [
+     11.823,
+     12.755,
+     13.676,
+     14.144,
+     15.702
+    ],
+    "brand_weighted_mean": 13.621
+   },
+   "sentence_variation": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0.56,
+     0.62,
+     0.71,
+     0.81,
+     0.92
+    ],
+    "brand_mean_p": [
+     0.623,
+     0.634,
+     0.722,
+     0.771,
+     0.835
+    ],
+    "brand_weighted_mean": 0.718
+   },
+   "short_sentence_share": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0.21,
+     0.27,
+     0.36,
+     0.45,
+     0.59
+    ],
+    "brand_mean_p": [
+     0.289,
+     0.311,
+     0.371,
+     0.44,
+     0.465
+    ],
+    "brand_weighted_mean": 0.372
+   },
+   "contractions_per1000": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     5.29,
+     9.8,
+     16.695,
+     23.85,
+     30.515
+    ],
+    "brand_mean_p": [
+     12.167,
+     14.805,
+     16.785,
+     21.24,
+     25.043
+    ],
+    "brand_weighted_mean": 17.843
+   },
+   "commas_per_sentence": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0.25,
+     0.36,
+     0.54,
+     0.73,
+     0.91
+    ],
+    "brand_mean_p": [
+     0.419,
+     0.522,
+     0.545,
+     0.632,
+     0.732
+    ],
+    "brand_weighted_mean": 0.565
+   },
+   "exclamations_per1000": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.097
+    ],
+    "brand_mean_p": [
+     0.123,
+     0.184,
+     0.278,
+     0.654,
+     0.831
+    ],
+    "brand_weighted_mean": 0.412
+   },
+   "questions_per1000": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0,
+     0.467,
+     3.058,
+     6.698,
+     10.575
+    ],
+    "brand_mean_p": [
+     3.055,
+     3.536,
+     4.541,
+     4.888,
+     5.012
+    ],
+    "brand_weighted_mean": 4.263
+   },
+   "you_share": {
+    "pages": 2100,
+    "brands": 10,
+    "page_p": [
+     0.053,
+     0.429,
+     0.73,
+     0.859,
+     0.931
+    ],
+    "brand_mean_p": [
+     0.507,
+     0.532,
+     0.636,
+     0.815,
+     0.869
+    ],
+    "brand_weighted_mean": 0.655
+   },
+   "we_share": {
+    "pages": 2100,
+    "brands": 10,
+    "page_p": [
+     0.048,
+     0.102,
+     0.207,
+     0.483,
+     0.875
+    ],
+    "brand_mean_p": [
+     0.105,
+     0.15,
+     0.263,
+     0.433,
+     0.457
+    ],
+    "brand_weighted_mean": 0.292
+   },
+   "i_share": {
+    "pages": 2100,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.069,
+     0.143
+    ],
+    "brand_mean_p": [
+     0.017,
+     0.029,
+     0.041,
+     0.068,
+     0.1
+    ],
+    "brand_weighted_mean": 0.053
+   },
+   "long_word_share": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     0.171,
+     0.2,
+     0.238,
+     0.292,
+     0.332
+    ],
+    "brand_mean_p": [
+     0.188,
+     0.198,
+     0.254,
+     0.273,
+     0.288
+    ],
+    "brand_weighted_mean": 0.242
+   },
+   "words": {
+    "pages": 2106,
+    "brands": 10,
+    "page_p": [
+     374,
+     642.5,
+     955.5,
+     1311,
+     1745.5
+    ],
+    "brand_mean_p": [
+     849.619,
+     932.455,
+     974.788,
+     1152.974,
+     1314.497
+    ],
+    "brand_weighted_mean": 1073.18
+   }
+  },
+  "fashion": {
+   "ai_ism_per1000": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0.5,
+     2.27,
+     4.92
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.902,
+     1.843,
+     3.047
+    ],
+    "brand_weighted_mean": 1.155
+   },
+   "old_per1000": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.98
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.161,
+     0.27,
+     0.4
+    ],
+    "brand_weighted_mean": 0.179
+   },
+   "called_out_per1000": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.025,
+     0.179,
+     0.416
+    ],
+    "brand_weighted_mean": 0.135
+   },
+   "marketing_per1000": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.81,
+     4.61
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.531,
+     1.598,
+     2.309
+    ],
+    "brand_weighted_mean": 0.923
+   },
+   "quiet_per1000": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.85
+    ],
+    "brand_mean_p": [
+     0,
+     0.046,
+     0.298,
+     0.747,
+     1.048
+    ],
+    "brand_weighted_mean": 0.458
+   },
+   "ai_shape_per1000": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.4
+    ],
+    "brand_mean_p": [
+     0,
+     0,
+     0.074,
+     0.128,
+     0.226
+    ],
+    "brand_weighted_mean": 0.097
+   },
+   "em_dash_per1000": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0.974,
+     4.571,
+     8
+    ],
+    "brand_mean_p": [
+     0,
+     0.075,
+     0.877,
+     2.462,
+     5.348
+    ],
+    "brand_weighted_mean": 1.794
+   },
+   "avg_sentence_length": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     7.27,
+     9.03,
+     11.17,
+     14.41,
+     16.87
+    ],
+    "brand_mean_p": [
+     6.6,
+     7.71,
+     10.725,
+     12.39,
+     12.606
+    ],
+    "brand_weighted_mean": 10.025
+   },
+   "sentence_variation": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0.65,
+     0.7,
+     0.78,
+     0.9,
+     1.03
+    ],
+    "brand_mean_p": [
+     0.725,
+     0.748,
+     0.784,
+     0.851,
+     0.966
+    ],
+    "brand_weighted_mean": 0.817
+   },
+   "short_sentence_share": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0.27,
+     0.35,
+     0.44,
+     0.58,
+     0.7
+    ],
+    "brand_mean_p": [
+     0.439,
+     0.445,
+     0.496,
+     0.636,
+     0.694
+    ],
+    "brand_weighted_mean": 0.541
+   },
+   "contractions_per1000": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     1.35,
+     7.25,
+     13.21,
+     21.04,
+     26.92
+    ],
+    "brand_mean_p": [
+     8.846,
+     9.906,
+     13.376,
+     18.455,
+     22.433
+    ],
+    "brand_weighted_mean": 14.601
+   },
+   "commas_per_sentence": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0.17,
+     0.26,
+     0.45,
+     0.7,
+     0.9
+    ],
+    "brand_mean_p": [
+     0.137,
+     0.189,
+     0.438,
+     0.571,
+     0.634
+    ],
+    "brand_weighted_mean": 0.406
+   },
+   "exclamations_per1000": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     1.703,
+     8.648
+    ],
+    "brand_mean_p": [
+     0.127,
+     0.196,
+     1.905,
+     2.62,
+     6.487
+    ],
+    "brand_weighted_mean": 4.332
+   },
+   "questions_per1000": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     1.572,
+     5.505,
+     7.813
+    ],
+    "brand_mean_p": [
+     0,
+     0.989,
+     1.975,
+     2.603,
+     7.001
+    ],
+    "brand_weighted_mean": 3.382
+   },
+   "you_share": {
+    "pages": 220,
+    "brands": 10,
+    "page_p": [
+     0,
+     0.12,
+     0.549,
+     0.8,
+     0.934
+    ],
+    "brand_mean_p": [
+     0.214,
+     0.328,
+     0.524,
+     0.759,
+     0.778
+    ],
+    "brand_weighted_mean": 0.509
+   },
+   "we_share": {
+    "pages": 220,
+    "brands": 10,
+    "page_p": [
+     0.035,
+     0.139,
+     0.367,
+     0.802,
+     1
+    ],
+    "brand_mean_p": [
+     0.185,
+     0.225,
+     0.476,
+     0.614,
+     0.71
+    ],
+    "brand_weighted_mean": 0.451
+   },
+   "i_share": {
+    "pages": 220,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.049,
+     0.178
+    ],
+    "brand_mean_p": [
+     0,
+     0.01,
+     0.015,
+     0.069,
+     0.095
+    ],
+    "brand_weighted_mean": 0.04
+   },
+   "long_word_share": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     0.174,
+     0.202,
+     0.255,
+     0.309,
+     0.338
+    ],
+    "brand_mean_p": [
+     0.197,
+     0.229,
+     0.264,
+     0.281,
+     0.29
+    ],
+    "brand_weighted_mean": 0.255
+   },
+   "words": {
+    "pages": 221,
+    "brands": 10,
+    "page_p": [
+     262,
+     434,
+     738,
+     1115,
+     2047
+    ],
+    "brand_mean_p": [
+     391.7,
+     494.01,
+     923.295,
+     1112.919,
+     2286.91
+    ],
+    "brand_weighted_mean": 1670.081
+   }
+  },
+  "charity": {
+   "ai_ism_per1000": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.8,
+     2.09
+    ],
+    "brand_mean_p": [
+     0.304,
+     0.504,
+     0.636,
+     0.667,
+     0.785
+    ],
+    "brand_weighted_mean": 0.563
+   },
+   "old_per1000": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.84
+    ],
+    "brand_mean_p": [
+     0.117,
+     0.154,
+     0.208,
+     0.287,
+     0.449
+    ],
+    "brand_weighted_mean": 0.261
+   },
+   "called_out_per1000": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0,
+     0.019,
+     0.042,
+     0.082,
+     0.103
+    ],
+    "brand_weighted_mean": 0.049
+   },
+   "marketing_per1000": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.317
+    ],
+    "brand_mean_p": [
+     0.033,
+     0.16,
+     0.352,
+     0.396,
+     0.454
+    ],
+    "brand_weighted_mean": 0.283
+   },
+   "quiet_per1000": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.92,
+     2.237
+    ],
+    "brand_mean_p": [
+     0.147,
+     0.367,
+     0.627,
+     0.827,
+     0.909
+    ],
+    "brand_weighted_mean": 0.562
+   },
+   "ai_shape_per1000": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.1
+    ],
+    "brand_mean_p": [
+     0.107,
+     0.147,
+     0.219,
+     0.316,
+     0.335
+    ],
+    "brand_weighted_mean": 0.221
+   },
+   "em_dash_per1000": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0.877,
+     2.923,
+     5.256
+    ],
+    "brand_mean_p": [
+     0.483,
+     0.928,
+     1.675,
+     2.046,
+     2.474
+    ],
+    "brand_weighted_mean": 1.578
+   },
+   "avg_sentence_length": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     8.34,
+     10.8,
+     13.715,
+     16.508,
+     19.131
+    ],
+    "brand_mean_p": [
+     10.039,
+     11.469,
+     12.922,
+     14.784,
+     15.604
+    ],
+    "brand_weighted_mean": 12.819
+   },
+   "sentence_variation": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0.55,
+     0.61,
+     0.71,
+     0.818,
+     0.92
+    ],
+    "brand_mean_p": [
+     0.643,
+     0.716,
+     0.75,
+     0.789,
+     0.886
+    ],
+    "brand_weighted_mean": 0.765
+   },
+   "short_sentence_share": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0.18,
+     0.26,
+     0.37,
+     0.49,
+     0.6
+    ],
+    "brand_mean_p": [
+     0.262,
+     0.368,
+     0.435,
+     0.454,
+     0.524
+    ],
+    "brand_weighted_mean": 0.426
+   },
+   "contractions_per1000": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     3.813,
+     6.658,
+     11.65,
+     19.138,
+     26.293
+    ],
+    "brand_mean_p": [
+     6.48,
+     10.517,
+     11.669,
+     15.053,
+     21.776
+    ],
+    "brand_weighted_mean": 12.947
+   },
+   "commas_per_sentence": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0.21,
+     0.34,
+     0.56,
+     0.76,
+     0.97
+    ],
+    "brand_mean_p": [
+     0.294,
+     0.406,
+     0.522,
+     0.682,
+     0.73
+    ],
+    "brand_weighted_mean": 0.507
+   },
+   "exclamations_per1000": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.677
+    ],
+    "brand_mean_p": [
+     0.284,
+     0.33,
+     0.444,
+     0.639,
+     0.979
+    ],
+    "brand_weighted_mean": 0.598
+   },
+   "questions_per1000": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     1.256,
+     2.868,
+     5.84
+    ],
+    "brand_mean_p": [
+     0.764,
+     1.202,
+     2.066,
+     2.722,
+     3.584
+    ],
+    "brand_weighted_mean": 2.044
+   },
+   "you_share": {
+    "pages": 1954,
+    "brands": 10,
+    "page_p": [
+     0.021,
+     0.105,
+     0.255,
+     0.5,
+     0.692
+    ],
+    "brand_mean_p": [
+     0.164,
+     0.258,
+     0.342,
+     0.463,
+     0.474
+    ],
+    "brand_weighted_mean": 0.343
+   },
+   "we_share": {
+    "pages": 1954,
+    "brands": 10,
+    "page_p": [
+     0.176,
+     0.307,
+     0.526,
+     0.772,
+     0.909
+    ],
+    "brand_mean_p": [
+     0.413,
+     0.424,
+     0.472,
+     0.626,
+     0.696
+    ],
+    "brand_weighted_mean": 0.524
+   },
+   "i_share": {
+    "pages": 1954,
+    "brands": 10,
+    "page_p": [
+     0,
+     0,
+     0.042,
+     0.226,
+     0.488
+    ],
+    "brand_mean_p": [
+     0.064,
+     0.112,
+     0.139,
+     0.159,
+     0.176
+    ],
+    "brand_weighted_mean": 0.133
+   },
+   "long_word_share": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     0.188,
+     0.217,
+     0.251,
+     0.283,
+     0.313
+    ],
+    "brand_mean_p": [
+     0.231,
+     0.236,
+     0.237,
+     0.271,
+     0.282
+    ],
+    "brand_weighted_mean": 0.251
+   },
+   "words": {
+    "pages": 1994,
+    "brands": 10,
+    "page_p": [
+     318.3,
+     500.25,
+     816.5,
+     1153.75,
+     1524.4
+    ],
+    "brand_mean_p": [
+     691.068,
+     736.509,
+     920.935,
+     1059.902,
+     1259.115
+    ],
+    "brand_weighted_mean": 953.469
+   }
+  },
+  "food": {
+   "ai_ism_per1000": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     2.44
+    ],
+    "brand_mean_p": [
+     0.28,
+     0.359,
+     0.679,
+     1.276,
+     1.782
+    ],
+    "brand_weighted_mean": 0.899
+   },
+   "old_per1000": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0.053,
+     0.1,
+     0.196,
+     0.309,
+     0.374
+    ],
+    "brand_weighted_mean": 0.207
+   },
+   "called_out_per1000": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "brand_mean_p": [
+     0.019,
+     0.061,
+     0.105,
+     0.156,
+     0.241
+    ],
+    "brand_weighted_mean": 0.125
+   },
+   "marketing_per1000": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.72
+    ],
+    "brand_mean_p": [
+     0.149,
+     0.176,
+     0.458,
+     1.022,
+     1.296
+    ],
+    "brand_weighted_mean": 0.658
+   },
+   "quiet_per1000": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     1.44
+    ],
+    "brand_mean_p": [
+     0.16,
+     0.253,
+     0.307,
+     0.566,
+     1.248
+    ],
+    "brand_weighted_mean": 0.545
+   },
+   "ai_shape_per1000": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0,
+     0.7
+    ],
+    "brand_mean_p": [
+     0.095,
+     0.161,
+     0.275,
+     0.347,
+     0.361
+    ],
+    "brand_weighted_mean": 0.249
+   },
+   "em_dash_per1000": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     2.794,
+     5.556
+    ],
+    "brand_mean_p": [
+     0.612,
+     0.89,
+     2.177,
+     2.919,
+     3.327
+    ],
+    "brand_weighted_mean": 2.044
+   },
+   "avg_sentence_length": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     6.8,
+     8.25,
+     10.62,
+     13.63,
+     17.38
+    ],
+    "brand_mean_p": [
+     9.631,
+     10.664,
+     12.501,
+     14.422,
+     18.121
+    ],
+    "brand_weighted_mean": 13.215
+   },
+   "sentence_variation": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0.53,
+     0.63,
+     0.78,
+     0.9,
+     1
+    ],
+    "brand_mean_p": [
+     0.55,
+     0.58,
+     0.706,
+     0.837,
+     0.9
+    ],
+    "brand_weighted_mean": 0.713
+   },
+   "short_sentence_share": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0.25,
+     0.34,
+     0.49,
+     0.63,
+     0.7
+    ],
+    "brand_mean_p": [
+     0.177,
+     0.286,
+     0.397,
+     0.54,
+     0.566
+    ],
+    "brand_weighted_mean": 0.396
+   },
+   "contractions_per1000": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     7.48,
+     12.485,
+     20.08,
+     30.93,
+     47.19
+    ],
+    "brand_mean_p": [
+     10.951,
+     14.801,
+     19.21,
+     27.689,
+     33.74
+    ],
+    "brand_weighted_mean": 22.163
+   },
+   "commas_per_sentence": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0.18,
+     0.3,
+     0.5,
+     0.75,
+     1.06
+    ],
+    "brand_mean_p": [
+     0.417,
+     0.486,
+     0.66,
+     0.81,
+     0.925
+    ],
+    "brand_weighted_mean": 0.666
+   },
+   "exclamations_per1000": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     2.353,
+     7.454,
+     12.5
+    ],
+    "brand_mean_p": [
+     0.591,
+     0.838,
+     1.915,
+     3.749,
+     9.057
+    ],
+    "brand_weighted_mean": 3.297
+   },
+   "questions_per1000": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     1.957,
+     4.945,
+     12.121
+    ],
+    "brand_mean_p": [
+     1.499,
+     1.876,
+     2.262,
+     3.541,
+     6.919
+    ],
+    "brand_weighted_mean": 3.344
+   },
+   "you_share": {
+    "pages": 731,
+    "brands": 8,
+    "page_p": [
+     0.125,
+     0.362,
+     0.529,
+     0.692,
+     0.865
+    ],
+    "brand_mean_p": [
+     0.109,
+     0.365,
+     0.494,
+     0.577,
+     0.624
+    ],
+    "brand_weighted_mean": 0.433
+   },
+   "we_share": {
+    "pages": 731,
+    "brands": 8,
+    "page_p": [
+     0.091,
+     0.264,
+     0.4,
+     0.571,
+     0.808
+    ],
+    "brand_mean_p": [
+     0.318,
+     0.383,
+     0.449,
+     0.574,
+     0.873
+    ],
+    "brand_weighted_mean": 0.518
+   },
+   "i_share": {
+    "pages": 731,
+    "brands": 8,
+    "page_p": [
+     0,
+     0,
+     0,
+     0.023,
+     0.176
+    ],
+    "brand_mean_p": [
+     0.024,
+     0.036,
+     0.052,
+     0.063,
+     0.078
+    ],
+    "brand_weighted_mean": 0.049
+   },
+   "long_word_share": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     0.137,
+     0.164,
+     0.195,
+     0.224,
+     0.262
+    ],
+    "brand_mean_p": [
+     0.164,
+     0.178,
+     0.215,
+     0.235,
+     0.261
+    ],
+    "brand_weighted_mean": 0.213
+   },
+   "words": {
+    "pages": 751,
+    "brands": 8,
+    "page_p": [
+     212,
+     264,
+     401,
+     702.5,
+     1144
+    ],
+    "brand_mean_p": [
+     397.427,
+     454.131,
+     475.267,
+     616.428,
+     780.899
+    ],
+    "brand_weighted_mean": 570.439
+   }
+  }
+ },
+ "counts": {
+  "byCategory": {
+   "blog": 10310,
+   "press": 5094,
+   "announcement": 857,
+   "info_pack": 131
+  },
+  "bySource": {
+   "live": 12029,
+   "wayback": 4363
+  },
+  "byEra": {
+   "PRE2015": 330,
+   "EARLY": 1871,
+   "LATE": 4579,
+   "TRANSITION": 938,
+   "AFTER": 4080,
+   "undated": 4594
+  }
+ },
+ "O1": {
+  "point": 2.727,
+  "lo": 2.017,
+  "hi": 3.418,
+  "lo90": 2.151,
+  "hi90": 3.321,
+  "n": 54,
+  "result": "supported",
+  "test": "press minus blog, average sentence length (words)"
+ },
+ "O2": {
+  "point": 0.289,
+  "lo": 0.24,
+  "hi": 0.339,
+  "lo90": 0.246,
+  "hi90": 0.331,
+  "n": 54,
+  "result": "supported",
+  "test": "blog minus press, share of 'you'"
+ },
+ "pressVsBlog": {
+  "ai_ism_per1000": {
+   "point": 0.356,
+   "lo": 0.111,
+   "hi": 0.593,
+   "lo90": 0.154,
+   "hi90": 0.552,
+   "n": 54
+  },
+  "old_per1000": {
+   "point": 0.199,
+   "lo": 0.125,
+   "hi": 0.275,
+   "lo90": 0.134,
+   "hi90": 0.263,
+   "n": 54
+  },
+  "called_out_per1000": {
+   "point": 0.011,
+   "lo": -0.011,
+   "hi": 0.033,
+   "lo90": -0.007,
+   "hi90": 0.029,
+   "n": 54
+  },
+  "marketing_per1000": {
+   "point": 0.16,
+   "lo": -0.064,
+   "hi": 0.386,
+   "lo90": -0.025,
+   "hi90": 0.358,
+   "n": 54
+  },
+  "quiet_per1000": {
+   "point": 0.452,
+   "lo": 0.195,
+   "hi": 0.716,
+   "lo90": 0.237,
+   "hi90": 0.671,
+   "n": 54
+  },
+  "ai_shape_per1000": {
+   "point": 0.047,
+   "lo": -0.01,
+   "hi": 0.1,
+   "lo90": -0.002,
+   "hi90": 0.092,
+   "n": 54
+  },
+  "em_dash_per1000": {
+   "point": -0.209,
+   "lo": -0.568,
+   "hi": 0.134,
+   "lo90": -0.514,
+   "hi90": 0.08,
+   "n": 54
+  },
+  "avg_sentence_length": {
+   "point": 2.727,
+   "lo": 2.028,
+   "hi": 3.444,
+   "lo90": 2.132,
+   "hi90": 3.344,
+   "n": 54
+  },
+  "sentence_variation": {
+   "point": 0.002,
+   "lo": -0.027,
+   "hi": 0.031,
+   "lo90": -0.023,
+   "hi90": 0.026,
+   "n": 54
+  },
+  "short_sentence_share": {
+   "point": -0.056,
+   "lo": -0.084,
+   "hi": -0.029,
+   "lo90": -0.08,
+   "hi90": -0.033,
+   "n": 54
+  },
+  "contractions_per1000": {
+   "point": -4.657,
+   "lo": -5.907,
+   "hi": -3.507,
+   "lo90": -5.659,
+   "hi90": -3.683,
+   "n": 54
+  },
+  "commas_per_sentence": {
+   "point": 0.19,
+   "lo": 0.135,
+   "hi": 0.244,
+   "lo90": 0.143,
+   "hi90": 0.234,
+   "n": 54
+  },
+  "exclamations_per1000": {
+   "point": -0.398,
+   "lo": -0.662,
+   "hi": -0.15,
+   "lo90": -0.615,
+   "hi90": -0.181,
+   "n": 54
+  },
+  "questions_per1000": {
+   "point": -2.979,
+   "lo": -3.545,
+   "hi": -2.449,
+   "lo90": -3.437,
+   "hi90": -2.54,
+   "n": 54
+  },
+  "you_share": {
+   "point": -0.289,
+   "lo": -0.342,
+   "hi": -0.239,
+   "lo90": -0.333,
+   "hi90": -0.246,
+   "n": 54
+  },
+  "we_share": {
+   "point": 0.292,
+   "lo": 0.248,
+   "hi": 0.341,
+   "lo90": 0.255,
+   "hi90": 0.333,
+   "n": 54
+  },
+  "i_share": {
+   "point": -0.003,
+   "lo": -0.021,
+   "hi": 0.016,
+   "lo90": -0.018,
+   "hi90": 0.012,
+   "n": 54
+  },
+  "long_word_share": {
+   "point": 0.03,
+   "lo": 0.021,
+   "hi": 0.038,
+   "lo90": 0.023,
+   "hi90": 0.037,
+   "n": 54
+  },
+  "words": {
+   "point": -298.072,
+   "lo": -432.193,
+   "hi": -130.96,
+   "lo90": -415.396,
+   "hi90": -161.825,
+   "n": 54
+  }
+ }
+}

@@ -1,0 +1,615 @@
+{
+ "_readme": "Every brand in ScriptGrain website studies: the SGR-009 panel (96) and the DESK-415 pilot (26). Sector names follow SGR-009 (the pilot called software saas).",
+ "brands": [
+  {
+   "domain": "metrobankonline.co.uk",
+   "sector": "bank",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "tsb.co.uk",
+   "sector": "bank",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "virginmoney.com",
+   "sector": "bank",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "co-operativebank.co.uk",
+   "sector": "bank",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "chase.co.uk",
+   "sector": "bank",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "zopa.com",
+   "sector": "bank",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "atombank.co.uk",
+   "sector": "bank",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "kroo.com",
+   "sector": "bank",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "skipton.co.uk",
+   "sector": "bank",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "coventrybuildingsociety.co.uk",
+   "sector": "bank",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "scottishpower.co.uk",
+   "sector": "energy",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "utilita.co.uk",
+   "sector": "energy",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "goodenergy.co.uk",
+   "sector": "energy",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "ecotricity.co.uk",
+   "sector": "energy",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "outfoxthemarket.co.uk",
+   "sector": "energy",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "fuseenergy.com",
+   "sector": "energy",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "ee.co.uk",
+   "sector": "telecom",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "talktalk.co.uk",
+   "sector": "telecom",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "hyperoptic.com",
+   "sector": "telecom",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "communityfibre.co.uk",
+   "sector": "telecom",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "smarty.co.uk",
+   "sector": "telecom",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "idmobile.co.uk",
+   "sector": "telecom",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "lebara.co.uk",
+   "sector": "telecom",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "lycamobile.co.uk",
+   "sector": "telecom",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "o2.co.uk",
+   "sector": "telecom",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "zen.co.uk",
+   "sector": "telecom",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "freeagent.com",
+   "sector": "software",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "gocardless.com",
+   "sector": "software",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "xero.com",
+   "sector": "software",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "sage.com",
+   "sector": "software",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "intercom.com",
+   "sector": "software",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "hubspot.com",
+   "sector": "software",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "canva.com",
+   "sector": "software",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "figma.com",
+   "sector": "software",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "clickup.com",
+   "sector": "software",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "miro.com",
+   "sector": "software",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "tesco.com",
+   "sector": "grocery",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "sainsburys.co.uk",
+   "sector": "grocery",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "asda.com",
+   "sector": "grocery",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "morrisons.com",
+   "sector": "grocery",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "aldi.co.uk",
+   "sector": "grocery",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "lidl.co.uk",
+   "sector": "grocery",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "ocado.com",
+   "sector": "grocery",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "coop.co.uk",
+   "sector": "grocery",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "iceland.co.uk",
+   "sector": "grocery",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "booths.co.uk",
+   "sector": "grocery",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "britishairways.com",
+   "sector": "travel",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "easyjet.com",
+   "sector": "travel",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "ryanair.com",
+   "sector": "travel",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "jet2.com",
+   "sector": "travel",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "virginatlantic.com",
+   "sector": "travel",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "tui.co.uk",
+   "sector": "travel",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "loganair.co.uk",
+   "sector": "travel",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "thetrainline.com",
+   "sector": "travel",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "nationalexpress.com",
+   "sector": "travel",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "eurostar.com",
+   "sector": "travel",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "aviva.co.uk",
+   "sector": "insurance",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "directline.com",
+   "sector": "insurance",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "admiral.com",
+   "sector": "insurance",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "lv.com",
+   "sector": "insurance",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "axa.co.uk",
+   "sector": "insurance",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "hastingsdirect.com",
+   "sector": "insurance",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "esure.com",
+   "sector": "insurance",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "legalandgeneral.com",
+   "sector": "insurance",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "zurich.co.uk",
+   "sector": "insurance",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "bupa.co.uk",
+   "sector": "insurance",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "next.co.uk",
+   "sector": "fashion",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "marksandspencer.com",
+   "sector": "fashion",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "johnlewis.com",
+   "sector": "fashion",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "asos.com",
+   "sector": "fashion",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "boohoo.com",
+   "sector": "fashion",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "primark.com",
+   "sector": "fashion",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "superdry.com",
+   "sector": "fashion",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "riverisland.com",
+   "sector": "fashion",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "newlook.com",
+   "sector": "fashion",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "fatface.com",
+   "sector": "fashion",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "cancerresearchuk.org",
+   "sector": "charity",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "oxfam.org.uk",
+   "sector": "charity",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "redcross.org.uk",
+   "sector": "charity",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "macmillan.org.uk",
+   "sector": "charity",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "rnli.org",
+   "sector": "charity",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "nspcc.org.uk",
+   "sector": "charity",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "barnardos.org.uk",
+   "sector": "charity",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "mind.org.uk",
+   "sector": "charity",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "savethechildren.org.uk",
+   "sector": "charity",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "rspca.org.uk",
+   "sector": "charity",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "innocentdrinks.co.uk",
+   "sector": "food",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "pret.com",
+   "sector": "food",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "greggs.co.uk",
+   "sector": "food",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "nandos.co.uk",
+   "sector": "food",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "leon.co",
+   "sector": "food",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "wagamama.com",
+   "sector": "food",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "itsu.com",
+   "sector": "food",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "cookfood.net",
+   "sector": "food",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "gailsbread.co.uk",
+   "sector": "food",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "deliciouslyella.com",
+   "sector": "food",
+   "study": "SGR-009"
+  },
+  {
+   "domain": "lloydsbank.com",
+   "sector": "bank",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "nationwide.co.uk",
+   "sector": "bank",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "monzo.com",
+   "sector": "bank",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "barclays.co.uk",
+   "sector": "bank",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "natwest.com",
+   "sector": "bank",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "starlingbank.com",
+   "sector": "bank",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "santander.co.uk",
+   "sector": "bank",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "hsbc.co.uk",
+   "sector": "bank",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "octopus.energy",
+   "sector": "energy",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "britishgas.co.uk",
+   "sector": "energy",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "edfenergy.com",
+   "sector": "energy",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "ovoenergy.com",
+   "sector": "energy",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "eonnext.com",
+   "sector": "energy",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "so.energy",
+   "sector": "energy",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "bt.com",
+   "sector": "telecom",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "sky.com",
+   "sector": "telecom",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "virginmedia.com",
+   "sector": "telecom",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "vodafone.co.uk",
+   "sector": "telecom",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "three.co.uk",
+   "sector": "telecom",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "giffgaff.com",
+   "sector": "telecom",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "notion.com",
+   "sector": "software",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "slack.com",
+   "sector": "software",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "asana.com",
+   "sector": "software",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "monday.com",
+   "sector": "software",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "airtable.com",
+   "sector": "software",
+   "study": "DESK-415 pilot"
+  },
+  {
+   "domain": "mailchimp.com",
+   "sector": "software",
+   "study": "DESK-415 pilot"
+  }
+ ]
+}
