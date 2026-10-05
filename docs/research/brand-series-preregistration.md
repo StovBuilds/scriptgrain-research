@@ -118,3 +118,12 @@ report sectors and spreads; brand names appear in the data files.
    40% of the page's **words** sit in lines of six words or fewer. On a structure-only check of
    one brand in six (no outcome measure was looked at), that excludes 3% of pages, and the
    pages it catches are blog index and navigation pages. The threshold is unchanged.
+2. **2026-10-05, SGR-012 clarifications, written before SGR-012 was run** (no SGR-012 pair had
+   been scored): (a) "press" pools press releases and product announcements, as section 4
+   does; (b) AFTER-era pages are those whose date comes from meta, jsonld, url or captured,
+   as for the primary time analyses; (c) "difference in medians, within brand": for each
+   brand as the baseline, the median raw score of its SB-SC pairs minus the median of its
+   SB-OC pairs (C1), and the median of its OB-SC pairs minus the median of its SB-OC pairs
+   (C2); the headline is the mean of these over brands, with the section 2 brand bootstrap;
+   (d) pairs are ordered (A is the baseline profile, B the compared page), every eligible pair
+   is scored, and OB-SC uses brands in the same sector that are themselves eligible.
