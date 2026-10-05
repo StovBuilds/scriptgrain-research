@@ -1,0 +1,212 @@
+{
+ "study": "SGR-012",
+ "pages": 1166,
+ "pairs": 243860,
+ "brands": 15,
+ "bySector": {
+  "energy": {
+   "brands": 4,
+   "sbsc": 0.738,
+   "sboc": 0.682,
+   "obsc": 0.639
+  },
+  "software": {
+   "brands": 5,
+   "sbsc": 0.714,
+   "sboc": 0.628,
+   "obsc": 0.689
+  },
+  "insurance": {
+   "brands": 3,
+   "sbsc": 0.704,
+   "sboc": 0.609,
+   "obsc": 0.67
+  },
+  "charity": {
+   "brands": 2,
+   "sbsc": 0.71,
+   "sboc": 0.637,
+   "obsc": 0.579
+  },
+  "bank": {
+   "brands": 1,
+   "sbsc": 0.71,
+   "sboc": 0.667,
+   "obsc": null
+  }
+ },
+ "levels": {
+  "sbsc": 0.718,
+  "sboc": 0.642,
+  "obsc": 0.655,
+  "obsc_brands": 14
+ },
+ "C1": {
+  "point": 0.075,
+  "lo": 0.054,
+  "hi": 0.097,
+  "n": 15,
+  "result": "supported",
+  "brandsWhereHolds": 14
+ },
+ "C2": {
+  "point": 0.014,
+  "lo": -0.012,
+  "hi": 0.039,
+  "n": 14,
+  "result": "not supported",
+  "brandsWhereHolds": 8
+ },
+ "brandStat": {
+  "goodenergy.co.uk": {
+   "sbsc": 0.751,
+   "sboc": 0.7,
+   "obsc": 0.649,
+   "n": {
+    "sbsc": 4902,
+    "sboc": 2070,
+    "obsc": 8814
+   }
+  },
+  "fuseenergy.com": {
+   "sbsc": 0.826,
+   "sboc": 0.787,
+   "obsc": 0.648,
+   "n": {
+    "sbsc": 5100,
+    "sboc": 4800,
+    "obsc": 9280
+   }
+  },
+  "xero.com": {
+   "sbsc": 0.7184999999999999,
+   "sboc": 0.5774999999999999,
+   "obsc": 0.691,
+   "n": {
+    "sbsc": 866,
+    "sboc": 616,
+    "obsc": 4591
+   }
+  },
+  "sage.com": {
+   "sbsc": 0.676,
+   "sboc": 0.592,
+   "obsc": 0.688,
+   "n": {
+    "sbsc": 662,
+    "sboc": 598,
+    "obsc": 4879
+   }
+  },
+  "hubspot.com": {
+   "sbsc": 0.615,
+   "sboc": 0.592,
+   "obsc": 0.627,
+   "n": {
+    "sbsc": 912,
+    "sboc": 728,
+    "obsc": 7734
+   }
+  },
+  "clickup.com": {
+   "sbsc": 0.771,
+   "sboc": 0.775,
+   "obsc": 0.723,
+   "n": {
+    "sbsc": 11904,
+    "sboc": 2616,
+    "obsc": 18279
+   }
+  },
+  "aviva.co.uk": {
+   "sbsc": 0.688,
+   "sboc": 0.587,
+   "obsc": 0.659,
+   "n": {
+    "sbsc": 8742,
+    "sboc": 8550,
+    "obsc": 15927
+   }
+  },
+  "lv.com": {
+   "sbsc": 0.722,
+   "sboc": 0.644,
+   "obsc": 0.679,
+   "n": {
+    "sbsc": 2028,
+    "sboc": 1512,
+    "obsc": 9810
+   }
+  },
+  "legalandgeneral.com": {
+   "sbsc": 0.702,
+   "sboc": 0.597,
+   "obsc": 0.672,
+   "n": {
+    "sbsc": 15476,
+    "sboc": 14280,
+    "obsc": 17385
+   }
+  },
+  "barnardos.org.uk": {
+   "sbsc": 0.7104999999999999,
+   "sboc": 0.63,
+   "obsc": 0.588,
+   "n": {
+    "sbsc": 422,
+    "sboc": 448,
+    "obsc": 1242
+   }
+  },
+  "savethechildren.org.uk": {
+   "sbsc": 0.71,
+   "sboc": 0.6435,
+   "obsc": 0.571,
+   "n": {
+    "sbsc": 3606,
+    "sboc": 3366,
+    "obsc": 1242
+   }
+  },
+  "natwest.com": {
+   "sbsc": 0.7104999999999999,
+   "sboc": 0.6665000000000001,
+   "obsc": null,
+   "n": {
+    "sbsc": 2090,
+    "sboc": 990,
+    "obsc": 0
+   }
+  },
+  "octopus.energy": {
+   "sbsc": 0.673,
+   "sboc": 0.584,
+   "obsc": 0.619,
+   "n": {
+    "sbsc": 1164,
+    "sboc": 1188,
+    "obsc": 5231
+   }
+  },
+  "edfenergy.com": {
+   "sbsc": 0.7004999999999999,
+   "sboc": 0.655,
+   "obsc": 0.64,
+   "n": {
+    "sbsc": 902,
+    "sboc": 580,
+    "obsc": 5199
+   }
+  },
+  "monday.com": {
+   "sbsc": 0.791,
+   "sboc": 0.602,
+   "obsc": 0.714,
+   "n": {
+    "sbsc": 11552,
+    "sboc": 3210,
+    "obsc": 18367
+   }
+  }
+ }
+}
