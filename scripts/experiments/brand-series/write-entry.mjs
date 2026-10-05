@@ -8,6 +8,11 @@ const opt = (n, d) => { const i = args.indexOf(n); return i === -1 ? d : args[i 
 const PUBLISH_ON = opt("--publish-on");
 if (!PUBLISH_ON) throw new Error("--publish-on required");
 const dir = new URL(".", import.meta.url).pathname;
+// Correction notes (2026-10-05, corpus v1.4): pass --updated-on and --old-010/--old-011 (the
+// summaries as first published) to add a dated note listing every headline figure that moved.
+const UPDATED_ON = opt("--updated-on", null);
+const OLD10 = opt("--old-010", null) ? JSON.parse(readFileSync(opt("--old-010"), "utf8")) : null;
+const OLD11 = opt("--old-011", null) ? JSON.parse(readFileSync(opt("--old-011"), "utf8")) : null;
 const A = JSON.parse(readFileSync(dir + "summary-010.json", "utf8"));
 const S = JSON.parse(readFileSync(dir + "summary-011.json", "utf8"));
 const LEX = JSON.parse(readFileSync(dir + "../sgr-007/lexicons.json", "utf8"));
@@ -210,6 +215,17 @@ const s011 = {
   ],
 };
 
+const CORR_INTRO = "Correction, 5 October 2026: 322 of the pages first measured came from other organisations' websites that a discovery rule had mistaken for the brands' own (mostly a US news site taken as EE's newsroom, 219 pages; also Aviva's separately branded asset manager, a newsroom-software company named Octopus and a publisher named Notion Press). They were removed and every analysis was re-run with its pre-registered rules unchanged.";
+if (UPDATED_ON && OLD10) {
+  const o = OLD10, c = A;
+  s010.updatedOn = UPDATED_ON;
+  s010.sections.unshift({ heading: "Correction (5 October 2026)", paragraphs: [CORR_INTRO, `No result changed. Figures that moved: pages measured ${n(o.pages)} to ${n(c.pages)}; press release minus blog sentence length ${f1(o.O1.point)} to ${f1(c.O1.point)} words (${o.O1.n} to ${c.O1.n} brands); blog minus press 'you' share ${Math.round(o.O2.point * 100)} to ${Math.round(c.O2.point * 100)} points; telecoms 'you' share ${pct(o.bySector.telecom.you_share.brand_weighted_mean)} to ${pct(c.bySector.telecom.you_share.brand_weighted_mean)}. The first version's data is kept in the repository history.`] });
+}
+if (UPDATED_ON && OLD11) {
+  const o = OLD11, c = S, p0 = (h) => rel(h.point, h.late_mean);
+  s011.updatedOn = UPDATED_ON;
+  s011.sections.unshift({ heading: "Correction (5 October 2026)", paragraphs: [CORR_INTRO, `No hypothesis changed outcome. Figures that moved: AI-associated words ${sg(p0(o.H1))}${Math.abs(p0(o.H1))}% to ${sg(p0(c.H1))}${Math.abs(p0(c.H1))}% within brand (${o.H1.n} to ${c.H1.n} brands); em dashes ${f2(o.H3.late_mean)} to ${f2(o.H3.after_mean)} became ${f2(c.H3.late_mean)} to ${f2(c.H3.after_mean)} per 1,000 words; the 2024 peak ${f2(o.byYear["2024"].ai_ism_per1000)} to ${f2(c.byYear["2024"].ai_ism_per1000)}. The first version's data is kept in the repository history.`] });
+}
 const PJ = "src/data/research-pages.json";
 const data = JSON.parse(readFileSync(PJ, "utf8"));
 for (const st of [s010, s011]) { const i = data.studies.findIndex((x) => x.id === st.id); if (i === -1) data.studies.push(st); else data.studies[i] = st; }

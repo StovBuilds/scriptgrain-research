@@ -118,3 +118,10 @@ report sectors and spreads; brand names appear in the data files.
    40% of the page's **words** sit in lines of six words or fewer. On a structure-only check of
    one brand in six (no outcome measure was looked at), that excludes 3% of pages, and the
    pages it catches are blog index and navigation pages. The threshold is unchanged.
+
+3. **2026-10-05, data correction after SGR-010 and SGR-011 were published.** 322 measured pages
+   came from other organisations' sites (mostly eenews.net under EE, 219 pages; avivainvestors.com,
+   57; octopus-news.com, 24; notionpress.com, 11), let in by a corpus discovery rule (corpus README,
+   v1.4). They were removed and SGR-010 and SGR-011 were re-run with every pre-registered rule
+   unchanged. No hypothesis changed outcome; the figures that moved are listed on each page's
+   correction note. SGR-012 and the sector reports were run on the corrected data.
