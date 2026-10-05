@@ -59,7 +59,7 @@ const study = {
     description: `UK consumer brands from ScriptGrain's brand deep corpus (October 2026) with at least 8 blog posts and 8 press releases or announcements of 300 words or more dated January 2024 or later: ${S.brands} brands, ${n(S.pages)} pages, ${n(S.pairs)} scored pairs.`,
     size: S.pages,
     inclusionCriteria: ["Written by the brand on its own site or newsroom, in English", "Dated January 2024 or later from the page's metadata, structured data or URL", "At least 300 words of main text", "Brand has at least 8 pages in each channel"],
-    exclusions: ["Pages before 2024 (other eras are in SGR-011)", "A brand alone in its sector has no rival pairs and is left out of the rival comparison (14 of the 15 brands have one)", "No page text is published"],
+    exclusions: ["Pages before 2024 (other eras are in SGR-011)", `A brand alone in its sector has no rival pairs and is left out of the rival comparison (${L.obsc_brands} of the ${S.brands} brands have one)`, "No page text is published"],
   },
   method: [
     "Pre-registration: hypotheses C1 and C2 were committed with the series plan before any page was measured (docs/research/brand-series-preregistration.md section 5), and four clarifications (how channels are pooled, which dates count, how medians are taken) before any pair was scored.",

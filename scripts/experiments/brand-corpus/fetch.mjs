@@ -17,6 +17,7 @@ import { gzipSync, gunzipSync } from "node:zlib";
 import { execFileSync } from "node:child_process";
 import { htmlToText } from "../../../supabase/functions/_shared/html-text.ts";
 import { jsonLdDate, urlYear } from "./dates.mjs";
+import { GROUP_HOSTS } from "./host-rules.mjs";
 
 const dir = new URL(".", import.meta.url).pathname;
 const args = process.argv.slice(2);
@@ -104,7 +105,6 @@ const stratify = (xs, key) => {
   return out;
 };
 const shuffle = (xs, key) => { const r = seeded(SEED ^ parseInt(createHash("sha256").update(key).digest("hex").slice(0, 8), 16)); const a = [...xs]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
-const CORP_SUFFIX = /^(plc|group|corporate|corp|news|newsroom|media|press|aboutus|investors|holdings)$/;
 const token = (d) => d.split(".")[0].replace(/-/g, "");
 const words = (t) => (t.match(/\S+/g) ?? []).length;
 
@@ -126,11 +126,16 @@ async function discover(b, deep = false) {
       const url = r.url; if (!url) continue;
       let h; try { h = new URL(url).hostname.replace(/^www\./, ""); } catch { continue; }
       const own = h === d || h.endsWith("." + d);
-      if (/\.pdf$/i.test(url) && (own || h.replace(/[.-]/g, "").includes(tk))) { if (!links.has(url)) links.set(url, r.title ?? ""); continue; }
+      // v1.4: only the brand's own domain or a hand-checked group site (host-rules.mjs). The
+      // old "host contains the brand's name" rule let in miroforestry.com, nivabupa.com and lvmh.
+      const group = (GROUP_HOSTS[d] ?? []).some((g) => h === g || h.endsWith("." + g));
+      if (/\.pdf$/i.test(url) && (own || group)) { if (!links.has(url)) links.set(url, r.title ?? ""); continue; }
       // Another domain counts only if it is plainly this brand's corporate or news site
       // (tescoplc.com, ee-newsroom.co.uk), not a sister organisation (oxfamamerica.org).
-      const label = h.split(".")[0].replace(/-/g, "");
-      if (!own && CORP_SUFFIX.test(label.slice(tk.length)) && label.startsWith(tk) && label !== tk) extra.add(h);
+      // v1.4: a corporate or news site on another domain counts only if it is listed in
+      // host-rules.mjs. The v1-v1.3 name-pattern rule (brand + news/group/plc) took eenews.net
+      // for EE and notionpress.com for Notion.
+      if (!own && group) extra.add(h);
     }
   }
   // v1.1 deep pass for thin brands: their writing is often on a subdomain the www map
@@ -143,8 +148,7 @@ async function discover(b, deep = false) {
         const url = r.url; if (!url) continue;
         let h; try { h = new URL(url).hostname.replace(/^www\./, ""); } catch { continue; }
         const own = h === d || h.endsWith("." + d);
-        const label = h.split(".")[0].replace(/-/g, "");
-        const corp = !own && CORP_SUFFIX.test(label.slice(tk.length)) && label.startsWith(tk) && label !== tk;
+        const corp = !own && (GROUP_HOSTS[d] ?? []).some((g) => h === g || h.endsWith("." + g));
         if (corp) extra.add(h);
         if (own && h !== d && !SKIP_HOST.test(h + ".")) sub.add(h);
         if ((own || corp) && !links.has(url)) links.set(url, r.title ?? "");

@@ -118,6 +118,7 @@ report sectors and spreads; brand names appear in the data files.
    40% of the page's **words** sit in lines of six words or fewer. On a structure-only check of
    one brand in six (no outcome measure was looked at), that excludes 3% of pages, and the
    pages it catches are blog index and navigation pages. The threshold is unchanged.
+
 2. **2026-10-05, SGR-012 clarifications, written before SGR-012 was run** (no SGR-012 pair had
    been scored): (a) "press" pools press releases and product announcements, as section 4
    does; (b) AFTER-era pages are those whose date comes from meta, jsonld, url or captured,
@@ -127,3 +128,11 @@ report sectors and spreads; brand names appear in the data files.
    (C2); the headline is the mean of these over brands, with the section 2 brand bootstrap;
    (d) pairs are ordered (A is the baseline profile, B the compared page), every eligible pair
    is scored, and OB-SC uses brands in the same sector that are themselves eligible.
+3. **2026-10-05, data correction after SGR-010 and SGR-011 were published.** 322 measured pages
+   came from other organisations' sites (mostly eenews.net under EE, 219 pages; avivainvestors.com,
+   57; octopus-news.com, 24; notionpress.com, 11), let in by a corpus discovery rule (corpus README,
+   v1.4). They were removed and SGR-010 and SGR-011 were re-run with every pre-registered rule
+   unchanged. No hypothesis changed outcome; the figures that moved are listed on each page's
+   correction note. SGR-012 had been run once on the uncorrected data (not published); it was
+   re-run on the corrected data before publication and its outcomes did not change. The sector
+   reports were run on the corrected data only.

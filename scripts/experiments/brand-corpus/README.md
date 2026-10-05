@@ -179,6 +179,24 @@ on each side.
 | charity | 10 | 2,078 | 584 | 243 | 647 | 784 | 404 |
 | food | 8 | 812 | 247 | 247 | 46 | 225 | 294 |
 
+## v1.4 correction: pages from other organisations removed (2026-10-05)
+
+The v1 to v1.3 discovery accepted a newsroom or corporate site on another domain if its name was
+the brand's name plus a word such as "news", "group" or "plc", and accepted an annual-report PDF
+from any host whose name contained the brand's name. Short or common brand names matched unrelated
+sites: **eenews.net** (E&E News, a US politics site) was taken as EE's newsroom (261 pages),
+**notionpress.com** as Notion's (104), **octopus-news.com** (newsroom software) as Octopus Energy's
+(24), plus single pages from miroforestry.com, nivabupa.com, lvmh, macmillanjersey.com and others.
+**avivainvestors.com** (Aviva's separately branded asset manager, 58 pages), **santander.com** (the
+Spanish parent) and **image.savethechildren.org** (the international charity) were also removed as
+not the UK brand's own writing. 462 stored pages in all. claude-4 found the EE case while building
+brandsovertime.com.
+
+The rule is now `host-rules.mjs`: a page counts if its host is the brand's domain or a subdomain of
+it, or one of the brand's own group sites listed there by hand (tescoplc.com, natwestgroup.com,
+skygroup.sky, home.barclays, virginmediao2.co.uk and others). `clean-v14.mjs` applied it to every
+stored file and `fetch.mjs` uses it for any future run. The manifest was rebuilt (17,056 pages).
+
 ## Re-run or extend
 
 `bun fetch.mjs` resumes: brands in `ledger.json` → `brandsDone` are skipped. `bun fetch.mjs --v1.1` is the clean-up and top-up pass (resumes on `discovery.<brand>.v11` and `ledger.pass2Done`). `bun fetch.mjs --v1.2` is the deeper pass (resumes on `ledger.v12Done`). `bun wayback.mjs` is the pre-ChatGPT pass (resumes on `ledger.v13.brandsDone`; `--cap`, `--floor`). After any run, `bun build-manifest.mjs`.
