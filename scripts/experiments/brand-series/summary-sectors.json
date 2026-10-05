@@ -1,0 +1,2819 @@
+{
+ "bank": {
+  "sector": "bank",
+  "brands": 18,
+  "brandList": [
+   "atombank.co.uk",
+   "barclays.co.uk",
+   "chase.co.uk",
+   "co-operativebank.co.uk",
+   "coventrybuildingsociety.co.uk",
+   "hsbc.co.uk",
+   "kroo.com",
+   "lloydsbank.com",
+   "metrobankonline.co.uk",
+   "monzo.com",
+   "nationwide.co.uk",
+   "natwest.com",
+   "santander.co.uk",
+   "skipton.co.uk",
+   "starlingbank.com",
+   "tsb.co.uk",
+   "virginmoney.com",
+   "zopa.com"
+  ],
+  "pages": 2669,
+  "counts": {
+   "blog": 1579,
+   "press": 1090,
+   "archived": 768
+  },
+  "habits": {
+   "avg_sentence_length": {
+    "sector": 14.21,
+    "others": 13.063,
+    "brand_p25": 13.12,
+    "brand_p75": 14.903,
+    "rank_of_10": 3
+   },
+   "you_share": {
+    "sector": 0.473,
+    "others": 0.501,
+    "brand_p25": 0.379,
+    "brand_p75": 0.571,
+    "rank_of_10": 6
+   },
+   "we_share": {
+    "sector": 0.475,
+    "others": 0.436,
+    "brand_p25": 0.373,
+    "brand_p75": 0.596,
+    "rank_of_10": 4
+   },
+   "contractions_per1000": {
+    "sector": 16.348,
+    "others": 15.647,
+    "brand_p25": 12.498,
+    "brand_p75": 18.357,
+    "rank_of_10": 5
+   },
+   "questions_per1000": {
+    "sector": 2.876,
+    "others": 3.102,
+    "brand_p25": 2.071,
+    "brand_p75": 3.791,
+    "rank_of_10": 7
+   },
+   "exclamations_per1000": {
+    "sector": 0.647,
+    "others": 1.395,
+    "brand_p25": 0.052,
+    "brand_p75": 0.847,
+    "rank_of_10": 7
+   },
+   "em_dash_per1000": {
+    "sector": 2.252,
+    "others": 2.284,
+    "brand_p25": 1.734,
+    "brand_p75": 2.589,
+    "rank_of_10": 4
+   },
+   "ai_ism_per1000": {
+    "sector": 0.962,
+    "others": 1.194,
+    "brand_p25": 0.534,
+    "brand_p75": 1.331,
+    "rank_of_10": 7
+   },
+   "marketing_per1000": {
+    "sector": 0.709,
+    "others": 0.94,
+    "brand_p25": 0.299,
+    "brand_p75": 0.941,
+    "rank_of_10": 7
+   },
+   "long_word_share": {
+    "sector": 0.252,
+    "others": 0.256,
+    "brand_p25": 0.232,
+    "brand_p75": 0.268,
+    "rank_of_10": 5
+   },
+   "sentence_variation": {
+    "sector": 0.718,
+    "others": 0.788,
+    "brand_p25": 0.679,
+    "brand_p75": 0.74,
+    "rank_of_10": 7
+   },
+   "words": {
+    "sector": 1012.61,
+    "others": 1115.429,
+    "brand_p25": 884.69,
+    "brand_p75": 1052.667,
+    "rank_of_10": 5
+   }
+  },
+  "pressVsBlog": {
+   "brands": 13,
+   "avg_sentence_length": {
+    "point": 2.248,
+    "lo": 1.304,
+    "hi": 3.245,
+    "n": 13
+   },
+   "you_share": {
+    "point": -0.324,
+    "lo": -0.449,
+    "hi": -0.202,
+    "n": 13
+   },
+   "contractions_per1000": {
+    "point": -4.346,
+    "lo": -6.892,
+    "hi": -1.579,
+    "n": 13
+   },
+   "ai_ism_per1000": {
+    "point": 0.719,
+    "lo": 0.109,
+    "hi": 1.424,
+    "n": 13
+   }
+  },
+  "beforeAfter": {
+   "brands": 3,
+   "cells": 4,
+   "ai_ism_per1000": {
+    "point": 0.608,
+    "lo": 0.487,
+    "hi": 0.804,
+    "n": 3,
+    "before": 0.936,
+    "after": 1.544
+   },
+   "marketing_per1000": {
+    "point": 0.375,
+    "lo": -0.192,
+    "hi": 0.883,
+    "n": 3,
+    "before": 0.676,
+    "after": 1.051
+   },
+   "em_dash_per1000": {
+    "point": 0.818,
+    "lo": -0.622,
+    "hi": 1.687,
+    "n": 3,
+    "before": 2.269,
+    "after": 3.088
+   },
+   "ai_shape_per1000": {
+    "point": 0.049,
+    "lo": -0.136,
+    "hi": 0.303,
+    "n": 3,
+    "before": 0.26,
+    "after": 0.309
+   },
+   "avg_sentence_length": {
+    "point": -0.246,
+    "lo": -1.621,
+    "hi": 0.784,
+    "n": 3,
+    "before": 14.91,
+    "after": 14.664
+   }
+  },
+  "years": {
+   "2015": {
+    "pages": 81,
+    "brands": 8,
+    "ai_ism_per1000": 1.132,
+    "avg_sentence_length": 14.811,
+    "you_share": 0.345
+   },
+   "2016": {
+    "pages": 53,
+    "brands": 7,
+    "ai_ism_per1000": 0.678,
+    "avg_sentence_length": 14.498,
+    "you_share": 0.301
+   },
+   "2017": {
+    "pages": 77,
+    "brands": 10,
+    "ai_ism_per1000": 1.155,
+    "avg_sentence_length": 15.208,
+    "you_share": 0.348
+   },
+   "2018": {
+    "pages": 80,
+    "brands": 10,
+    "ai_ism_per1000": 0.997,
+    "avg_sentence_length": 15.817,
+    "you_share": 0.377
+   },
+   "2019": {
+    "pages": 164,
+    "brands": 13,
+    "ai_ism_per1000": 1.299,
+    "avg_sentence_length": 14.454,
+    "you_share": 0.418
+   },
+   "2020": {
+    "pages": 173,
+    "brands": 15,
+    "ai_ism_per1000": 1.208,
+    "avg_sentence_length": 14.549,
+    "you_share": 0.422
+   },
+   "2021": {
+    "pages": 202,
+    "brands": 14,
+    "ai_ism_per1000": 0.935,
+    "avg_sentence_length": 14.553,
+    "you_share": 0.407
+   },
+   "2022": {
+    "pages": 207,
+    "brands": 15,
+    "ai_ism_per1000": 0.787,
+    "avg_sentence_length": 14.135,
+    "you_share": 0.444
+   },
+   "2023": {
+    "pages": 40,
+    "brands": 9,
+    "ai_ism_per1000": 1.503,
+    "avg_sentence_length": 15.182,
+    "you_share": 0.267
+   },
+   "2024": {
+    "pages": 50,
+    "brands": 9,
+    "ai_ism_per1000": 2.204,
+    "avg_sentence_length": 17.219,
+    "you_share": 0.247
+   },
+   "2025": {
+    "pages": 55,
+    "brands": 12,
+    "ai_ism_per1000": 1.917,
+    "avg_sentence_length": 14.573,
+    "you_share": 0.286
+   },
+   "2026": {
+    "pages": 59,
+    "brands": 8,
+    "ai_ism_per1000": 0.579,
+    "avg_sentence_length": 14.882,
+    "you_share": 0.379
+   }
+  },
+  "allYearsAi": {
+   "2015": 0.819,
+   "2016": 0.509,
+   "2017": 0.945,
+   "2018": 1.077,
+   "2019": 0.985,
+   "2020": 1.054,
+   "2021": 1.138,
+   "2022": 1.095,
+   "2023": 1.723,
+   "2024": 2.159,
+   "2025": 1.92,
+   "2026": 1.29
+  },
+  "sgr012": {
+   "brands": 1,
+   "sbsc": 0.71,
+   "sboc": 0.667,
+   "obsc": null
+  },
+  "words": [
+   {
+    "word": "bank",
+    "z": 143.65,
+    "sector_per10k": 74.8,
+    "others_per10k": 3.91
+   },
+   {
+    "word": "banking",
+    "z": 93.77,
+    "sector_per10k": 37.71,
+    "others_per10k": 0.92
+   },
+   {
+    "word": "mortgage",
+    "z": 92.23,
+    "sector_per10k": 32.07,
+    "others_per10k": 3.1
+   },
+   {
+    "word": "investment",
+    "z": 88.06,
+    "sector_per10k": 35.46,
+    "others_per10k": 5.65
+   },
+   {
+    "word": "account",
+    "z": 87.95,
+    "sector_per10k": 38.43,
+    "others_per10k": 6.98
+   },
+   {
+    "word": "financial",
+    "z": 74.81,
+    "sector_per10k": 45.88,
+    "others_per10k": 13.93
+   },
+   {
+    "word": "savings",
+    "z": 72.17,
+    "sector_per10k": 24.12,
+    "others_per10k": 3.92
+   },
+   {
+    "word": "investing",
+    "z": 64.9,
+    "sector_per10k": 16.07,
+    "others_per10k": 1.63
+   },
+   {
+    "word": "interest",
+    "z": 63.66,
+    "sector_per10k": 19.54,
+    "others_per10k": 3.39
+   },
+   {
+    "word": "markets",
+    "z": 57.15,
+    "sector_per10k": 13.14,
+    "others_per10k": 1.58
+   },
+   {
+    "word": "funds",
+    "z": 55.24,
+    "sector_per10k": 12.15,
+    "others_per10k": 1.42
+   },
+   {
+    "word": "lending",
+    "z": 52.21,
+    "sector_per10k": 11.47,
+    "others_per10k": 0.3
+   },
+   {
+    "word": "card",
+    "z": 52.13,
+    "sector_per10k": 14.19,
+    "others_per10k": 2.75
+   },
+   {
+    "word": "banks",
+    "z": 51.48,
+    "sector_per10k": 9.62,
+    "others_per10k": 0.72
+   },
+   {
+    "word": "loan",
+    "z": 51.05,
+    "sector_per10k": 10.46,
+    "others_per10k": 1.25
+   },
+   {
+    "word": "fraud",
+    "z": 49.84,
+    "sector_per10k": 9.2,
+    "others_per10k": 0.81
+   },
+   {
+    "word": "rate",
+    "z": 48.02,
+    "sector_per10k": 18.99,
+    "others_per10k": 5.77
+   },
+   {
+    "word": "mortgages",
+    "z": 46.62,
+    "sector_per10k": 7.85,
+    "others_per10k": 0.47
+   },
+   {
+    "word": "plc",
+    "z": 46.45,
+    "sector_per10k": 9.54,
+    "others_per10k": 1.42
+   },
+   {
+    "word": "spending",
+    "z": 45.96,
+    "sector_per10k": 10.45,
+    "others_per10k": 1.88
+   },
+   {
+    "word": "finances",
+    "z": 45.66,
+    "sector_per10k": 8.88,
+    "others_per10k": 1.23
+   },
+   {
+    "word": "loans",
+    "z": 45.35,
+    "sector_per10k": 7.55,
+    "others_per10k": 0.63
+   },
+   {
+    "word": "sector",
+    "z": 45.09,
+    "sector_per10k": 11.63,
+    "others_per10k": 2.52
+   },
+   {
+    "word": "accounts",
+    "z": 45.07,
+    "sector_per10k": 13.79,
+    "others_per10k": 3.56
+   },
+   {
+    "word": "personal",
+    "z": 45,
+    "sector_per10k": 17.49,
+    "others_per10k": 5.51
+   },
+   {
+    "word": "fund",
+    "z": 44.38,
+    "sector_per10k": 11.13,
+    "others_per10k": 2.38
+   },
+   {
+    "word": "business",
+    "z": 44.3,
+    "sector_per10k": 74.18,
+    "others_per10k": 44.9
+   },
+   {
+    "word": "market",
+    "z": 44.24,
+    "sector_per10k": 23.11,
+    "others_per10k": 8.88
+   },
+   {
+    "word": "deposit",
+    "z": 43.76,
+    "sector_per10k": 6.93,
+    "others_per10k": 0.49
+   },
+   {
+    "word": "app",
+    "z": 41.57,
+    "sector_per10k": 23.12,
+    "others_per10k": 9.5
+   }
+  ]
+ },
+ "energy": {
+  "sector": "energy",
+  "brands": 11,
+  "brandList": [
+   "britishgas.co.uk",
+   "ecotricity.co.uk",
+   "edfenergy.com",
+   "eonnext.com",
+   "fuseenergy.com",
+   "goodenergy.co.uk",
+   "octopus.energy",
+   "ovoenergy.com",
+   "scottishpower.co.uk",
+   "so.energy",
+   "utilita.co.uk"
+  ],
+  "pages": 1949,
+  "counts": {
+   "blog": 1345,
+   "press": 604,
+   "archived": 462
+  },
+  "habits": {
+   "avg_sentence_length": {
+    "sector": 14.781,
+    "others": 13.08,
+    "brand_p25": 14.099,
+    "brand_p75": 15.669,
+    "rank_of_10": 1
+   },
+   "you_share": {
+    "sector": 0.512,
+    "others": 0.495,
+    "brand_p25": 0.316,
+    "brand_p75": 0.677,
+    "rank_of_10": 4
+   },
+   "we_share": {
+    "sector": 0.423,
+    "others": 0.444,
+    "brand_p25": 0.283,
+    "brand_p75": 0.595,
+    "rank_of_10": 7
+   },
+   "contractions_per1000": {
+    "sector": 16.471,
+    "others": 15.681,
+    "brand_p25": 14.351,
+    "brand_p75": 19.186,
+    "rank_of_10": 4
+   },
+   "questions_per1000": {
+    "sector": 3.873,
+    "others": 2.983,
+    "brand_p25": 2.107,
+    "brand_p75": 5.048,
+    "rank_of_10": 3
+   },
+   "exclamations_per1000": {
+    "sector": 0.911,
+    "others": 1.318,
+    "brand_p25": 0.444,
+    "brand_p75": 1.491,
+    "rank_of_10": 4
+   },
+   "em_dash_per1000": {
+    "sector": 2.962,
+    "others": 2.207,
+    "brand_p25": 1.607,
+    "brand_p75": 3.774,
+    "rank_of_10": 2
+   },
+   "ai_ism_per1000": {
+    "sector": 1.237,
+    "others": 1.15,
+    "brand_p25": 0.694,
+    "brand_p75": 1.588,
+    "rank_of_10": 3
+   },
+   "marketing_per1000": {
+    "sector": 0.885,
+    "others": 0.907,
+    "brand_p25": 0.456,
+    "brand_p75": 1.19,
+    "rank_of_10": 5
+   },
+   "long_word_share": {
+    "sector": 0.241,
+    "others": 0.257,
+    "brand_p25": 0.223,
+    "brand_p75": 0.243,
+    "rank_of_10": 8
+   },
+   "sentence_variation": {
+    "sector": 0.703,
+    "others": 0.785,
+    "brand_p25": 0.61,
+    "brand_p75": 0.75,
+    "rank_of_10": 10
+   },
+   "words": {
+    "sector": 1050.949,
+    "others": 1104.558,
+    "brand_p25": 776.044,
+    "brand_p75": 1288.232,
+    "rank_of_10": 4
+   }
+  },
+  "pressVsBlog": {
+   "brands": 9,
+   "avg_sentence_length": {
+    "point": 1.028,
+    "lo": -0.831,
+    "hi": 2.644,
+    "n": 9
+   },
+   "you_share": {
+    "point": -0.196,
+    "lo": -0.281,
+    "hi": -0.11,
+    "n": 9
+   },
+   "contractions_per1000": {
+    "point": -1.458,
+    "lo": -3.813,
+    "hi": 0.271,
+    "n": 9
+   },
+   "ai_ism_per1000": {
+    "point": 0.478,
+    "lo": -0.175,
+    "hi": 1.215,
+    "n": 9
+   }
+  },
+  "beforeAfter": {
+   "brands": 4,
+   "cells": 6,
+   "ai_ism_per1000": {
+    "point": 0.398,
+    "lo": -0.148,
+    "hi": 1.148,
+    "n": 4,
+    "before": 1.089,
+    "after": 1.487
+   },
+   "marketing_per1000": {
+    "point": 0.341,
+    "lo": 0.048,
+    "hi": 0.85,
+    "n": 4,
+    "before": 0.724,
+    "after": 1.065
+   },
+   "em_dash_per1000": {
+    "point": -0.015,
+    "lo": -1.685,
+    "hi": 1.527,
+    "n": 4,
+    "before": 2.978,
+    "after": 2.963
+   },
+   "ai_shape_per1000": {
+    "point": -0.061,
+    "lo": -0.118,
+    "hi": -0.01,
+    "n": 4,
+    "before": 0.244,
+    "after": 0.184
+   },
+   "avg_sentence_length": {
+    "point": 0.02,
+    "lo": -2.037,
+    "hi": 2.23,
+    "n": 4,
+    "before": 15.003,
+    "after": 15.023
+   }
+  },
+  "years": {
+   "2015": {
+    "pages": 49,
+    "brands": 7,
+    "ai_ism_per1000": 1.114,
+    "avg_sentence_length": 13.57,
+    "you_share": 0.335
+   },
+   "2016": {
+    "pages": 58,
+    "brands": 8,
+    "ai_ism_per1000": 0.46,
+    "avg_sentence_length": 13.654,
+    "you_share": 0.353
+   },
+   "2017": {
+    "pages": 65,
+    "brands": 8,
+    "ai_ism_per1000": 1.079,
+    "avg_sentence_length": 14.417,
+    "you_share": 0.375
+   },
+   "2018": {
+    "pages": 44,
+    "brands": 8,
+    "ai_ism_per1000": 0.952,
+    "avg_sentence_length": 15.548,
+    "you_share": 0.483
+   },
+   "2019": {
+    "pages": 72,
+    "brands": 8,
+    "ai_ism_per1000": 1.123,
+    "avg_sentence_length": 14.189,
+    "you_share": 0.402
+   },
+   "2020": {
+    "pages": 86,
+    "brands": 8,
+    "ai_ism_per1000": 0.655,
+    "avg_sentence_length": 15.424,
+    "you_share": 0.379
+   },
+   "2021": {
+    "pages": 136,
+    "brands": 9,
+    "ai_ism_per1000": 1.165,
+    "avg_sentence_length": 15.627,
+    "you_share": 0.454
+   },
+   "2022": {
+    "pages": 101,
+    "brands": 9,
+    "ai_ism_per1000": 1.993,
+    "avg_sentence_length": 14.693,
+    "you_share": 0.369
+   },
+   "2023": {
+    "pages": 44,
+    "brands": 6,
+    "ai_ism_per1000": 1.394,
+    "avg_sentence_length": 14.943,
+    "you_share": 0.483
+   },
+   "2024": {
+    "pages": 63,
+    "brands": 7,
+    "ai_ism_per1000": 2.071,
+    "avg_sentence_length": 15.36,
+    "you_share": 0.383
+   },
+   "2025": {
+    "pages": 87,
+    "brands": 8,
+    "ai_ism_per1000": 1.801,
+    "avg_sentence_length": 14.642,
+    "you_share": 0.547
+   },
+   "2026": {
+    "pages": 171,
+    "brands": 7,
+    "ai_ism_per1000": 1.578,
+    "avg_sentence_length": 14.841,
+    "you_share": 0.642
+   }
+  },
+  "allYearsAi": {
+   "2015": 0.819,
+   "2016": 0.509,
+   "2017": 0.945,
+   "2018": 1.077,
+   "2019": 0.985,
+   "2020": 1.054,
+   "2021": 1.138,
+   "2022": 1.095,
+   "2023": 1.723,
+   "2024": 2.159,
+   "2025": 1.92,
+   "2026": 1.29
+  },
+  "sgr012": {
+   "brands": 3,
+   "sbsc": 0.759,
+   "sboc": 0.714,
+   "obsc": 0.654
+  },
+  "words": [
+   {
+    "word": "heat",
+    "z": 113.24,
+    "sector_per10k": 56.29,
+    "others_per10k": 1.29
+   },
+   {
+    "word": "electricity",
+    "z": 106.93,
+    "sector_per10k": 73.33,
+    "others_per10k": 0.69
+   },
+   {
+    "word": "gas",
+    "z": 100.52,
+    "sector_per10k": 50.91,
+    "others_per10k": 0.8
+   },
+   {
+    "word": "solar",
+    "z": 96.56,
+    "sector_per10k": 59.58,
+    "others_per10k": 0.56
+   },
+   {
+    "word": "home",
+    "z": 95.43,
+    "sector_per10k": 74.78,
+    "others_per10k": 20.8
+   },
+   {
+    "word": "carbon",
+    "z": 90.94,
+    "sector_per10k": 30.93,
+    "others_per10k": 1.96
+   },
+   {
+    "word": "electric",
+    "z": 89.5,
+    "sector_per10k": 29.92,
+    "others_per10k": 1.83
+   },
+   {
+    "word": "bills",
+    "z": 89.34,
+    "sector_per10k": 30.07,
+    "others_per10k": 2.12
+   },
+   {
+    "word": "charging",
+    "z": 87.36,
+    "sector_per10k": 29.96,
+    "others_per10k": 1.05
+   },
+   {
+    "word": "renewable",
+    "z": 84.01,
+    "sector_per10k": 35.69,
+    "others_per10k": 0.56
+   },
+   {
+    "word": "battery",
+    "z": 81.95,
+    "sector_per10k": 25.64,
+    "others_per10k": 2
+   },
+   {
+    "word": "heating",
+    "z": 81.52,
+    "sector_per10k": 30.4,
+    "others_per10k": 0.62
+   },
+   {
+    "word": "green",
+    "z": 79.02,
+    "sector_per10k": 24.37,
+    "others_per10k": 2.14
+   },
+   {
+    "word": "supplier",
+    "z": 77.09,
+    "sector_per10k": 22.46,
+    "others_per10k": 1.02
+   },
+   {
+    "word": "grid",
+    "z": 73.2,
+    "sector_per10k": 23.53,
+    "others_per10k": 0.54
+   },
+   {
+    "word": "boiler",
+    "z": 70.4,
+    "sector_per10k": 29.46,
+    "others_per10k": 0.32
+   },
+   {
+    "word": "prices",
+    "z": 69.22,
+    "sector_per10k": 21.99,
+    "others_per10k": 3.03
+   },
+   {
+    "word": "panels",
+    "z": 68.81,
+    "sector_per10k": 21.99,
+    "others_per10k": 0.43
+   },
+   {
+    "word": "tariff",
+    "z": 66.2,
+    "sector_per10k": 29.77,
+    "others_per10k": 0.25
+   },
+   {
+    "word": "homes",
+    "z": 64.66,
+    "sector_per10k": 18.59,
+    "others_per10k": 2.4
+   },
+   {
+    "word": "zero",
+    "z": 64.48,
+    "sector_per10k": 16.8,
+    "others_per10k": 1.69
+   },
+   {
+    "word": "costs",
+    "z": 64.31,
+    "sector_per10k": 32.7,
+    "others_per10k": 8.78
+   },
+   {
+    "word": "air",
+    "z": 64.11,
+    "sector_per10k": 15.81,
+    "others_per10k": 1.29
+   },
+   {
+    "word": "system",
+    "z": 63.92,
+    "sector_per10k": 30.96,
+    "others_per10k": 8.02
+   },
+   {
+    "word": "generation",
+    "z": 63.82,
+    "sector_per10k": 17.39,
+    "others_per10k": 2.05
+   },
+   {
+    "word": "wind",
+    "z": 62.64,
+    "sector_per10k": 16.51,
+    "others_per10k": 0.44
+   },
+   {
+    "word": "tariffs",
+    "z": 61.97,
+    "sector_per10k": 19.93,
+    "others_per10k": 0.29
+   },
+   {
+    "word": "charge",
+    "z": 61.57,
+    "sector_per10k": 17.92,
+    "others_per10k": 2.61
+   },
+   {
+    "word": "price",
+    "z": 60.56,
+    "sector_per10k": 25.2,
+    "others_per10k": 5.95
+   },
+   {
+    "word": "installation",
+    "z": 60.42,
+    "sector_per10k": 15.78,
+    "others_per10k": 0.38
+   }
+  ]
+ },
+ "telecom": {
+  "sector": "telecom",
+  "brands": 15,
+  "brandList": [
+   "bt.com",
+   "communityfibre.co.uk",
+   "ee.co.uk",
+   "giffgaff.com",
+   "hyperoptic.com",
+   "idmobile.co.uk",
+   "lycamobile.co.uk",
+   "o2.co.uk",
+   "sky.com",
+   "smarty.co.uk",
+   "talktalk.co.uk",
+   "three.co.uk",
+   "virginmedia.com",
+   "vodafone.co.uk",
+   "zen.co.uk"
+  ],
+  "pages": 1816,
+  "counts": {
+   "blog": 1385,
+   "press": 431,
+   "archived": 493
+  },
+  "habits": {
+   "avg_sentence_length": {
+    "sector": 12.962,
+    "others": 13.283,
+    "brand_p25": 11.321,
+    "brand_p75": 14.435,
+    "rank_of_10": 7
+   },
+   "you_share": {
+    "sector": 0.615,
+    "others": 0.479,
+    "brand_p25": 0.518,
+    "brand_p75": 0.781,
+    "rank_of_10": 3
+   },
+   "we_share": {
+    "sector": 0.331,
+    "others": 0.459,
+    "brand_p25": 0.197,
+    "brand_p75": 0.418,
+    "rank_of_10": 8
+   },
+   "contractions_per1000": {
+    "sector": 17.475,
+    "others": 15.501,
+    "brand_p25": 13.131,
+    "brand_p75": 21.558,
+    "rank_of_10": 3
+   },
+   "questions_per1000": {
+    "sector": 4.168,
+    "others": 2.904,
+    "brand_p25": 2.895,
+    "brand_p75": 5.349,
+    "rank_of_10": 2
+   },
+   "exclamations_per1000": {
+    "sector": 0.61,
+    "others": 1.378,
+    "brand_p25": 0.196,
+    "brand_p75": 0.665,
+    "rank_of_10": 8
+   },
+   "em_dash_per1000": {
+    "sector": 2.398,
+    "others": 2.261,
+    "brand_p25": 1.64,
+    "brand_p75": 3.005,
+    "rank_of_10": 3
+   },
+   "ai_ism_per1000": {
+    "sector": 1.276,
+    "others": 1.141,
+    "brand_p25": 0.863,
+    "brand_p75": 1.604,
+    "rank_of_10": 2
+   },
+   "marketing_per1000": {
+    "sector": 1.057,
+    "others": 0.882,
+    "brand_p25": 0.633,
+    "brand_p75": 1.35,
+    "rank_of_10": 2
+   },
+   "long_word_share": {
+    "sector": 0.243,
+    "others": 0.258,
+    "brand_p25": 0.212,
+    "brand_p75": 0.268,
+    "rank_of_10": 7
+   },
+   "sentence_variation": {
+    "sector": 0.761,
+    "others": 0.78,
+    "brand_p25": 0.682,
+    "brand_p75": 0.801,
+    "rank_of_10": 5
+   },
+   "words": {
+    "sector": 1004.419,
+    "others": 1113.592,
+    "brand_p25": 761.59,
+    "brand_p75": 1135.829,
+    "rank_of_10": 6
+   }
+  },
+  "pressVsBlog": {
+   "brands": 9,
+   "avg_sentence_length": {
+    "point": 1.762,
+    "lo": -0.588,
+    "hi": 4.404,
+    "n": 9
+   },
+   "you_share": {
+    "point": -0.169,
+    "lo": -0.348,
+    "hi": -0.01,
+    "n": 9
+   },
+   "contractions_per1000": {
+    "point": -4.041,
+    "lo": -7.425,
+    "hi": -0.667,
+    "n": 9
+   },
+   "ai_ism_per1000": {
+    "point": -0.294,
+    "lo": -0.879,
+    "hi": 0.208,
+    "n": 9
+   }
+  },
+  "beforeAfter": {
+   "brands": 4,
+   "cells": 4,
+   "ai_ism_per1000": {
+    "point": 0.44,
+    "lo": -0.533,
+    "hi": 1.33,
+    "n": 4,
+    "before": 0.883,
+    "after": 1.323
+   },
+   "marketing_per1000": {
+    "point": 0.512,
+    "lo": -0.162,
+    "hi": 1.186,
+    "n": 4,
+    "before": 0.636,
+    "after": 1.148
+   },
+   "em_dash_per1000": {
+    "point": -0.526,
+    "lo": -2.217,
+    "hi": 1.816,
+    "n": 4,
+    "before": 2.773,
+    "after": 2.248
+   },
+   "ai_shape_per1000": {
+    "point": 0.038,
+    "lo": -0.189,
+    "hi": 0.229,
+    "n": 4,
+    "before": 0.355,
+    "after": 0.393
+   },
+   "avg_sentence_length": {
+    "point": -0.473,
+    "lo": -1.916,
+    "hi": 0.575,
+    "n": 4,
+    "before": 14.622,
+    "after": 14.148
+   }
+  },
+  "years": {
+   "2015": {
+    "pages": 16,
+    "brands": 5,
+    "ai_ism_per1000": 0.677,
+    "avg_sentence_length": 12.891,
+    "you_share": 0.238
+   },
+   "2016": {
+    "pages": 40,
+    "brands": 3,
+    "ai_ism_per1000": 0.124,
+    "avg_sentence_length": 16.754,
+    "you_share": 0.347
+   },
+   "2017": {
+    "pages": 31,
+    "brands": 6,
+    "ai_ism_per1000": 0.713,
+    "avg_sentence_length": 15.083,
+    "you_share": 0.282
+   },
+   "2018": {
+    "pages": 38,
+    "brands": 7,
+    "ai_ism_per1000": 1.165,
+    "avg_sentence_length": 14.084,
+    "you_share": 0.621
+   },
+   "2019": {
+    "pages": 160,
+    "brands": 9,
+    "ai_ism_per1000": 1.046,
+    "avg_sentence_length": 13.513,
+    "you_share": 0.569
+   },
+   "2020": {
+    "pages": 113,
+    "brands": 10,
+    "ai_ism_per1000": 1.681,
+    "avg_sentence_length": 14.241,
+    "you_share": 0.503
+   },
+   "2021": {
+    "pages": 140,
+    "brands": 10,
+    "ai_ism_per1000": 1.167,
+    "avg_sentence_length": 15.364,
+    "you_share": 0.532
+   },
+   "2022": {
+    "pages": 114,
+    "brands": 10,
+    "ai_ism_per1000": 0.976,
+    "avg_sentence_length": 14.272,
+    "you_share": 0.54
+   },
+   "2023": {
+    "pages": 68,
+    "brands": 6,
+    "ai_ism_per1000": 1.469,
+    "avg_sentence_length": 13.97,
+    "you_share": 0.555
+   },
+   "2024": {
+    "pages": 60,
+    "brands": 6,
+    "ai_ism_per1000": 1.973,
+    "avg_sentence_length": 13.569,
+    "you_share": 0.708
+   },
+   "2025": {
+    "pages": 28,
+    "brands": 8,
+    "ai_ism_per1000": 0.948,
+    "avg_sentence_length": 13.249,
+    "you_share": 0.585
+   },
+   "2026": {
+    "pages": 88,
+    "brands": 8,
+    "ai_ism_per1000": 1.519,
+    "avg_sentence_length": 11.686,
+    "you_share": 0.622
+   }
+  },
+  "allYearsAi": {
+   "2015": 0.819,
+   "2016": 0.509,
+   "2017": 0.945,
+   "2018": 1.077,
+   "2019": 0.985,
+   "2020": 1.054,
+   "2021": 1.138,
+   "2022": 1.095,
+   "2023": 1.723,
+   "2024": 2.159,
+   "2025": 1.92,
+   "2026": 1.29
+  },
+  "sgr012": null,
+  "words": [
+   {
+    "word": "phone",
+    "z": 106.09,
+    "sector_per10k": 46.06,
+    "others_per10k": 3.65
+   },
+   {
+    "word": "internet",
+    "z": 85.14,
+    "sector_per10k": 28.39,
+    "others_per10k": 1.43
+   },
+   {
+    "word": "network",
+    "z": 77.22,
+    "sector_per10k": 29.74,
+    "others_per10k": 3.98
+   },
+   {
+    "word": "devices",
+    "z": 73.02,
+    "sector_per10k": 20.89,
+    "others_per10k": 1.05
+   },
+   {
+    "word": "sports",
+    "z": 69.5,
+    "sector_per10k": 18.96,
+    "others_per10k": 0.89
+   },
+   {
+    "word": "device",
+    "z": 67.8,
+    "sector_per10k": 19.55,
+    "others_per10k": 1.79
+   },
+   {
+    "word": "connection",
+    "z": 64.7,
+    "sector_per10k": 17.43,
+    "others_per10k": 1.48
+   },
+   {
+    "word": "pro",
+    "z": 64.66,
+    "sector_per10k": 17.6,
+    "others_per10k": 1.55
+   },
+   {
+    "word": "speed",
+    "z": 64.1,
+    "sector_per10k": 19.07,
+    "others_per10k": 2.21
+   },
+   {
+    "word": "phones",
+    "z": 63.77,
+    "sector_per10k": 20.85,
+    "others_per10k": 0.32
+   },
+   {
+    "word": "iphone",
+    "z": 63.62,
+    "sector_per10k": 23.59,
+    "others_per10k": 0.27
+   },
+   {
+    "word": "broadband",
+    "z": 62.8,
+    "sector_per10k": 59.24,
+    "others_per10k": 0.13
+   },
+   {
+    "word": "apple",
+    "z": 60.44,
+    "sector_per10k": 14.45,
+    "others_per10k": 0.91
+   },
+   {
+    "word": "browsing",
+    "z": 59.38,
+    "sector_per10k": 13.83,
+    "others_per10k": 0.76
+   },
+   {
+    "word": "deals",
+    "z": 57.41,
+    "sector_per10k": 15.64,
+    "others_per10k": 1.9
+   },
+   {
+    "word": "speeds",
+    "z": 56.42,
+    "sector_per10k": 15.94,
+    "others_per10k": 0.26
+   },
+   {
+    "word": "camera",
+    "z": 54.48,
+    "sector_per10k": 13,
+    "others_per10k": 0.31
+   },
+   {
+    "word": "samsung",
+    "z": 53.97,
+    "sector_per10k": 18.76,
+    "others_per10k": 0.17
+   },
+   {
+    "word": "connectivity",
+    "z": 52.4,
+    "sector_per10k": 12.39,
+    "others_per10k": 0.27
+   },
+   {
+    "word": "coverage",
+    "z": 50.81,
+    "sector_per10k": 10.43,
+    "others_per10k": 0.77
+   },
+   {
+    "word": "calls",
+    "z": 49.67,
+    "sector_per10k": 13.77,
+    "others_per10k": 2.2
+   },
+   {
+    "word": "gaming",
+    "z": 49.16,
+    "sector_per10k": 10.98,
+    "others_per10k": 0.23
+   },
+   {
+    "word": "screen",
+    "z": 49.05,
+    "sector_per10k": 11.42,
+    "others_per10k": 1.39
+   },
+   {
+    "word": "android",
+    "z": 48.17,
+    "sector_per10k": 9.4,
+    "others_per10k": 0.7
+   },
+   {
+    "word": "unlimited",
+    "z": 47.88,
+    "sector_per10k": 9.61,
+    "others_per10k": 0.83
+   },
+   {
+    "word": "streaming",
+    "z": 47.08,
+    "sector_per10k": 11.04,
+    "others_per10k": 0.18
+   },
+   {
+    "word": "google",
+    "z": 45.48,
+    "sector_per10k": 15.58,
+    "others_per10k": 3.55
+   },
+   {
+    "word": "sim",
+    "z": 45.48,
+    "sector_per10k": 26.17,
+    "others_per10k": 0.07
+   },
+   {
+    "word": "data",
+    "z": 45.41,
+    "sector_per10k": 48.12,
+    "others_per10k": 22.33
+   },
+   {
+    "word": "games",
+    "z": 43.26,
+    "sector_per10k": 7.72,
+    "others_per10k": 0.63
+   }
+  ]
+ },
+ "software": {
+  "sector": "software",
+  "brands": 16,
+  "brandList": [
+   "airtable.com",
+   "asana.com",
+   "canva.com",
+   "clickup.com",
+   "figma.com",
+   "freeagent.com",
+   "gocardless.com",
+   "hubspot.com",
+   "intercom.com",
+   "mailchimp.com",
+   "miro.com",
+   "monday.com",
+   "notion.com",
+   "sage.com",
+   "slack.com",
+   "xero.com"
+  ],
+  "pages": 3422,
+  "counts": {
+   "blog": 2313,
+   "press": 1109,
+   "archived": 969
+  },
+  "habits": {
+   "avg_sentence_length": {
+    "sector": 13.285,
+    "others": 13.234,
+    "brand_p25": 12.67,
+    "brand_p75": 14.143,
+    "rank_of_10": 5
+   },
+   "you_share": {
+    "sector": 0.619,
+    "others": 0.477,
+    "brand_p25": 0.568,
+    "brand_p75": 0.684,
+    "rank_of_10": 2
+   },
+   "we_share": {
+    "sector": 0.321,
+    "others": 0.462,
+    "brand_p25": 0.275,
+    "brand_p75": 0.376,
+    "rank_of_10": 9
+   },
+   "contractions_per1000": {
+    "sector": 15.354,
+    "others": 15.82,
+    "brand_p25": 13.308,
+    "brand_p75": 17.264,
+    "rank_of_10": 6
+   },
+   "questions_per1000": {
+    "sector": 3.073,
+    "others": 3.066,
+    "brand_p25": 2.549,
+    "brand_p75": 3.38,
+    "rank_of_10": 6
+   },
+   "exclamations_per1000": {
+    "sector": 1.454,
+    "others": 1.251,
+    "brand_p25": 0.441,
+    "brand_p75": 2.035,
+    "rank_of_10": 3
+   },
+   "em_dash_per1000": {
+    "sector": 3.039,
+    "others": 2.157,
+    "brand_p25": 2.273,
+    "brand_p75": 3.788,
+    "rank_of_10": 1
+   },
+   "ai_ism_per1000": {
+    "sector": 2.117,
+    "others": 1.005,
+    "brand_p25": 1.503,
+    "brand_p75": 2.915,
+    "rank_of_10": 1
+   },
+   "marketing_per1000": {
+    "sector": 1.8,
+    "others": 0.761,
+    "brand_p25": 1.208,
+    "brand_p75": 2.391,
+    "rank_of_10": 1
+   },
+   "long_word_share": {
+    "sector": 0.291,
+    "others": 0.25,
+    "brand_p25": 0.271,
+    "brand_p75": 0.314,
+    "rank_of_10": 1
+   },
+   "sentence_variation": {
+    "sector": 0.718,
+    "others": 0.787,
+    "brand_p25": 0.675,
+    "brand_p75": 0.743,
+    "rank_of_10": 8
+   },
+   "words": {
+    "sector": 1512.289,
+    "others": 1033.424,
+    "brand_p25": 1056.923,
+    "brand_p75": 1653.979,
+    "rank_of_10": 2
+   }
+  },
+  "pressVsBlog": {
+   "brands": 15,
+   "avg_sentence_length": {
+    "point": 1.352,
+    "lo": 0.295,
+    "hi": 2.419,
+    "n": 15
+   },
+   "you_share": {
+    "point": -0.256,
+    "lo": -0.355,
+    "hi": -0.151,
+    "n": 15
+   },
+   "contractions_per1000": {
+    "point": -0.958,
+    "lo": -2.401,
+    "hi": 0.524,
+    "n": 15
+   },
+   "ai_ism_per1000": {
+    "point": 0.98,
+    "lo": 0.595,
+    "hi": 1.329,
+    "n": 15
+   }
+  },
+  "beforeAfter": {
+   "brands": 10,
+   "cells": 14,
+   "ai_ism_per1000": {
+    "point": 0.57,
+    "lo": -0.144,
+    "hi": 1.135,
+    "n": 10,
+    "before": 1.837,
+    "after": 2.407
+   },
+   "marketing_per1000": {
+    "point": 0.504,
+    "lo": -0.075,
+    "hi": 1.008,
+    "n": 10,
+    "before": 1.527,
+    "after": 2.03
+   },
+   "em_dash_per1000": {
+    "point": -0.173,
+    "lo": -0.963,
+    "hi": 0.506,
+    "n": 10,
+    "before": 2.777,
+    "after": 2.604
+   },
+   "ai_shape_per1000": {
+    "point": 0.1,
+    "lo": -0.002,
+    "hi": 0.209,
+    "n": 10,
+    "before": 0.207,
+    "after": 0.307
+   },
+   "avg_sentence_length": {
+    "point": -0.638,
+    "lo": -1.77,
+    "hi": 0.469,
+    "n": 10,
+    "before": 14.066,
+    "after": 13.428
+   }
+  },
+  "years": {
+   "2015": {
+    "pages": 41,
+    "brands": 10,
+    "ai_ism_per1000": 1.106,
+    "avg_sentence_length": 12.453,
+    "you_share": 0.494
+   },
+   "2016": {
+    "pages": 50,
+    "brands": 10,
+    "ai_ism_per1000": 0.438,
+    "avg_sentence_length": 12.96,
+    "you_share": 0.572
+   },
+   "2017": {
+    "pages": 83,
+    "brands": 12,
+    "ai_ism_per1000": 1.218,
+    "avg_sentence_length": 11.686,
+    "you_share": 0.513
+   },
+   "2018": {
+    "pages": 103,
+    "brands": 14,
+    "ai_ism_per1000": 1.554,
+    "avg_sentence_length": 13.638,
+    "you_share": 0.609
+   },
+   "2019": {
+    "pages": 127,
+    "brands": 13,
+    "ai_ism_per1000": 1.266,
+    "avg_sentence_length": 12.661,
+    "you_share": 0.6
+   },
+   "2020": {
+    "pages": 207,
+    "brands": 15,
+    "ai_ism_per1000": 1.378,
+    "avg_sentence_length": 13.293,
+    "you_share": 0.591
+   },
+   "2021": {
+    "pages": 281,
+    "brands": 15,
+    "ai_ism_per1000": 1.87,
+    "avg_sentence_length": 13.957,
+    "you_share": 0.536
+   },
+   "2022": {
+    "pages": 316,
+    "brands": 16,
+    "ai_ism_per1000": 2.041,
+    "avg_sentence_length": 13.724,
+    "you_share": 0.582
+   },
+   "2023": {
+    "pages": 129,
+    "brands": 14,
+    "ai_ism_per1000": 3.767,
+    "avg_sentence_length": 14.102,
+    "you_share": 0.557
+   },
+   "2024": {
+    "pages": 135,
+    "brands": 15,
+    "ai_ism_per1000": 4.068,
+    "avg_sentence_length": 13.931,
+    "you_share": 0.49
+   },
+   "2025": {
+    "pages": 211,
+    "brands": 15,
+    "ai_ism_per1000": 3.261,
+    "avg_sentence_length": 13.805,
+    "you_share": 0.541
+   },
+   "2026": {
+    "pages": 259,
+    "brands": 13,
+    "ai_ism_per1000": 1.616,
+    "avg_sentence_length": 13.527,
+    "you_share": 0.591
+   }
+  },
+  "allYearsAi": {
+   "2015": 0.819,
+   "2016": 0.509,
+   "2017": 0.945,
+   "2018": 1.077,
+   "2019": 0.985,
+   "2020": 1.054,
+   "2021": 1.138,
+   "2022": 1.095,
+   "2023": 1.723,
+   "2024": 2.159,
+   "2025": 1.92,
+   "2026": 1.29
+  },
+  "sgr012": {
+   "brands": 5,
+   "sbsc": 0.714,
+   "sboc": 0.628,
+   "obsc": 0.689
+  },
+  "words": [
+   {
+    "word": "product",
+    "z": 114.28,
+    "sector_per10k": 48.52,
+    "others_per10k": 6.19
+   },
+   {
+    "word": "team",
+    "z": 113.54,
+    "sector_per10k": 60.22,
+    "others_per10k": 13.55
+   },
+   {
+    "word": "teams",
+    "z": 112.87,
+    "sector_per10k": 48.65,
+    "others_per10k": 2.64
+   },
+   {
+    "word": "marketing",
+    "z": 107.34,
+    "sector_per10k": 41.88,
+    "others_per10k": 4.54
+   },
+   {
+    "word": "project",
+    "z": 106.21,
+    "sector_per10k": 40.71,
+    "others_per10k": 3.88
+   },
+   {
+    "word": "design",
+    "z": 92.83,
+    "sector_per10k": 31.29,
+    "others_per10k": 3.32
+   },
+   {
+    "word": "work",
+    "z": 92.18,
+    "sector_per10k": 66.73,
+    "others_per10k": 24.95
+   },
+   {
+    "word": "management",
+    "z": 91.59,
+    "sector_per10k": 39,
+    "others_per10k": 8.68
+   },
+   {
+    "word": "tools",
+    "z": 90.81,
+    "sector_per10k": 30.95,
+    "others_per10k": 4.12
+   },
+   {
+    "word": "customer",
+    "z": 86.87,
+    "sector_per10k": 44.39,
+    "others_per10k": 13.11
+   },
+   {
+    "word": "sales",
+    "z": 86.33,
+    "sector_per10k": 27.03,
+    "others_per10k": 2.8
+   },
+   {
+    "word": "software",
+    "z": 83.13,
+    "sector_per10k": 25.16,
+    "others_per10k": 1.9
+   },
+   {
+    "word": "platform",
+    "z": 78.65,
+    "sector_per10k": 23.21,
+    "others_per10k": 3.08
+   },
+   {
+    "word": "tasks",
+    "z": 78.24,
+    "sector_per10k": 25.77,
+    "others_per10k": 0.97
+   },
+   {
+    "word": "create",
+    "z": 78,
+    "sector_per10k": 27.11,
+    "others_per10k": 5.62
+   },
+   {
+    "word": "features",
+    "z": 68.27,
+    "sector_per10k": 22.59,
+    "others_per10k": 5.33
+   },
+   {
+    "word": "data",
+    "z": 64.53,
+    "sector_per10k": 40.86,
+    "others_per10k": 17.45
+   },
+   {
+    "word": "free",
+    "z": 63.13,
+    "sector_per10k": 30.45,
+    "others_per10k": 11.14
+   },
+   {
+    "word": "users",
+    "z": 61.53,
+    "sector_per10k": 14.68,
+    "others_per10k": 2.21
+   },
+   {
+    "word": "automation",
+    "z": 61.32,
+    "sector_per10k": 14.93,
+    "others_per10k": 0.69
+   },
+   {
+    "word": "pricing",
+    "z": 61.07,
+    "sector_per10k": 13.92,
+    "others_per10k": 1.79
+   },
+   {
+    "word": "user",
+    "z": 59.57,
+    "sector_per10k": 12.84,
+    "others_per10k": 1.25
+   },
+   {
+    "word": "tool",
+    "z": 59.52,
+    "sector_per10k": 13.47,
+    "others_per10k": 1.88
+   },
+   {
+    "word": "process",
+    "z": 57.39,
+    "sector_per10k": 20.23,
+    "others_per10k": 6.21
+   },
+   {
+    "word": "feedback",
+    "z": 56.43,
+    "sector_per10k": 14.29,
+    "others_per10k": 2.99
+   },
+   {
+    "word": "collaboration",
+    "z": 56.18,
+    "sector_per10k": 11.51,
+    "others_per10k": 1.26
+   },
+   {
+    "word": "accounting",
+    "z": 55.97,
+    "sector_per10k": 11.38,
+    "others_per10k": 1.19
+   },
+   {
+    "word": "enterprise",
+    "z": 55.24,
+    "sector_per10k": 11.22,
+    "others_per10k": 0.78
+   },
+   {
+    "word": "small",
+    "z": 54.93,
+    "sector_per10k": 24.39,
+    "others_per10k": 9.26
+   },
+   {
+    "word": "agents",
+    "z": 54.86,
+    "sector_per10k": 12.81,
+    "others_per10k": 0.47
+   }
+  ]
+ },
+ "insurance": {
+  "sector": "insurance",
+  "brands": 10,
+  "brandList": [
+   "admiral.com",
+   "aviva.co.uk",
+   "axa.co.uk",
+   "bupa.co.uk",
+   "directline.com",
+   "esure.com",
+   "hastingsdirect.com",
+   "legalandgeneral.com",
+   "lv.com",
+   "zurich.co.uk"
+  ],
+  "pages": 2049,
+  "counts": {
+   "blog": 1346,
+   "press": 703,
+   "archived": 610
+  },
+  "habits": {
+   "avg_sentence_length": {
+    "sector": 13.592,
+    "others": 13.208,
+    "brand_p25": 12.68,
+    "brand_p75": 14.144,
+    "rank_of_10": 4
+   },
+   "you_share": {
+    "sector": 0.664,
+    "others": 0.481,
+    "brand_p25": 0.553,
+    "brand_p75": 0.815,
+    "rank_of_10": 1
+   },
+   "we_share": {
+    "sector": 0.282,
+    "others": 0.457,
+    "brand_p25": 0.15,
+    "brand_p75": 0.403,
+    "rank_of_10": 10
+   },
+   "contractions_per1000": {
+    "sector": 18.101,
+    "others": 15.535,
+    "brand_p25": 14.805,
+    "brand_p75": 21.24,
+    "rank_of_10": 2
+   },
+   "questions_per1000": {
+    "sector": 4.325,
+    "others": 2.948,
+    "brand_p25": 3.536,
+    "brand_p75": 4.923,
+    "rank_of_10": 1
+   },
+   "exclamations_per1000": {
+    "sector": 0.412,
+    "others": 1.361,
+    "brand_p25": 0.184,
+    "brand_p75": 0.654,
+    "rank_of_10": 10
+   },
+   "em_dash_per1000": {
+    "sector": 2.184,
+    "others": 2.288,
+    "brand_p25": 1.65,
+    "brand_p75": 2.693,
+    "rank_of_10": 5
+   },
+   "ai_ism_per1000": {
+    "sector": 0.617,
+    "others": 1.209,
+    "brand_p25": 0.404,
+    "brand_p75": 0.74,
+    "rank_of_10": 9
+   },
+   "marketing_per1000": {
+    "sector": 0.471,
+    "others": 0.945,
+    "brand_p25": 0.314,
+    "brand_p75": 0.533,
+    "rank_of_10": 9
+   },
+   "long_word_share": {
+    "sector": 0.24,
+    "others": 0.257,
+    "brand_p25": 0.198,
+    "brand_p75": 0.27,
+    "rank_of_10": 9
+   },
+   "sentence_variation": {
+    "sector": 0.718,
+    "others": 0.783,
+    "brand_p25": 0.634,
+    "brand_p75": 0.771,
+    "rank_of_10": 6
+   },
+   "words": {
+    "sector": 1055.244,
+    "others": 1103.647,
+    "brand_p25": 932.455,
+    "brand_p75": 1077.301,
+    "rank_of_10": 3
+   }
+  },
+  "pressVsBlog": {
+   "brands": 7,
+   "avg_sentence_length": {
+    "point": 1.755,
+    "lo": -0.224,
+    "hi": 3.865,
+    "n": 7
+   },
+   "you_share": {
+    "point": -0.233,
+    "lo": -0.37,
+    "hi": -0.076,
+    "n": 7
+   },
+   "contractions_per1000": {
+    "point": -6.982,
+    "lo": -9.524,
+    "hi": -4.63,
+    "n": 7
+   },
+   "ai_ism_per1000": {
+    "point": 0.658,
+    "lo": 0.177,
+    "hi": 1.18,
+    "n": 7
+   }
+  },
+  "beforeAfter": {
+   "brands": 7,
+   "cells": 10,
+   "ai_ism_per1000": {
+    "point": 0.209,
+    "lo": -0.217,
+    "hi": 0.663,
+    "n": 7,
+    "before": 0.601,
+    "after": 0.81
+   },
+   "marketing_per1000": {
+    "point": 0.224,
+    "lo": -0.141,
+    "hi": 0.614,
+    "n": 7,
+    "before": 0.427,
+    "after": 0.65
+   },
+   "em_dash_per1000": {
+    "point": 0.025,
+    "lo": -0.443,
+    "hi": 0.537,
+    "n": 7,
+    "before": 1.987,
+    "after": 2.012
+   },
+   "ai_shape_per1000": {
+    "point": 0.005,
+    "lo": -0.109,
+    "hi": 0.108,
+    "n": 7,
+    "before": 0.173,
+    "after": 0.179
+   },
+   "avg_sentence_length": {
+    "point": -1.112,
+    "lo": -1.942,
+    "hi": -0.248,
+    "n": 7,
+    "before": 14.165,
+    "after": 13.052
+   }
+  },
+  "years": {
+   "2015": {
+    "pages": 43,
+    "brands": 8,
+    "ai_ism_per1000": 0.354,
+    "avg_sentence_length": 12.433,
+    "you_share": 0.581
+   },
+   "2016": {
+    "pages": 54,
+    "brands": 7,
+    "ai_ism_per1000": 0.434,
+    "avg_sentence_length": 12.414,
+    "you_share": 0.618
+   },
+   "2017": {
+    "pages": 67,
+    "brands": 8,
+    "ai_ism_per1000": 0.392,
+    "avg_sentence_length": 11.361,
+    "you_share": 0.621
+   },
+   "2018": {
+    "pages": 80,
+    "brands": 8,
+    "ai_ism_per1000": 0.673,
+    "avg_sentence_length": 13.802,
+    "you_share": 0.535
+   },
+   "2019": {
+    "pages": 123,
+    "brands": 10,
+    "ai_ism_per1000": 0.44,
+    "avg_sentence_length": 14.089,
+    "you_share": 0.739
+   },
+   "2020": {
+    "pages": 87,
+    "brands": 9,
+    "ai_ism_per1000": 0.815,
+    "avg_sentence_length": 14.31,
+    "you_share": 0.646
+   },
+   "2021": {
+    "pages": 178,
+    "brands": 10,
+    "ai_ism_per1000": 0.607,
+    "avg_sentence_length": 14.227,
+    "you_share": 0.631
+   },
+   "2022": {
+    "pages": 130,
+    "brands": 10,
+    "ai_ism_per1000": 0.461,
+    "avg_sentence_length": 13.57,
+    "you_share": 0.675
+   },
+   "2023": {
+    "pages": 75,
+    "brands": 7,
+    "ai_ism_per1000": 0.632,
+    "avg_sentence_length": 13.662,
+    "you_share": 0.502
+   },
+   "2024": {
+    "pages": 107,
+    "brands": 7,
+    "ai_ism_per1000": 1.042,
+    "avg_sentence_length": 13.603,
+    "you_share": 0.521
+   },
+   "2025": {
+    "pages": 133,
+    "brands": 7,
+    "ai_ism_per1000": 0.804,
+    "avg_sentence_length": 13.295,
+    "you_share": 0.561
+   },
+   "2026": {
+    "pages": 229,
+    "brands": 7,
+    "ai_ism_per1000": 0.596,
+    "avg_sentence_length": 12.459,
+    "you_share": 0.586
+   }
+  },
+  "allYearsAi": {
+   "2015": 0.819,
+   "2016": 0.509,
+   "2017": 0.945,
+   "2018": 1.077,
+   "2019": 0.985,
+   "2020": 1.054,
+   "2021": 1.138,
+   "2022": 1.095,
+   "2023": 1.723,
+   "2024": 2.159,
+   "2025": 1.92,
+   "2026": 1.29
+  },
+  "sgr012": {
+   "brands": 3,
+   "sbsc": 0.73,
+   "sboc": 0.61,
+   "obsc": 0.68
+  },
+  "words": [
+   {
+    "word": "insurance",
+    "z": 227.28,
+    "sector_per10k": 219.55,
+    "others_per10k": 5.42
+   },
+   {
+    "word": "life",
+    "z": 156.64,
+    "sector_per10k": 102.29,
+    "others_per10k": 11.42
+   },
+   {
+    "word": "car",
+    "z": 141.07,
+    "sector_per10k": 74.62,
+    "others_per10k": 3.63
+   },
+   {
+    "word": "cover",
+    "z": 140.28,
+    "sector_per10k": 73.77,
+    "others_per10k": 4.96
+   },
+   {
+    "word": "claim",
+    "z": 88.16,
+    "sector_per10k": 29.05,
+    "others_per10k": 1.69
+   },
+   {
+    "word": "pension",
+    "z": 79.2,
+    "sector_per10k": 23.5,
+    "others_per10k": 1.48
+   },
+   {
+    "word": "health",
+    "z": 79.07,
+    "sector_per10k": 48.88,
+    "others_per10k": 12.96
+   },
+   {
+    "word": "illness",
+    "z": 72.89,
+    "sector_per10k": 19.88,
+    "others_per10k": 1.08
+   },
+   {
+    "word": "claims",
+    "z": 70.74,
+    "sector_per10k": 19.29,
+    "others_per10k": 0.76
+   },
+   {
+    "word": "retirement",
+    "z": 66.79,
+    "sector_per10k": 16.69,
+    "others_per10k": 0.94
+   },
+   {
+    "word": "home",
+    "z": 65.66,
+    "sector_per10k": 59.12,
+    "others_per10k": 22.94
+   },
+   {
+    "word": "protection",
+    "z": 64.62,
+    "sector_per10k": 19.31,
+    "others_per10k": 2.68
+   },
+   {
+    "word": "risk",
+    "z": 61.68,
+    "sector_per10k": 29.94,
+    "others_per10k": 7.97
+   },
+   {
+    "word": "driving",
+    "z": 61.06,
+    "sector_per10k": 16.88,
+    "others_per10k": 2.25
+   },
+   {
+    "word": "medical",
+    "z": 58.48,
+    "sector_per10k": 13.85,
+    "others_per10k": 1.39
+   },
+   {
+    "word": "property",
+    "z": 56.05,
+    "sector_per10k": 19.37,
+    "others_per10k": 4.07
+   },
+   {
+    "word": "cars",
+    "z": 52.79,
+    "sector_per10k": 11.47,
+    "others_per10k": 1.21
+   },
+   {
+    "word": "mortgage",
+    "z": 52.71,
+    "sector_per10k": 21.05,
+    "others_per10k": 5.42
+   },
+   {
+    "word": "damage",
+    "z": 52.37,
+    "sector_per10k": 11.45,
+    "others_per10k": 1.26
+   },
+   {
+    "word": "vehicle",
+    "z": 52.29,
+    "sector_per10k": 11.8,
+    "others_per10k": 1.41
+   },
+   {
+    "word": "pet",
+    "z": 51.72,
+    "sector_per10k": 11.96,
+    "others_per10k": 0.26
+   },
+   {
+    "word": "critical",
+    "z": 50.8,
+    "sector_per10k": 16.81,
+    "others_per10k": 3.74
+   },
+   {
+    "word": "van",
+    "z": 50.53,
+    "sector_per10k": 11.02,
+    "others_per10k": 0.27
+   },
+   {
+    "word": "dog",
+    "z": 48.07,
+    "sector_per10k": 8.73,
+    "others_per10k": 0.4
+   },
+   {
+    "word": "road",
+    "z": 47.3,
+    "sector_per10k": 10.42,
+    "others_per10k": 1.47
+   },
+   {
+    "word": "income",
+    "z": 45.78,
+    "sector_per10k": 18.7,
+    "others_per10k": 5.5
+   },
+   {
+    "word": "term",
+    "z": 45.68,
+    "sector_per10k": 13.71,
+    "others_per10k": 3.08
+   },
+   {
+    "word": "family",
+    "z": 45.61,
+    "sector_per10k": 20.68,
+    "others_per10k": 6.58
+   },
+   {
+    "word": "covered",
+    "z": 45.22,
+    "sector_per10k": 10.37,
+    "others_per10k": 1.69
+   },
+   {
+    "word": "travel",
+    "z": 44.89,
+    "sector_per10k": 16.33,
+    "others_per10k": 4.45
+   }
+  ]
+ },
+ "charity": {
+  "sector": "charity",
+  "brands": 10,
+  "brandList": [
+   "barnardos.org.uk",
+   "cancerresearchuk.org",
+   "macmillan.org.uk",
+   "mind.org.uk",
+   "nspcc.org.uk",
+   "oxfam.org.uk",
+   "redcross.org.uk",
+   "rnli.org",
+   "rspca.org.uk",
+   "savethechildren.org.uk"
+  ],
+  "pages": 1994,
+  "counts": {
+   "blog": 1035,
+   "press": 959,
+   "archived": 529
+  },
+  "habits": {
+   "avg_sentence_length": {
+    "sector": 12.819,
+    "others": 13.281,
+    "brand_p25": 11.469,
+    "brand_p75": 14.784,
+    "rank_of_10": 8
+   },
+   "you_share": {
+    "sector": 0.343,
+    "others": 0.511,
+    "brand_p25": 0.258,
+    "brand_p75": 0.463,
+    "rank_of_10": 9
+   },
+   "we_share": {
+    "sector": 0.524,
+    "others": 0.434,
+    "brand_p25": 0.424,
+    "brand_p75": 0.626,
+    "rank_of_10": 2
+   },
+   "contractions_per1000": {
+    "sector": 12.947,
+    "others": 16.021,
+    "brand_p25": 10.517,
+    "brand_p75": 15.053,
+    "rank_of_10": 8
+   },
+   "questions_per1000": {
+    "sector": 2.044,
+    "others": 3.164,
+    "brand_p25": 1.202,
+    "brand_p75": 2.722,
+    "rank_of_10": 9
+   },
+   "exclamations_per1000": {
+    "sector": 0.598,
+    "others": 1.343,
+    "brand_p25": 0.33,
+    "brand_p75": 0.639,
+    "rank_of_10": 9
+   },
+   "em_dash_per1000": {
+    "sector": 1.578,
+    "others": 2.345,
+    "brand_p25": 0.928,
+    "brand_p75": 2.046,
+    "rank_of_10": 10
+   },
+   "ai_ism_per1000": {
+    "sector": 0.563,
+    "others": 1.214,
+    "brand_p25": 0.504,
+    "brand_p75": 0.667,
+    "rank_of_10": 10
+   },
+   "marketing_per1000": {
+    "sector": 0.283,
+    "others": 0.963,
+    "brand_p25": 0.16,
+    "brand_p75": 0.396,
+    "rank_of_10": 10
+   },
+   "long_word_share": {
+    "sector": 0.251,
+    "others": 0.256,
+    "brand_p25": 0.236,
+    "brand_p75": 0.271,
+    "rank_of_10": 6
+   },
+   "sentence_variation": {
+    "sector": 0.765,
+    "others": 0.778,
+    "brand_p25": 0.716,
+    "brand_p75": 0.789,
+    "rank_of_10": 4
+   },
+   "words": {
+    "sector": 953.469,
+    "others": 1113.249,
+    "brand_p25": 736.509,
+    "brand_p75": 1059.902,
+    "rank_of_10": 8
+   }
+  },
+  "pressVsBlog": {
+   "brands": 8,
+   "avg_sentence_length": {
+    "point": 3.498,
+    "lo": 2.238,
+    "hi": 4.951,
+    "n": 8
+   },
+   "you_share": {
+    "point": -0.202,
+    "lo": -0.27,
+    "hi": -0.123,
+    "n": 8
+   },
+   "contractions_per1000": {
+    "point": -0.957,
+    "lo": -4.021,
+    "hi": 1.864,
+    "n": 8
+   },
+   "ai_ism_per1000": {
+    "point": 0.081,
+    "lo": -0.218,
+    "hi": 0.337,
+    "n": 8
+   }
+  },
+  "beforeAfter": {
+   "brands": 7,
+   "cells": 9,
+   "ai_ism_per1000": {
+    "point": 0.125,
+    "lo": -0.222,
+    "hi": 0.485,
+    "n": 7,
+    "before": 0.542,
+    "after": 0.667
+   },
+   "marketing_per1000": {
+    "point": 0.017,
+    "lo": -0.17,
+    "hi": 0.185,
+    "n": 7,
+    "before": 0.252,
+    "after": 0.269
+   },
+   "em_dash_per1000": {
+    "point": 0.305,
+    "lo": -0.695,
+    "hi": 1.22,
+    "n": 7,
+    "before": 1.962,
+    "after": 2.267
+   },
+   "ai_shape_per1000": {
+    "point": -0.071,
+    "lo": -0.158,
+    "hi": 0.007,
+    "n": 7,
+    "before": 0.28,
+    "after": 0.209
+   },
+   "avg_sentence_length": {
+    "point": 0.838,
+    "lo": -0.496,
+    "hi": 2.213,
+    "n": 7,
+    "before": 14.767,
+    "after": 15.605
+   }
+  },
+  "years": {
+   "2015": {
+    "pages": 32,
+    "brands": 4,
+    "ai_ism_per1000": 0.448,
+    "avg_sentence_length": 13.051,
+    "you_share": 0.275
+   },
+   "2016": {
+    "pages": 49,
+    "brands": 6,
+    "ai_ism_per1000": 0.388,
+    "avg_sentence_length": 9.968,
+    "you_share": 0.383
+   },
+   "2017": {
+    "pages": 52,
+    "brands": 6,
+    "ai_ism_per1000": 0.529,
+    "avg_sentence_length": 10.15,
+    "you_share": 0.355
+   },
+   "2018": {
+    "pages": 54,
+    "brands": 6,
+    "ai_ism_per1000": 0.438,
+    "avg_sentence_length": 11.181,
+    "you_share": 0.345
+   },
+   "2019": {
+    "pages": 91,
+    "brands": 8,
+    "ai_ism_per1000": 0.473,
+    "avg_sentence_length": 10.817,
+    "you_share": 0.398
+   },
+   "2020": {
+    "pages": 134,
+    "brands": 8,
+    "ai_ism_per1000": 0.761,
+    "avg_sentence_length": 13.735,
+    "you_share": 0.287
+   },
+   "2021": {
+    "pages": 131,
+    "brands": 8,
+    "ai_ism_per1000": 1.06,
+    "avg_sentence_length": 14.018,
+    "you_share": 0.314
+   },
+   "2022": {
+    "pages": 126,
+    "brands": 8,
+    "ai_ism_per1000": 0.547,
+    "avg_sentence_length": 13.681,
+    "you_share": 0.314
+   },
+   "2023": {
+    "pages": 74,
+    "brands": 6,
+    "ai_ism_per1000": 0.919,
+    "avg_sentence_length": 14.535,
+    "you_share": 0.237
+   },
+   "2024": {
+    "pages": 118,
+    "brands": 7,
+    "ai_ism_per1000": 0.597,
+    "avg_sentence_length": 16.148,
+    "you_share": 0.187
+   },
+   "2025": {
+    "pages": 121,
+    "brands": 8,
+    "ai_ism_per1000": 0.713,
+    "avg_sentence_length": 15.035,
+    "you_share": 0.224
+   },
+   "2026": {
+    "pages": 82,
+    "brands": 9,
+    "ai_ism_per1000": 0.833,
+    "avg_sentence_length": 15.321,
+    "you_share": 0.233
+   }
+  },
+  "allYearsAi": {
+   "2015": 0.819,
+   "2016": 0.509,
+   "2017": 0.945,
+   "2018": 1.077,
+   "2019": 0.985,
+   "2020": 1.054,
+   "2021": 1.138,
+   "2022": 1.095,
+   "2023": 1.723,
+   "2024": 2.159,
+   "2025": 1.92,
+   "2026": 1.29
+  },
+  "sgr012": {
+   "brands": 2,
+   "sbsc": 0.71,
+   "sboc": 0.637,
+   "obsc": 0.579
+  },
+  "words": [
+   {
+    "word": "people",
+    "z": 139.33,
+    "sector_per10k": 129.04,
+    "others_per10k": 26.57
+   },
+   {
+    "word": "health",
+    "z": 127.4,
+    "sector_per10k": 78.98,
+    "others_per10k": 10.43
+   },
+   {
+    "word": "support",
+    "z": 125.41,
+    "sector_per10k": 114.61,
+    "others_per10k": 25.92
+   },
+   {
+    "word": "care",
+    "z": 81.53,
+    "sector_per10k": 31.72,
+    "others_per10k": 4
+   },
+   {
+    "word": "families",
+    "z": 80.85,
+    "sector_per10k": 26.21,
+    "others_per10k": 1.95
+   },
+   {
+    "word": "crisis",
+    "z": 75.7,
+    "sector_per10k": 23.04,
+    "others_per10k": 1.74
+   },
+   {
+    "word": "treatment",
+    "z": 66.9,
+    "sector_per10k": 18.07,
+    "others_per10k": 1.39
+   },
+   {
+    "word": "help",
+    "z": 60.49,
+    "sector_per10k": 88.69,
+    "others_per10k": 42.24
+   },
+   {
+    "word": "talk",
+    "z": 58.2,
+    "sector_per10k": 19.27,
+    "others_per10k": 3.24
+   },
+   {
+    "word": "nhs",
+    "z": 56.59,
+    "sector_per10k": 12.61,
+    "others_per10k": 0.82
+   },
+   {
+    "word": "parents",
+    "z": 56.18,
+    "sector_per10k": 14.39,
+    "others_per10k": 1.64
+   },
+   {
+    "word": "affected",
+    "z": 55.53,
+    "sector_per10k": 13.3,
+    "others_per10k": 1.31
+   },
+   {
+    "word": "poverty",
+    "z": 55.5,
+    "sector_per10k": 13.72,
+    "others_per10k": 0.31
+   },
+   {
+    "word": "school",
+    "z": 53.42,
+    "sector_per10k": 14.51,
+    "others_per10k": 2.05
+   },
+   {
+    "word": "charity",
+    "z": 53.31,
+    "sector_per10k": 13.54,
+    "others_per10k": 1.7
+   },
+   {
+    "word": "contact",
+    "z": 53.22,
+    "sector_per10k": 34.04,
+    "others_per10k": 11.33
+   },
+   {
+    "word": "lives",
+    "z": 51.16,
+    "sector_per10k": 13.97,
+    "others_per10k": 2.14
+   },
+   {
+    "word": "volunteer",
+    "z": 48.81,
+    "sector_per10k": 10.33,
+    "others_per10k": 0.26
+   },
+   {
+    "word": "government",
+    "z": 48.64,
+    "sector_per10k": 23.29,
+    "others_per10k": 6.75
+   },
+   {
+    "word": "countries",
+    "z": 48.39,
+    "sector_per10k": 12.85,
+    "others_per10k": 2.05
+   },
+   {
+    "word": "information",
+    "z": 47.27,
+    "sector_per10k": 50.92,
+    "others_per10k": 23.6
+   },
+   {
+    "word": "living",
+    "z": 47.16,
+    "sector_per10k": 15.96,
+    "others_per10k": 3.52
+   },
+   {
+    "word": "donate",
+    "z": 47.08,
+    "sector_per10k": 8.73,
+    "others_per10k": 0.36
+   },
+   {
+    "word": "feel",
+    "z": 45.8,
+    "sector_per10k": 25.12,
+    "others_per10k": 8.34
+   },
+   {
+    "word": "communities",
+    "z": 45.51,
+    "sector_per10k": 12.86,
+    "others_per10k": 2.42
+   },
+   {
+    "word": "volunteering",
+    "z": 44.36,
+    "sector_per10k": 7.87,
+    "others_per10k": 0.29
+   },
+   {
+    "word": "hospital",
+    "z": 44.25,
+    "sector_per10k": 7.7,
+    "others_per10k": 0.49
+   },
+   {
+    "word": "family",
+    "z": 43.04,
+    "sector_per10k": 21.18,
+    "others_per10k": 6.82
+   },
+   {
+    "word": "sexual",
+    "z": 42.84,
+    "sector_per10k": 8.3,
+    "others_per10k": 0.18
+   },
+   {
+    "word": "someone",
+    "z": 42.73,
+    "sector_per10k": 16.41,
+    "others_per10k": 4.43
+   }
+  ]
+ }
+}

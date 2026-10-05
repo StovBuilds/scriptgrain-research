@@ -29,10 +29,13 @@ function boot(brands, stat) { const pt = stat(brands), d = []; for (let i = 0; i
 const cat = (c) => (c === "blog" ? "blog" : "press");
 
 // Words: weighted log-odds (Monroe et al. 2008) of each sector against all other sectors.
-const FURNITURE = new Set("cookie cookies preferences consent accept reject privacy policy ads advert adverts advertising website site web com www http https html article articles post posts comments comment reply share shares click read more menu login log sign skip content page pages link links blog newsletter subscribe email emails follow twitter facebook instagram linkedin youtube tiktok copyright rights reserved terms conditions javascript browser loading image images video videos photo photos credit min mins opens window tab optional relevant necessary analytics functional performance targeting show hide settings manage essential strictly third-party partners".split(" "));
+const FURNITURE = new Set("org uk www-dot cookie cookies preferences consent accept reject privacy policy ads advert adverts advertising website site web com www http https html article articles post posts comments comment reply share shares click read more menu login log sign skip content page pages link links blog newsletter subscribe email emails follow twitter facebook instagram linkedin youtube tiktok copyright rights reserved terms conditions javascript browser loading image images video videos photo photos credit min mins opens window tab optional relevant necessary analytics functional performance targeting show hide settings manage essential strictly third-party partners".split(" "));
 const STOP = new Set("the a an and or but of to in on at for with by from as is are was were be been being it its this that these those we our us you your yours i my me they them their he she his her not no so if then than there here which who whom whose what when where why how all any each more most other some such only own same too very can will just should now also into about over after before up down out off again further once one two new get got make made may might must could would do does did have has had".split(" "));
 const brandTokens = new Set();
 const wc = Object.fromEntries([...new Set(P.map((x) => x.sector))].map((s) => [s, { m: new Map(), total: 0 }]));
+// per sector, per word: how many uses each brand contributes (sector vocabulary must be shared,
+// not one brand's name or product: "red" from British Red Cross, "sports" from Sky Sports)
+const perBrand = Object.fromEntries(Object.keys(wc).map((s) => [s, new Map()]));
 const brandsAll = [...new Set(P.map((x) => x.brand))];
 for (const b of brandsAll) for (const t of b.split(".")[0].split("-").concat(b.split(".")[0].replace(/-/g, ""))) if (t.length >= 3) brandTokens.add(t);
 for (const b of brandsAll) {
@@ -48,6 +51,7 @@ for (const b of brandsAll) {
       // a brand's own name is not sector vocabulary
       if (brandTokens.has(w) || [...brandTokens].some((t) => t.length >= 5 && (t.includes(w) && w.length >= 5))) continue;
       wc[sector].m.set(w, (wc[sector].m.get(w) ?? 0) + 1); wc[sector].total++;
+      const pb = perBrand[sector]; if (!pb.has(w)) pb.set(w, new Map()); pb.get(w).set(b, (pb.get(w).get(b) ?? 0) + 1);
     }
   }
 }
@@ -57,7 +61,9 @@ function sectorWords(s) {
   const out = [];
   for (const [w, y1] of me.m) {
     if (y1 < 30) continue;
-    // a word must be used by at least 3 brands' worth of text to count as sector vocabulary: approximated by frequency floor
+    const users = perBrand[s].get(w); const top = Math.max(...users.values());
+    if (users.size < 3 || top / y1 > 0.5) continue;
+    // sector vocabulary, not one brand's: at least 3 brands use it and no brand supplies more than half its uses
     const y2 = rest.m.get(w) ?? 0, a = 0.5;
     const d = Math.log((y1 + a) / (me.total - y1 + a)) - Math.log((y2 + a) / (rest.total - y2 + a));
     out.push({ word: w, z: r(d / Math.sqrt(1 / (y1 + a) + 1 / (y2 + a)), 2), sector_per10k: r((y1 / me.total) * 1e4, 2), others_per10k: r((y2 / rest.total) * 1e4, 2) });
