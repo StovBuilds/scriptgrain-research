@@ -124,4 +124,6 @@ report sectors and spreads; brand names appear in the data files.
    57; octopus-news.com, 24; notionpress.com, 11), let in by a corpus discovery rule (corpus README,
    v1.4). They were removed and SGR-010 and SGR-011 were re-run with every pre-registered rule
    unchanged. No hypothesis changed outcome; the figures that moved are listed on each page's
-   correction note. SGR-012 and the sector reports were run on the corrected data.
+   correction note. SGR-012 had been run once on the uncorrected data (not published); it was
+   re-run on the corrected data before publication and its outcomes did not change. The sector
+   reports were run on the corrected data only.
