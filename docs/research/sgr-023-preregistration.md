@@ -71,7 +71,7 @@ With W words, S sentences and Y syllables per page (A = W / S, the average sente
 | Measure | Formula | Source |
 |---|---|---|
 | **Flesch Reading Ease (FRE)** | 206.835 − 1.015 × (W / S) − 84.6 × (Y / W) | Flesch, R. (1948). A new readability yardstick. *Journal of Applied Psychology* 32(3), 221 to 233 |
-| **Flesch-Kincaid grade (FK)**, the primary measure | 0.39 × (W / S) + 11.8 × (Y / W) − 15.59 | Kincaid, J. P., Fishburne, R. P. Jr., Rogers, R. L. and Chissom, B. S. (1975). *Derivation of New Readability Formulas (Automated Readability Index, Fog Count and Flesch Reading Ease Formula) for Navy Enlisted Personnel.* Naval Technical Training Command, Research Branch, Millington TN; DTIC ADA006655, doi:10.21236/ada006655 (record checked in Crossref 2026-10-12; Flesch 1948 checked in Crossref, doi:10.1037/h0057532, vol. 32 no. 3, pp. 221-233) |
+| **Flesch-Kincaid grade (FK)**, the primary measure | 0.39 × (W / S) + 11.8 × (Y / W) − 15.59 | Kincaid, J. P., et al. (1975). *Derivation of New Readability Formulas (Automated Readability Index, Fog Count and Flesch Reading Ease Formula) for Navy Enlisted Personnel.* Naval Technical Training Command Research Branch, Millington TN, February 1975; DTIC ADA006655, doi:10.21236/ada006655 (record checked in Crossref 2026-10-12; Flesch 1948 checked in Crossref, doi:10.1037/h0057532, vol. 32 no. 3, pp. 221-233) |
 | **Reading age** | FK + 5 | A convention: US grade 1 is the school year of six-year-olds. We know no standards body that defines this conversion, so the page presents it as a translation, and FK as the measure |
 
 **Supporting measures** (they explain the grade): average sentence length W / S; syllables per word Y / W; the
