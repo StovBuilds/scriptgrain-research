@@ -143,7 +143,7 @@ const study = {
   citations: [
     { name: "ScriptGrain (2026). How do UK brands write? 16,070 blog posts and press releases, measured (SGR-010)", url: "https://scriptgrain.com/research/how-uk-brands-write" },
     { name: "Flesch, R. (1948). A new readability yardstick. Journal of Applied Psychology 32(3), 221 to 233", url: "https://doi.org/10.1037/h0057532" },
-    { name: "Kincaid, J. P., Fishburne, R. P., Rogers, R. L. and Chissom, B. S. (1975). Derivation of new readability formulas for Navy enlisted personnel. Naval Technical Training Command Research Branch Report 8-75", url: "https://apps.dtic.mil/sti/citations/ADA006655" },
+    { name: "Kincaid, J. P., Fishburne, R. P. Jr., Rogers, R. L. and Chissom, B. S. (1975). Derivation of New Readability Formulas (Automated Readability Index, Fog Count and Flesch Reading Ease Formula) for Navy Enlisted Personnel. Naval Technical Training Command, Research Branch, Millington TN (DTIC ADA006655)", url: "https://doi.org/10.21236/ada006655" },
     { name: "GOV.UK (n.d.). Use clear language, in Writing to GOV.UK standards", url: "https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-language/" },
     { name: "Financial Conduct Authority (2022). PS22/9: A new Consumer Duty", url: "https://www.fca.org.uk/publications/policy-statements/ps22-9-new-consumer-duty" },
     { name: "Carnegie Mellon University. The CMU Pronouncing Dictionary", url: "https://github.com/cmusphinx/cmudict" },
