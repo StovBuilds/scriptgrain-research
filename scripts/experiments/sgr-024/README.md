@@ -19,7 +19,7 @@ network, no API key.
 
 ## Data on disk (nothing to download on D-1)
 
-- `~/research/sgr-024/sample.jsonl.gz`: the frozen sample (about 800 MB, 1,673,128 records of which about 1.2 million pass the rules). One JSON object per record, latest version, deletions applied. Built on 2026-10-11 from baseline files 800 to 1334 and update files 1335 to 1676. Never committed or published.
+- `~/research/sgr-024/sample.jsonl.gz`: the frozen sample (about 800 MB, 1,673,128 records of which about 1.4 million pass the rules). One JSON object per record, latest version, deletions applied. Built on 2026-10-11 from baseline files 800 to 1334 and update files 1335 to 1676. Never committed or published.
 - `~/research/sgr-024/manifest.json`, `verify.json`: collection counts and a 300-record efetch check (all 300 matched on entry date, journal, language, type and text).
 - `~/research/sgr-024/ref/`: Kobak et al.'s `excess_words.csv` and `yearly-counts.csv.gz` (MIT licence, copied from github.com/berenslab/llm-excess-vocab), the MeSH 2026 trees.
 - `~/research/sgr-024/meta/`: per-file collection counts (records seen, sampled, kept, deletions). The per-file parts were removed after the build to stay under 2 GB; `run.mjs` reads only the sample file.
@@ -37,7 +37,7 @@ cd ~/repos/scriptgrain-sgr-024 && git fetch -q && git merge origin/main        #
 ls -la ~/research/sgr-024/sample.jsonl.gz                                      # expect about 800 MB
 python3 -I -c "import json;print(json.load(open('~/research/sgr-024/manifest.json'))['in_sample_file'])"   # expect 1673128
 ls ~/research/sgr-024/ref                                                      # expect excess_words.csv, yearly-counts.csv.gz, mesh-trees.tsv
-nohup bun scripts/experiments/sgr-024/run.mjs > ~/research/sgr-024/run.log 2>&1 &   # full run, about 70 minutes; allow 2 hours
+nohup bun scripts/experiments/sgr-024/run.mjs > ~/research/sgr-024/run.log 2>&1 &   # full run, about 80 minutes; allow 2 hours
 tail -f ~/research/sgr-024/run.log                                             # progress lines; last line "done in N s"
 bun scripts/experiments/sgr-024/write-entry.mjs --conducted-on 2026-10-29 --publish-on 2026-10-30
 npx vitest run src/test/research.test.ts src/test/pages/Research.test.tsx src/test/llms-coverage.test.ts src/test/worker   # then the full suite and typecheck, as CI does
@@ -53,11 +53,11 @@ Then commit by path, push, wait for CI green, update the PR body with the result
 
 | Step | Pilot | Full (estimated) |
 |---|---|---|
-| Read the sample and measure each abstract (pass 1) | about 6 min (reading 1.67 M lines about 4 min, measuring about 2 min) | about 50 min |
+| Read the sample and measure each abstract (pass 1) | about 6 min (reading 1.67 M lines about 4 min, measuring about 2 min) | about 60 min |
 | Document frequencies, selection, labelling, bounds | under 1 min | 3 to 5 min |
 | Bootstraps (200 pilot, 2,000 full, over about 15,000 journals) and sensitivity analyses | under 1 min | 10 to 20 min |
 
-Expect about 70 minutes; allow 2 hours. Peak memory was 0.55 GB in the pilot; the full run keeps
+Expect about 80 minutes; allow 2 hours. Peak memory was 0.55 GB in the pilot; the full run keeps
 every abstract's token ids in memory and should need about 2 GB. Output is deterministic: re-running
 gives identical files except the `generated` and `runtime_seconds` fields (checked on two pilot runs).
 
@@ -66,7 +66,7 @@ gives identical files except the `generated` and `runtime_seconds` fields (check
 Open `public/research/sgr-024-summary.json` and confirm:
 
 - `pilot` is `false` and `generated` is today's date (UTC).
-- `sample.included` is about 1.2 million; `exclusions` lists no surprise (no_abstract is the largest; `non_english_text` should be tiny).
+- `sample.included` is about 1.4 million; `exclusions` lists no surprise (no_abstract is the largest; `non_english_text` should be tiny).
 - `n_by_period` has BASE, Y2024 and Y2026 all in the tens of thousands or more.
 - `by_group` has all eight named groups with journals and abstracts in every period; General and Unclassified are separate.
 - `excess.style_2024` and `style_2026` each have 50 words (fewer is allowed, but note it); `excess.label_sources` shows how many words each rule labelled.
