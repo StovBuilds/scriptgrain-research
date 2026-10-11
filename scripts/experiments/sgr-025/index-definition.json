@@ -1,0 +1,93 @@
+{
+  "_readme": "The ScriptGrain Writing Index, definition v1.0, frozen 2026-10-11 before any full measurement of the 2026-Q4 point. Changing a measure, a statistic or a threshold is a new major version and goes in the changelog; a refresh that only adds a period keeps the version's major number.",
+  "name": "The ScriptGrain Writing Index",
+  "version": "1.0.0",
+  "current_period": "2026-Q4",
+  "baseline_period": "2026",
+  "release": {
+    "study": "SGR-025",
+    "conducted_on": "2026-11-03",
+    "publish_on": "2026-11-04"
+  },
+  "collection_window": {
+    "from": "2026-10-11",
+    "to": "2026-11-03",
+    "note": "Fetched once per site; see the pre-registration for the date actually used."
+  },
+  "pilot": {
+    "seed": "sgr-025-pilot",
+    "sites": 8
+  },
+  "repeat": {
+    "seed": "sgr-025-repeat",
+    "sites": 16
+  },
+  "bootstrap": {
+    "resamples": 2000,
+    "seed": 20261103
+  },
+  "min_matched_sites": 80,
+  "headline_measures": [
+    {
+      "id": "words",
+      "column": "words",
+      "label": "Words of prose on the homepage",
+      "level": "median",
+      "change_statistic": "median of the site-by-site differences",
+      "threshold": 33
+    },
+    {
+      "id": "sentence_length",
+      "column": "avg_sentence_length",
+      "label": "Average sentence length (words)",
+      "level": "median",
+      "change_statistic": "median of the site-by-site differences",
+      "threshold": 0.07
+    },
+    {
+      "id": "ai_era_vocab",
+      "column": "ai_era_style_per1000",
+      "label": "AI-era vocabulary, style words only, per 1,000 words",
+      "level": "mean",
+      "change_statistic": "mean of the site-by-site differences",
+      "threshold": 0.52
+    },
+    {
+      "id": "dotcom_vocab",
+      "column": "dotcom_vocab_per1000",
+      "label": "Dotcom corporate vocabulary per 1,000 words",
+      "level": "mean",
+      "change_statistic": "mean of the site-by-site differences",
+      "threshold": 0.59
+    },
+    {
+      "id": "em_dash_share",
+      "column": "em_only_per1000",
+      "label": "Share of homepages with at least one em dash",
+      "level": "share_positive",
+      "change_statistic": "difference in the share, matched sites",
+      "threshold": 0.06
+    },
+    {
+      "id": "ai_tell",
+      "column": "ai_tell_per1000",
+      "label": "ScriptGrain AI-tell density per 1,000 words",
+      "level": "mean",
+      "change_statistic": "mean of the site-by-site differences",
+      "threshold": 0.08
+    }
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "released": "2026-11-04",
+      "period_added": "2026-Q4",
+      "summary": [
+        "First release of the Index. Starts from the 2,950 measured homepage-years of SGR-004 (161 companies, 2000 to 2026, Wayback captures nearest 1 July) and adds one live fetch of each company's current homepage as period 2026-Q4.",
+        "Fixes the six headline measures, their statistics and the thresholds for calling a quarter-on-quarter move a change. No composite score.",
+        "Columns are those of the SGR-004 dataset plus index_version, period, collected, source and ai_era_style_per1000 (SGR-004 derived it in its analysis step; the Index stores it)."
+      ]
+    }
+  ],
+  "columns_note": "Column names never change within a major version. A new column is added at the end and noted in the changelog; a column is never renamed or repurposed."
+}
