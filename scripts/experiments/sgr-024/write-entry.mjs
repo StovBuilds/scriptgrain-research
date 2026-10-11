@@ -48,13 +48,13 @@ const study = {
   abstract: [
     { label: "Background", text: "SGR-008 found that in arXiv abstracts the words once called signs of ChatGPT, such as \"delve\" and \"pivotal\", rose in 2024 and then fell, while a different set of words rose in 2025 and 2026. Kobak and colleagues had already shown excess vocabulary in 2024 PubMed abstracts, and later work estimates that a large majority of recent biomedical papers carry language-model traces. This study asks whether the arXiv pattern also holds in medicine and biology, and checks our method against theirs." },
     { label: "What we did", text: `We fixed six hypotheses and two checks against Kobak et al. in public before the full measurement. We took a fixed 10% sample of PubMed records by a hash of the PubMed identifier, kept ${n(N)} English journal-article abstracts of at least 50 words entered from January 2015 to September 2026, and measured the same three word sets as SGR-008 (twelve old tells, twelve new words, five control words), the share of abstracts containing any word of each set. We then selected excess words in each year on odd months, scored them on even months, labelled each as style or content by fixed rules, and computed a lower bound on the share of abstracts affected. Confidence intervals come from resampling ${n(SMP.journals)} journals.` },
-    { label: "What we found", text: `Old tells: ${f2(M.old.base.point)}% of abstracts in 2020 to November 2022, ${f2(M.old.y24.point)}% in 2024 and ${f2(M.old.y26.point)}% in 2026. New words: ${f2(M.new.base.point)}%, ${f2(M.new.y24.point)}% and ${f2(M.new.y26.point)}%. The hypotheses that the old tells rose then fell (H1) was ${lc(verdict(H.H1))}, that the new words rose, in at least six of eight subject groups (H2), ${lc(verdict(H.H2))}, and that the new words overtook the old in 2025 or 2026 (H3), ${lc(verdict(H.H3))}${H.H3.crossover_half ? ` (from ${H.H3.crossover_half})` : ""}. So SGR-008 ${VERDICT_TEXT} in medicine. The lower bound for 2024 was ${pp(A24)} against Kobak et al.'s 13.5% estimate (our check C1 was ${lc(verdict(C1))}).` },
+    { label: "What we found", text: `Old tells: ${f2(M.old.base.point)}% of abstracts in 2020 to November 2022, ${f2(M.old.y24.point)}% in 2024 and ${f2(M.old.y26.point)}% in 2026. New words: ${f2(M.new.base.point)}%, ${f2(M.new.y24.point)}% and ${f2(M.new.y26.point)}%. The hypothesis that the old tells rose and then fell (H1) was ${lc(verdict(H.H1))}; that the new words rose, doubling in at least six of eight subject groups (H2), ${lc(verdict(H.H2))}; and that the new words overtook the old in 2025 or 2026 (H3), ${lc(verdict(H.H3))}${H.H3.crossover_half ? ` (from ${H.H3.crossover_half})` : ""}. So SGR-008 ${VERDICT_TEXT} in medicine. The lower bound for 2024 was ${pp(A24)} against Kobak et al.'s 13.5% estimate (our check C1 was ${lc(verdict(C1))}).` },
     { label: "What it means", text: "A shift in the words used in abstracts is a shift in how abstracts read. It does not show who or what wrote them, and the lower bounds count only abstracts using the specific words we selected." },
   ],
   keyNumbers: [
     `Old-tell words (such as "delve" and "pivotal") were in ${f2(M.old.base.point)}% of PubMed abstracts entered in 2020 to November 2022, ${f2(M.old.y24.point)}% in 2024 and ${f2(M.old.y26.point)}% in 2026 (ScriptGrain, 2026; ${n(N)} abstracts).`,
     `The twelve new words were in ${f2(M.new.base.point)}% of abstracts before ChatGPT, ${f2(M.new.y24.point)}% in 2024 and ${f2(M.new.y26.point)}% in 2026 (${f2(M.new.r26b.point)} times the baseline; in arXiv the same ratio was ${f2(R8.new_ratio_2026_over_base)}).`,
-    `A lower bound of ${f1(U24.pct)}% of 2024 abstracts and ${f1(U26.pct)}% of 2026 abstracts use words whose rise cannot be explained by content (95% intervals ${rng(U24.lo, U24.hi, 1)} and ${rng(U26.lo, U26.hi, 1)}).`,
+    `At least ${f1(U24.pct)}% of 2024 abstracts and ${f1(U26.pct)}% of 2026 abstracts contain a selected style word beyond the share the 2021 and 2022 trend projects (lower bounds; 95% intervals ${rng(U24.lo, U24.hi, 1)} and ${rng(U26.lo, U26.hi, 1)}).`,
     `${n(H.H2.groups_with_ratio_at_least_2)} of ${n(H.H2.groups_counted)} subject groups had at least twice as many abstracts with a new word in 2026 as in 2020 to 2022.`,
   ],
   measures: [
@@ -194,4 +194,15 @@ const data = JSON.parse(readFileSync(PJ, "utf8"));
 const i = data.studies.findIndex((x) => x.id === clean.id); if (i === -1) data.studies.push(clean); else data.studies[i] = clean;
 writeFileSync(PJ, JSON.stringify(data, null, 2) + "\n");
 writeFileSync("public/research-pages.json", JSON.stringify(data));
+// llms.txt: one line for the new page (idempotent: replaces an earlier SGR-024 line). The first research
+// line marks the top of the research block, newest first.
+{
+  const LP = "public/llms.txt", lines = readFileSync(LP, "utf8").split("\n");
+  const line = `- "Did the AI words reach medical research / do PubMed abstracts use delve and the other ChatGPT words" -> https://scriptgrain.com/research/${SLUG} (from ${long(PUBLISH_ON)}: Study SGR-024, ${n(N)} PubMed abstracts 2015 to 2026, a pre-registered replication of SGR-008; its arXiv pattern ${VERDICT_TEXT} in PubMed; data CC BY)`;
+  const keep = lines.filter((l) => !l.includes(`/research/${SLUG}`));
+  const at = keep.findIndex((l) => /^- ".*https:\/\/scriptgrain\.com\/research\//.test(l));
+  if (at === -1) throw new Error("no research block found in public/llms.txt");
+  keep.splice(at, 0, line);
+  writeFileSync(LP, keep.join("\n"));
+}
 console.error(`SGR-024 written; conductedOn ${CONDUCTED}, publishOn ${PUBLISH_ON}${S.pilot ? " (PILOT: do not commit)" : ""}`);
