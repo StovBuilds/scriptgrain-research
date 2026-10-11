@@ -69,7 +69,7 @@ const study = {
   ],
   measures: [
     { term: "Flesch Reading Ease", definition: "206.835 minus 1.015 times the average sentence length in words, minus 84.6 times the average syllables per word (Flesch, 1948). Higher is easier; about 60 to 70 is described as plain English and below 30 as very difficult." },
-    { term: "Flesch-Kincaid grade", definition: "0.39 times the average sentence length in words, plus 11.8 times the average syllables per word, minus 15.59 (Kincaid, Fishburne, Rogers and Chissom, 1975). It estimates the US school grade needed to read the text." },
+    { term: "Flesch-Kincaid grade", definition: "0.39 times the average sentence length in words, plus 11.8 times the average syllables per word, minus 15.59 (Kincaid et al., 1975). It estimates the US school grade needed to read the text." },
     { term: "Reading age", definition: "The Flesch-Kincaid grade plus five: US grade 1 is the school year for six-year-olds. It is a convention for translating the grade into a UK-style reading age, not a measured age, and we know no standards body that defines it." },
     { term: "Running prose", definition: "Only lines that end in a full stop, question mark or exclamation mark are scored. Headings, bylines, captions, buttons and unpunctuated list items are left out, so that page furniture does not count as very short sentences." },
     { term: "Syllables", definition: `Counted by a fixed set of spelling rules, with no dictionary at run time. Checked against the CMU Pronouncing Dictionary: ${pct(SV.corpus_tokens.exact_first, 1)} of the corpus's word occurrences matched the dictionary's count exactly and ${pct(SV.corpus_tokens.within_one, 1)} were within one syllable.` },
