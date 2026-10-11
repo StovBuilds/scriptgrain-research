@@ -1,0 +1,32 @@
+{
+  "_readme": "SGR-024 subject groups. Each PubMed record's MeSH major-topic descriptors are looked up in the MeSH 2026 tree (mesh-trees.tsv, built by mesh-trees.py). A tree number is mapped to a group by its first three characters if listed under 'overrides', else by its first character under 'defaults'. A descriptor votes 1 in total, split equally over the distinct groups its tree numbers fall in. A JOURNAL is given the group with the most votes among its included records entered 2015-01 to 2022-11 (before ChatGPT), if that group has at least 40% of the journal's votes and the journal has at least 10 votes in all; otherwise 'general' (10 or more votes, no dominant group) or 'unclassified' (fewer than 10 votes, which includes journals with no MeSH indexing). The groups are a rough stratification of journals, not a classification of articles.",
+  "groups": ["cancer", "heart_metabolism", "brain_mind", "infection_immunity", "body_systems_surgery", "health_services_society", "methods_techniques", "molecular_cell_chemistry"],
+  "labels": {
+    "cancer": "Cancer",
+    "heart_metabolism": "Heart, blood vessels and metabolism",
+    "brain_mind": "Brain and mind",
+    "infection_immunity": "Infection and immunity",
+    "body_systems_surgery": "Other body systems and surgery",
+    "health_services_society": "Health services, public health and society",
+    "methods_techniques": "Methods and techniques",
+    "molecular_cell_chemistry": "Molecular and cell biology, chemicals and drugs",
+    "general": "General or mixed journals",
+    "unclassified": "Unclassified (too little MeSH indexing)"
+  },
+  "defaults": {
+    "A": "body_systems_surgery", "B": "molecular_cell_chemistry", "C": "body_systems_surgery", "D": "molecular_cell_chemistry",
+    "E": "methods_techniques", "F": "brain_mind", "G": "molecular_cell_chemistry", "H": "health_services_society",
+    "I": "health_services_society", "J": "methods_techniques", "K": "health_services_society", "L": "health_services_society",
+    "M": "health_services_society", "N": "health_services_society", "Z": "health_services_society"
+  },
+  "overrides": {
+    "A08": "brain_mind", "A11": "molecular_cell_chemistry", "A12": "molecular_cell_chemistry",
+    "B03": "infection_immunity", "B04": "infection_immunity", "B05": "infection_immunity",
+    "C01": "infection_immunity", "C03": "infection_immunity", "C20": "infection_immunity",
+    "C04": "cancer", "C10": "brain_mind",
+    "C14": "heart_metabolism", "C18": "heart_metabolism", "C19": "heart_metabolism",
+    "E04": "body_systems_surgery"
+  },
+  "min_votes": 10,
+  "min_share": 0.4
+}
