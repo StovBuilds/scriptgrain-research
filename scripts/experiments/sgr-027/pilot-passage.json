@@ -1,0 +1,8 @@
+{
+  "id": "PILOT",
+  "format": "explainer",
+  "topic": 0,
+  "generator": "claude",
+  "model": "claude-sonnet-5-5",
+  "text": "Tea cools faster in a wide mug mainly because of surface area. Most of the heat leaves through the top of the drink, and a wide mug exposes far more of it to the air.\n\nEvaporation is the biggest factor. The fastest-moving water molecules at the surface escape as vapor, and each one carries away a lot of energy. A larger surface lets more molecules escape every second, so the tea loses heat quickly. This is why blowing across a cup cools it: you sweep away the humid air above the surface and speed up evaporation.\n\nConvection adds to this. Air touching the hot surface warms and rises, and cooler air moves in to replace it. A wide surface drives more of this circulation.\n\nRadiation also contributes. Hot liquid emits infrared energy, and a bigger exposed area emits more of it.\n\nThe mug's sides lose heat too, but they matter less. A tall, narrow mug holds the same volume with less surface on top, so it cools more slowly.\n\nTo keep tea hot, use a narrow mug, add a lid, or both. A lid stops evaporation and traps the warm air above the tea."
+}
