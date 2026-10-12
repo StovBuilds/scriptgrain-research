@@ -250,7 +250,8 @@ pages"), which is limited to a few objective signs (communication meant for the 
 nonsensical references, and the like). Both of the first two pages were created on 4 December 2023
 (first revisions of the pages, read through the API on 11 October 2026). ScriptGrain's
 [reference page on the markers of AI writing](https://scriptgrain.com/reference/markers-of-ai-writing)
-already cites that list. **This study does not use Wikipedia's list as an instrument.** Its measures are
+and the blog post [Wikipedia's signs of AI writing](https://scriptgrain.com/blog/wikipedia-signs-of-ai-writing)
+already cover that list. **This study does not use Wikipedia's list as an instrument.** Its measures are
 ScriptGrain's frozen SGR-007 lists, used unchanged in SGR-011 and SGR-020, so that the three studies
 compare; Wikipedia's list is descriptive, long and still moving, and cannot be frozen. All we claim
 from Wikipedia's pages is what they say about themselves, as quoted above.
