@@ -74,4 +74,8 @@ positioning would like to be true; it is tested with an equivalence margin fixed
 it is reported whichever way it falls.
 
 ## 9. Changes after freezing
-(none)
+- 2026-10-12, before any passage was generated: both generators receive every prompt with
+  the same suffix, "Output only the text.", because a smoke test (on a prompt outside the
+  corpus) showed the codex CLI wrapping its answer in commentary. It is a formatting
+  instruction, not a style one, and applies to both arms alike. The codex CLI's model is
+  whatever its account default is on the day; the generation log records it.
