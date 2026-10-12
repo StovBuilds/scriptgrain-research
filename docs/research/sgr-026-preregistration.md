@@ -264,4 +264,8 @@ the pull request; pilot output is never committed. The full analysis is run once
 release.
 
 ## Deviations and clarifications
-(none yet)
+- 2026-10-12, boundary check run after the fetch (section 1). Only January 2015 exceeded the 6% threshold: 24 of its 120 first
+  revisions were from February, because the February 2015 boundary had been placed at page ID 45,357,279; the robust probe moved it
+  to 45,269,626. January and February 2015 were re-indexed and re-fetched. Afterwards no month had more than 3% of its
+  first revisions in another month. No other month was changed. The check used timestamps only.
+- 2026-10-12, collection complete: 141 months, 16,920 articles sampled, 16,920 first revisions fetched (a few pages were deleted before the fetch; counted at the run).

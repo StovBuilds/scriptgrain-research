@@ -20,7 +20,7 @@ bun scripts/experiments/sgr-026/collect.mjs status
 ```
 Corpus lives in `~/research/sgr-026/` (`bounds.json`, `index/YYYY-MM.json`, `bodies/YYYY-MM.jsonl.gz`,
 `users.json`, `deletions.json`, `cleaner-validation.json`, `collect.log`). If a re-collection is ever
-wanted: `collect.mjs all` (resumes where it stopped; ABOUT_COLLECT_TIME). Do NOT re-collect on D-1: the
+wanted: `collect.mjs all` (resumes where it stopped; about 45,000 API requests, 4 to 5 hours, serial). Do NOT re-collect on D-1: the
 pre-registration describes this corpus (the sample is seeded, but Wikipedia changes: pages get
 deleted or turned into redirects, which would change what is "an article today").
 
@@ -30,7 +30,7 @@ Run from the worktree/checkout of the PR branch, after merging `main` into it if
 cd ~/repos/scriptgrain-sgr-026   # or any checkout of research/sgr-026-prep
 ln -s ~/repos/scriptgrain/node_modules node_modules   # if not installed; remove before committing
 bun scripts/experiments/sgr-026/selftest.mjs                         # must exit 0
-bun scripts/experiments/sgr-026/run.mjs                              # RUN_TIME_PLACEHOLDER
+bun scripts/experiments/sgr-026/run.mjs                              # about 2 to 4 minutes (the 4% pilot takes 4 s); output goes to public/research/
 bun scripts/experiments/sgr-026/write-entry.mjs --conducted-on 2026-11-05 --publish-on 2026-11-06
 npx vitest run src/test/research.test.ts src/test/pages/Research.test.tsx src/test/worker/research-worker.test.ts
 ```
@@ -46,8 +46,8 @@ Guards: `write-entry.mjs` refuses a pilot summary, refuses if the summary's `ran
 run `run.mjs` again on the new day; never edit a date.
 
 What to check after `run.mjs` (read the stderr tail and the summary):
-- `corpus.kept` is in the thousands (the pilot-sized expectation is roughly half the sampled articles; if it is far lower, look at `corpus.excluded`).
-- `H1.months_from` is about 47 and `H1.months_to` about 33 (months with at least 15 measured articles); a much smaller count means a month-size problem, not a result.
+- `corpus.kept` is in the thousands (about 5,400 of the 16,920 sampled first revisions reach 150 words; if it is far lower, look at `corpus.excluded`).
+- `H1.months_from` is 47 and `H1.months_to` is 33 (every month in both periods has at least 15 measured articles) (months with at least 15 measured articles); a much smaller count means a month-size problem, not a result.
 - Every hypothesis has a `result`; none has `lo: null` (that means fewer than 3 months in a period).
 - `corpus.excluded.month_differs_from_id_interval` is small (under 2% of fetched); `bot_created_set_aside` is reported.
 - `S.sgr020` is non-null if SGR-020 is published by then (`public/research/sgr-020-summary.json` on main); null just drops the sentence.
