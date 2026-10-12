@@ -156,6 +156,7 @@ const study = {
       ["Items of 300 words or more", ci(S.longPages.ai_ism_per1000), ci(S.longPages.em_dash_per1000), String(S.longPages.ai_ism_per1000.n)],
       ["Transition year counted as after", ci(S.transitionAsAfter.ai_ism_per1000), ci(S.transitionAsAfter.em_dash_per1000), String(S.transitionAsAfter.ai_ism_per1000.n)],
       ["Date of last update instead of first publication", ci(S.updatedDates.ai_ism_per1000), ci(S.updatedDates.em_dash_per1000), String(S.updatedDates.ai_ism_per1000.n)],
+      ["Without DSIT (created 2023 from parts of BEIS and DCMS)", ci(S.withoutDsit.ai_ism_per1000), ci(S.withoutDsit.em_dash_per1000), String(S.withoutDsit.ai_ism_per1000.n)],
       ["Conservative months of 2024 only (H6)", ci(S.afterSplit.conservative.ai_ism_per1000), ci(S.afterSplit.conservative.em_dash_per1000), String(S.afterSplit.conservative.ai_ism_per1000.n)],
       ["Labour months only", ci(S.afterSplit.labour.ai_ism_per1000), ci(S.afterSplit.labour.em_dash_per1000), String(S.afterSplit.labour.ai_ism_per1000.n)],
     ] } },

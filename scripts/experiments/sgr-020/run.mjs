@@ -194,6 +194,7 @@ S.afterSplit = {
   conservative: Object.fromEntries(ROB.map((m) => [m, light(T1, m, { eraOf: (x) => (x.era === "LATE" ? "LATE" : x.era === "AFTER" && isAfterConservative(x.date) ? "AFTER_C" : null), to: "AFTER_C", tag: "c" })])),
   labour: Object.fromEntries(ROB.map((m) => [m, light(T1, m, { eraOf: (x) => (x.era === "LATE" ? "LATE" : x.era === "AFTER" && !isAfterConservative(x.date) ? "AFTER_L" : null), to: "AFTER_L", tag: "l" })])),
 };
+S.withoutDsit = Object.fromEntries(ROB.map((m) => [m, light(T1.filter((x) => x.org !== "department-for-science-innovation-and-technology"), m, { tag: "nodsit" })]));
 S.otherBodies = Object.fromEntries(ROB.map((m) => [m, light(T2, m, { tag: "t2" })]));
 S.otherBodies_pages = T2.length;
 

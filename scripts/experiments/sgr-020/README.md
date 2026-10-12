@@ -29,11 +29,13 @@ bun scripts/experiments/sgr-020/run.mjs                              # full run:
 bun scripts/experiments/sgr-020/write-entry.mjs --conducted-on 2026-10-15 --publish-on 2026-10-16
 npx vitest run src/test/research.test.ts src/test/pages/Research.test.tsx src/test/worker/research-worker.test.ts
 ```
-Then, in the PR: `rm node_modules`, commit by path (`public/research/sgr-020-*`,
-`src/data/research-pages.json`, `public/research-pages.json`), update `public/llms.txt` and run
-`node scripts/generate-llms-artifacts.mjs` if the repo's rules for a new public study require it,
-push, check CI is green, ask Jack for the go, merge on the evening of 15 October. The page shows
-itself at 00:00 UTC on 16 October.
+Then, in the PR:
+1. `rm node_modules`.
+2. llms.txt step: add the page under the research section of `public/llms.txt`, then run `node scripts/generate-llms-artifacts.mjs`.
+3. Commit by path (`public/research/sgr-020-*`, `src/data/research-pages.json`, `public/research-pages.json`, `public/llms.txt` and the regenerated llms artifacts), push, check CI is green.
+4. Merge on the evening of 15 October. Jack gave a standing go (2026-10-11); the automated D-1 lane merges once CI is green and comes back to Jack only if a result can't be reported as pre-registered, the run fails, or the date or topic would change (see `docs/plans/research-next-8.md`).
+
+The page shows itself at 00:00 UTC on 16 October.
 
 Guards: `write-entry.mjs` refuses a pilot summary, refuses if the summary's `ranOn` is not
 `--conducted-on`, and refuses a `--publish-on` that is not the next day. If the run slips a day,

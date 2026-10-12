@@ -89,6 +89,8 @@ changes the name of a department but a press office and its habits persist:
 | Wales Office | office-of-the-secretary-of-state-for-wales, wales-office |
 | Scotland Office | office-of-the-secretary-of-state-for-scotland, scotland-office |
 
+DSIT was created in 2023 from parts of BEIS and DCMS; its items are assigned to the business lineage, and a sensitivity check (section 6) repeats the main comparison without DSIT.
+
 The exact slug lists are in `scripts/experiments/sgr-020/lib.mjs`. The joined units are
 imperfect (DSIT took work from DCMS and BEIS; DfID's output joins FCDO from 2020 on) and the
 limits section says so. **Other bodies** (agencies, regulators, non-ministerial departments:
@@ -157,7 +159,7 @@ as a percentage of each study's own LATE level. No hypothesis is attached to the
 publication date. (e) AFTER split into Conservative months and Labour months (5 July 2024
 onwards), each against LATE. (f) Every measure in the list in section 3 for the main
 comparison. (g) Leave-one-department-out range for H1. (h) The same four headline measures
-for other bodies (one unit per organisation, same cell rule). (i) A year-by-year series
+for other bodies (one unit per organisation, same cell rule). (i) The main comparison without DSIT items. (j) A year-by-year series
 (department-weighted, a department-year needing 5 pages) and a table for each department.
 
 ## 7. Fixed outputs
@@ -192,6 +194,7 @@ Licence CC BY 4.0 on our data; the source is credited under the Open Government 
 - The COVID-19 years (2020 to 2021) are inside LATE and changed the mix of what departments
   wrote; cells are weighted by department, not by page, so the high volume does not dominate.
 - Some departments wrote no releases in some eras and so do not enter the tests.
+- H6 is a weak test: six months, including the election campaign. It stays confirmatory as registered.
 - A department-year is a small sample; a single press officer or minister can move it.
 
 ## 10. Pilot
@@ -203,4 +206,4 @@ not in the entry, the README or the pull request; pilot output is never committe
 analysis is run once, on the day before release.
 
 ## Deviations and clarifications
-(none yet)
+- 2026-10-12, before the full run: decisions recorded after review. (a) The department lineages stand, with DSIT named in section 2 and a without-DSIT sensitivity check added (section 6, item i). (b) H6 stays confirmatory as registered; its caveat is in section 9. (c) Collection starting before this file's commit is accepted as disclosed at the top. No outcome had been analysed beyond the code-testing pilot.
