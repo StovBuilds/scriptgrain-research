@@ -25,7 +25,7 @@ Run from the worktree/checkout of the PR branch, after merging `main` into it if
 ```
 cd ~/repos/scriptgrain-sgr020   # or any checkout of research/sgr-020-prep
 ln -s ~/repos/scriptgrain/node_modules node_modules   # if not installed; remove before committing
-bun scripts/experiments/sgr-020/run.mjs                              # RUN_TIME_PLACEHOLDER
+bun scripts/experiments/sgr-020/run.mjs                              # full run: about 8 to 12 minutes (the 4% pilot took 25 s; ~55k pages to measure, then 2,000-draw bootstraps)
 bun scripts/experiments/sgr-020/write-entry.mjs --conducted-on 2026-10-15 --publish-on 2026-10-16
 npx vitest run src/test/research.test.ts src/test/pages/Research.test.tsx src/test/worker/research-worker.test.ts
 ```
@@ -51,3 +51,7 @@ run the research tests, then `git checkout src/data/research-pages.json public/r
 - Measurement uses product code only (`sgr-007/instruments.mjs`, `scanCliches`, `measureTextFeatures`, `measureBurstiness`). No language-model call, API key or Firecrawl.
 - Needs `bun` and `node_modules` (the supabase `_shared` TypeScript modules are imported directly).
 - Source: GOV.UK, Open Government Licence v3.0. We publish numbers and page paths, never text.
+
+## Corpus facts (collection finished 12 October 2026, 01:06 UTC)
+62,399 items listed and fetched (0 failed); 38,595 belong to the twenty departments, the rest to ~320 other bodies.
+`~/research/sgr-020/` is 106 MB. Listing taken 11 October 2026. Exclusion counts by reason and year come from the D-1 run.
