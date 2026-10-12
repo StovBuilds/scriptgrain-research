@@ -44,7 +44,9 @@ const explore = {
 const byGain = [...R].sort((a, b) => (b.after.human_score - b.before.human_score) - (a.after.human_score - a.before.human_score));
 const byVm = [...R].sort((a, b) => (b.after.voice_match - b.before.voice_match) - (a.after.voice_match - a.before.voice_match));
 const showcase = [...new Set([byGain[0].id, byGain[Math.floor(byGain.length / 2)].id, byGain.at(-1).id, byVm[0].id, byVm.at(-1).id])];
-const out = { n: R.length, seed: SEED, resamples: B, hypotheses: hyp, exploratory: explore, showcase };
+// Run-date stamps for write-entry.mjs's guards (no measure, threshold or seed is touched).
+const measuredOn = [...new Set(R.map((r) => String(r.measuredAt ?? "").slice(0, 10)))].sort();
+const out = { ranOn: new Date().toISOString().slice(0, 10), measuredOn, pilot: R.some((r) => r.id === "PILOT"), n: R.length, seed: SEED, resamples: B, hypotheses: hyp, exploratory: explore, showcase };
 writeFileSync(`${DIR}/out/analysis.json`, JSON.stringify(out, null, 2));
 console.log(JSON.stringify(out.hypotheses, null, 1));
 console.log("skip-by-default", explore.would_skip_by_default, "reached target", explore.reached_target, "discarded", explore.passes_discarded, "/", explore.passes_run, "showcase", showcase.join(","));
