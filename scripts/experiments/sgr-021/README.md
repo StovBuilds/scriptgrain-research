@@ -27,7 +27,7 @@ ln -s ~/repos/scriptgrain/node_modules node_modules   # do not commit it
 nohup bun scripts/experiments/sgr-021/run.mjs --data ~/research/sgr-021-classic > ~/research/sgr-021-classic/run.log 2>&1 &
 # 2. When run.log ends with "wrote public/research/sgr-021-*": build the entry
 bun scripts/experiments/sgr-021/write-entry.mjs --conducted-on 2026-10-20 --publish-on 2026-10-21
-# 3. Check, then commit by path (never git add -A), push, and ask Jack for the go before 18:00 London
+# 3. Check, then commit by path (never git add -A), push to the PR, and merge once CI is green (Jack's standing go, 2026-10-11)
 bunx vitest run src/test/research.test.ts
 git add public/research/sgr-021-*.{json,csv,svg} src/data/research-pages.json public/research-pages.json
 ```
@@ -49,6 +49,7 @@ bun scripts/experiments/sgr-021/write-entry.mjs --conducted-on 2026-10-11 --publ
   product's `scanCliches` pattern scan) plus a few minutes of bootstrap.
 - "testament to" is not in the frozen lists (SGR-007 lexicons); the per-tell table covers the lists
   as frozen. Do not add words after freezing; list any addition under "Deviations".
-- Read the whole entry before asking for the go: the findings text is generated from the results and
+- Read the whole entry before merging: the findings text is generated from the results and
   labels H1 to H4 supported or not supported by the pre-registered criteria. Check that the
   sentences still make sense if a hypothesis failed.
+- Go back to Jack only if a result cannot be reported as pre-registered, the run fails, or the date or topic would change.
