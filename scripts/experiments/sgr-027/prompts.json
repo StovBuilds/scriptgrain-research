@@ -1,0 +1,146 @@
+{
+  "_readme": "SGR-027 frozen prompts (2026-10-12). Bare prompts: no style, voice or tone instruction. generator is fixed by (topic+format) parity.",
+  "seed": 20261012,
+  "items": [
+    {
+      "id": "P01",
+      "format": "blog-intro",
+      "topic": 1,
+      "generator": "claude",
+      "prompt": "Write the opening of a blog post, about 200 words, about a small UK business that installs loft insulation."
+    },
+    {
+      "id": "P02",
+      "format": "linkedin-post",
+      "topic": 1,
+      "generator": "gpt",
+      "prompt": "Write a LinkedIn post, about 150 words, about a small UK business that installs loft insulation."
+    },
+    {
+      "id": "P03",
+      "format": "launch-email",
+      "topic": 1,
+      "generator": "claude",
+      "prompt": "Write a short marketing email, about 180 words, announcing a new loft insulation service from a small UK installer."
+    },
+    {
+      "id": "P04",
+      "format": "explainer",
+      "topic": 1,
+      "generator": "gpt",
+      "prompt": "Write a short explainer, about 200 words, on how loft insulation lowers heating bills."
+    },
+    {
+      "id": "P05",
+      "format": "about-page",
+      "topic": 1,
+      "generator": "claude",
+      "prompt": "Write the 'About us' section of a website, about 180 words, for a small UK loft insulation installer."
+    },
+    {
+      "id": "P06",
+      "format": "blog-intro",
+      "topic": 2,
+      "generator": "gpt",
+      "prompt": "Write the opening of a blog post, about 200 words, about a budgeting app for people paid weekly."
+    },
+    {
+      "id": "P07",
+      "format": "linkedin-post",
+      "topic": 2,
+      "generator": "claude",
+      "prompt": "Write a LinkedIn post, about 150 words, about a budgeting app for people paid weekly."
+    },
+    {
+      "id": "P08",
+      "format": "launch-email",
+      "topic": 2,
+      "generator": "gpt",
+      "prompt": "Write a short marketing email, about 180 words, announcing a budgeting app for people paid weekly."
+    },
+    {
+      "id": "P09",
+      "format": "explainer",
+      "topic": 2,
+      "generator": "claude",
+      "prompt": "Write a short explainer, about 200 words, on how weekly budgeting differs from monthly budgeting."
+    },
+    {
+      "id": "P10",
+      "format": "about-page",
+      "topic": 2,
+      "generator": "gpt",
+      "prompt": "Write the 'About us' section of a website, about 180 words, for a budgeting app for people paid weekly."
+    },
+    {
+      "id": "P11",
+      "format": "blog-intro",
+      "topic": 3,
+      "generator": "claude",
+      "prompt": "Write the opening of a blog post, about 200 words, about starting running in your forties."
+    },
+    {
+      "id": "P12",
+      "format": "linkedin-post",
+      "topic": 3,
+      "generator": "gpt",
+      "prompt": "Write a LinkedIn post, about 150 words, about starting running in your forties."
+    },
+    {
+      "id": "P13",
+      "format": "launch-email",
+      "topic": 3,
+      "generator": "claude",
+      "prompt": "Write a short marketing email, about 180 words, announcing a beginners' running club for people over forty."
+    },
+    {
+      "id": "P14",
+      "format": "explainer",
+      "topic": 3,
+      "generator": "gpt",
+      "prompt": "Write a short explainer, about 200 words, on how to start running safely after forty."
+    },
+    {
+      "id": "P15",
+      "format": "about-page",
+      "topic": 3,
+      "generator": "claude",
+      "prompt": "Write the 'About us' section of a website, about 180 words, for a beginners' running club for people over forty."
+    },
+    {
+      "id": "P16",
+      "format": "blog-intro",
+      "topic": 4,
+      "generator": "gpt",
+      "prompt": "Write the opening of a blog post, about 200 words, about an independent bakery opening a second shop."
+    },
+    {
+      "id": "P17",
+      "format": "linkedin-post",
+      "topic": 4,
+      "generator": "claude",
+      "prompt": "Write a LinkedIn post, about 150 words, about an independent bakery opening a second shop."
+    },
+    {
+      "id": "P18",
+      "format": "launch-email",
+      "topic": 4,
+      "generator": "gpt",
+      "prompt": "Write a short marketing email, about 180 words, announcing an independent bakery's new second shop."
+    },
+    {
+      "id": "P19",
+      "format": "explainer",
+      "topic": 4,
+      "generator": "claude",
+      "prompt": "Write a short explainer, about 200 words, on why sourdough takes longer to make than ordinary bread."
+    },
+    {
+      "id": "P20",
+      "format": "about-page",
+      "topic": 4,
+      "generator": "gpt",
+      "prompt": "Write the 'About us' section of a website, about 180 words, for an independent neighbourhood bakery."
+    }
+  ]
+}
