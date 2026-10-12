@@ -155,4 +155,11 @@ is CC0. Our dataset: CC BY 4.0. Abstract text is not republished.
   bounds were larger than expected; reported in full whatever it showed.
 - The revised-vs-unrevised comparison of 2020-22 papers (retro-polish.json), from the H1-H3 counts.
 - Lower bounds whose 95% interval is wider than 40 points are shown as "too uncertain" on the page.
-
+- 2026-10-12, CORRECTION after publication: clarification 4 was not applied in code.
+  census-analyse.py counted December 2022 in the 2022 counterfactual year (the excess-word
+  q), and census-bounds.py did the same for the lower bounds. Both now use January to
+  November 2022 only. Re-run on the same data: H1 to H4 and the BASE period are unchanged
+  (BASE already ended in November); the selection half is unchanged (December is an even
+  month); H5 and the 50-word style sets are unchanged. Only the scoring-half q values and
+  the lower bounds moved (2026: 2024-word bound 20% to 19%, union 64% to 62%, 2026-word
+  bound 68% unchanged). The published page carries a dated correction note.

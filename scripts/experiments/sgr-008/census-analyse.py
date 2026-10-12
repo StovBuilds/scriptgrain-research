@@ -55,6 +55,10 @@ for line in gzip.open(os.path.expanduser(a.papers), "rt"):
             for i, v in enumerate(vec): c[i] += v
     if primary_ok:
         k = (ym[:4], p["parity"]); N[k] += 1; df[k].update(toks)
+        # Deviation 4: the 2022 counterfactual year is Jan to Nov, matching BASE.
+        # Correction 2026-10-12: until then Dec 2022 was counted in it too.
+        if "2022-01" <= ym <= "2022-11":
+            k = ("2022cf", p["parity"]); N[k] += 1; df[k].update(toks)
     if p["lag_days"] is not None and ym[:4] in ("2024", "2025", "2026"): lag[ym[:4]].append(p["lag_days"])
 
 json.dump({r: {k: dict(v) for k, v in counts[r].items()} for r in counts}, open(f"{a.out}/set-counts.json", "w"))
@@ -111,7 +115,7 @@ json.dump(res, open(f"{a.out}/h1-h3.json", "w"), indent=1)
 # ---- excess vocabulary (selection = odd months, scoring = even months) ----
 def p(year, par, w): return df[(year, par)][w] / N[(year, par)] if N[(year, par)] else 0.0
 def stats(year, par, w):
-    p21, p22, pt = p("2021", par, w), p("2022", par, w), p(year, par, w)
+    p21, p22, pt = p("2021", par, w), p("2022cf", par, w), p(year, par, w)
     q = p22 + max(0.0, p22 - p21) * (int(year) - 2022)
     return {"p": round(pt, 6), "q": round(q, 6), "d": round(pt - q, 6), "r": round(pt / q, 2) if q > 0 else None}
 cands = {}
@@ -124,7 +128,7 @@ for year in ("2023", "2024", "2025", "2026"):
 json.dump({"n": {f"{k[0]}-{k[1]}": v for k, v in N.items()}, "candidates": cands}, open(f"{a.out}/excess-candidates.json", "w"))
 keep = set(cands) | set(WORDS)
 wf = {y: {"n": N[(y, "odd")] + N[(y, "even")], "df": {w: df[(y, "odd")][w] + df[(y, "even")][w] for w in keep if df[(y, "odd")][w] + df[(y, "even")][w]}}
-      for y in sorted({k[0] for k in N})}
+      for y in sorted({k[0] for k in N} - {"2022cf"})}
 json.dump(wf, open(f"{a.out}/word-freq.json", "w"))
 pr = res["primary"]
 print(json.dumps({"rows": rows, "n": pr["n"], "H1": pr["H1"], "H2": pr["H2"], "H3": pr["H3"], "cross": pr["H3_crossover_half"],
