@@ -73,11 +73,12 @@ const statements = {
   shape: H4.result === "supported" ? `AI-style sentence shapes rose (${f2(H4.from_mean)} to ${f2(H4.to_mean)} per 1,000 words).` : `AI-style sentence shapes did not rise beyond chance (${f2(H4.from_mean)} to ${f2(H4.to_mean)} per 1,000 words).`,
   len: H5.result === "supported" ? `Average sentence length stayed within 1.5 words (${f1(H5.from_mean)} to ${f1(H5.to_mean)}).` : `Average sentence length moved by more than the 1.5 words we allowed for (${f1(H5.from_mean)} to ${f1(H5.to_mean)}).`,
 };
+const sp = (x) => `${x > 0 ? "+" : x < 0 ? "−" : ""}${Math.abs(x)}%`;
 const vsOthers = [
-  SG11 ? `the same measure rose ${SG11.H1.relative_pct}% within ${SG11.H1.brands} UK brands' blogs and press releases (SGR-011)` : null,
-  SG20 ? `${SG20.H1.relative_pct > 0 ? "rose" : "changed by"} ${SG20.H1.relative_pct}% within ${SG20.H1.departments} UK government departments (SGR-020)` : null,
+  SG11 ? `${sp(SG11.H1.relative_pct)} within ${SG11.H1.brands} UK brands' blogs and press releases (SGR-011)` : null,
+  SG20 ? `${sp(SG20.H1.relative_pct)} within ${SG20.H1.departments} UK government departments (SGR-020)` : null,
 ].filter(Boolean);
-const vsText = vsOthers.length ? `For comparison, ${vsOthers.join(", and ")}; in new Wikipedia articles the change was ${relS(H1)}.` : "";
+const vsText = vsOthers.length ? `For comparison, the same measure changed by ${vsOthers.join(" and ")}; in new Wikipedia articles the change was ${relS(H1)}.` : "";
 const timeText = (h) => (h.lo == null ? "not enough data" : `${f2(h.from_mean)} to ${f2(h.to_mean)}`);
 
 const study = {
