@@ -1,0 +1,222 @@
+[
+  {
+    "id": "P01",
+    "format": "blog-intro",
+    "topic": 1,
+    "generator": "claude",
+    "prompt": "Write the opening of a blog post, about 200 words, about a small UK business that installs loft insulation.",
+    "model": "claude-sonnet-5-5",
+    "text": "When Dave Hargreaves bought his first second-hand van in 2014, he had a ladder, a staple gun and a hunch that people were wasting money heating the sky. A decade on, Hargreaves Loft Insulation is still just Dave, his nephew Callum and a part-time bookkeeper called Pat who also, somehow, runs the diary.\n\nIt isn't glamorous work. The days start at 7am in a cold cul-de-sac in Stockport or Macclesfield, and they usually end with someone's treasured Christmas decorations carefully moved, then carefully moved back. In between, there's a lot of crawling around in the dark, rolling out mineral wool between joists and checking for the things homeowners never see: a missing cable clip, a damp patch round the chimney breast, a hatch that doesn't seal.\n\nWhat Dave notices most is how surprised people are. Roughly a quarter of the heat in an average British home escapes through the roof, yet many of his customers have never looked up there. \"They'll spend two grand on a new boiler,\" he says, \"and leave the lid off the pan.\"\n\nThis is a post about what it's actually like to run a small insulation business in the UK today: the grants, the paperwork, the cowboys, and the satisfaction of a house that finally holds its warmth.",
+    "words": 213,
+    "generatedAt": "2026-10-12T11:39:41.124Z"
+  },
+  {
+    "id": "P02",
+    "format": "linkedin-post",
+    "topic": 1,
+    "generator": "gpt",
+    "prompt": "Write a LinkedIn post, about 150 words, about a small UK business that installs loft insulation.",
+    "model": "gpt-6-astra",
+    "text": "Some of the most valuable home improvements are the ones you barely see.\n\nFor a small UK business installing loft insulation, the work starts long before the first roll goes down. It means answering questions, checking the loft and explaining what’s suitable for that particular home.\n\nCustomers don’t need a complicated sales pitch. They want to understand what the job involves, what it costs and how it could help their home retain heat.\n\nThat’s where a local business can make a real difference: turning up when promised, treating someone’s home with care and leaving the space tidy.\n\nRunning a small trade business isn’t always glamorous. There are quotes to prepare, materials to organise and tight spaces to work in. But there’s satisfaction in doing a practical job well.\n\nHere’s to the small teams helping households make thoughtful improvements, one loft at a time.\n\n#SmallBusiness #LoftInsulation #UKBusiness",
+    "words": 146,
+    "generatedAt": "2026-10-12T11:39:53.399Z"
+  },
+  {
+    "id": "P03",
+    "format": "launch-email",
+    "topic": 1,
+    "generator": "claude",
+    "prompt": "Write a short marketing email, about 180 words, announcing a new loft insulation service from a small UK installer.",
+    "model": "claude-sonnet-5-5",
+    "text": "Subject: Warmer home, lower bills: our new loft insulation service\n\nHi [First name],\n\nHeating costs aren't going down, and about a quarter of the heat in an uninsulated home escapes through the roof. That's why we're now offering professional loft insulation.\n\nWe've spent years fitting [boilers/windows/etc.] for homes across [area], and customers kept asking if we could help with their lofts too. So we trained up, and now we can.\n\n**What you get:**\n- A free, no-obligation survey of your loft\n- A clear, fixed quote with no hidden extras\n- Neat installation by our own team, usually completed in a single day\n- Quality materials fitted to current building regulations\n\nMost homes can save a good chunk on annual heating bills, and you'll feel the difference in comfort straight away: warmer in winter, cooler in summer.\n\nYou may also be eligible for government-backed grants, and we're happy to check this for you at no cost.\n\n**Book before 30 November and receive 10% off your installation.**\n\nJust reply to this email or call us on [phone number] to arrange your free survey.\n\nWe look forward to helping you keep the heat where it belongs.\n\nKind regards,\n\n[Name]\n[Company name]\n[Website] | [Phone number]\n\nIf you'd rather not hear from us, [unsubscribe here].",
+    "words": 212,
+    "generatedAt": "2026-10-12T11:40:05.273Z"
+  },
+  {
+    "id": "P04",
+    "format": "explainer",
+    "topic": 1,
+    "generator": "gpt",
+    "prompt": "Write a short explainer, about 200 words, on how loft insulation lowers heating bills.",
+    "model": "gpt-6-astra",
+    "text": "Loft insulation lowers heating bills by slowing the movement of heat from your home into the colder air outside. Warm air rises, making the roof an important route for heat loss. Without enough insulation, heat passes through the upstairs ceilings and escapes through the loft and roof. Your heating system then has to replace it to keep rooms comfortable.\n\nInsulation materials, such as mineral wool, trap air in small pockets. This trapped air is a poor conductor of heat, so it creates a barrier that slows heat transfer. In a typical unheated loft, insulation is laid between and over the ceiling joists, helping retain warmth in the rooms below.\n\nBecause an insulated home loses heat more slowly, the heating needs to run less often or for shorter periods to maintain the same temperature. That reduces the amount of gas, electricity or other fuel you use, cutting your bills.\n\nThe savings depend on how much insulation you already have, the size of your home, your heating system and your usual thermostat setting. Installation matters too: gaps and compressed material reduce performance, while suitable ventilation helps prevent moisture problems. Loft insulation works quietly all year and can also help limit heat entering rooms during hot weather.",
+    "words": 204,
+    "generatedAt": "2026-10-12T11:40:24.427Z"
+  },
+  {
+    "id": "P05",
+    "format": "about-page",
+    "topic": 1,
+    "generator": "claude",
+    "prompt": "Write the 'About us' section of a website, about 180 words, for a small UK loft insulation installer.",
+    "model": "claude-sonnet-5-5",
+    "text": "About Us\n\nWe're a small, family-run loft insulation company, and we've been keeping British homes warmer since we started out. Every job is handled by our own fully trained installers. We never use sub-contractors, so the person who surveys your home is the person who turns up to do the work.\n\nHeating a home has never been more expensive, and a poorly insulated loft is one of the biggest sources of wasted heat. Around a quarter of a home's warmth can escape through the roof. We can help you stop that, lowering your bills and making your home more comfortable all year round, including cooler in summer.\n\nWe offer a free, no-obligation survey and a clear written quote with no hidden extras. We'll explain your options in plain English, recommend only what your home actually needs, and never pressure you into a decision.\n\nOn the day, we lay protective boards, keep disruption to a minimum and leave your home exactly as tidy as we found it. All our work is guaranteed, and we're happy to help you check whether you qualify for any government or energy-supplier grants.\n\nGet in touch today for a free quote. We'd love to help.",
+    "words": 199,
+    "generatedAt": "2026-10-12T11:40:34.862Z"
+  },
+  {
+    "id": "P06",
+    "format": "blog-intro",
+    "topic": 2,
+    "generator": "gpt",
+    "prompt": "Write the opening of a blog post, about 200 words, about a budgeting app for people paid weekly.",
+    "model": "gpt-6-astra",
+    "text": "Most budgeting apps seem to assume your money arrives once a month, neatly lined up with your bills. If you’re paid weekly, you know it rarely works that way.\n\nFriday’s wages land. Rent is due Tuesday. Your phone bill comes out next week, and somewhere in between you need groceries, petrol, and enough room for a takeaway without wondering whether you’ve accidentally spent the electricity money.\n\nA healthy-looking bank balance doesn’t always tell you what you can afford. Some of that money already has a job. The hard part is knowing how much to keep back from this week’s pay—and how much is yours to use.\n\nThat’s where a budgeting app built around weekly pay can help.\n\nInstead of asking you to stretch a monthly plan across four or five paydays, it starts with your next pay packet. It helps you put a little aside for upcoming bills, cover everyday spending, and see what’s left until you’re paid again.\n\nThe aim is to make the decisions you already face a little easier: whether you can say yes to dinner out, how much to save this Friday, and what needs to stay untouched until rent day. Your budget should work on the same schedule as your wages.",
+    "words": 206,
+    "generatedAt": "2026-10-12T11:40:53.764Z"
+  },
+  {
+    "id": "P07",
+    "format": "linkedin-post",
+    "topic": 2,
+    "generator": "claude",
+    "prompt": "Write a LinkedIn post, about 150 words, about a budgeting app for people paid weekly.",
+    "model": "claude-sonnet-5-5",
+    "text": "Paid weekly? Most budgeting apps weren't built for you.\n\nThey assume a monthly paycheck: one big deposit, one tidy cycle. But if you're paid every Friday, your money doesn't work that way. Rent lands in week one, a phone bill in week three, and some months you get a bonus fifth paycheck that nobody planned for.\n\nThat's why we built PayWeek.\n\nInstead of forcing your life into a monthly box, PayWeek budgets around your actual pay cycle:\n\n✅ Splits big bills across your weekly paychecks automatically\n✅ Shows exactly what's safe to spend until next payday\n✅ Treats those \"extra\" paycheck months as a chance to save, not spend\n✅ Sends a heads-up before a tight week hits\n\nNo spreadsheets. No guessing. Just a clear answer to the question that matters: \"Can I afford this today?\"\n\nWeekly pay can be a real advantage. It gives you more chances to course-correct, and more control. You just need a tool that's built for the rhythm.\n\nIf you're paid weekly, or know someone who is, I'd love to hear what's been hardest about budgeting.\n\n#PersonalFinance #Budgeting #Fintech #FinancialWellness #WeeklyPay",
+    "words": 186,
+    "generatedAt": "2026-10-12T11:41:04.456Z"
+  },
+  {
+    "id": "P08",
+    "format": "launch-email",
+    "topic": 2,
+    "generator": "gpt",
+    "prompt": "Write a short marketing email, about 180 words, announcing a budgeting app for people paid weekly.",
+    "model": "gpt-6-astra",
+    "text": "Subject: Paid weekly? Meet a budget that keeps up.\n\nHi there,\n\nMost budgeting apps think in months. Your paycheck arrives every week.\n\nMeet Weekwise, a budgeting app built around the way you get paid. It helps you plan each paycheck, set money aside for upcoming bills, and see what’s available to spend before your next payday.\n\nNo more treating a Friday deposit like extra cash, then scrambling when rent comes due. With Weekwise, you can give this week’s money a plan while keeping next month’s expenses in view.\n\nUse Weekwise to:\n\n• Build a weekly budget around your payday.\n• Put a little aside each week for bigger bills.\n• Make room for groceries, savings, and everyday fun.\n• Adjust your plan when your hours or income change.\n\nWhether your paychecks are steady or different every week, you deserve a budget that fits your life. Start with your next paycheck and take it one week at a time.\n\nReady to feel more prepared on payday?\n\nTry Weekwise today and make a plan for the week ahead.\n\nThe Weekwise Team",
+    "words": 179,
+    "generatedAt": "2026-10-12T11:41:21.182Z"
+  },
+  {
+    "id": "P09",
+    "format": "explainer",
+    "topic": 2,
+    "generator": "claude",
+    "prompt": "Write a short explainer, about 200 words, on how weekly budgeting differs from monthly budgeting.",
+    "model": "claude-sonnet-5-5",
+    "text": "Weekly budgeting and monthly budgeting both aim to match spending to income, but they differ in rhythm and precision.\n\n**Monthly budgeting** lines up with how most bills work. Rent, utilities, subscriptions, and loan payments arrive monthly, and many people are paid monthly too. You plan once, set category limits, and review at month's end. It's simple and low-maintenance, but a single month is a long window. It's easy to overspend early and only notice when money runs short in week three.\n\n**Weekly budgeting** splits your spending into smaller, more manageable chunks. You assign a set amount each week for flexible categories like groceries, fuel, and entertainment. Because the feedback loop is shorter, you can correct course quickly. If you overspend on Tuesday, you adjust by Friday rather than discovering the problem weeks later. This suits people with irregular income, tight margins, or a habit of overspending on small purchases.\n\nThe main challenge is that months don't divide evenly into four weeks. Most months have extra days, and a few contain five paydays, which can confuse the math. Fixed bills also don't fall neatly into weekly slots, so many people set aside a portion of each week's income to cover them.\n\nA practical approach is to combine the two. Plan fixed costs monthly, then break flexible spending into weekly allowances. You get the structure of a monthly plan and the control of a weekly check-in.",
+    "words": 234,
+    "generatedAt": "2026-10-12T11:41:32.945Z"
+  },
+  {
+    "id": "P10",
+    "format": "about-page",
+    "topic": 2,
+    "generator": "gpt",
+    "prompt": "Write the 'About us' section of a website, about 180 words, for a budgeting app for people paid weekly.",
+    "model": "gpt-6-astra",
+    "text": "Your bills arrive monthly. Your paycheck arrives weekly. Making the two work together shouldn’t take a spreadsheet and your entire Sunday.\n\nWe’re building a budgeting app around the way you get paid. It’s for people who want to know what this week’s money needs to cover, what to set aside for later, and what’s available to spend today.\n\nOur approach is simple: give every payday a clear plan. Break bigger bills into weekly amounts. Make room for groceries, transport, and the occasional takeaway. Build savings at a pace that fits your life, even when some weeks leave less room than others.\n\nWe believe a useful budget starts with your real circumstances. That means no guilt over a tight week, no assumption that you have a month’s expenses sitting in reserve, and no expectation that you’ll get everything right straight away.\n\nWe’re here to make the days between paychecks feel more manageable. Whether you’re finding your footing or working towards something bigger, our aim is to help you see where you stand and take your next step with confidence, one week at a time.",
+    "words": 183,
+    "generatedAt": "2026-10-12T11:41:49.578Z"
+  },
+  {
+    "id": "P11",
+    "format": "blog-intro",
+    "topic": 3,
+    "generator": "claude",
+    "prompt": "Write the opening of a blog post, about 200 words, about starting running in your forties.",
+    "model": "claude-sonnet-5-5",
+    "text": "The alarm went off at 5:40 a.m., and for a full minute I lay there negotiating with myself. I was forty-three. My knees had opinions about stairs. The last time I'd run anywhere on purpose was a school cross-country race, and I'd finished it walking, furious, and vowing never again.\n\nSo why was I lacing up a pair of cheap trainers in the dark?\n\nHonestly, it wasn't a grand epiphany. There was no health scare, no milestone birthday crisis, no inspirational documentary. It was a small, quiet realisation that I'd been saying \"I used to be able to\" a lot lately. I used to be able to carry the shopping in one trip. I used to be able to keep up with my kids at the park. It had crept into my vocabulary like a slow leak.\n\nMy first run lasted ninety seconds. I know because I checked my watch, certain I'd done at least ten minutes. My lungs burned, my face went the colour of a boiled beetroot, and a man walking a spaniel passed me without apparent effort.\n\nAnd yet, when I got home, I felt something I hadn't felt in years: the strange, bright satisfaction of having started.",
+    "words": 201,
+    "generatedAt": "2026-10-12T11:42:00.488Z"
+  },
+  {
+    "id": "P12",
+    "format": "linkedin-post",
+    "topic": 3,
+    "generator": "gpt",
+    "prompt": "Write a LinkedIn post, about 150 words, about starting running in your forties.",
+    "model": "gpt-6-astra",
+    "text": "Starting running in your forties means making peace with being a beginner when you’re used to knowing what you’re doing.\n\nYou can manage a team, navigate a difficult conversation, and keep a household moving. Then a gentle incline leaves you wondering whether you’ve ever breathed properly before.\n\nThe first few runs can feel awkward. You walk more than you expected. You get overtaken. You discover strong opinions about socks.\n\nBut there’s something satisfying about having a goal as simple as getting to the next lamppost.\n\nGradually, you notice changes. The hill gets easier. You recover faster. You start looking forward to the half hour when nobody needs anything from you.\n\nThere’s no need to turn it into a marathon ambition or another performance metric. Running twice a week, slowly, counts.\n\nI like the idea that your forties can still contain first attempts.\n\nEven the ones that require a walking break.",
+    "words": 150,
+    "generatedAt": "2026-10-12T11:42:17.263Z"
+  },
+  {
+    "id": "P13",
+    "format": "launch-email",
+    "topic": 3,
+    "generator": "claude",
+    "prompt": "Write a short marketing email, about 180 words, announcing a beginners' running club for people over forty.",
+    "model": "claude-sonnet-5-5",
+    "text": "**Subject: Lace up. It's never too late to start running.**\n\nHi there,\n\nThinking about running but not sure where to begin? You're in good company.\n\nWe're launching a beginners' running club made just for people over forty. No pressure, no racing, and no one left behind.\n\n**What to expect:**\n- A friendly, supportive group at your pace\n- A gentle 8-week plan that builds from walking to your first 5K\n- Experienced coaches who understand aging joints, busy schedules, and starting fresh\n- Tea and a chat afterwards\n\nYou don't need fancy kit or a fitness background. Whether you haven't run since school or have never run at all, you're welcome.\n\nMany of our members tell us they feel stronger, sleep better, and have made friends they now see every week. That's the real finish line.\n\n**Details:**\n- **Start date:** Saturday, 7 November\n- **Time:** 9:00 a.m.\n- **Meeting point:** Riverside Park main gate\n- **Cost:** £30 for the full 8 weeks\n\nPlaces are limited to 30 runners so everyone gets proper attention.\n\nReady to take the first step? Reserve your spot today.\n\n**[Join the Club]**\n\nSee you at the start line,\n\nThe Over-Forty Running Club Team",
+    "words": 197,
+    "generatedAt": "2026-10-12T11:42:28.278Z"
+  },
+  {
+    "id": "P14",
+    "format": "explainer",
+    "topic": 3,
+    "generator": "gpt",
+    "prompt": "Write a short explainer, about 200 words, on how to start running safely after forty.",
+    "model": "gpt-6-astra",
+    "text": "Starting running after forty is a realistic goal. Give yourself time to adapt, especially if you have been inactive. If you have a medical condition, concerns about your health, or have not exercised for some time, speak with a clinician before starting, as the [NHS advises](https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/).\n\nBegin with walking, then introduce short jogging intervals. A practical first session is a five-minute warm-up walk followed by alternating one minute of gentle jogging with ninety seconds of walking. Keep the effort comfortable and finish with another walk. Aim for three sessions a week, with a rest day between them. The [NHS Couch to 5K plan](https://www.nhs.uk/better-health/get-active/get-running-with-couch-to-5k/couch-to-5k-running-plan/) provides a gradual structure; repeat weeks whenever you need more time.\n\nBuild your running time gradually before chasing speed. Add strength exercises twice weekly, starting gently with movements such as chair squats, calf raises and wall push-ups. This supports the broader [activity guidelines for adults](https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/).\n\nPay attention to recovery. Stop if running causes pain, particularly pain that worsens or changes your stride. Seek advice if it persists, following [NHS injury guidance](https://www.nhs.uk/live-well/exercise/knee-pain-and-other-running-injuries/). Choose manageable sessions you can repeat consistently, and let progress take the time it needs.",
+    "words": 189,
+    "generatedAt": "2026-10-12T11:42:52.761Z"
+  },
+  {
+    "id": "P15",
+    "format": "about-page",
+    "topic": 3,
+    "generator": "claude",
+    "prompt": "Write the 'About us' section of a website, about 180 words, for a beginners' running club for people over forty.",
+    "model": "claude-sonnet-5-5",
+    "text": "Who We Are\n\nWe're a friendly running club for beginners over forty. Maybe you've never run before. Maybe you last laced up trainers at school, or you're coming back after a long break. Either way, you're in the right place.\n\nWe started because we believed running should be for everyone, not just the young and the fast. Our members come from all walks of life, and most of us began with a few minutes of jogging and a lot of nerves. Now we're hooked.\n\nOur sessions are relaxed and welcoming. We mix walking and running, build up slowly, and never leave anyone behind. Our qualified coaches keep things safe and encouraging, with advice on pacing, footwear, and looking after your joints as you go. There's no pressure and no judgement, and nobody's counting minutes except to cheer you on.\n\nMany of us joined for fitness, but we stay for the company. There's tea and a chat after every run, and friendships that reach well beyond the park.\n\nCome along to a free taster session. Wear comfortable shoes, bring a bottle of water, and we'll take care of the rest. Your first step is the hardest, and we'll be right beside you.",
+    "words": 201,
+    "generatedAt": "2026-10-12T11:43:03.003Z"
+  },
+  {
+    "id": "P16",
+    "format": "blog-intro",
+    "topic": 4,
+    "generator": "gpt",
+    "prompt": "Write the opening of a blog post, about 200 words, about an independent bakery opening a second shop.",
+    "model": "gpt-6-astra",
+    "text": "At 5:30 each morning, the bakery’s windows are already fogged with warmth. Inside, trays of croissants wait their turn at the oven, flour gathers in the seams of the workbench, and someone puts the kettle on before the first customer reaches the door. It’s a familiar routine, built over years of early starts and small adjustments. Soon, it will happen at two addresses.\n\nThis autumn, the independent bakery is opening its second shop—a milestone that once felt distant when the team was still figuring out how many loaves to bake on a rainy Tuesday.\n\nThe first shop grew one regular at a time: commuters stopping for coffee, neighbours collecting their weekend bread, children choosing a biscuit with the seriousness the decision deserves. Those everyday visits made a second location possible. They also set the standard for what it needs to be.\n\nThere will be more oven space, a few new faces behind the counter, and another neighbourhood to get to know. Some details will take time to settle. Which pastries will sell out first? When will the morning rush arrive? For the team, that’s part of the pleasure: opening the doors, learning names, and finding a place in another street’s daily life.",
+    "words": 202,
+    "generatedAt": "2026-10-12T11:43:22.389Z"
+  },
+  {
+    "id": "P17",
+    "format": "linkedin-post",
+    "topic": 4,
+    "generator": "claude",
+    "prompt": "Write a LinkedIn post, about 150 words, about an independent bakery opening a second shop.",
+    "model": "claude-sonnet-5-5",
+    "text": "Big news from the neighborhood: we're opening our second shop! 🥐\n\nThree years ago, we started with one oven, a handful of recipes, and a belief that good bread takes time. Today, that little corner bakery is about to become two.\n\nNone of this happened through big marketing budgets or outside investors. It happened because our regulars told their neighbors, our team showed up at 4 a.m. every day, and our community kept coming back for one more loaf.\n\nThe new location opens next month, and we're keeping what made the first one work: small batches, local ingredients, and a team that knows your name (and your usual order).\n\nA few lessons from growing an independent business:\n\n• Stay obsessed with quality before scaling\n• Hire people who care more than they need to\n• Listen to customers, because they'll tell you what's next\n\nTo everyone who bought a croissant, left a review, or simply said hello: thank you. You built this with us.\n\nSee you at the new counter. ☕\n\n#SmallBusiness #Bakery #LocalFirst #Entrepreneurship #ShopLocal",
+    "words": 176,
+    "generatedAt": "2026-10-12T11:43:32.735Z"
+  },
+  {
+    "id": "P18",
+    "format": "launch-email",
+    "topic": 4,
+    "generator": "gpt",
+    "prompt": "Write a short marketing email, about 180 words, announcing an independent bakery's new second shop.",
+    "model": "gpt-6-astra",
+    "text": "Subject: A second shop, a fresh batch of possibilities 🥐\n\nSome news we’ve been itching to share: we’re opening our second bakery!\n\nWhen we opened our first shop, we hoped to become a little part of your day. A warm loaf for the dinner table. A coffee on the way to work. Something sweet just because. Thanks to your visits, kind words, and enthusiastic pastry recommendations, we’re ready to bring that same welcome to a new neighborhood.\n\nOur second shop will have the favorites you know and love, baked fresh with the same care, alongside a few new treats we can’t wait for you to try. Expect buttery layers, golden crusts, and a friendly face behind the counter.\n\nWe’re still the same independent bakery, with flour on our aprons and plenty of ideas in the kitchen. Now there’s another place to pull up a chair or pick up something delicious.\n\nWe’ll share the address, opening date, and first-day festivities soon. Until then, thank you for helping us get here.\n\nWe can’t wait to open the doors and welcome you in.\n\nWith love,\nYour neighborhood bakery",
+    "words": 185,
+    "generatedAt": "2026-10-12T11:43:50.072Z"
+  },
+  {
+    "id": "P19",
+    "format": "explainer",
+    "topic": 4,
+    "generator": "claude",
+    "prompt": "Write a short explainer, about 200 words, on why sourdough takes longer to make than ordinary bread.",
+    "model": "claude-sonnet-5-5",
+    "text": "Sourdough takes longer because it rises using wild yeast and bacteria rather than the fast-acting commercial yeast in ordinary bread.\n\nCommercial yeast is a single, concentrated strain bred for speed. It produces gas quickly, so a standard loaf can be mixed, risen and baked in a few hours.\n\nA sourdough starter is different. It's a living culture of wild yeast and lactic acid bacteria, kept alive on flour and water. The yeast population is much smaller and more varied, so it produces carbon dioxide far more slowly. The dough needs many hours to rise, and the first rise often runs eight to twelve hours or longer.\n\nThe bacteria also set the pace. They produce the acids that give sourdough its tang, and they do it slowly. Bakers often chill the dough overnight to develop flavour, which extends the process further. The acidity also slows the yeast, because the dough becomes a more demanding environment for it.\n\nThose same long hours change the bread. Enzymes break down starches and proteins, which deepens the flavour and improves the crust. The acids help the loaf keep longer and may make some of the flour's compounds easier to digest.\n\nA starter also has to be fed and kept active for days or weeks before it can raise a loaf at all.\n\nSo the extra time is the cost of the method, and it's also where sourdough gets its character.",
+    "words": 235,
+    "generatedAt": "2026-10-12T11:44:01.057Z"
+  },
+  {
+    "id": "P20",
+    "format": "about-page",
+    "topic": 4,
+    "generator": "gpt",
+    "prompt": "Write the 'About us' section of a website, about 180 words, for an independent neighbourhood bakery.",
+    "model": "gpt-6-astra",
+    "text": "We’re an independent neighbourhood bakery built around a simple pleasure: something freshly baked, shared with people you’re glad to see.\n\nOur days start early, with flour on the benches and dough ready for the ovens. We make bread with a good crust and a soft centre, pastries that leave a few flakes on your jumper, and cakes that turn an ordinary afternoon into a small occasion. We care about how things taste, and we put time and attention into getting them right.\n\nBut a bakery is more than what’s behind the counter. It’s a stop on the walk to work, a weekend ritual, a place to pick up something for a friend—or just for yourself. We love getting to know familiar faces and welcoming new ones.\n\nBeing independent means we can follow our curiosity, listen to our neighbours, and keep making the things you come back for. Some favourites stay; others change with the seasons.\n\nWhether you’re here for your usual loaf or deciding what looks good today, we’re happy you found us. Come in, take your time, and leave with something you’ll enjoy.",
+    "words": 184,
+    "generatedAt": "2026-10-12T11:44:17.483Z"
+  }
+]
