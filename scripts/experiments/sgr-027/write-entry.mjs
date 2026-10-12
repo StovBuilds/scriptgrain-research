@@ -149,7 +149,7 @@ const study = {
     "That the rewrite passes any detector other than ScriptGrain's own. Other detectors may disagree.",
     "That voice measurement, ScriptGrain's or anyone's, or a detector score, can tell whether a text was written by AI. This study scores generated passages and their rewrites; it says nothing about human writing.",
     "That the same passages would give the same numbers on another run. Model outputs are not deterministic; this is one run per passage.",
-    "Anything about long documents. The passages are 150 to 200 words by design.",
+    "Anything about long documents. The passages were asked for at 150 to 200 words; the range actually generated is given under the method.",
   ],
   productNote: "ScriptGrain's humaniser rewrites text toward a target detector score and keeps an integrity guard on numbers and first-person claims; its voice match scores text against a writer's measured profile. This study tests what the humaniser did, not whether you should use it.",
   sample: {
