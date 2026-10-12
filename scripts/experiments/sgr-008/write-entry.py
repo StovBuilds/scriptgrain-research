@@ -305,9 +305,18 @@ entry = {
   {"name": "ScriptGrain SGR-007, Where did the AI-isms come from? (uses this study's census and word lists)", "url": "https://scriptgrain.com/research/where-did-ai-isms-come-from"},
  ],
 }
+# Corrections are historical statements, so their numbers are typed in: they
+# record what the page said before and after, not what the results say now.
+entry["updatedOn"] = "2026-10-12"
+entry["corrections"] = [
+ {"date": "2026-10-12", "text": "The 2022 baseline year for the excess-word trend wrongly included papers submitted in December 2022. The pre-registration (clarification 4) says to leave them out, because ChatGPT was released on 30 November 2022. We fixed the code and re-ran the analysis on the same data. The frozen word-set tests (the 2024 tells and the 2026 words, 2020 to 2022 against 2024 and 2026) did not change. Nor did the choice of excess words, which used odd months only. The predicted shares on the even-month scoring half and the lower bounds moved slightly. For 2026, the bound with the 2024 words went from 20% to 19% (interval now 9 to 26%) and the bound with both word lists combined from 64% to 62%. The bound with the 2026 words stayed at 68%. In the subject-group table, the 2024 bound for electrical engineering, previously 46%, is now too uncertain to state. No finding or conclusion changed. The fix is in census-analyse.py and census-bounds.py, and the pre-registration records it."},
+]
 RP = f"{ROOT}/src/data/research-pages.json"
 d = json.load(open(RP))
 entry["analyst"] = next(x["analyst"] for x in d["studies"] if x["id"] == "SGR-004")
-d["studies"] = [s for s in d["studies"] if s["id"] != "SGR-008"] + [entry]
+# Replace in place so a re-run does not reorder the file.
+i = next((k for k, x in enumerate(d["studies"]) if x["id"] == "SGR-008"), None)
+if i is None: d["studies"].append(entry)
+else: d["studies"][i] = entry
 json.dump(d, open(RP, "w"), indent=2, ensure_ascii=False); open(RP, "a").write("\n")
 print("entry written;", len(entry["findings"]), "findings,", len(entry["sections"]), "sections")

@@ -45,6 +45,8 @@ if a.papers:
         if p["pilot"] or p["parity"] != "even" or (p["ym"] <= "2022-11" and not p["base_ok"]): continue
         y = p["ym"][:4]
         if y < "2021": continue
+        # Deviation 4: the 2022 counterfactual year is Jan to Nov (correction 2026-10-12)
+        if p["ym"] == "2022-12": continue
         t = set(p["toks"].split())
         v = (1, int(bool(t & SETS["set2024"])), int(bool(t & SETS["set2026"])), int(bool(t & SETS["union"])))
         for key in (y, f"G:{p['group']}:{y}"):

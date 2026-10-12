@@ -118,91 +118,91 @@
  "bounds": {
   "set2024": {
    "2023": {
-    "lower_bound_pct": 12.74,
+    "lower_bound_pct": 12.1,
     "ci95": [
-     7.62,
-     17.28
+     6.2,
+     17.48
     ]
    },
    "2024": {
-    "lower_bound_pct": 29.19,
+    "lower_bound_pct": 28.37,
     "ci95": [
-     20.33,
-     36.88
+     18.37,
+     37.12
     ]
    },
    "2025": {
-    "lower_bound_pct": 39.89,
+    "lower_bound_pct": 38.91,
     "ci95": [
-     31.21,
-     47.39
+     28.57,
+     47.46
     ]
    },
    "2026": {
-    "lower_bound_pct": 20.36,
+    "lower_bound_pct": 18.65,
     "ci95": [
-     13.14,
-     26.43
+     9.36,
+     26.38
     ]
    }
   },
   "set2026": {
    "2023": {
-    "lower_bound_pct": 12.25,
+    "lower_bound_pct": 11.79,
     "ci95": [
-     9.31,
-     14.36
+     8.34,
+     14.48
     ]
    },
    "2024": {
-    "lower_bound_pct": 23.07,
+    "lower_bound_pct": 22.46,
     "ci95": [
-     17.82,
-     26.54
+     16.9,
+     26.64
     ]
    },
    "2025": {
-    "lower_bound_pct": 47.96,
+    "lower_bound_pct": 47.41,
     "ci95": [
-     41.14,
-     52.54
+     40.09,
+     52.82
     ]
    },
    "2026": {
-    "lower_bound_pct": 68.39,
+    "lower_bound_pct": 67.97,
     "ci95": [
-     61.71,
-     72.86
+     60.78,
+     72.91
     ]
    }
   },
   "union": {
    "2023": {
-    "lower_bound_pct": 16.83,
+    "lower_bound_pct": 15.31,
     "ci95": [
-     11.23,
-     21.62
+     9.02,
+     20.94
     ]
    },
    "2024": {
-    "lower_bound_pct": 32.77,
+    "lower_bound_pct": 30.84,
     "ci95": [
-     24.58,
-     40.16
+     21.48,
+     39.28
     ]
    },
    "2025": {
-    "lower_bound_pct": 51.02,
+    "lower_bound_pct": 49.06,
     "ci95": [
-     42.89,
-     57.92
+     39.34,
+     57.12
     ]
    },
    "2026": {
-    "lower_bound_pct": 63.8,
+    "lower_bound_pct": 61.9,
     "ci95": [
-     56.11,
-     69.54
+     52.87,
+     68.83
     ]
    }
   }
@@ -210,129 +210,129 @@
  "bounds_by_group_union": {
   "cs": {
    "2024": {
-    "lower_bound_pct": 53.54,
+    "lower_bound_pct": 56.99,
     "ci95": [
-     38.51,
-     61.55
+     42.94,
+     64.02
     ]
    },
    "2026": {
-    "lower_bound_pct": 80.26,
+    "lower_bound_pct": 83.01,
     "ci95": [
-     67.43,
-     85.98
+     72.77,
+     87.3
     ]
    }
   },
   "econ": {
    "2024": {
-    "lower_bound_pct": null,
+    "lower_bound_pct": -1345.02,
     "ci95": [
-     -481.37,
-     9.63
+     -1345.02,
+     -2.44
     ]
    },
    "2026": {
     "lower_bound_pct": null,
     "ci95": [
-     -631.16,
-     20.57
+     -1134.8,
+     -5.47
     ]
    }
   },
   "eess": {
    "2024": {
-    "lower_bound_pct": 45.55,
+    "lower_bound_pct": 45.97,
     "ci95": [
-     29.63,
-     57.44
+     -3.98,
+     59.39
     ]
    },
    "2026": {
-    "lower_bound_pct": 70.91,
+    "lower_bound_pct": 71.34,
     "ci95": [
-     39.44,
-     83.98
+     6.8,
+     84.64
     ]
    }
   },
   "math": {
    "2024": {
-    "lower_bound_pct": 14.44,
+    "lower_bound_pct": 15.65,
     "ci95": [
-     6.56,
-     19.57
+     9.16,
+     20.9
     ]
    },
    "2026": {
-    "lower_bound_pct": 48.91,
+    "lower_bound_pct": 49.64,
     "ci95": [
-     38.83,
-     53.64
+     41.86,
+     54.52
     ]
    }
   },
   "physics": {
    "2024": {
-    "lower_bound_pct": 28.64,
+    "lower_bound_pct": 25.95,
     "ci95": [
-     20.49,
-     32.58
+     15.49,
+     31.62
     ]
    },
    "2026": {
-    "lower_bound_pct": 63.17,
+    "lower_bound_pct": 60.75,
     "ci95": [
-     55.32,
-     66.17
+     49.66,
+     65.57
     ]
    }
   },
   "q-bio": {
    "2024": {
-    "lower_bound_pct": 10.71,
+    "lower_bound_pct": -1.91,
     "ci95": [
-     -124.27,
-     42.23
+     -305.18,
+     45.76
     ]
    },
    "2026": {
-    "lower_bound_pct": 28.28,
+    "lower_bound_pct": -35.02,
     "ci95": [
-     -795.95,
-     82.33
+     -866.29,
+     83.48
     ]
    }
   },
   "q-fin": {
    "2024": {
-    "lower_bound_pct": 24.47,
+    "lower_bound_pct": 6.55,
     "ci95": [
-     -608.2,
-     66.67
+     -773.16,
+     62.09
     ]
    },
    "2026": {
-    "lower_bound_pct": 27.18,
+    "lower_bound_pct": -225.5,
     "ci95": [
-     -867.44,
-     89.35
+     -405.75,
+     89.17
     ]
    }
   },
   "stat": {
    "2024": {
-    "lower_bound_pct": 45.79,
+    "lower_bound_pct": 46.03,
     "ci95": [
-     15.51,
-     47.94
+     19.66,
+     47.93
     ]
    },
    "2026": {
-    "lower_bound_pct": 77.13,
+    "lower_bound_pct": 77.23,
     "ci95": [
-     19.73,
-     81.03
+     25.7,
+     81.38
     ]
    }
   }
