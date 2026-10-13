@@ -194,4 +194,8 @@ threshold or window was changed after seeing pilot numbers.
 `scripts/experiments/sgr-019/README.md` has the exact commands and the run time.
 
 ## Deviations
-(None yet. Anything changed after the freeze is listed here with the date and reason.)
+- 2026-10-13: weekday labels only. The header and the README call 13 October 2026 a Monday and
+  14 October a Tuesday; they are a Tuesday and a Wednesday (the research calendar's labels were
+  corrected on 2026-10-12). The dates themselves are unchanged: the full run was made on
+  13 October 2026 and the page goes live on 14 October 2026. No hypothesis, rule, window,
+  threshold or output was changed.
