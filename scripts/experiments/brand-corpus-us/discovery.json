@@ -1,0 +1,4049 @@
+{
+ "sweetgreen.com": {
+  "sector": "food",
+  "study": "SGR-029",
+  "hosts": {
+   "www.sweetgreen.com": 218
+  },
+  "extraHosts": [],
+  "mapLinks": 218,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 5,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/sweetgreen.com.jsonl.gz",
+  "v11": {
+   "before": 0,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.sweetgreen.com": 216,
+    "investor.sweetgreen.com": 31
+   },
+   "extraHosts": [],
+   "mapLinks": 241,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 0,
+    "info_pack": 0
+   },
+   "credits": 12,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 0,
+    "blog": 0
+   }
+  }
+ },
+ "chase.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.chase.com": 4570
+  },
+  "extraHosts": [],
+  "mapLinks": 4570,
+  "candidates": {
+   "announcement": 1,
+   "press": 16,
+   "blog": 258,
+   "info_pack": 0
+  },
+  "credits": 106,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 1,
+   "press": 16,
+   "blog": 73
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/chase.com.jsonl.gz",
+  "v11": {
+   "before": 90,
+   "droppedByRules": 0
+  }
+ },
+ "kroger.com": {
+  "sector": "grocery",
+  "study": "SGR-029",
+  "hosts": {
+   "www.kroger.com": 4824
+  },
+  "extraHosts": [],
+  "mapLinks": 4824,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 8,
+   "info_pack": 0
+  },
+  "credits": 13,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 6
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/kroger.com.jsonl.gz",
+  "v11": {
+   "before": 6,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.kroger.com": 4827,
+    "ir.kroger.com": 183
+   },
+   "extraHosts": [],
+   "mapLinks": 4906,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 8,
+    "info_pack": 0
+   },
+   "credits": 14,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 0,
+    "blog": 6
+   }
+  }
+ },
+ "gap.com": {
+  "sector": "fashion",
+  "study": "SGR-029",
+  "hosts": {
+   "www.gap.com": 1351
+  },
+  "extraHosts": [],
+  "mapLinks": 1351,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 5,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/gap.com.jsonl.gz",
+  "v11": {
+   "before": 0,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.gap.com": 2816
+   },
+   "extraHosts": [],
+   "mapLinks": 2818,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 0,
+    "info_pack": 0
+   },
+   "credits": 11,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 0,
+    "blog": 0
+   }
+  }
+ },
+ "delta.com": {
+  "sector": "travel",
+  "study": "SGR-029",
+  "hosts": {
+   "www.delta.com": 2382
+  },
+  "extraHosts": [],
+  "mapLinks": 2383,
+  "candidates": {
+   "announcement": 0,
+   "press": 4,
+   "blog": 3,
+   "info_pack": 6
+  },
+  "credits": 84,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 0,
+   "press": 25,
+   "blog": 3
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/delta.com.jsonl.gz",
+  "v11": {
+   "before": 10,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.delta.com": 2385,
+    "news.delta.com": 1870,
+    "ir.delta.com": 107
+   },
+   "extraHosts": [],
+   "mapLinks": 4255,
+   "candidates": {
+    "announcement": 0,
+    "press": 28,
+    "blog": 3,
+    "info_pack": 6
+   },
+   "credits": 38,
+   "storedAfter": {
+    "info_pack": 4,
+    "announcement": 0,
+    "press": 25,
+    "blog": 3
+   }
+  }
+ },
+ "duke-energy.com": {
+  "sector": "energy",
+  "study": "SGR-029",
+  "hosts": {
+   "www.duke-energy.com": 406
+  },
+  "extraHosts": [],
+  "mapLinks": 406,
+  "candidates": {
+   "announcement": 0,
+   "press": 41,
+   "blog": 4,
+   "info_pack": 1
+  },
+  "credits": 76,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 0,
+   "press": 41,
+   "blog": 4
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/duke-energy.com.jsonl.gz",
+  "v11": {
+   "before": 46,
+   "droppedByRules": 0
+  }
+ },
+ "salesforce.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.salesforce.com": 3930
+  },
+  "extraHosts": [],
+  "mapLinks": 3930,
+  "candidates": {
+   "announcement": 17,
+   "press": 147,
+   "blog": 624,
+   "info_pack": 5
+  },
+  "credits": 153,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 16,
+   "press": 16,
+   "blog": 12
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/salesforce.com.jsonl.gz",
+  "v11": {
+   "before": 48,
+   "droppedByRules": 0
+  }
+ },
+ "statefarm.com": {
+  "sector": "insurance",
+  "study": "SGR-029",
+  "hosts": {
+   "www.statefarm.com": 4894
+  },
+  "extraHosts": [],
+  "mapLinks": 4895,
+  "candidates": {
+   "announcement": 0,
+   "press": 3,
+   "blog": 88,
+   "info_pack": 0
+  },
+  "credits": 84,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 3,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/statefarm.com.jsonl.gz",
+  "v11": {
+   "before": 75,
+   "droppedByRules": 0
+  }
+ },
+ "verizon.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.verizon.com": 4322
+  },
+  "extraHosts": [],
+  "mapLinks": 4322,
+  "candidates": {
+   "announcement": 0,
+   "press": 237,
+   "blog": 143,
+   "info_pack": 20
+  },
+  "credits": 152,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 0,
+   "press": 48,
+   "blog": 41
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/verizon.com.jsonl.gz",
+  "v11": {
+   "before": 93,
+   "droppedByRules": 0
+  }
+ },
+ "redcross.org": {
+  "sector": "charity",
+  "study": "SGR-029",
+  "hosts": {
+   "www.redcross.org": 4933
+  },
+  "extraHosts": [],
+  "mapLinks": 4933,
+  "candidates": {
+   "announcement": 1,
+   "press": 2472,
+   "blog": 17,
+   "info_pack": 1
+  },
+  "credits": 109,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 0,
+   "press": 60,
+   "blog": 13
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/redcross.org.jsonl.gz",
+  "v11": {
+   "before": 74,
+   "droppedByRules": 0
+  }
+ },
+ "walmart.com": {
+  "sector": "grocery",
+  "study": "SGR-029",
+  "hosts": {
+   "www.walmart.com": 4833
+  },
+  "extraHosts": [],
+  "mapLinks": 4834,
+  "candidates": {
+   "announcement": 0,
+   "press": 10,
+   "blog": 4,
+   "info_pack": 1
+  },
+  "credits": 45,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 1,
+   "press": 18,
+   "blog": 12
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/walmart.com.jsonl.gz",
+  "v11": {
+   "before": 14,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.walmart.com": 4836,
+    "corporate.walmart.com": 2682,
+    "tech.walmart.com": 66
+   },
+   "extraHosts": [],
+   "mapLinks": 7572,
+   "candidates": {
+    "announcement": 1,
+    "press": 2403,
+    "blog": 43,
+    "info_pack": 4
+   },
+   "credits": 100,
+   "storedAfter": {
+    "info_pack": 4,
+    "announcement": 1,
+    "press": 18,
+    "blog": 12
+   }
+  }
+ },
+ "att.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.att.com": 4778
+  },
+  "extraHosts": [],
+  "mapLinks": 4779,
+  "candidates": {
+   "announcement": 4,
+   "press": 59,
+   "blog": 276,
+   "info_pack": 15
+  },
+  "credits": 151,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 2,
+   "press": 28,
+   "blog": 28
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/att.com.jsonl.gz",
+  "v11": {
+   "before": 62,
+   "droppedByRules": 0
+  }
+ },
+ "geico.com": {
+  "sector": "insurance",
+  "study": "SGR-029",
+  "hosts": {
+   "www.geico.com": 2034
+  },
+  "extraHosts": [],
+  "mapLinks": 2034,
+  "candidates": {
+   "announcement": 1,
+   "press": 0,
+   "blog": 6,
+   "info_pack": 0
+  },
+  "credits": 12,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 1,
+   "press": 0,
+   "blog": 6
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/geico.com.jsonl.gz",
+  "v11": {
+   "before": 7,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.geico.com": 2034
+   },
+   "extraHosts": [],
+   "mapLinks": 2037,
+   "candidates": {
+    "announcement": 1,
+    "press": 0,
+    "blog": 6,
+    "info_pack": 0
+   },
+   "credits": 11,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 1,
+    "press": 0,
+    "blog": 6
+   }
+  }
+ },
+ "united.com": {
+  "sector": "travel",
+  "study": "SGR-029",
+  "hosts": {
+   "www.united.com": 2002
+  },
+  "extraHosts": [],
+  "mapLinks": 2002,
+  "candidates": {
+   "announcement": 2,
+   "press": 21,
+   "blog": 1,
+   "info_pack": 2
+  },
+  "credits": 58,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 1,
+   "press": 4,
+   "blog": 1
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/united.com.jsonl.gz",
+  "v11": {
+   "before": 8,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.united.com": 2004,
+    "businesstravel.united.com": 77,
+    "ir.united.com": 101
+   },
+   "extraHosts": [],
+   "mapLinks": 2166,
+   "candidates": {
+    "announcement": 2,
+    "press": 21,
+    "blog": 1,
+    "info_pack": 2
+   },
+   "credits": 31,
+   "storedAfter": {
+    "info_pack": 2,
+    "announcement": 1,
+    "press": 4,
+    "blog": 1
+   }
+  }
+ },
+ "oldnavy.com": {
+  "sector": "fashion",
+  "study": "SGR-029",
+  "hosts": {
+   "www.oldnavy.com": 4081
+  },
+  "extraHosts": [],
+  "mapLinks": 4081,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 5,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/oldnavy.com.jsonl.gz",
+  "v11": {
+   "before": 0,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.oldnavy.com": 3791
+   },
+   "extraHosts": [],
+   "mapLinks": 3791,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 0,
+    "info_pack": 0
+   },
+   "credits": 11,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 0,
+    "blog": 0
+   }
+  }
+ },
+ "bankofamerica.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.bankofamerica.com": 982
+  },
+  "extraHosts": [],
+  "mapLinks": 983,
+  "candidates": {
+   "announcement": 0,
+   "press": 78,
+   "blog": 52,
+   "info_pack": 3
+  },
+  "credits": 153,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 0,
+   "press": 59,
+   "blog": 52
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/bankofamerica.com.jsonl.gz",
+  "v11": {
+   "before": 113,
+   "droppedByRules": 0
+  }
+ },
+ "chipotle.com": {
+  "sector": "food",
+  "study": "SGR-029",
+  "hosts": {
+   "www.chipotle.com": 775
+  },
+  "extraHosts": [],
+  "mapLinks": 775,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 2,
+   "info_pack": 1
+  },
+  "credits": 33,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 0,
+   "press": 1,
+   "blog": 2
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/chipotle.com.jsonl.gz",
+  "v11": {
+   "before": 3,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.chipotle.com": 766,
+    "newsroom.chipotle.com": 27,
+    "ir.chipotle.com": 31
+   },
+   "extraHosts": [],
+   "mapLinks": 796,
+   "candidates": {
+    "announcement": 0,
+    "press": 1,
+    "blog": 2,
+    "info_pack": 1
+   },
+   "credits": 14,
+   "storedAfter": {
+    "info_pack": 1,
+    "announcement": 0,
+    "press": 1,
+    "blog": 2
+   }
+  }
+ },
+ "coned.com": {
+  "sector": "energy",
+  "study": "SGR-029",
+  "hosts": {
+   "www.coned.com": 4682
+  },
+  "extraHosts": [],
+  "mapLinks": 4683,
+  "candidates": {
+   "announcement": 1,
+   "press": 386,
+   "blog": 7,
+   "info_pack": 232
+  },
+  "credits": 107,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 1,
+   "press": 63,
+   "blog": 5
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/coned.com.jsonl.gz",
+  "v11": {
+   "before": 73,
+   "droppedByRules": 0
+  }
+ },
+ "zendesk.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.zendesk.com": 4627
+  },
+  "extraHosts": [],
+  "mapLinks": 4627,
+  "candidates": {
+   "announcement": 50,
+   "press": 4,
+   "blog": 2245,
+   "info_pack": 0
+  },
+  "credits": 153,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 25,
+   "press": 4,
+   "blog": 66
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/zendesk.com.jsonl.gz",
+  "v11": {
+   "before": 95,
+   "droppedByRules": 0
+  }
+ },
+ "wellsfargo.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.wellsfargo.com": 1442
+  },
+  "extraHosts": [],
+  "mapLinks": 1442,
+  "candidates": {
+   "announcement": 1,
+   "press": 0,
+   "blog": 117,
+   "info_pack": 7
+  },
+  "credits": 151,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 1,
+   "press": 0,
+   "blog": 68
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/wellsfargo.com.jsonl.gz",
+  "v11": {
+   "before": 73,
+   "droppedByRules": 0
+  }
+ },
+ "costco.com": {
+  "sector": "grocery",
+  "study": "SGR-029",
+  "hosts": {
+   "www.costco.com": 1673
+  },
+  "extraHosts": [],
+  "mapLinks": 1673,
+  "candidates": {
+   "announcement": 0,
+   "press": 2,
+   "blog": 1,
+   "info_pack": 0
+  },
+  "credits": 8,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 3,
+   "blog": 1
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/costco.com.jsonl.gz",
+  "v11": {
+   "before": 2,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.costco.com": 3180,
+    "investor.costco.com": 100
+   },
+   "extraHosts": [],
+   "mapLinks": 3259,
+   "candidates": {
+    "announcement": 0,
+    "press": 3,
+    "blog": 1,
+    "info_pack": 0
+   },
+   "credits": 14,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 3,
+    "blog": 1
+   }
+  }
+ },
+ "aa.com": {
+  "sector": "travel",
+  "study": "SGR-029",
+  "hosts": {
+   "www.aa.com": 0
+  },
+  "extraHosts": [],
+  "mapLinks": 0,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 5,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 12,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/aa.com.jsonl.gz",
+  "v11": {
+   "before": 0,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.aa.com": 0,
+    "news.aa.com": 118
+   },
+   "extraHosts": [],
+   "mapLinks": 121,
+   "candidates": {
+    "announcement": 0,
+    "press": 13,
+    "blog": 0,
+    "info_pack": 0
+   },
+   "credits": 25,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 12,
+    "blog": 0
+   }
+  }
+ },
+ "pge.com": {
+  "sector": "energy",
+  "study": "SGR-029",
+  "hosts": {
+   "www.pge.com": 4893
+  },
+  "extraHosts": [],
+  "mapLinks": 4894,
+  "candidates": {
+   "announcement": 0,
+   "press": 380,
+   "blog": 0,
+   "info_pack": 6
+  },
+  "credits": 122,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 0,
+   "press": 60,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/pge.com.jsonl.gz",
+  "v11": {
+   "before": 64,
+   "droppedByRules": 0
+  }
+ },
+ "nordstrom.com": {
+  "sector": "fashion",
+  "study": "SGR-029",
+  "hosts": {
+   "www.nordstrom.com": 3002
+  },
+  "extraHosts": [],
+  "mapLinks": 3002,
+  "candidates": {
+   "announcement": 0,
+   "press": 48,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 53,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 45,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/nordstrom.com.jsonl.gz",
+  "v11": {
+   "before": 45,
+   "droppedByRules": 0
+  }
+ },
+ "cancer.org": {
+  "sector": "charity",
+  "study": "SGR-029",
+  "hosts": {
+   "www.cancer.org": 4778
+  },
+  "extraHosts": [],
+  "mapLinks": 4778,
+  "candidates": {
+   "announcement": 2,
+   "press": 1,
+   "blog": 77,
+   "info_pack": 4
+  },
+  "credits": 120,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 2,
+   "press": 1,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/cancer.org.jsonl.gz",
+  "v11": {
+   "before": 79,
+   "droppedByRules": 0
+  }
+ },
+ "progressive.com": {
+  "sector": "insurance",
+  "study": "SGR-029",
+  "hosts": {
+   "www.progressive.com": 1605
+  },
+  "extraHosts": [],
+  "mapLinks": 1605,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 80,
+   "info_pack": 1
+  },
+  "credits": 103,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 0,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/progressive.com.jsonl.gz",
+  "v11": {
+   "before": 73,
+   "droppedByRules": 0
+  }
+ },
+ "t-mobile.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.t-mobile.com": 4611
+  },
+  "extraHosts": [],
+  "mapLinks": 4611,
+  "candidates": {
+   "announcement": 1,
+   "press": 102,
+   "blog": 29,
+   "info_pack": 3
+  },
+  "credits": 147,
+  "stored": {
+   "info_pack": 3,
+   "announcement": 1,
+   "press": 63,
+   "blog": 29
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/t-mobile.com.jsonl.gz",
+  "v11": {
+   "before": 96,
+   "droppedByRules": 0
+  }
+ },
+ "dropbox.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.dropbox.com": 4718
+  },
+  "extraHosts": [],
+  "mapLinks": 4718,
+  "candidates": {
+   "announcement": 5,
+   "press": 16,
+   "blog": 95,
+   "info_pack": 9
+  },
+  "credits": 152,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 5,
+   "press": 16,
+   "blog": 41
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/dropbox.com.jsonl.gz",
+  "v11": {
+   "before": 64,
+   "droppedByRules": 0
+  }
+ },
+ "sce.com": {
+  "sector": "energy",
+  "study": "SGR-029",
+  "hosts": {
+   "www.sce.com": 2469
+  },
+  "extraHosts": [],
+  "mapLinks": 2469,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 20,
+   "info_pack": 1
+  },
+  "credits": 28,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 0,
+   "press": 0,
+   "blog": 20
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/sce.com.jsonl.gz",
+  "v11": {
+   "before": 21,
+   "droppedByRules": 0
+  }
+ },
+ "savethechildren.org": {
+  "sector": "charity",
+  "study": "SGR-029",
+  "hosts": {
+   "www.savethechildren.org": 1291
+  },
+  "extraHosts": [],
+  "mapLinks": 1293,
+  "candidates": {
+   "announcement": 0,
+   "press": 736,
+   "blog": 31,
+   "info_pack": 2
+  },
+  "credits": 148,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 0,
+   "press": 60,
+   "blog": 31
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/savethechildren.org.jsonl.gz",
+  "v11": {
+   "before": 93,
+   "droppedByRules": 0
+  }
+ },
+ "southwest.com": {
+  "sector": "travel",
+  "study": "SGR-029",
+  "hosts": {
+   "www.southwest.com": 0
+  },
+  "extraHosts": [],
+  "mapLinks": 1,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 1
+  },
+  "credits": 6,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 4,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/southwest.com.jsonl.gz",
+  "v11": {
+   "before": 0,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.southwest.com": 0,
+    "investors.southwest.com": 0
+   },
+   "extraHosts": [],
+   "mapLinks": 7,
+   "candidates": {
+    "announcement": 0,
+    "press": 4,
+    "blog": 0,
+    "info_pack": 1
+   },
+   "credits": 17,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 4,
+    "blog": 0
+   }
+  }
+ },
+ "panerabread.com": {
+  "sector": "food",
+  "study": "SGR-029",
+  "hosts": {
+   "www.panerabread.com": 4442
+  },
+  "extraHosts": [],
+  "mapLinks": 4444,
+  "candidates": {
+   "announcement": 0,
+   "press": 86,
+   "blog": 11,
+   "info_pack": 2
+  },
+  "credits": 113,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 0,
+   "press": 60,
+   "blog": 9
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/panerabread.com.jsonl.gz",
+  "v11": {
+   "before": 71,
+   "droppedByRules": 0
+  }
+ },
+ "zapier.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.zapier.com": 4693
+  },
+  "extraHosts": [],
+  "mapLinks": 4693,
+  "candidates": {
+   "announcement": 4,
+   "press": 0,
+   "blog": 350,
+   "info_pack": 0
+  },
+  "credits": 81,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 4,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/zapier.com.jsonl.gz",
+  "v11": {
+   "before": 76,
+   "droppedByRules": 0
+  }
+ },
+ "target.com": {
+  "sector": "grocery",
+  "study": "SGR-029",
+  "hosts": {
+   "www.target.com": 4704
+  },
+  "extraHosts": [],
+  "mapLinks": 4706,
+  "candidates": {
+   "announcement": 0,
+   "press": 105,
+   "blog": 4,
+   "info_pack": 2
+  },
+  "credits": 125,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 0,
+   "press": 60,
+   "blog": 3
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/target.com.jsonl.gz",
+  "v11": {
+   "before": 65,
+   "droppedByRules": 0
+  }
+ },
+ "citi.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.citi.com": 1286
+  },
+  "extraHosts": [],
+  "mapLinks": 1287,
+  "candidates": {
+   "announcement": 0,
+   "press": 7,
+   "blog": 75,
+   "info_pack": 3
+  },
+  "credits": 116,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 0,
+   "press": 7,
+   "blog": 71
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/citi.com.jsonl.gz",
+  "v11": {
+   "before": 80,
+   "droppedByRules": 0
+  }
+ },
+ "xfinity.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.xfinity.com": 4790
+  },
+  "extraHosts": [],
+  "mapLinks": 4790,
+  "candidates": {
+   "announcement": 0,
+   "press": 6,
+   "blog": 176,
+   "info_pack": 0
+  },
+  "credits": 87,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 4,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/xfinity.com.jsonl.gz",
+  "v11": {
+   "before": 76,
+   "droppedByRules": 0
+  }
+ },
+ "macys.com": {
+  "sector": "fashion",
+  "study": "SGR-029",
+  "hosts": {
+   "www.macys.com": 4744
+  },
+  "extraHosts": [],
+  "mapLinks": 4744,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 45,
+   "info_pack": 0
+  },
+  "credits": 50,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 45
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/macys.com.jsonl.gz",
+  "v11": {
+   "before": 45,
+   "droppedByRules": 0
+  }
+ },
+ "allstate.com": {
+  "sector": "insurance",
+  "study": "SGR-029",
+  "hosts": {
+   "www.allstate.com": 4397
+  },
+  "extraHosts": [],
+  "mapLinks": 4397,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 599,
+   "info_pack": 0
+  },
+  "credits": 77,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/allstate.com.jsonl.gz",
+  "v11": {
+   "before": 72,
+   "droppedByRules": 0
+  }
+ },
+ "starbucks.com": {
+  "sector": "food",
+  "study": "SGR-029",
+  "hosts": {
+   "www.starbucks.com": 472
+  },
+  "extraHosts": [],
+  "mapLinks": 472,
+  "candidates": {
+   "announcement": 0,
+   "press": 84,
+   "blog": 8,
+   "info_pack": 3
+  },
+  "credits": 117,
+  "stored": {
+   "info_pack": 3,
+   "announcement": 0,
+   "press": 60,
+   "blog": 8
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/starbucks.com.jsonl.gz",
+  "v11": {
+   "before": 71,
+   "droppedByRules": 0
+  }
+ },
+ "dominionenergy.com": {
+  "sector": "energy",
+  "study": "SGR-029",
+  "hosts": {
+   "www.dominionenergy.com": 838
+  },
+  "extraHosts": [],
+  "mapLinks": 838,
+  "candidates": {
+   "announcement": 0,
+   "press": 1,
+   "blog": 2,
+   "info_pack": 2
+  },
+  "credits": 20,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 0,
+   "press": 7,
+   "blog": 27
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/dominionenergy.com.jsonl.gz",
+  "v11": {
+   "before": 4,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.dominionenergy.com": 839,
+    "solutions.dominionenergy.com": 122,
+    "news.dominionenergy.com": 89
+   },
+   "extraHosts": [],
+   "mapLinks": 1038,
+   "candidates": {
+    "announcement": 0,
+    "press": 11,
+    "blog": 27,
+    "info_pack": 2
+   },
+   "credits": 49,
+   "storedAfter": {
+    "info_pack": 1,
+    "announcement": 0,
+    "press": 7,
+    "blog": 27
+   }
+  }
+ },
+ "jetblue.com": {
+  "sector": "travel",
+  "study": "SGR-029",
+  "hosts": {
+   "www.jetblue.com": 4958
+  },
+  "extraHosts": [],
+  "mapLinks": 4958,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 5,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/jetblue.com.jsonl.gz",
+  "v11": {
+   "before": 0,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.jetblue.com": 4745,
+    "news.jetblue.com": 82,
+    "ir.jetblue.com": 100
+   },
+   "extraHosts": [],
+   "mapLinks": 4907,
+   "candidates": {
+    "announcement": 0,
+    "press": 1,
+    "blog": 0,
+    "info_pack": 1
+   },
+   "credits": 15,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 0,
+    "blog": 0
+   }
+  }
+ },
+ "albertsons.com": {
+  "sector": "grocery",
+  "study": "SGR-029",
+  "hosts": {
+   "www.albertsons.com": 4457
+  },
+  "extraHosts": [],
+  "mapLinks": 4457,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 1,
+   "info_pack": 0
+  },
+  "credits": 6,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 1
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/albertsons.com.jsonl.gz",
+  "v11": {
+   "before": 1,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.albertsons.com": 3241
+   },
+   "extraHosts": [],
+   "mapLinks": 3242,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 1,
+    "info_pack": 0
+   },
+   "credits": 11,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 0,
+    "blog": 1
+   }
+  }
+ },
+ "usbank.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.usbank.com": 4493
+  },
+  "extraHosts": [],
+  "mapLinks": 4493,
+  "candidates": {
+   "announcement": 4,
+   "press": 17,
+   "blog": 43,
+   "info_pack": 5
+  },
+  "credits": 127,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 4,
+   "press": 17,
+   "blog": 34
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/usbank.com.jsonl.gz",
+  "v11": {
+   "before": 59,
+   "droppedByRules": 0
+  }
+ },
+ "abercrombie.com": {
+  "sector": "fashion",
+  "study": "SGR-029",
+  "hosts": {
+   "www.abercrombie.com": 314
+  },
+  "extraHosts": [],
+  "mapLinks": 314,
+  "candidates": {
+   "announcement": 0,
+   "press": 9,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 14,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 0,
+   "press": 62,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/abercrombie.com.jsonl.gz",
+  "v11": {
+   "before": 8,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.abercrombie.com": 328,
+    "corporate.abercrombie.com": 266
+   },
+   "extraHosts": [],
+   "mapLinks": 577,
+   "candidates": {
+    "announcement": 0,
+    "press": 194,
+    "blog": 0,
+    "info_pack": 2
+   },
+   "credits": 81,
+   "storedAfter": {
+    "info_pack": 2,
+    "announcement": 0,
+    "press": 62,
+    "blog": 0
+   }
+  }
+ },
+ "libertymutual.com": {
+  "sector": "insurance",
+  "study": "SGR-029",
+  "hosts": {
+   "www.libertymutual.com": 614
+  },
+  "extraHosts": [],
+  "mapLinks": 614,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 18,
+   "info_pack": 0
+  },
+  "credits": 23,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 17
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/libertymutual.com.jsonl.gz",
+  "v11": {
+   "before": 17,
+   "droppedByRules": 0
+  }
+ },
+ "dunkindonuts.com": {
+  "sector": "food",
+  "study": "SGR-029",
+  "hosts": {
+   "www.dunkindonuts.com": 222
+  },
+  "extraHosts": [],
+  "mapLinks": 222,
+  "candidates": {
+   "announcement": 0,
+   "press": 13,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 18,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 61,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/dunkindonuts.com.jsonl.gz",
+  "v11": {
+   "before": 13,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.dunkindonuts.com": 225,
+    "news.dunkindonuts.com": 2033
+   },
+   "extraHosts": [],
+   "mapLinks": 2244,
+   "candidates": {
+    "announcement": 0,
+    "press": 1906,
+    "blog": 0,
+    "info_pack": 0
+   },
+   "credits": 60,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 61,
+    "blog": 0
+   }
+  }
+ },
+ "oxfamamerica.org": {
+  "sector": "charity",
+  "study": "SGR-029",
+  "hosts": {
+   "www.oxfamamerica.org": 3210
+  },
+  "extraHosts": [],
+  "mapLinks": 3210,
+  "candidates": {
+   "announcement": 2,
+   "press": 170,
+   "blog": 2754,
+   "info_pack": 0
+  },
+  "credits": 151,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 2,
+   "press": 60,
+   "blog": 63
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/oxfamamerica.org.jsonl.gz",
+  "v11": {
+   "before": 125,
+   "droppedByRules": 0
+  }
+ },
+ "xcelenergy.com": {
+  "sector": "energy",
+  "study": "SGR-029",
+  "hosts": {
+   "www.xcelenergy.com": 990
+  },
+  "extraHosts": [],
+  "mapLinks": 990,
+  "candidates": {
+   "announcement": 0,
+   "press": 18,
+   "blog": 5,
+   "info_pack": 8
+  },
+  "credits": 91,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 0,
+   "press": 18,
+   "blog": 3
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/xcelenergy.com.jsonl.gz",
+  "v11": {
+   "before": 25,
+   "droppedByRules": 0
+  }
+ },
+ "spectrum.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.spectrum.com": 4299
+  },
+  "extraHosts": [],
+  "mapLinks": 4299,
+  "candidates": {
+   "announcement": 4,
+   "press": 0,
+   "blog": 1603,
+   "info_pack": 1
+  },
+  "credits": 84,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 4,
+   "press": 0,
+   "blog": 70
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/spectrum.com.jsonl.gz",
+  "v11": {
+   "before": 75,
+   "droppedByRules": 0
+  }
+ },
+ "stjude.org": {
+  "sector": "charity",
+  "study": "SGR-029",
+  "hosts": {
+   "www.stjude.org": 4917
+  },
+  "extraHosts": [],
+  "mapLinks": 4917,
+  "candidates": {
+   "announcement": 9,
+   "press": 641,
+   "blog": 912,
+   "info_pack": 3
+  },
+  "credits": 150,
+  "stored": {
+   "info_pack": 3,
+   "announcement": 7,
+   "press": 36,
+   "blog": 35
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/stjude.org.jsonl.gz",
+  "v11": {
+   "before": 81,
+   "droppedByRules": 0
+  }
+ },
+ "publix.com": {
+  "sector": "grocery",
+  "study": "SGR-029",
+  "hosts": {
+   "www.publix.com": 628
+  },
+  "extraHosts": [],
+  "mapLinks": 628,
+  "candidates": {
+   "announcement": 0,
+   "press": 10,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 15,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 1,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/publix.com.jsonl.gz",
+  "v11": {
+   "before": 1,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.publix.com": 723,
+    "corporate.publix.com": 97
+   },
+   "extraHosts": [],
+   "mapLinks": 807,
+   "candidates": {
+    "announcement": 0,
+    "press": 74,
+    "blog": 0,
+    "info_pack": 0
+   },
+   "credits": 85,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 1,
+    "blog": 0
+   }
+  }
+ },
+ "pnc.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.pnc.com": 4208
+  },
+  "extraHosts": [],
+  "mapLinks": 4208,
+  "candidates": {
+   "announcement": 2,
+   "press": 40,
+   "blog": 1614,
+   "info_pack": 14
+  },
+  "credits": 148,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 2,
+   "press": 21,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/pnc.com.jsonl.gz",
+  "v11": {
+   "before": 99,
+   "droppedByRules": 0
+  }
+ },
+ "ae.com": {
+  "sector": "fashion",
+  "study": "SGR-029",
+  "hosts": {
+   "www.ae.com": 4958
+  },
+  "extraHosts": [],
+  "mapLinks": 4958,
+  "candidates": {
+   "announcement": 0,
+   "press": 1,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 6,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 7,
+   "press": 1,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/ae.com.jsonl.gz",
+  "v11": {
+   "before": 1,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.ae.com": 4996,
+    "blog.ae.com": 471,
+    "investors.ae.com": 96
+   },
+   "extraHosts": [],
+   "mapLinks": 5539,
+   "candidates": {
+    "announcement": 8,
+    "press": 1,
+    "blog": 0,
+    "info_pack": 0
+   },
+   "credits": 21,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 7,
+    "press": 1,
+    "blog": 0
+   }
+  }
+ },
+ "shakeshack.com": {
+  "sector": "food",
+  "study": "SGR-029",
+  "hosts": {
+   "www.shakeshack.com": 110
+  },
+  "extraHosts": [],
+  "mapLinks": 110,
+  "candidates": {
+   "announcement": 1,
+   "press": 0,
+   "blog": 1,
+   "info_pack": 0
+  },
+  "credits": 7,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 1,
+   "press": 8,
+   "blog": 1
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/shakeshack.com.jsonl.gz",
+  "v11": {
+   "before": 2,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.shakeshack.com": 111,
+    "investor.shakeshack.com": 86
+   },
+   "extraHosts": [],
+   "mapLinks": 177,
+   "candidates": {
+    "announcement": 1,
+    "press": 8,
+    "blog": 1,
+    "info_pack": 0
+   },
+   "credits": 20,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 1,
+    "press": 8,
+    "blog": 1
+   }
+  }
+ },
+ "mintmobile.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.mintmobile.com": 627
+  },
+  "extraHosts": [],
+  "mapLinks": 627,
+  "candidates": {
+   "announcement": 1,
+   "press": 0,
+   "blog": 266,
+   "info_pack": 0
+  },
+  "credits": 82,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 1,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/mintmobile.com.jsonl.gz",
+  "v11": {
+   "before": 73,
+   "droppedByRules": 0
+  }
+ },
+ "gusto.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.gusto.com": 4871
+  },
+  "extraHosts": [],
+  "mapLinks": 4871,
+  "candidates": {
+   "announcement": 36,
+   "press": 132,
+   "blog": 1440,
+   "info_pack": 0
+  },
+  "credits": 153,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 28,
+   "press": 60,
+   "blog": 56
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/gusto.com.jsonl.gz",
+  "v11": {
+   "before": 144,
+   "droppedByRules": 0
+  }
+ },
+ "alaskaair.com": {
+  "sector": "travel",
+  "study": "SGR-029",
+  "hosts": {
+   "www.alaskaair.com": 4791
+  },
+  "extraHosts": [],
+  "mapLinks": 4793,
+  "candidates": {
+   "announcement": 0,
+   "press": 56,
+   "blog": 10,
+   "info_pack": 2
+  },
+  "credits": 123,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 0,
+   "press": 51,
+   "blog": 7
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/alaskaair.com.jsonl.gz",
+  "v11": {
+   "before": 60,
+   "droppedByRules": 0
+  }
+ },
+ "visible.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.visible.com": 175
+  },
+  "extraHosts": [],
+  "mapLinks": 175,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 4,
+   "info_pack": 0
+  },
+  "credits": 9,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 4
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/visible.com.jsonl.gz",
+  "v11": {
+   "before": 4,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.visible.com": 175
+   },
+   "extraHosts": [],
+   "mapLinks": 176,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 4,
+    "info_pack": 0
+   },
+   "credits": 11,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 0,
+    "blog": 4
+   }
+  }
+ },
+ "unitedway.org": {
+  "sector": "charity",
+  "study": "SGR-029",
+  "hosts": {
+   "www.unitedway.org": 1773
+  },
+  "extraHosts": [],
+  "mapLinks": 1775,
+  "candidates": {
+   "announcement": 0,
+   "press": 381,
+   "blog": 1,
+   "info_pack": 3
+  },
+  "credits": 131,
+  "stored": {
+   "info_pack": 3,
+   "announcement": 0,
+   "press": 60,
+   "blog": 1
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/unitedway.org.jsonl.gz",
+  "v11": {
+   "before": 64,
+   "droppedByRules": 0
+  }
+ },
+ "nationwide.com": {
+  "sector": "insurance",
+  "study": "SGR-029",
+  "hosts": {
+   "www.nationwide.com": 3317
+  },
+  "extraHosts": [],
+  "mapLinks": 3317,
+  "candidates": {
+   "announcement": 0,
+   "press": 36,
+   "blog": 1443,
+   "info_pack": 1
+  },
+  "credits": 115,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 0,
+   "press": 34,
+   "blog": 71
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/nationwide.com.jsonl.gz",
+  "v11": {
+   "before": 106,
+   "droppedByRules": 0
+  }
+ },
+ "heb.com": {
+  "sector": "grocery",
+  "study": "SGR-029",
+  "hosts": {
+   "www.heb.com": 907
+  },
+  "extraHosts": [],
+  "mapLinks": 907,
+  "candidates": {
+   "announcement": 1,
+   "press": 1,
+   "blog": 8,
+   "info_pack": 0
+  },
+  "credits": 15,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 1,
+   "press": 24,
+   "blog": 8
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/heb.com.jsonl.gz",
+  "v11": {
+   "before": 9,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.heb.com": 966,
+    "newsroom.heb.com": 1240,
+    "supplier.heb.com": 29
+   },
+   "extraHosts": [],
+   "mapLinks": 2221,
+   "candidates": {
+    "announcement": 1,
+    "press": 505,
+    "blog": 9,
+    "info_pack": 1
+   },
+   "credits": 101,
+   "storedAfter": {
+    "info_pack": 1,
+    "announcement": 1,
+    "press": 24,
+    "blog": 8
+   }
+  }
+ },
+ "urbanoutfitters.com": {
+  "sector": "fashion",
+  "study": "SGR-029",
+  "hosts": {
+   "www.urbanoutfitters.com": 852
+  },
+  "extraHosts": [],
+  "mapLinks": 852,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 5,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/urbanoutfitters.com.jsonl.gz",
+  "v11": {
+   "before": 0,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.urbanoutfitters.com": 849
+   },
+   "extraHosts": [],
+   "mapLinks": 856,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 0,
+    "info_pack": 0
+   },
+   "credits": 11,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 0,
+    "blog": 0
+   }
+  }
+ },
+ "amtrak.com": {
+  "sector": "travel",
+  "study": "SGR-029",
+  "hosts": {
+   "www.amtrak.com": 1747
+  },
+  "extraHosts": [],
+  "mapLinks": 1750,
+  "candidates": {
+   "announcement": 0,
+   "press": 13,
+   "blog": 2,
+   "info_pack": 2
+  },
+  "credits": 56,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 0,
+   "press": 13,
+   "blog": 2
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/amtrak.com.jsonl.gz",
+  "v11": {
+   "before": 17,
+   "droppedByRules": 0
+  }
+ },
+ "capitalone.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.capitalone.com": 4002
+  },
+  "extraHosts": [],
+  "mapLinks": 4002,
+  "candidates": {
+   "announcement": 24,
+   "press": 325,
+   "blog": 1676,
+   "info_pack": 1
+  },
+  "credits": 151,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 23,
+   "press": 47,
+   "blog": 51
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/capitalone.com.jsonl.gz",
+  "v11": {
+   "before": 122,
+   "droppedByRules": 0
+  }
+ },
+ "nationalgridus.com": {
+  "sector": "energy",
+  "study": "SGR-029",
+  "hosts": {
+   "www.nationalgridus.com": 3431
+  },
+  "extraHosts": [],
+  "mapLinks": 3431,
+  "candidates": {
+   "announcement": 0,
+   "press": 1077,
+   "blog": 5,
+   "info_pack": 3
+  },
+  "credits": 121,
+  "stored": {
+   "info_pack": 3,
+   "announcement": 0,
+   "press": 60,
+   "blog": 1
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/nationalgridus.com.jsonl.gz",
+  "v11": {
+   "before": 64,
+   "droppedByRules": 0
+  }
+ },
+ "cricketwireless.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.cricketwireless.com": 517
+  },
+  "extraHosts": [],
+  "mapLinks": 517,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 5,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 1,
+   "press": 0,
+   "blog": 1
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/cricketwireless.com.jsonl.gz",
+  "v11": {
+   "before": 0,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.cricketwireless.com": 517
+   },
+   "extraHosts": [],
+   "mapLinks": 523,
+   "candidates": {
+    "announcement": 1,
+    "press": 0,
+    "blog": 1,
+    "info_pack": 0
+   },
+   "credits": 13,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 1,
+    "press": 0,
+    "blog": 1
+   }
+  }
+ },
+ "squarespace.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.squarespace.com": 4960
+  },
+  "extraHosts": [],
+  "mapLinks": 4962,
+  "candidates": {
+   "announcement": 2,
+   "press": 1096,
+   "blog": 74,
+   "info_pack": 54
+  },
+  "credits": 153,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 2,
+   "press": 47,
+   "blog": 47
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/squarespace.com.jsonl.gz",
+  "v11": {
+   "before": 100,
+   "droppedByRules": 0
+  }
+ },
+ "chick-fil-a.com": {
+  "sector": "food",
+  "study": "SGR-029",
+  "hosts": {
+   "www.chick-fil-a.com": 4366
+  },
+  "extraHosts": [],
+  "mapLinks": 4367,
+  "candidates": {
+   "announcement": 0,
+   "press": 49,
+   "blog": 187,
+   "info_pack": 2
+  },
+  "credits": 151,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 0,
+   "press": 49,
+   "blog": 60
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/chick-fil-a.com.jsonl.gz",
+  "v11": {
+   "before": 111,
+   "droppedByRules": 0
+  }
+ },
+ "greyhound.com": {
+  "sector": "travel",
+  "study": "SGR-029",
+  "hosts": {
+   "www.greyhound.com": 4998
+  },
+  "extraHosts": [],
+  "mapLinks": 4998,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 5,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 62,
+   "blog": 4
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/greyhound.com.jsonl.gz",
+  "v11": {
+   "before": 1,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.greyhound.com": 4997,
+    "news.greyhound.com": 106
+   },
+   "extraHosts": [],
+   "mapLinks": 5105,
+   "candidates": {
+    "announcement": 0,
+    "press": 87,
+    "blog": 5,
+    "info_pack": 0
+   },
+   "credits": 100,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 62,
+    "blog": 4
+   }
+  }
+ },
+ "truist.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.truist.com": 2070
+  },
+  "extraHosts": [],
+  "mapLinks": 2070,
+  "candidates": {
+   "announcement": 4,
+   "press": 0,
+   "blog": 663,
+   "info_pack": 3
+  },
+  "credits": 110,
+  "stored": {
+   "info_pack": 3,
+   "announcement": 4,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/truist.com.jsonl.gz",
+  "v11": {
+   "before": 79,
+   "droppedByRules": 0
+  }
+ },
+ "cava.com": {
+  "sector": "food",
+  "study": "SGR-029",
+  "hosts": {
+   "www.cava.com": 297
+  },
+  "extraHosts": [],
+  "mapLinks": 297,
+  "candidates": {
+   "announcement": 0,
+   "press": 5,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 10,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 5,
+   "blog": 1
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/cava.com.jsonl.gz",
+  "v11": {
+   "before": 4,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.cava.com": 297,
+    "investor.cava.com": 79
+   },
+   "extraHosts": [],
+   "mapLinks": 362,
+   "candidates": {
+    "announcement": 0,
+    "press": 5,
+    "blog": 1,
+    "info_pack": 0
+   },
+   "credits": 14,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 5,
+    "blog": 1
+   }
+  }
+ },
+ "jcrew.com": {
+  "sector": "fashion",
+  "study": "SGR-029",
+  "hosts": {
+   "www.jcrew.com": 4198
+  },
+  "extraHosts": [],
+  "mapLinks": 4198,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 5,
+   "info_pack": 1
+  },
+  "credits": 36,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 0,
+   "press": 0,
+   "blog": 5
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/jcrew.com.jsonl.gz",
+  "v11": {
+   "before": 6,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.jcrew.com": 4210,
+    "investors.jcrew.com": 79
+   },
+   "extraHosts": [],
+   "mapLinks": 4291,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 5,
+    "info_pack": 1
+   },
+   "credits": 12,
+   "storedAfter": {
+    "info_pack": 1,
+    "announcement": 0,
+    "press": 0,
+    "blog": 5
+   }
+  }
+ },
+ "aspca.org": {
+  "sector": "charity",
+  "study": "SGR-029",
+  "hosts": {
+   "www.aspca.org": 4916
+  },
+  "extraHosts": [],
+  "mapLinks": 4917,
+  "candidates": {
+   "announcement": 5,
+   "press": 3373,
+   "blog": 107,
+   "info_pack": 1
+  },
+  "credits": 152,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 5,
+   "press": 60,
+   "blog": 55
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/aspca.org.jsonl.gz",
+  "v11": {
+   "before": 121,
+   "droppedByRules": 0
+  }
+ },
+ "wholefoodsmarket.com": {
+  "sector": "grocery",
+  "study": "SGR-029",
+  "hosts": {
+   "www.wholefoodsmarket.com": 4834
+  },
+  "extraHosts": [],
+  "mapLinks": 4836,
+  "candidates": {
+   "announcement": 8,
+   "press": 36,
+   "blog": 17,
+   "info_pack": 0
+  },
+  "credits": 66,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 8,
+   "press": 35,
+   "blog": 17
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/wholefoodsmarket.com.jsonl.gz",
+  "v11": {
+   "before": 60,
+   "droppedByRules": 0
+  }
+ },
+ "reliant.com": {
+  "sector": "energy",
+  "study": "SGR-029",
+  "hosts": {
+   "www.reliant.com": 1111
+  },
+  "extraHosts": [],
+  "mapLinks": 1111,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 83,
+   "info_pack": 0
+  },
+  "credits": 77,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/reliant.com.jsonl.gz",
+  "v11": {
+   "before": 72,
+   "droppedByRules": 0
+  }
+ },
+ "calendly.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.calendly.com": 2674
+  },
+  "extraHosts": [],
+  "mapLinks": 2674,
+  "candidates": {
+   "announcement": 11,
+   "press": 30,
+   "blog": 371,
+   "info_pack": 0
+  },
+  "credits": 118,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 10,
+   "press": 29,
+   "blog": 70
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/calendly.com.jsonl.gz",
+  "v11": {
+   "before": 109,
+   "droppedByRules": 0
+  }
+ },
+ "usaa.com": {
+  "sector": "insurance",
+  "study": "SGR-029",
+  "hosts": {
+   "www.usaa.com": 1040
+  },
+  "extraHosts": [],
+  "mapLinks": 1042,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 458,
+   "info_pack": 0
+  },
+  "credits": 77,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 71
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/usaa.com.jsonl.gz",
+  "v11": {
+   "before": 71,
+   "droppedByRules": 0
+  }
+ },
+ "ally.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.ally.com": 862
+  },
+  "extraHosts": [],
+  "mapLinks": 862,
+  "candidates": {
+   "announcement": 2,
+   "press": 0,
+   "blog": 380,
+   "info_pack": 1
+  },
+  "credits": 109,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 2,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/ally.com.jsonl.gz",
+  "v11": {
+   "before": 75,
+   "droppedByRules": 0
+  }
+ },
+ "traderjoes.com": {
+  "sector": "grocery",
+  "study": "SGR-029",
+  "hosts": {
+   "www.traderjoes.com": 3499
+  },
+  "extraHosts": [],
+  "mapLinks": 3499,
+  "candidates": {
+   "announcement": 3,
+   "press": 1,
+   "blog": 147,
+   "info_pack": 0
+  },
+  "credits": 81,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 3,
+   "press": 1,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/traderjoes.com.jsonl.gz",
+  "v11": {
+   "before": 76,
+   "droppedByRules": 0
+  }
+ },
+ "liquiddeath.com": {
+  "sector": "food",
+  "study": "SGR-029",
+  "hosts": {
+   "www.liquiddeath.com": 548
+  },
+  "extraHosts": [],
+  "mapLinks": 548,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 2,
+   "info_pack": 0
+  },
+  "credits": 7,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 1
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/liquiddeath.com.jsonl.gz",
+  "v11": {
+   "before": 1,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.liquiddeath.com": 549
+   },
+   "extraHosts": [],
+   "mapLinks": 555,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 2,
+    "info_pack": 0
+   },
+   "credits": 12,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 0,
+    "blog": 1
+   }
+  }
+ },
+ "docusign.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.docusign.com": 4787
+  },
+  "extraHosts": [],
+  "mapLinks": 4787,
+  "candidates": {
+   "announcement": 5,
+   "press": 3,
+   "blog": 148,
+   "info_pack": 0
+  },
+  "credits": 85,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 5,
+   "press": 3,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/docusign.com.jsonl.gz",
+  "v11": {
+   "before": 80,
+   "droppedByRules": 0
+  }
+ },
+ "levi.com": {
+  "sector": "fashion",
+  "study": "SGR-029",
+  "hosts": {
+   "www.levi.com": 534
+  },
+  "extraHosts": [],
+  "mapLinks": 534,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 32,
+   "info_pack": 0
+  },
+  "credits": 37,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 23
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/levi.com.jsonl.gz",
+  "v11": {
+   "before": 23,
+   "droppedByRules": 0
+  }
+ },
+ "habitat.org": {
+  "sector": "charity",
+  "study": "SGR-029",
+  "hosts": {
+   "www.habitat.org": 4766
+  },
+  "extraHosts": [],
+  "mapLinks": 4766,
+  "candidates": {
+   "announcement": 1,
+   "press": 1444,
+   "blog": 1022,
+   "info_pack": 1
+  },
+  "credits": 152,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 1,
+   "press": 57,
+   "blog": 57
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/habitat.org.jsonl.gz",
+  "v11": {
+   "before": 116,
+   "droppedByRules": 0
+  }
+ },
+ "metrobyt-mobile.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.metrobyt-mobile.com": 4952
+  },
+  "extraHosts": [],
+  "mapLinks": 4952,
+  "candidates": {
+   "announcement": 0,
+   "press": 10,
+   "blog": 21,
+   "info_pack": 0
+  },
+  "credits": 36,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 10,
+   "blog": 17
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/metrobyt-mobile.com.jsonl.gz",
+  "v11": {
+   "before": 27,
+   "droppedByRules": 0
+  }
+ },
+ "spirit.com": {
+  "sector": "travel",
+  "study": "SGR-029",
+  "hosts": {
+   "www.spirit.com": 60
+  },
+  "extraHosts": [],
+  "mapLinks": 60,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 5,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/spirit.com.jsonl.gz",
+  "v11": {
+   "before": 0,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.spirit.com": 60
+   },
+   "extraHosts": [],
+   "mapLinks": 60,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 0,
+    "info_pack": 0
+   },
+   "credits": 11,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 0,
+    "blog": 0
+   }
+  }
+ },
+ "nami.org": {
+  "sector": "charity",
+  "study": "SGR-029",
+  "hosts": {
+   "www.nami.org": 3148
+  },
+  "extraHosts": [],
+  "mapLinks": 3149,
+  "candidates": {
+   "announcement": 33,
+   "press": 112,
+   "blog": 123,
+   "info_pack": 2
+  },
+  "credits": 151,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 26,
+   "press": 36,
+   "blog": 36
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/nami.org.jsonl.gz",
+  "v11": {
+   "before": 100,
+   "droppedByRules": 0
+  }
+ },
+ "aldi.us": {
+  "sector": "grocery",
+  "study": "SGR-029",
+  "hosts": {
+   "www.aldi.us": 4911
+  },
+  "extraHosts": [],
+  "mapLinks": 4911,
+  "candidates": {
+   "announcement": 3,
+   "press": 10,
+   "blog": 1,
+   "info_pack": 0
+  },
+  "credits": 19,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 45,
+   "blog": 1
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/aldi.us.jsonl.gz",
+  "v11": {
+   "before": 10,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.aldi.us": 4910,
+    "corporate.aldi.us": 82
+   },
+   "extraHosts": [],
+   "mapLinks": 4981,
+   "candidates": {
+    "announcement": 3,
+    "press": 52,
+    "blog": 1,
+    "info_pack": 0
+   },
+   "credits": 58,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 45,
+    "blog": 1
+   }
+  }
+ },
+ "expedia.com": {
+  "sector": "travel",
+  "study": "SGR-029",
+  "hosts": {
+   "www.expedia.com": 4419
+  },
+  "extraHosts": [],
+  "mapLinks": 4419,
+  "candidates": {
+   "announcement": 6,
+   "press": 41,
+   "blog": 26,
+   "info_pack": 0
+  },
+  "credits": 78,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 5,
+   "press": 33,
+   "blog": 25
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/expedia.com.jsonl.gz",
+  "v11": {
+   "before": 63,
+   "droppedByRules": 0
+  }
+ },
+ "everlane.com": {
+  "sector": "fashion",
+  "study": "SGR-029",
+  "hosts": {
+   "www.everlane.com": 4749
+  },
+  "extraHosts": [],
+  "mapLinks": 4750,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 1
+  },
+  "credits": 31,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 0,
+   "press": 0,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/everlane.com.jsonl.gz",
+  "v11": {
+   "before": 1,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.everlane.com": 4838,
+    "blog.everlane.com": 64
+   },
+   "extraHosts": [],
+   "mapLinks": 4900,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 0,
+    "info_pack": 1
+   },
+   "credits": 12,
+   "storedAfter": {
+    "info_pack": 1,
+    "announcement": 0,
+    "press": 0,
+    "blog": 0
+   }
+  }
+ },
+ "benjerry.com": {
+  "sector": "food",
+  "study": "SGR-029",
+  "hosts": {
+   "www.benjerry.com": 2270
+  },
+  "extraHosts": [],
+  "mapLinks": 2271,
+  "candidates": {
+   "announcement": 343,
+   "press": 11,
+   "blog": 0,
+   "info_pack": 1
+  },
+  "credits": 53,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 28,
+   "press": 10,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/benjerry.com.jsonl.gz",
+  "v11": {
+   "before": 39,
+   "droppedByRules": 0
+  }
+ },
+ "box.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.box.com": 3249
+  },
+  "extraHosts": [],
+  "mapLinks": 3249,
+  "candidates": {
+   "announcement": 3,
+   "press": 0,
+   "blog": 179,
+   "info_pack": 0
+  },
+  "credits": 108,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 1,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/box.com.jsonl.gz",
+  "v11": {
+   "before": 73,
+   "droppedByRules": 0
+  }
+ },
+ "uscellular.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.uscellular.com": 4543
+  },
+  "extraHosts": [],
+  "mapLinks": 4543,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 3
+  },
+  "credits": 53,
+  "stored": {
+   "info_pack": 3,
+   "announcement": 0,
+   "press": 0,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/uscellular.com.jsonl.gz",
+  "v11": {
+   "before": 3,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.uscellular.com": 4606
+   },
+   "extraHosts": [],
+   "mapLinks": 4606,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 0,
+    "info_pack": 3
+   },
+   "credits": 11,
+   "storedAfter": {
+    "info_pack": 3,
+    "announcement": 0,
+    "press": 0,
+    "blog": 0
+   }
+  }
+ },
+ "directenergy.com": {
+  "sector": "energy",
+  "study": "SGR-029",
+  "hosts": {
+   "www.directenergy.com": 504
+  },
+  "extraHosts": [],
+  "mapLinks": 504,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 181,
+   "info_pack": 0
+  },
+  "credits": 77,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/directenergy.com.jsonl.gz",
+  "v11": {
+   "before": 72,
+   "droppedByRules": 0
+  }
+ },
+ "metlife.com": {
+  "sector": "insurance",
+  "study": "SGR-029",
+  "hosts": {
+   "www.metlife.com": 4541
+  },
+  "extraHosts": [],
+  "mapLinks": 4541,
+  "candidates": {
+   "announcement": 0,
+   "press": 514,
+   "blog": 806,
+   "info_pack": 0
+  },
+  "credits": 141,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 60,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/metlife.com.jsonl.gz",
+  "v11": {
+   "before": 132,
+   "droppedByRules": 0
+  }
+ },
+ "chime.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.chime.com": 997
+  },
+  "extraHosts": [],
+  "mapLinks": 997,
+  "candidates": {
+   "announcement": 0,
+   "press": 176,
+   "blog": 607,
+   "info_pack": 0
+  },
+  "credits": 137,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 60,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/chime.com.jsonl.gz",
+  "v11": {
+   "before": 132,
+   "droppedByRules": 0
+  }
+ },
+ "frontier.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.frontier.com": 4988
+  },
+  "extraHosts": [],
+  "mapLinks": 4988,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 6,
+   "info_pack": 0
+  },
+  "credits": 11,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 6,
+   "press": 0,
+   "blog": 70
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/frontier.com.jsonl.gz",
+  "v11": {
+   "before": 6,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.frontier.com": 4982,
+    "enterprise.frontier.com": 1551,
+    "blog.frontier.com": 612
+   },
+   "extraHosts": [],
+   "mapLinks": 7140,
+   "candidates": {
+    "announcement": 6,
+    "press": 0,
+    "blog": 305,
+    "info_pack": 0
+   },
+   "credits": 83,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 6,
+    "press": 0,
+    "blog": 70
+   }
+  }
+ },
+ "webflow.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.webflow.com": 4913
+  },
+  "extraHosts": [],
+  "mapLinks": 4913,
+  "candidates": {
+   "announcement": 15,
+   "press": 2,
+   "blog": 132,
+   "info_pack": 2
+  },
+  "credits": 146,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 14,
+   "press": 1,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/webflow.com.jsonl.gz",
+  "v11": {
+   "before": 89,
+   "droppedByRules": 0
+  }
+ },
+ "cox.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.cox.com": 143
+  },
+  "extraHosts": [],
+  "mapLinks": 143,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 9,
+   "info_pack": 0
+  },
+  "credits": 14,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 9
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/cox.com.jsonl.gz",
+  "v11": {
+   "before": 9,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.cox.com": 145
+   },
+   "extraHosts": [],
+   "mapLinks": 146,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 9,
+    "info_pack": 0
+   },
+   "credits": 11,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 0,
+    "blog": 9
+   }
+  }
+ },
+ "discover.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.discover.com": 949
+  },
+  "extraHosts": [],
+  "mapLinks": 949,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 250,
+   "info_pack": 0
+  },
+  "credits": 153,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 63
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/discover.com.jsonl.gz",
+  "v11": {
+   "before": 63,
+   "droppedByRules": 0
+  }
+ },
+ "varomoney.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.varomoney.com": 293
+  },
+  "extraHosts": [],
+  "mapLinks": 293,
+  "candidates": {
+   "announcement": 0,
+   "press": 1,
+   "blog": 118,
+   "info_pack": 0
+  },
+  "credits": 78,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 1,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/varomoney.com.jsonl.gz",
+  "v11": {
+   "before": 73,
+   "droppedByRules": 0
+  }
+ },
+ "arcadia.com": {
+  "sector": "energy",
+  "study": "SGR-029",
+  "hosts": {
+   "www.arcadia.com": 391
+  },
+  "extraHosts": [],
+  "mapLinks": 391,
+  "candidates": {
+   "announcement": 2,
+   "press": 30,
+   "blog": 239,
+   "info_pack": 0
+  },
+  "credits": 109,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 2,
+   "press": 30,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/arcadia.com.jsonl.gz",
+  "v11": {
+   "before": 104,
+   "droppedByRules": 0
+  }
+ },
+ "current.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.current.com": 650
+  },
+  "extraHosts": [],
+  "mapLinks": 650,
+  "candidates": {
+   "announcement": 12,
+   "press": 0,
+   "blog": 251,
+   "info_pack": 0
+  },
+  "credits": 89,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 12,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/current.com.jsonl.gz",
+  "v11": {
+   "before": 84,
+   "droppedByRules": 0
+  }
+ },
+ "sofi.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.sofi.com": 4917
+  },
+  "extraHosts": [],
+  "mapLinks": 4917,
+  "candidates": {
+   "announcement": 3,
+   "press": 35,
+   "blog": 3393,
+   "info_pack": 0
+  },
+  "credits": 115,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 3,
+   "press": 35,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/sofi.com.jsonl.gz",
+  "v11": {
+   "before": 110,
+   "droppedByRules": 0
+  }
+ },
+ "smartsheet.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.smartsheet.com": 806
+  },
+  "extraHosts": [],
+  "mapLinks": 806,
+  "candidates": {
+   "announcement": 19,
+   "press": 12,
+   "blog": 0,
+   "info_pack": 6
+  },
+  "credits": 87,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 13,
+   "press": 12,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/smartsheet.com.jsonl.gz",
+  "v11": {
+   "before": 29,
+   "droppedByRules": 0
+  }
+ },
+ "servicenow.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.servicenow.com": 4597
+  },
+  "extraHosts": [],
+  "mapLinks": 4597,
+  "candidates": {
+   "announcement": 246,
+   "press": 22,
+   "blog": 1087,
+   "info_pack": 5
+  },
+  "credits": 151,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 1,
+   "press": 19,
+   "blog": 14
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/servicenow.com.jsonl.gz",
+  "v11": {
+   "before": 38,
+   "droppedByRules": 0
+  }
+ },
+ "ting.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.ting.com": 58
+  },
+  "extraHosts": [],
+  "mapLinks": 58,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 5,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 0,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/ting.com.jsonl.gz",
+  "v11": {
+   "before": 0,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.ting.com": 59,
+    "blog.ting.com": 493
+   },
+   "extraHosts": [],
+   "mapLinks": 553,
+   "candidates": {
+    "announcement": 0,
+    "press": 0,
+    "blog": 0,
+    "info_pack": 0
+   },
+   "credits": 12,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 0,
+    "blog": 0
+   }
+  }
+ },
+ "navyfederal.org": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.navyfederal.org": 1590
+  },
+  "extraHosts": [],
+  "mapLinks": 1592,
+  "candidates": {
+   "announcement": 0,
+   "press": 145,
+   "blog": 34,
+   "info_pack": 2
+  },
+  "credits": 151,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 0,
+   "press": 60,
+   "blog": 34
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/navyfederal.org.jsonl.gz",
+  "v11": {
+   "before": 96,
+   "droppedByRules": 0
+  }
+ },
+ "regions.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.regions.com": 241
+  },
+  "extraHosts": [],
+  "mapLinks": 241,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 13,
+   "info_pack": 2
+  },
+  "credits": 23,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 0,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/regions.com.jsonl.gz",
+  "v11": {
+   "before": 74,
+   "droppedByRules": 0
+  }
+ },
+ "citizensbank.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.citizensbank.com": 1791
+  },
+  "extraHosts": [],
+  "mapLinks": 1791,
+  "candidates": {
+   "announcement": 1,
+   "press": 17,
+   "blog": 1098,
+   "info_pack": 1
+  },
+  "credits": 121,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 1,
+   "press": 17,
+   "blog": 71
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/citizensbank.com.jsonl.gz",
+  "v11": {
+   "before": 90,
+   "droppedByRules": 0
+  }
+ },
+ "huntington.com": {
+  "sector": "bank",
+  "study": "SGR-029",
+  "hosts": {
+   "www.huntington.com": 2339
+  },
+  "extraHosts": [],
+  "mapLinks": 2339,
+  "candidates": {
+   "announcement": 22,
+   "press": 23,
+   "blog": 407,
+   "info_pack": 5
+  },
+  "credits": 151,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 20,
+   "press": 16,
+   "blog": 16
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/huntington.com.jsonl.gz",
+  "v11": {
+   "before": 56,
+   "droppedByRules": 0
+  }
+ },
+ "consumercellular.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.consumercellular.com": 1849
+  },
+  "extraHosts": [],
+  "mapLinks": 1849,
+  "candidates": {
+   "announcement": 18,
+   "press": 15,
+   "blog": 800,
+   "info_pack": 0
+  },
+  "credits": 110,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 18,
+   "press": 13,
+   "blog": 71
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/consumercellular.com.jsonl.gz",
+  "v11": {
+   "before": 102,
+   "droppedByRules": 0
+  }
+ },
+ "twilio.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.twilio.com": 4611
+  },
+  "extraHosts": [],
+  "mapLinks": 4611,
+  "candidates": {
+   "announcement": 78,
+   "press": 41,
+   "blog": 211,
+   "info_pack": 0
+  },
+  "credits": 146,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 27,
+   "press": 41,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/twilio.com.jsonl.gz",
+  "v11": {
+   "before": 140,
+   "droppedByRules": 0
+  }
+ },
+ "boostmobile.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.boostmobile.com": 4935
+  },
+  "extraHosts": [],
+  "mapLinks": 4935,
+  "candidates": {
+   "announcement": 0,
+   "press": 11,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 16,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 11,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/boostmobile.com.jsonl.gz",
+  "v11": {
+   "before": 11,
+   "droppedByRules": 0
+  },
+  "pass2": {
+   "hosts": {
+    "www.boostmobile.com": 4935
+   },
+   "extraHosts": [],
+   "mapLinks": 4936,
+   "candidates": {
+    "announcement": 0,
+    "press": 11,
+    "blog": 0,
+    "info_pack": 0
+   },
+   "credits": 11,
+   "storedAfter": {
+    "info_pack": 0,
+    "announcement": 0,
+    "press": 11,
+    "blog": 0
+   }
+  }
+ },
+ "constellation.com": {
+  "sector": "energy",
+  "study": "SGR-029",
+  "hosts": {
+   "www.constellation.com": 473
+  },
+  "extraHosts": [],
+  "mapLinks": 473,
+  "candidates": {
+   "announcement": 0,
+   "press": 0,
+   "blog": 32,
+   "info_pack": 1
+  },
+  "credits": 40,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 0,
+   "press": 0,
+   "blog": 32
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/constellation.com.jsonl.gz",
+  "v11": {
+   "before": 33,
+   "droppedByRules": 0
+  }
+ },
+ "txu.com": {
+  "sector": "energy",
+  "study": "SGR-029",
+  "hosts": {
+   "www.txu.com": 526
+  },
+  "extraHosts": [],
+  "mapLinks": 526,
+  "candidates": {
+   "announcement": 0,
+   "press": 18,
+   "blog": 0,
+   "info_pack": 0
+  },
+  "credits": 23,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 17,
+   "blog": 0
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/txu.com.jsonl.gz",
+  "v11": {
+   "before": 17,
+   "droppedByRules": 0
+  }
+ },
+ "travelers.com": {
+  "sector": "insurance",
+  "study": "SGR-029",
+  "hosts": {
+   "www.travelers.com": 1616
+  },
+  "extraHosts": [],
+  "mapLinks": 1616,
+  "candidates": {
+   "announcement": 2,
+   "press": 0,
+   "blog": 737,
+   "info_pack": 0
+  },
+  "credits": 79,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 2,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/travelers.com.jsonl.gz",
+  "v11": {
+   "before": 74,
+   "droppedByRules": 0
+  }
+ },
+ "lemonade.com": {
+  "sector": "insurance",
+  "study": "SGR-029",
+  "hosts": {
+   "www.lemonade.com": 1853
+  },
+  "extraHosts": [],
+  "mapLinks": 1854,
+  "candidates": {
+   "announcement": 2,
+   "press": 5,
+   "blog": 147,
+   "info_pack": 0
+  },
+  "credits": 84,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 2,
+   "press": 5,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/lemonade.com.jsonl.gz",
+  "v11": {
+   "before": 79,
+   "droppedByRules": 0
+  }
+ },
+ "feedingamerica.org": {
+  "sector": "charity",
+  "study": "SGR-029",
+  "hosts": {
+   "www.feedingamerica.org": 1194
+  },
+  "extraHosts": [],
+  "mapLinks": 1195,
+  "candidates": {
+   "announcement": 0,
+   "press": 142,
+   "blog": 1,
+   "info_pack": 5
+  },
+  "credits": 123,
+  "stored": {
+   "info_pack": 4,
+   "announcement": 0,
+   "press": 60,
+   "blog": 1
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/feedingamerica.org.jsonl.gz",
+  "v11": {
+   "before": 65,
+   "droppedByRules": 0
+  }
+ },
+ "zoom.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.zoom.com": 2870
+  },
+  "extraHosts": [],
+  "mapLinks": 2870,
+  "candidates": {
+   "announcement": 7,
+   "press": 0,
+   "blog": 290,
+   "info_pack": 0
+  },
+  "credits": 84,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 7,
+   "press": 0,
+   "blog": 72
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/zoom.com.jsonl.gz",
+  "v11": {
+   "before": 79,
+   "droppedByRules": 0
+  }
+ },
+ "intuit.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.intuit.com": 4822
+  },
+  "extraHosts": [],
+  "mapLinks": 4823,
+  "candidates": {
+   "announcement": 27,
+   "press": 89,
+   "blog": 222,
+   "info_pack": 9
+  },
+  "credits": 152,
+  "stored": {
+   "info_pack": 2,
+   "announcement": 27,
+   "press": 31,
+   "blog": 32
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/intuit.com.jsonl.gz",
+  "v11": {
+   "before": 92,
+   "droppedByRules": 0
+  }
+ },
+ "optimum.com": {
+  "sector": "telecom",
+  "study": "SGR-029",
+  "hosts": {
+   "www.optimum.com": 4292
+  },
+  "extraHosts": [],
+  "mapLinks": 4292,
+  "candidates": {
+   "announcement": 1,
+   "press": 9,
+   "blog": 144,
+   "info_pack": 0
+  },
+  "credits": 91,
+  "stored": {
+   "info_pack": 0,
+   "announcement": 0,
+   "press": 9,
+   "blog": 71
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/optimum.com.jsonl.gz",
+  "v11": {
+   "before": 80,
+   "droppedByRules": 0
+  }
+ },
+ "stripe.com": {
+  "sector": "software",
+  "study": "SGR-029",
+  "hosts": {
+   "www.stripe.com": 4847
+  },
+  "extraHosts": [],
+  "mapLinks": 4847,
+  "candidates": {
+   "announcement": 6,
+   "press": 63,
+   "blog": 734,
+   "info_pack": 1
+  },
+  "credits": 152,
+  "stored": {
+   "info_pack": 1,
+   "announcement": 6,
+   "press": 59,
+   "blog": 53
+  },
+  "storage": "storagebox:research/scriptgrain-brand-corpus-us/v1/pages/stripe.com.jsonl.gz",
+  "v11": {
+   "before": 119,
+   "droppedByRules": 0
+  }
+ }
+}
