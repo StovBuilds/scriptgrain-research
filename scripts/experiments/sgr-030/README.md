@@ -13,6 +13,8 @@ Fri 20 Nov 2026, run on D-1 (Thu 19 Nov), collection after the 22 Oct Firecrawl 
 | `candidates.json` | The result: one row per pair with status, verification evidence and pair potential |
 | `probe-cache.json`, `probe*.log` | Raw cache and logs of the probe run (13 Oct 2026) |
 | `geo-traps.md` | Geo-redirect traps hit while probing |
+| `fc-probe.mjs` | Firecrawl access probe: one scrape per side (base URL, location GB or US) of the 80 bot-blocked, geo-trapped and unverified brands. Counts only, no text kept |
+| `fc-classify.mjs`, `fc-probe-result.json` | The probe's verdict per brand: `in`, `fix-base` (side exists, seed URL wrong) or `out`, with the reason |
 
 ## 1. Question
 
@@ -140,9 +142,27 @@ Reuse of already-fetched URLs from the two corpora cuts that further for the rou
 - **Currency, legal and product differences** are real content differences, partly removed by boilerplate stripping, not fully.
 - Voice measures here do not establish that voice measurement can tell whether a text was written by AI.
 
-## 9. Decisions needed (see the hand-off note)
+## 9. Decisions (Jack, 14 Oct 2026)
 
-Locale/proxy setting for Firecrawl; whether bot-blocked brands are in; whether same-entity-different-company charities are in; credit cap; final brand count.
+- **Locale:** Firecrawl fetches each side with its own location (`GB` for the UK side, `US` for the US side), maps and scrapes alike.
+- **Credit cap:** 5,500 credits for the whole collection, spent after the 22 Oct reset.
+- **Brand count:** 60 to 80 usable brands is acceptable; 100 is not a target.
+- **Bot-blocked brands:** tested with one page each side first (below), then in if they pass.
+- **Still open:** whether the separate-company charities (Save the Children, Oxfam, Santander, Habitat) stay in as a flagged subgroup. Default: in, flagged, reported separately (section 3).
+
+### Firecrawl access probe (14 Oct 2026, 154 credits)
+
+`fc-probe.mjs` scraped the base URL of both sides of the 80 brands curl could not verify (60 bot-blocked, 18 geo-trapped, 2 unverified), with location set per side.
+
+| Verdict | Brands | Meaning |
+|---|---|---|
+| in | 45 | Both sides load through Firecrawl and land on the requested side |
+| fix-base | 14 | Both sides exist, but the seed URL was wrong (e.g. Huel UK is `uk.huel.com`, Vans UK is `vans.com/en-gb`, several US sides are the root) |
+| out | 21 | A side redirects to another locale or the root even with the location set (Asana, Virgin Atlantic, Mailchimp, Revolut, Dr. Martens), no second site exists (Deliveroo, Innocent, Gap UK online), or a bot wall/error on at least one side (Spotify, Heinz, eBay, American Airlines and others) |
+
+So the pool for pairing is 85 curl-verified + 45 probe-verified, plus up to 14 after base correction: 130 to 144 brands, from which
+discovery (matching paths, section 3) has to yield 60 to 80. A homepage loading is not proof the deep pages will; the
+`finalUrl` check in section 3 step 6 still applies to every fetched page.
 
 ## Deviations
 
