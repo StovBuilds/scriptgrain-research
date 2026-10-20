@@ -12,6 +12,8 @@ full run (D-1) Mon 20 Oct. Numbers only are published; Gutenberg text stays in
 - `panel.json`: the panel (author and book ids and word counts, no text). Committed with the pre-registration.
 - `run.mjs`: the full measurement and analysis. Uses SGR-007's `lexicons.json` and checks its counts
   against SGR-007's `instruments.mjs` before writing.
+- `charts.mjs`: the two SVG charts, called by `run.mjs`; `bun scripts/experiments/sgr-021/charts.mjs` rebuilds them from the summary
+  without re-measuring (added at D-1, 2026-10-20: labels to 3 decimals; presentation only).
 - `write-entry.mjs`: builds the `SGR-021` entry in `src/data/research-pages.json` (and the mirror
   `public/research-pages.json`) from the summary only.
 

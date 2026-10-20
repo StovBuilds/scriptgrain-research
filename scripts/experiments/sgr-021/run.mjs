@@ -12,6 +12,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { CFG, rng, sha256, cleanBook, narrationOf, dialogueWords, QUOTED, words, readGz } from "./lib.mjs";
 import { scanCliches } from "../../../supabase/functions/_shared/ai-cliches.ts";
+import { writeCharts } from "./charts.mjs";
 
 const args = process.argv.slice(2);
 const opt = (n, d) => { const i = args.indexOf(n); return i === -1 ? d : args[i + 1]; };
@@ -224,29 +225,6 @@ const summary = {
 };
 writeFileSync(P("summary.json"), JSON.stringify(summary, null, 1) + "\n");
 
-// ---- charts (brand palette; the same style as SGR-005) -------------------------------------------------------
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
-const STYLE = `<style>
-text{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;fill:#6b6862}
-.t{font-family:Archivo,system-ui,sans-serif;font-size:15px;font-weight:700;fill:#11100E}
-.lbl{fill:#11100E}.grid{stroke:#11100E;stroke-opacity:.1}.ci{stroke:#11100E;stroke-opacity:.5;stroke-width:1.5}
-.c0{fill:#674BFF}.c1{fill:#9D8420}.ref{stroke:#9D8420;stroke-dasharray:4 3}
-@media (prefers-color-scheme:dark){text{fill:#a8a49b}.t,.lbl{fill:#F6F5F0}.grid{stroke:#F6F5F0}.ci{stroke:#F6F5F0}.c0{fill:#7A61FF}.c1{fill:#C9A72C}.ref{stroke:#C9A72C}}
-</style>`;
-const svg = (w, h, title, sub, body) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="${esc(title)}">${STYLE}<text class="t" x="16" y="24">${esc(title)}</text><text x="16" y="42">${esc(sub)}</text>${body}</svg>\n`;
-{
-  const s = rows.slice(0, 20), w = 760, L = 210, Rr = 60, T = 70, rh = 22, h = T + s.length * rh + 40;
-  const mx = Math.ceil(Math.max(...s.map((r) => r.hi)) * 2) / 2, x = (v) => L + (v / mx) * (w - L - Rr);
-  let b = "";
-  for (let v = 0; v <= mx; v += mx > 6 ? 2 : 1) b += `<line class="grid" x1="${x(v)}" x2="${x(v)}" y1="${T - 6}" y2="${h - 30}"/><text x="${x(v)}" y="${h - 14}" text-anchor="middle">${v}</text>`;
-  b += `<line class="ref" x1="${x(corpusRate)}" x2="${x(corpusRate)}" y1="${T - 6}" y2="${h - 30}"/><text class="lbl" x="${x(corpusRate) + 4}" y="${T - 10}">all authors ${corpusRate.toFixed(1)}</text>`;
-  s.forEach((r, i) => { const y = T + i * rh; b += `<text class="lbl" x="${L - 10}" y="${y + 14}" text-anchor="end">${esc(r.name)}</text><rect class="c0" x="${L}" y="${y + 4}" width="${Math.max(1, x(r.rate) - L)}" height="${rh - 8}" rx="2"/><line class="ci" x1="${x(r.lo)}" x2="${x(r.hi)}" y1="${y + rh / 2}" y2="${y + rh / 2}"/><text class="lbl" x="${x(r.hi) + 6}" y="${y + 14}">${r.rate.toFixed(1)}</text>`; });
-  writeFileSync(P("top20.svg"), svg(w, h, "The 20 authors with the highest AI-ism rate", "uses per 1,000 words of the frozen AI-ism lists; line: 95% interval over each author's books", b));
-}
-{
-  const s = cellRows, w = 760, L = 190, Rr = 60, T = 70, rh = 26, h = T + s.length * rh + 40, mx = Math.ceil(Math.max(...s.map((r) => r.rate)) * 2) / 2, x = (v) => L + (v / mx) * (w - L - Rr);
-  let b = ""; for (let v = 0; v <= mx; v += mx > 6 ? 2 : 1) b += `<line class="grid" x1="${x(v)}" x2="${x(v)}" y1="${T - 6}" y2="${h - 30}"/><text x="${x(v)}" y="${h - 14}" text-anchor="middle">${v}</text>`;
-  s.forEach((r, i) => { const y = T + i * rh; b += `<text class="lbl" x="${L - 10}" y="${y + 16}" text-anchor="end">${r.century}s, ${r.genre === "fiction" ? "fiction" : "non-fiction"}</text><rect class="${r.genre === "fiction" ? "c0" : "c1"}" x="${L}" y="${y + 5}" width="${Math.max(1, x(r.rate) - L)}" height="${rh - 10}" rx="2"/><text class="lbl" x="${x(r.rate) + 6}" y="${y + 16}">${r.rate.toFixed(1)} (${r.authors} authors)</text>`; });
-  writeFileSync(P("baselines.svg"), svg(w, h, "The baseline moves with era and genre", "uses per 1,000 words; era = the century the author turned 40", b));
-}
+// ---- charts (charts.mjs; also rebuildable from the summary alone) ----------------------------------------
+writeCharts(OUT, { top: rows.slice(0, 20), corpusRate, cells: cellRows });
 log(`wrote ${OUT}/sgr-021-*  (${Math.round((Date.now() - t0) / 1000)}s total)`);
