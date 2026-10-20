@@ -37,6 +37,14 @@ const names = (xs, k = "name") => xs.map((x) => x[k]);
 const joinList = (xs) => (xs.length <= 2 ? xs.join(" and ") : `${xs.slice(0, -1).join(", ")} and ${xs.at(-1)}`);
 const stableNames = new Set(S.top_stable.map((x) => x.name)), robustInTop10 = top.slice(0, 10).filter((r) => stableNames.has(r.name)).length;
 const wide = S.counts.authors;
+// Exploratory facts read from the summary (pre-registration section 8): how many of the top 20 wrote only
+// non-fiction in this corpus, and how much of the leader's rate is one listed word.
+const nonfictionOnlyTop20 = top.filter((r) => r.fiction_share === 0).length;
+const leadTell = S.tells.filter((t) => t.top_author === t1.name).sort((a, b) => b.top_author_per1000 - a.top_author_per1000)[0];
+const leadTellLine = leadTell && leadTell.top_author_per1000 > t1.rate / 2 ? ` Most of ${t1.name}'s rate is one listed word: "${leadTell.tell.replace("*", "")}" and its forms, ${f3(leadTell.top_author_per1000)} of the ${f3(t1.rate)} uses per 1,000 words${t1.name === "Richard Cannon" && leadTell.tell === "embark*" ? "; the books are regimental histories, where regiments embark for campaigns" : ""}.` : "";
+// Peers ratios rest on thin baselines where an era has few authors; flag any top-10 entry far down the plain ranking.
+const thinPeers = S.top_adjusted.filter((r) => r.rank > 100);
+const thinPeersLine = thinPeers.length ? ` Where an era has few authors the peers baseline is thin (the 1600s have ${n(cent(1600).authors)}), so ${joinList(thinPeers.map((r) => `${r.name} (rank ${n(r.rank)} by rate, ratio ${f2(r.ratio)}, interval ${f2(r.lo)} to ${f2(r.hi)})`))} ${thinPeers.length === 1 ? "enters" : "enter"} that top 10 with a wide interval.` : "";
 
 const study = {
   id: "SGR-021",
@@ -49,8 +57,8 @@ const study = {
   description: `${n(S.counts.books)} books by ${n(S.counts.authors)} English-language authors from Project Gutenberg, ranked by how often they use the word lists now called AI-isms, with intervals over their books and a check on era, genre and dialogue. Pre-registered; published as a free dataset under CC BY 4.0. It ranks human habits; it does not detect AI.`,
   abstract: [
     { label: "Background", text: "Word lists of ChatGPT's supposed tells, such as delve, tapestry and realm, are mocked as machine habits. Those words come from somewhere. This study asks which human writers, in public-domain books written long before 2022, already used them, and how much." },
-    { label: "What we did", text: `Before measuring anything we fixed an inclusion rule, four hypotheses and the outputs. The set is every author in Project Gutenberg's public-domain English catalogue who meets the inclusion rule, not a curated canon: every English-language author whom Wikidata confirms and who has at least three books of 15,000 words or more: ${n(S.counts.authors)} authors, ${n(S.counts.books)} books, ${n(S.counts.words / 1e6, 1)} million words, up to eight books each. For every book we counted uses of the frozen AI-ism lists per 1,000 words and ranked authors with 95% intervals over their own books.` },
-    { label: "What we found", text: `${t1.name} (${t1.born} to ${t1.died}) ranked first at ${f3(t1.rate)} uses per 1,000 words (interval ${f3(t1.lo)} to ${f3(t1.hi)}), against ${f3(S.corpus.ai_isms_per1000)} for the whole corpus. ${robustInTop10} of the top 10 stay in the top 10 when each author's single highest book is removed. Non-fiction ${H1.holds ? "used" : "did not use"} the lists more than fiction (${f3(H1.nonfiction_rate)} against ${f3(H1.fiction_rate)} per 1,000 words), and the ranking ${H3.holds ? "held" : "did not hold"} when dialogue was taken out (Spearman ${f2(H3.rho)}).` },
+    { label: "What we did", text: `Before measuring anything we fixed an inclusion rule, four hypotheses and the outputs. The set is every author in Project Gutenberg's public-domain English catalogue who meets the inclusion rule, not a curated canon: every English-language author whom Wikidata confirms and who has at least three books of 15,000 words or more and 100,000 words in all: ${n(S.counts.authors)} authors, ${n(S.counts.books)} books, ${n(S.counts.words / 1e6, 1)} million words, up to eight books each. For every book we counted uses of the frozen AI-ism lists per 1,000 words and ranked authors with 95% intervals over their own books.` },
+    { label: "What we found", text: `${t1.name} (${t1.born} to ${t1.died}) ranked first at ${f3(t1.rate)} uses per 1,000 words (interval ${f3(t1.lo)} to ${f3(t1.hi)}), against ${f3(S.corpus.ai_isms_per1000)} for the whole corpus. ${nonfictionOnlyTop20} of the top 20 are represented here only by non-fiction (by their titles, mostly travel, exploration and history). ${robustInTop10} of the top 10 stay in the top 10 when each author's top book (the one whose removal lowers their rate most) is left out. Non-fiction ${H1.holds ? "used" : "did not use"} the lists more than fiction (${f3(H1.nonfiction_rate)} against ${f3(H1.fiction_rate)} per 1,000 words), and the ranking ${H3.holds ? "held" : "did not hold"} when dialogue was taken out (Spearman ${f2(H3.rho)}).` },
     { label: "What it means", text: "These are the habits of human writers, measured as word counts. They show that the words on the lists were ordinary, often older, English long before language models; they do not show that any author influenced a model, and they cannot tell whether any text was written by AI." },
   ],
   keyNumbers: [
@@ -80,7 +88,7 @@ const study = {
   ],
   productNote: "ScriptGrain measures writing voice from the samples a writer provides, using deterministic measures like those in this study. This study counted word lists in published books by dead authors; it did not test voice profiles or detection.",
   sample: {
-    description: `The set is plainly "authors in Project Gutenberg's public-domain English catalogue who meet the inclusion rule", not a curated canon. It is made of English-language books (catalogue snapshot of 4 October 2026) by authors that Wikidata records as English-language writers with Gutenberg IDs and known birth and death years. An author is in if their midlife year (birth plus 40) is between 1650 and 1949 and they have at least three eligible books of 15,000 words or more; up to eight books each, chosen in a seeded random order. ${n(S.counts.authors)} authors, ${n(S.counts.books)} books and ${n(S.counts.words / 1e6, 1)} million words: ${n(cent(1700).authors)} authors from the 1700s, ${n(cent(1800).authors)} from the 1800s and ${n(cent(1900).authors)} from the 1900s by midlife year, ${n(G.fiction?.books ?? 0)} fiction books and ${n(G.nonfiction?.books ?? 0)} non-fiction.`,
+    description: `The set is plainly "authors in Project Gutenberg's public-domain English catalogue who meet the inclusion rule", not a curated canon. It is made of English-language books (catalogue snapshot of 4 October 2026) by authors that Wikidata records as English-language writers with Gutenberg IDs and known birth and death years. An author is in if their midlife year (birth plus 40) is between 1650 and 1949 and they have at least three eligible books of 15,000 words or more; up to eight books each, chosen in a seeded random order. ${n(S.counts.authors)} authors, ${n(S.counts.books)} books and ${n(S.counts.words / 1e6, 1)} million words: ${n(cent(1600).authors)} authors from the 1600s, ${n(cent(1700).authors)} from the 1700s, ${n(cent(1800).authors)} from the 1800s and ${n(cent(1900).authors)} from the 1900s by midlife year, ${n(G.fiction?.books ?? 0)} fiction books and ${n(G.nonfiction?.books ?? 0)} non-fiction.`,
     size: S.counts.books,
     inclusionCriteria: [
       "English-language author per Wikidata, with a Project Gutenberg author ID and birth and death years, turning 40 between 1650 and 1949",
@@ -105,12 +113,12 @@ const study = {
     {
       label: "The ranking: who used the lists most",
       value: `${t1.name} ${f3(t1.rate)}, ${top[1].name} ${f3(top[1].rate)}, ${top[2].name} ${f3(top[2].rate)} uses per 1,000 words`,
-      explanation: `The corpus rate is ${f3(S.corpus.ai_isms_per1000)} and the middle author's is ${f3(S.corpus.median_author_rate)}. The next in the top 10 are ${joinList(names(top.slice(3, 10)))}. The chart shows intervals over each author's books; ${S.one_book_authors_in_top20} of the top 20 get more than half their uses from a single book.`,
+      explanation: `The corpus rate is ${f3(S.corpus.ai_isms_per1000)} and the middle author's is ${f3(S.corpus.median_author_rate)}. The next in the top 10 are ${joinList(names(top.slice(3, 10)))}. The chart shows intervals over each author's books; ${S.one_book_authors_in_top20} of the top 20 get more than half their uses from a single book.${leadTellLine}`,
     },
     {
       label: "Robust to one odd book",
       value: `${robustInTop10} of the top 10 stay in the top 10 without their top book`,
-      explanation: `${S.top20_overlap.stable_in_raw_top20} of the top 20 by rate are also in the top 20 once each author's highest book is removed. The robust top 10 is ${joinList(names(S.top_stable))}.`,
+      explanation: `${S.top20_overlap.stable_in_raw_top20} of the top 20 by rate are also in the top 20 once each author's top book is left out, and ${S.top20_overlap.adjusted_in_raw_top20} are in the top 20 against peers of their era and genre. The robust top 10 is ${joinList(names(S.top_stable))}.`,
     },
     {
       label: `H1 (${verdict(H1.holds).toLowerCase()}): non-fiction against fiction`,
@@ -118,14 +126,14 @@ const study = {
       explanation: `Non-fiction ${f3(H1.nonfiction_rate)}, fiction ${f3(H1.fiction_rate)}. Genre is the catalogue's label, and many authors wrote both.`,
     },
     {
-      label: `H2 (${H2.holds ? "a difference" : "no clear difference"}): 1800s against 1900s authors`,
+      label: `H2 (${H2.holds ? "supported, a difference" : "not supported, no clear difference"}): 1900s against 1800s authors`,
       value: `${sgn(H2.est)} per 1,000 words; 95% interval ${ciText(H2.ci)}`,
-      explanation: `Mean author rate ${f3(H2.mean1900)} for ${H2.n1900} authors whose midlife year was in the 1900s and ${f3(H2.mean1800)} for ${H2.n1800} in the 1800s. We predicted no direction. Era and genre are both in the peers ranking, whose top 10 is ${joinList(names(S.top_adjusted))}.`,
+      explanation: `Mean author rate ${f3(H2.mean1900)} for ${H2.n1900} authors whose midlife year was in the 1900s and ${f3(H2.mean1800)} for ${H2.n1800} in the 1800s. We predicted no direction. Era and genre are both in the peers ranking, whose top 10 is ${joinList(names(S.top_adjusted))}.${thinPeersLine}`,
     },
     {
       label: `H3 (${verdict(H3.holds).toLowerCase()}): not a dialogue artefact`,
       value: `Spearman ${f2(H3.rho)}; 95% interval ${f2(H3.ci[0])} to ${f2(H3.ci[1])}`,
-      explanation: `The bar was 0.9. ${S.top20_overlap.narration_in_raw_top20} of the top 20 are also in the narration-only top 20. Exploratory: the author rate correlates with dialogue share at Spearman ${f2(S.dialogue.rho_rate_vs_dialogue_share)}.`,
+      explanation: `The bar was 0.9. ${S.top20_overlap.narration_in_raw_top20} of the top 20 are also in the narration-only top 20. Exploratory: the author rate correlates with dialogue share at Spearman ${sgn(S.dialogue.rho_rate_vs_dialogue_share, 2)}.`,
     },
     {
       label: `H4 (${verdict(H4.holds).toLowerCase()}): a stable habit of the author`,
@@ -156,7 +164,7 @@ const study = {
     },
     {
       heading: "Every listed word",
-      table: { columns: ["Word", "Uses", "Per 1,000 words", "Used most by", "Earliest strong home"], rows: S.tells.map((t) => [t.tell, n(t.hits), f3(t.per1000), t.top_author ?? "n/a", t.earliest_strong_decade ? decade(t.earliest_strong_decade) : "none"]) },
+      table: { columns: ["Word", "Uses", "Per 1,000 words", "Used most by", "Earliest strong home", "Peak decade"], rows: S.tells.map((t) => [t.tell, n(t.hits), f3(t.per1000), t.top_author ?? "n/a", t.earliest_strong_decade ? decade(t.earliest_strong_decade) : "none", t.peak_decade ? `${decade(t.peak_decade)} (${f2(t.peak_ratio)} times)` : "none"]) },
     },
   ],
   limitations: [

@@ -152,4 +152,4 @@ four bugs (undefined bootstrap intervals on tiny samples, a missing fallback whe
 no peers, rates rounded too coarsely, a stale panel path); none concerned the rules above.
 
 ## 11. Deviations
-(none yet)
+None. The full run on 2026-10-20 used the committed `panel.json` and cached texts unchanged (6,381 books by 1,157 authors measured; 1,129 authors and 6,293 books met rule 6 and were ranked), the self-check against SGR-007's instruments passed, and every rule, list, threshold and hypothesis above was applied as frozen.
