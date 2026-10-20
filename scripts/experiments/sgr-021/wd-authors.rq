@@ -1,0 +1,5 @@
+SELECT ?author ?authorLabel ?birth ?death ?gid WHERE {
+  ?author wdt:P1938 ?gid ; wdt:P569 ?birth ; wdt:P570 ?death .
+  { ?author wdt:P103 wd:Q1860 } UNION { ?author wdt:P6886 wd:Q1860 } UNION { ?author wdt:P1412 wd:Q1860 }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}

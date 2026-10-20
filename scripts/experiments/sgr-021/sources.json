@@ -1,0 +1,28 @@
+{
+  "_readme": "SGR-021 frozen settings, committed with docs/research/sgr-021-preregistration.md before any book was measured. Changing a value after that is a deviation and must be listed there.",
+  "seed": 20261019,
+  "catalogue": { "file": "pg_catalog.csv", "sha256": "52cc0ffbef2b79d8d07fdd16dada95d29952f47ce21a1557598c580ee6188bea", "note": "Project Gutenberg catalogue snapshot of 2026-10-04, the same file SGR-007 used" },
+  "authors": { "midlife_from": 1650, "midlife_to": 1949, "min_works": 3, "midlife_rule": "birth year + 40" },
+  "works": {
+    "language": "en",
+    "exclude_subject_or_title": "translat|drama|plays?\\b|poetry|poems|verse|dictionar|encyclop|concordance|bibliograph|periodical|^complete works|^the complete works|^collected works|^works of|^the works of|^selected works",
+    "min_body_words": 15000,
+    "max_per_author": 8,
+    "trim_share_each_end": 0.05,
+    "fiction_subject": "fiction|stories|novel|tales"
+  },
+  "pilot": { "author_share": 0.05 },
+  "analysis": {
+    "bootstrap_resamples": 10000,
+    "min_author_books": 3,
+    "min_author_words": 100000,
+    "tell_min_author_words": 100000,
+    "tell_min_author_hits": 5,
+    "home_decade_min_ratio": 2,
+    "home_decade_min_hits": 10,
+    "home_decade_min_authors": 2,
+    "icc_lower_bound": 0.25,
+    "narration_rho_min": 0.9
+  },
+  "fetch": { "user_agent": "ScriptGrain research (support@scriptgrain.com)", "min_interval_ms": 1100 }
+}
