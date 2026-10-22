@@ -1,6 +1,6 @@
 // SGR-022 charts: static SVGs in the brand palette (same house style as the brand series),
 // light and dark via prefers-color-scheme, every series directly labelled.
-import { writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
 const STYLE = `<style>
 text{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;fill:#6b6862}
@@ -33,7 +33,7 @@ export function writeCharts(S, OUT) {
     b += `<text class="lbl b" x="${x(peak[0])}" y="${y(peak[1]) - 12}" text-anchor="middle">${peak[1].toFixed(2)}</text>`;
     b += `<text class="lbl b" x="${x(ys[0][0])}" y="${y(ys[0][1]) - 12}" text-anchor="start">${ys[0][1].toFixed(2)}</text>`;
     b += `<text class="lbl b" x="${x(ys.at(-1)[0]) - 10}" y="${y(ys.at(-1)[1]) + 20}" text-anchor="end">${ys.at(-1)[1].toFixed(2)}</text>`;
-    writeFileSync(`${OUT}/sgr-022-by-year.svg`, svg(W, H, "AI-associated words in ministers' written answers in Parliament", "uses per 1,000 words, mean over departments each year; small figures: pages measured", b));
+    writeFileSync(`${OUT}/sgr-022-by-year.svg`, svg(W, H, "AI-associated words in ministers' written answers in Parliament", "uses per 1,000 words, mean over departments each year; small figures: answers measured", b));
   }
   // 2. Within-department change, % of the 2019-22 level, with 95% intervals.
   {
@@ -70,4 +70,12 @@ export function writeCharts(S, OUT) {
     });
     writeFileSync(`${OUT}/sgr-022-departments.svg`, svg(W, H, "AI-associated words, department by department", "uses per 1,000 words; departments with at least 10 answers in both periods; sorted by change", b));
   }
+}
+
+// Rebuild the charts from a summary without re-measuring: bun scripts/experiments/sgr-022/charts.mjs [--summary f] [--out-dir d]
+if (import.meta.main) {
+  const args = process.argv.slice(2), opt = (n, d) => { const i = args.indexOf(n); return i === -1 ? d : args[i + 1]; };
+  const S = JSON.parse(readFileSync(opt("--summary", "public/research/sgr-022-summary.json"), "utf8"));
+  writeCharts(S, opt("--out-dir", "public/research"));
+  process.stderr.write("wrote the sgr-022 charts from the summary\n");
 }

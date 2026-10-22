@@ -8,7 +8,7 @@ Release: Thursday 23 October 2026. Conducted: Wednesday 22 October 2026 (the day
 | `collect.mjs` | `index` lists answered written questions (by tabled week) and written statements (by month) from the UK Parliament Questions and Statements API; `sample` draws the fixed-seed stratified sample; `fetch` gets the full text of every sampled answer and every statement; `status`. Polite (identified user agent, 3 requests a second, back-off, resumable, logged). Data goes to `~/research/sgr-022-hansard/` and is never committed. |
 | `lib.mjs` | Frozen rules: frame, sampling constants, department lineages, eras, HTML to plain text, exclusion rules, the measures (same code as `brand-series/measure.mjs` and SGR-020). |
 | `run.mjs` | The full measurement and analysis. Deterministic. Writes `public/research/sgr-022-*` (summary JSON, three CSVs, three SVG charts). |
-| `charts.mjs` | The three static charts (called by `run.mjs`). |
+| `charts.mjs` | The three static charts (called by `run.mjs`); `bun scripts/experiments/sgr-022/charts.mjs` rebuilds them from the summary without re-measuring (added at D-1, 2026-10-22: the year chart's small figures are answers, not pages; presentation only). |
 | `write-entry.mjs` | Builds the SGR-022 entry in `src/data/research-pages.json` (and the `public/` copy) from the summary. No number is typed by hand. |
 
 ## Corpus (already collected, do not repeat on D-1)
@@ -28,7 +28,7 @@ Run from the worktree/checkout of the PR branch, after merging `main` into it if
 ```
 cd ~/repos/scriptgrain-sgr022   # or any checkout of research/sgr-022-hansard-prep
 ln -s ~/repos/scriptgrain/node_modules node_modules   # if not installed; remove before committing
-bun scripts/experiments/sgr-022/run.mjs                              # RUN_TIME_PLACEHOLDER
+bun scripts/experiments/sgr-022/run.mjs                              # about 5 minutes (296 s on 2026-10-22)
 bun scripts/experiments/sgr-022/write-entry.mjs --conducted-on 2026-10-22 --publish-on 2026-10-23
 npx vitest run src/test/research.test.ts src/test/pages/Research.test.tsx src/test/worker/research-worker.test.ts
 ```
