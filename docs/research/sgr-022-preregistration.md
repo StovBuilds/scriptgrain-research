@@ -248,4 +248,4 @@ reported anywhere: not in the entry, the README or the pull request. Pilot outpu
 committed. The full analysis is run once, on the day before release.
 
 ## Deviations and clarifications
-(none yet)
+None in the analysis. The full run on 2026-10-22 (296 seconds, once) used the corpus collected from 11 to 12 October 2026 unchanged (60,000 sampled answers fetched, 17,730 statements fetched) and applied every rule, list, threshold, era and hypothesis above as frozen. Presentation only, 2026-10-22: the entry builder now shows each hypothesis measure with its confirmatory interval wherever it appears, gives readable exclusion labels, lists the statements' six tests in their own table, and keeps product mentions out of the method; no number was re-measured.
