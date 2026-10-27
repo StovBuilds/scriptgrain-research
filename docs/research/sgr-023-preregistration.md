@@ -208,4 +208,4 @@ No hypothesis, threshold or window was changed after seeing pilot readability nu
 `scripts/experiments/sgr-023/README.md` has the exact commands and the run time.
 
 ## Deviations
-(None yet. Anything changed after the freeze is listed here with the date and reason.)
+None. The full run on 2026-10-27 followed this document unchanged. (Anything changed after the freeze is listed here with the date and reason.)
