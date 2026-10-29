@@ -1,0 +1,69 @@
+{
+ "_readme": "Published SGR-008 results (arXiv, https://scriptgrain.com/research/the-ai-tells-moved), copied from scripts/experiments/sgr-008/results/census/*.json. Used only as fixed reference values for the side-by-side comparison; no SGR-024 number is computed from them.",
+ "periods": {
+  "BASE": "2020-01..2022-11",
+  "Y2024": "2024",
+  "Y2026": "2026-01..2026-09"
+ },
+ "share_pct": {
+  "old": {
+   "BASE": 4.537,
+   "Y2024": 11.851,
+   "Y2026": 3.026
+  },
+  "new": {
+   "BASE": 1.898,
+   "Y2024": 3.305,
+   "Y2026": 12.388
+  },
+  "control": {
+   "BASE": 73.484,
+   "Y2024": 74.877,
+   "Y2026": 72.637
+  }
+ },
+ "n_abstracts": {
+  "BASE": 446418,
+  "Y2024": 233900,
+  "Y2026": 262617
+ },
+ "new_ratio_2026_over_base_by_group": {
+  "cs": 7.62,
+  "econ": 7.06,
+  "eess": 5.68,
+  "math": 3.53,
+  "physics": 3.74,
+  "q-bio": 6.89,
+  "q-fin": 6.75,
+  "stat": 5.19
+ },
+ "crossover_half": "2025H2",
+ "h5_jaccard": 0.064,
+ "h5_overlap_words": [
+  "critical",
+  "distinct",
+  "enabling",
+  "findings",
+  "practical",
+  "remains"
+ ],
+ "lower_bound_pct": {
+  "set2024": {
+   "2024": 29.19,
+   "2026": 20.36
+  },
+  "set2026": {
+   "2024": 23.07,
+   "2026": 68.39
+  },
+  "union": {
+   "2024": 32.77,
+   "2026": 63.8
+  }
+ },
+ "h4_diff_words": 0.028,
+ "old_ratio_2024_over_base": 2.612,
+ "new_ratio_2024_over_base": 1.741,
+ "new_ratio_2026_over_base": 6.527,
+ "old_ratio_2026_over_base": 0.667
+}
