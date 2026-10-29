@@ -335,4 +335,4 @@ ahead of time and stored under `~/research/sgr-024` (never committed). `run.mjs`
 no language-model call and uses no API key.
 
 ## Deviations
-(None yet. Anything changed after the freeze is listed here with the date and the reason.)
+None. The full run on 2026-10-29 followed this document unchanged. (Anything changed after the freeze is listed here with the date and the reason.)
