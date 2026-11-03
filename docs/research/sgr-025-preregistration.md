@@ -183,4 +183,20 @@ from SGR-004's published rows before any new page was measured.
 `scripts/experiments/sgr-025/README.md` has the exact commands and the run time.
 
 ## Deviations
-(None yet. Anything changed after the freeze is listed here with the date and reason.)
+Anything changed after the freeze is listed here with the date and reason.
+
+- **2026-11-03: weekday names.** The header and the README call the full run "Monday 3 November" and the
+  release "Tuesday 4 November". 3 November 2026 is a Tuesday and 4 November a Wednesday, as in the
+  approved calendar (`docs/plans/research-next-8.md`). The dates were always 3 and 4 November; only the
+  weekday names were wrong. The full run was done on Tuesday 3 November 2026 (UTC). No change to the method.
+- **2026-11-03: repeat fetch returned 15 pages, not 16.** Section 6 says 16 sites "were fetched a second
+  time". 16 were requested; aa.com was refused by the service on the repeat, as on the first fetch, so 15
+  returned a page and 14 were measured both times. The entry reports those numbers. No change to the method.
+- **2026-11-03: entry wording only.** After the full run, and before any number was reported, the entry
+  builder's wording was corrected; no measure, statistic, threshold, rule or number changed: the method
+  line now says 16 sites were requested a second time and how many returned a page; the em-dash share
+  move and its interval are shown in whole percentage points (the summary stores shares to two decimals,
+  so one decimal implied precision it does not have); negative numbers use a minus sign throughout; the
+  AI-era key number, which compares all measured sites in each period, also states the matched-site
+  result so it cannot be read as a rise on its own; and a limitation that spoke of "a rise" in AI-era
+  words was reworded, because this study did not find one.
