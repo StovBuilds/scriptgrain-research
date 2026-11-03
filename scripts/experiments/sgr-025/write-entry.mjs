@@ -28,7 +28,7 @@ const { _readme: _r, ...ANALYSTS } = JSON.parse(readFileSync(here + "../shared/a
 
 const n = (x, d = 0) => (x == null || !Number.isFinite(x) ? "n/a" : Number(x).toLocaleString("en-GB", { minimumFractionDigits: d, maximumFractionDigits: d }));
 const f2 = (x) => n(x, 2);
-const signed = (x, d = 2) => (x == null ? "n/a" : `${x < 0 ? "−" : "+"}${n(Math.abs(x), d)}`);
+const signed = (x, d = 2) => (x == null ? "n/a" : `${x < 0 ? "−" : x > 0 ? "+" : ""}${n(Math.abs(x), d)}`);
 const long = (iso) => new Date(iso + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 const SLUG = "scriptgrain-writing-index";
 const Q = S.period, QL = "2026 Q4";
@@ -38,17 +38,18 @@ const ser = (p) => S.series.find((s) => s.period === p);
 const q4 = ser(Q), mid = ser(S.baseline_period);
 const IS_SHARE = (id) => id === "em_dash_share";
 const lvl = (id, v) => (v == null ? "n/a" : id === "words" ? n(v) : IS_SHARE(id) ? `${n(v * 100)}%` : f2(v));
-const chg = (c) => (IS_SHARE(c.id) ? `${signed(c.change * 100, 1)} percentage points` : c.id === "words" ? `${signed(c.change, 0)} words` : signed(c.change, 2));
-const ivl = (c) => (c.lo == null ? "interval n/a" : IS_SHARE(c.id) ? `${n(c.lo * 100, 1)} to ${n(c.hi * 100, 1)}` : c.id === "words" ? `${n(c.lo, 0)} to ${n(c.hi, 0)}` : `${n(c.lo, 2)} to ${n(c.hi, 2)}`);
+const chg = (c) => (IS_SHARE(c.id) ? `${signed(c.change * 100, 0)} percentage points` : c.id === "words" ? `${signed(c.change, 0)} words` : signed(c.change, 2));
+const sn = (x, d) => (x != null && x < 0 ? `−${n(-x, d)}` : n(x, d));
+const ivl = (c) => (c.lo == null ? "interval n/a" : IS_SHARE(c.id) ? `${sn(c.lo * 100, 0)} to ${sn(c.hi * 100, 0)}` : c.id === "words" ? `${sn(c.lo, 0)} to ${sn(c.hi, 0)}` : `${sn(c.lo, 2)} to ${sn(c.hi, 2)}`);
 const thr = (c) => (IS_SHARE(c.id) ? `${n(c.threshold * 100, 0)} percentage points` : c.id === "words" ? `${n(c.threshold)} words` : f2(c.threshold));
 const RES = { "no detectable change": "No detectable change", "moved, below the threshold": "Moved, below the threshold", changed: "Changed", "not assessed": "Not assessed" };
 const counts = Object.fromEntries(Object.keys(RES).map((k) => [k, S.comparison.filter((c) => c.label_result === k).length]));
-const changedIds = S.comparison.filter((c) => c.label_result === "changed").map((c) => `${c.label.toLowerCase()} (${c.direction})`);
+const changedIds = S.comparison.filter((c) => c.label_result === "changed").map((c) => `${c.label.toLowerCase()}, ${c.direction}`);
 const movedIds = S.comparison.filter((c) => c.label_result === "moved, below the threshold").map((c) => c.label.toLowerCase());
 const COV = S.coverage, V = S.checks.instrument_reproduction, R = S.checks.repeat_fetch;
 const TITLE = `The ScriptGrain Writing Index, Q4 2026: ${n(COV.sites)} company homepages, measured every quarter`;
 const collected = S.collection.first === S.collection.last ? long(S.collection.first) : `${long(S.collection.first)} to ${long(S.collection.last)}`;
-const outcome = `${n(counts["no detectable change"])} of six measures showed no detectable change, ${n(counts["moved, below the threshold"])} moved by less than the pre-registered threshold and ${n(counts.changed)} changed${counts.changed ? ` (${changedIds.join("; ")})` : ""}.`;
+const outcome = `${n(counts["no detectable change"])} of 6 measures showed no detectable change, ${n(counts["moved, below the threshold"])} moved by less than the pre-registered threshold and ${n(counts.changed)} changed${counts.changed ? ` (${changedIds.join("; ")})` : ""}.`;
 
 const study = {
   id: "SGR-025", slug: SLUG, title: TITLE,
@@ -64,10 +65,10 @@ const study = {
   ],
   keyNumbers: [
     `${n(COV.measured)} of ${n(COV.sites)} company homepages had enough prose to measure in the fourth quarter of 2026 (ScriptGrain Writing Index v${S.index_version}; ${n(mid.measured)} in mid-2026).`,
-    `AI-era marketing vocabulary averaged ${f2(q4.ai_era_vocab)} uses per 1,000 words on company homepages in ${QL}, against ${f2(mid.ai_era_vocab)} in mid-2026 (all measured sites in each period).`,
+    `AI-era marketing vocabulary averaged ${f2(q4.ai_era_vocab)} uses per 1,000 words on company homepages in ${QL}, against ${f2(mid.ai_era_vocab)} in mid-2026 (all measured sites in each period; comparing the ${n(COV.matched_sites)} companies measured both times, the result was: ${RES[CMP.ai_era_vocab.label_result].toLowerCase()}).`,
     `${lvl("em_dash_share", q4.em_dash_share)} of measured company homepages used an em dash in ${QL}, against ${lvl("em_dash_share", mid.em_dash_share)} in mid-2026.`,
     `The median company homepage carried ${n(q4.words)} words of prose in ${QL} and ${n(mid.words)} in mid-2026.`,
-    `Comparing each of ${n(COV.matched_sites)} companies with itself, ${n(counts["no detectable change"])} of six headline measures showed no detectable change between mid-2026 and ${QL}.`,
+    `Comparing each of ${n(COV.matched_sites)} companies with itself, ${n(counts["no detectable change"])} of 6 headline measures showed no detectable change between mid-2026 and ${QL}.`,
   ],
   measures: [
     { term: "The Index", definition: `A fixed panel of ${n(COV.sites)} UK and US company homepages in 11 sectors, measured on six headline measures every period with fixed definitions. Version ${S.index_version}. Each refresh adds a period; a changed definition is a new major version with a changelog entry. There is no composite score, because the measures move in different directions and any weighting would be a choice that could be tuned.` },
@@ -101,7 +102,7 @@ const study = {
     `Fetch: each homepage was requested once at https://domain/ through a page-rendering service with JavaScript run and caching off, on ${collected}. Sites the service refuses are recorded as fetch failed, not retried by other means.`,
     "Extraction and measurement: identical to SGR-004. Visible prose lines with scripts, navigation and footers removed (page headers, forms and asides kept; repeated lines counted once), measured with the product's own deterministic instruments, measureTextFeatures and scanCliches, and the two fixed word lists. No language model was used to read or score any page.",
     `Comparison: for the ${n(COV.matched_sites)} matched companies, the change in each headline measure from mid-2026 to ${QL} with a 95% bootstrap interval (${n(S.bootstrap_resamples)} resamples of companies, fixed seed). A move is called a change only if the interval excludes zero and the move reaches the pre-registered threshold.`,
-    "Checks: SGR-004's own 2026 captures of 8 sites were re-rendered and measured with this code to show it reproduces SGR-004's rows; 16 sites were fetched a second time to show how much a repeat fetch of the same live page differs.",
+    `Checks: SGR-004's own 2026 captures of 8 sites were re-rendered and measured with this code to show it reproduces SGR-004's rows; 16 sites were requested a second time (${n(R.sites_fetched_twice)} returned a page) to show how much a repeat fetch of the same live page differs.`,
   ],
   variablesMeasured: DEF.headline_measures.map((m) => m.label).concat(["Words, sentence shape, pronouns, contractions and punctuation (all columns in the dataset)"]),
   findings: [
@@ -129,7 +130,7 @@ const study = {
     "The two readings are obtained differently: mid-2026 is a rendered Wayback Machine replay of a capture, the fourth quarter is a live fetch. A page can differ between an archive replay and the live site for reasons that have nothing to do with its copy (cookie banners, personalisation, scripts that no longer load, content that loads later). Any difference between the periods includes that.",
     "The two readings are about four months apart, so a small change is expected. The Index is built to be read over several quarters, not one.",
     "Homepages only, and a homepage is the most edited, most headline-shaped page a company has. The panel is 161 large, long-lived companies, mostly UK and US; small businesses and companies founded after 2010 are not represented.",
-    "Vocabulary is not authorship. A rise in 'unlock' and 'seamless' is consistent with AI-assisted writing and with copywriters adopting words that AI made familiar. The Index cannot tell those apart and does not say which homepage was written by a model.",
+    "Vocabulary is not authorship. More 'unlock' and 'seamless' on a page is consistent with AI-assisted writing and with copywriters adopting words that AI made familiar. The Index cannot tell those apart and does not say which homepage was written by a model.",
     "Some companies could not be fetched live (the page-rendering service refuses certain sites), some serve a bot check, and some redirect to another domain; the measured set differs between periods, which is why comparisons use matched companies only.",
     "The thresholds come from SGR-004's own year-on-year moves among matched sites; they are a judgement about how large is large, fixed in advance, not a statistical property.",
   ],
