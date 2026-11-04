@@ -50,7 +50,7 @@ export function writeCharts(S, OUT) {
       b += `<line class="ci" x1="${x(r.lo)}" x2="${x(r.hi)}" y1="${y}" y2="${y}"/><circle class="${sig ? "c0" : "c1"} dot" cx="${x(r.pt)}" cy="${y}" r="6"/>`;
       b += `<text class="lbl b" x="${W - 12}" y="${y + 4}" text-anchor="end">${r.pt > 0 ? "+" : ""}${r.pt.toFixed(0)}%</text>`;
     });
-    writeFileSync(`${OUT}/sgr-020-change.svg`, svg(W, H, "What changed within the same departments after ChatGPT", "2024 to Sep 2026 against 2019 to Nov 2022, % of the earlier level; line: 95% interval; blue: interval clears zero", b));
+    writeFileSync(`${OUT}/sgr-020-change.svg`, svg(W, H, "What changed within the same departments after ChatGPT", "% change, 2024 to Sep 2026 against 2019 to Nov 2022. Line: 95% interval; blue: clears zero", b));
   }
   // 3. Every department: AI-associated words 2019-22 against 2024-26, sorted by change.
   {

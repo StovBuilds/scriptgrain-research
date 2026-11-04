@@ -13,6 +13,21 @@ text{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;fill:#6b6
 const svg = (W, H, title, sub, body) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${esc(title)}">${STYLE}<text class="t" x="16" y="24">${esc(title)}</text><text x="16" y="42">${esc(sub)}</text>${body}</svg>`;
 const niceMax = (v) => { const mag = 10 ** Math.floor(Math.log10(Math.max(v, 0.01) / 4)); const step = [1, 2, 2.5, 5, 10].map((m) => m * mag).find((s) => s * 4 >= v) ?? mag * 10; return { step, max: step * Math.ceil(v / step) }; };
 const f = (x) => (Math.round(x * 100) / 100).toString();
+// Footnotes are 12px mono (~7.2px a character) in a 760-wide viewBox, so anything past
+// ~100 characters runs off the edge: split notes into lines instead.
+const note = (x, y, lines) => lines.map((t, i) => `<text x="${x}" y="${y + i * 14}">${esc(t)}</text>`).join("");
+// End labels that share a column must not overlap: push neighbours apart to a 14px gap,
+// keeping each pair centred on where its points sit.
+function spreadLabels(ends, gap = 14) {
+  const out = ends.map((e) => ({ ...e })).sort((a, b) => a.y - b.y);
+  for (let k = 0; k < 50; k++) for (let i = 1; i < out.length; i++) {
+    const a = out[i - 1], b = out[i];
+    if (Math.abs(a.x - b.x) > 60) continue;
+    const d = gap - (b.y - a.y);
+    if (d > 0) { a.y -= d / 2; b.y += d / 2; }
+  }
+  return out;
+}
 
 function axes(x0, y0, w, h, xmin, xmax, ymax, xticks, yfmt = (v) => v) {
   const { step, max } = niceMax(ymax); let g = "";
@@ -22,7 +37,7 @@ function axes(x0, y0, w, h, xmin, xmax, ymax, xticks, yfmt = (v) => v) {
 }
 
 export function longRun({ gutDecades, bands, home, brand, arxiv }) {
-  const W = 760, H = 400, x0 = 52, y0 = 60, w = W - 52 - 120, h = 290;
+  const W = 760, H = 414, x0 = 52, y0 = 60, w = W - 52 - 120, h = 290;
   const all = [...gutDecades, ...home, ...brand, ...arxiv].flatMap((r) => [r.hi ?? r.per1000, r.per1000]).filter((v) => v != null);
   const bandTop = bands.map((b) => b.hi ?? b.per1000).filter((v) => v != null);
   const a = axes(x0, y0, w, h, 1800, 2030, Math.max(...all, ...bandTop, 1) * 1.05, [1800, 1850, 1900, 1950, 2000, 2025]);
@@ -35,16 +50,19 @@ export function longRun({ gutDecades, bands, home, brand, arxiv }) {
     let s = `<polyline class="line ${cls}" points="${pts.map((p) => `${f(p[0])},${f(p[1])}`).join(" ")}"/>`;
     for (const p of pts) s += `<circle class="dot ${cls}" cx="${f(p[0])}" cy="${f(p[1])}" r="3"/>`;
     const l = pts[pts.length - 1];
-    return s + `<text class="lbl" x="${f(l[0] + 8 + dx)}" y="${f(l[1] + 4 + dy)}">${esc(label)}</text>`;
+    ends.push({ x: l[0] + 8 + dx, y: l[1] + 4 + dy, label });
+    return s;
   };
-  body += line(gutDecades, "c0", "Books", 0, 0, 5) + line(home, "c2", "Homepages", 0, -4) + line(brand, "c1", "UK brands", 0, 10) + line(arxiv, "c3", "arXiv", 0, 14);
+  const ends = [];
+  body += line(gutDecades, "c0", "Books", 0, 0, 5) + line(home, "c2", "Homepages") + line(brand, "c1", "UK brands") + line(arxiv, "c3", "arXiv");
+  body += spreadLabels(ends).map((e) => `<text class="lbl" x="${f(e.x)}" y="${f(e.y)}">${esc(e.label)}</text>`).join("");
   body += `<line class="ref" x1="${f(a.X(2022.92))}" x2="${f(a.X(2022.92))}" y1="${y0}" y2="${y0 + h}"/><text x="${f(a.X(2022.92) - 6)}" y="${y0 + 12}" text-anchor="end">ChatGPT</text>`;
-  body += `<text x="${x0}" y="${H - 14}">Em dashes per 1,000 words. Thick bars: Gutenberg books by author era (1800s, 1900s). Source: ScriptGrain SGR-019, CC BY 4.0.</text>`;
+  body += note(x0, H - 28, ["Em dashes per 1,000 words. Thick bars: Gutenberg books by author era (1800s, 1900s).", "Source: ScriptGrain SGR-019, CC BY 4.0."]);
   return svg(W, H, "Em dashes per 1,000 words, 1800 to 2026", "Five bodies of writing; each dot is one decade (books) or one year", body);
 }
 
 export function afterChat(panels) {
-  const W = 760, ph = 190, H = 60 + panels.length * ph + 24;
+  const W = 760, ph = 190, H = 60 + panels.length * ph + 38;
   let body = "";
   panels.forEach((p, i) => {
     const x0 = 52, y0 = 70 + i * ph, w = W - 52 - 40, h = ph - 60, xs = p.groups.map((g) => g.x);
@@ -60,6 +78,6 @@ export function afterChat(panels) {
     }
     for (const g of p.groups) body += `<circle class="dot ${g.isPost ? "c1" : "c0"}" cx="${f(a.X(g.x))}" cy="${f(a.Y(g.rate))}" r="3"/>`;
   });
-  body += `<text x="16" y="${H - 8}">Blue: before ChatGPT. Gold: 2024 onward. Dashed: 2015 to Nov 2022 trend carried forward. Source: ScriptGrain SGR-019.</text>`;
+  body += note(16, H - 22, ["Blue: before ChatGPT. Gold: 2024 onward. Dashed: 2015 to Nov 2022 trend carried forward.", "Source: ScriptGrain SGR-019."]);
   return svg(W, H, "Is the rate above the pre-ChatGPT trend?", "Em dashes per 1,000 words; the test compares 2024 onward with the dashed line", body);
 }
