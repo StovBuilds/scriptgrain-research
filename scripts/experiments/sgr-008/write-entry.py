@@ -199,7 +199,7 @@ entry = {
  },
  "method": [
   "Pilot, 4 October 2026: Firecrawl's Research Index returned 41,657 arXiv abstracts for 38 categories x 3 fixed topics x 2015 to 2026. The pilot produced the 2026 word set and the idea; it is not part of any test.",
-  "Pre-registration: hypotheses H1 to H5, the frozen word sets, the excess-word method, thresholds and exclusions were committed to the ScriptGrain repository before the census was analysed. Seven clarifications and one deviation followed, each before the census was measured and each listed with its reason.",
+  "Pre-registration: hypotheses H1 to H5, the frozen word sets, the excess-word method, thresholds and exclusions were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before the census was analysed. Seven clarifications and one deviation followed, each before the census was measured and each listed with its reason.",
   "Census: every arXiv record from arXiv's OAI-PMH service (3,195,084 records), filtered by the rules above.",
   "Frozen-set tests: share of abstracts with at least one word of each set, 2020 to 2022 against 2024 and 2026 (January to September), with 95% confidence intervals from 2,000 bootstrap resamples of subject categories.",
   "Excess words: for 2023 to 2026, each word's share against a straight-line extension of its 2021 to 2022 trend. Words were chosen on papers submitted in odd months and scored on papers submitted in even months, so no word is scored on the papers that selected it. Words already in 5% or more of abstracts were left out of the word sets (the bound becomes unstable).",
@@ -280,7 +280,7 @@ entry = {
   "2026 covers January to September only.",
  ],
  "reproducibility": [
-  "Pre-registration, every script and every result file: docs/research/sgr-008-preregistration.md and scripts/experiments/sgr-008/ in the ScriptGrain repository (census-harvest.py, census-build.py, census-analyse.py, census-instruments.mjs, census-instruments-analyse.py, census-bounds.py, census-placebo.py, write-entry.py).",
+  "Pre-registration, every script and every result file: docs/research/sgr-008-preregistration.md and scripts/experiments/sgr-008/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) (census-harvest.py, census-build.py, census-analyse.py, census-instruments.mjs, census-instruments-analyse.py, census-bounds.py, census-placebo.py, write-entry.py).",
   "Source: arXiv's OAI-PMH service (oaipmh.arxiv.org), format arXivRaw. arXiv metadata is CC0, so anyone can harvest the same records and re-run the scripts.",
   "Instruments: supabase/functions/_shared/voice-match.ts (measureTextFeatures) and ai-cliches.ts (scanCliches), the code the product runs.",
   "Abstract text is not republished; the downloads carry counts and shares only.",

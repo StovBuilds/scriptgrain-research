@@ -143,7 +143,7 @@ const study = {
     { term: "Paired change and 95% interval", definition: "Each passage is compared with its own rewrite; the change is the mean of the 20 differences (rewrite minus original). The 95% interval resamples the 20 passages with replacement 10,000 times (fixed seed 20261012)." },
   ],
   analyst: ANALYST,
-  competingInterests: "ScriptGrain sells this humaniser and sells voice matching, and the analyst builds both. H3 is a hypothesis that the product's positioning would like to be true: it was tested with an equivalence margin fixed in the pre-registration and is reported whichever way it fell. The hypotheses, measures and tests were committed to the public repository before any passage was generated, and every result is reported whether it passed or failed.",
+  competingInterests: "ScriptGrain sells this humaniser and sells voice matching, and the analyst builds both. H3 is a hypothesis that the product's positioning would like to be true: it was tested with an equivalence margin fixed in the pre-registration and is reported whichever way it fell. The hypotheses, measures and tests were committed to ScriptGrain's research repository (public on GitHub) before any passage was generated, and every result is reported whether it passed or failed.",
   notShown: [
     "That the humaniser beats, or loses to, any other humaniser. Only ScriptGrain's was tested; a comparison needs paid accounts with rivals.",
     "That the rewrite passes any detector other than ScriptGrain's own. Other detectors may disagree.",
@@ -214,7 +214,7 @@ const study = {
     "The forced rewrite is not how the humaniser is used by default: a default run would have skipped some of these passages.",
   ],
   reproducibility: [
-    "Pre-registration and scripts: docs/research/sgr-027-preregistration.md and scripts/experiments/sgr-027/ in the ScriptGrain repository (prompts.json holds the frozen prompts, generate.mjs wrote the passages, run.mjs humanises and measures, analyse.mjs tests the hypotheses, write-entry.mjs builds this page from the output).",
+    "Pre-registration and scripts: docs/research/sgr-027-preregistration.md and scripts/experiments/sgr-027/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) (prompts.json holds the frozen prompts, generate.mjs wrote the passages, run.mjs humanises and measures, analyse.mjs tests the hypotheses, write-entry.mjs builds this page from the output).",
     "The data file holds every passage and its rewrite in full, with every measure for both, so any number on this page can be recomputed.",
   ],
   dataDownloads: [

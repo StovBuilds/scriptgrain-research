@@ -79,7 +79,7 @@ const study = {
     { term: "95% interval", definition: `From ${n(S.bootstrap_resamples)} resamples that draw whole journals with replacement (seed ${S.seed}).` },
   ],
   analyst: ANALYSTS["jack-stovell"],
-  competingInterests: "ScriptGrain sells writing-voice measurement and the analyst builds it; a story that medicine is full of machine-written text could suit the product. The hypotheses, word sets, thresholds and pass and fail rules were committed to the public repository before the full measurement, every hypothesis is reported whichever way it came out, and the data and scripts are public.",
+  competingInterests: "ScriptGrain sells writing-voice measurement and the analyst builds it; a story that medicine is full of machine-written text could suit the product. The hypotheses, word sets, thresholds and pass and fail rules were committed to ScriptGrain's research repository (public on GitHub) before the full measurement, every hypothesis is reported whichever way it came out, and the data and scripts are public.",
   notShown: [
     "That any abstract was written by AI. A word count describes vocabulary, not authorship.",
     "That the words moved because of AI tools. The data are observational and many other things changed after 2022.",
@@ -110,7 +110,7 @@ const study = {
     ].filter(Boolean),
   },
   method: [
-    "Pre-registration: the six hypotheses, two checks against Kobak et al., word sets, thresholds and analysis were committed to the public repository before the full measurement (docs/research/sgr-024-preregistration.md). The script was tested on a 4% pilot; the pilot results are not reported.",
+    "Pre-registration: the six hypotheses, two checks against Kobak et al., word sets, thresholds and analysis were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before the full measurement (docs/research/sgr-024-preregistration.md). The script was tested on a 4% pilot; the pilot results are not reported.",
     "Sampling: a fixed hash of the PubMed identifier picks 10% of records, so the sample is the same whenever it is drawn. Records come from NCBI's annual baseline and daily update files; the latest version of each record is used and deleted records are dropped.",
     "Measures: tokens are lowercase runs of letters and hyphens of three or more characters. A set's share is the percentage of abstracts with at least one of its words. No language model is used.",
     "Hypotheses: H1 old tells rise from 2020 to 2022 to 2024 then fall by 2026; H2 new words rise, at least doubling in six of eight subject groups; H3 the new words overtake the old in a half-year from 2025H1 to 2026H2. All are judged on 95% cluster-bootstrap intervals over journals.",
@@ -174,7 +174,7 @@ const study = {
     "The old and new word sets were fixed from arXiv. They may not be the words most affected in medicine, which is what the excess-word analysis looks at.",
     "A change in vocabulary after 2022 is not evidence that any abstract was written by AI, and its absence would not be evidence of the reverse.",
   ],
-  reproducibility: ["Pre-registration, collection script, run script and entry builder: docs/research/sgr-024-preregistration.md and scripts/experiments/sgr-024/ in the ScriptGrain repository.", "The sample is defined by a fixed hash rule on the PubMed identifier, so anyone can redraw it from NCBI's baseline and update files."],
+  reproducibility: ["Pre-registration, collection script, run script and entry builder: docs/research/sgr-024-preregistration.md and scripts/experiments/sgr-024/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research).", "The sample is defined by a fixed hash rule on the PubMed identifier, so anyone can redraw it from NCBI's baseline and update files."],
   dataDownloads: [
     { label: "Word set shares by half-year and subject group (CSV)", path: "/research/sgr-024-half-year.csv", format: "csv" },
     { label: "Word set counts by month and subject group (CSV)", path: "/research/sgr-024-monthly.csv", format: "csv" },

@@ -67,7 +67,7 @@ const entry = {
     "Other-author score: the same call for the other two authors' eight held-out pieces; the mean is reported. The gap (same minus other) is how well the profile tells its author from a stranger.",
     "Attribute agreement: each k-piece profile's enumerated attributes (complexity, clause ordering, humour, expressiveness, opening style, argument structure, ellipsis habit, list preference, connective preference, specificity, rhythm, paragraph length, power-sentence position) compared with the author's 15-piece profile; the share that agree is reported. Numeric attributes are reported as the absolute difference from the 15-piece value.",
     "Confidence: the confidence_score the extraction itself returns with each profile.",
-    "Runner: scripts/experiments/run-stability-study.mjs in the ScriptGrain repository; data file linked below.",
+    "Runner: scripts/experiments/run-stability-study.mjs in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research); data file linked below.",
   ],
   variablesMeasured: [
     "Voice match of held-out pieces by the same author (0 to 1, profile-calibrated)",
@@ -99,7 +99,7 @@ const entry = {
   ],
   reproducibility: [
     `Data file: /research/sgr-003-profile-stability.json (every profile's attributes, every score, the piece hashes and word counts, the seed).`,
-    "Runner: scripts/experiments/run-stability-study.mjs (public repository); the texts are Project Gutenberg #1400, #1342 and #16643.",
+    "Runner: scripts/experiments/run-stability-study.mjs (in [ScriptGrain's public research repository](https://github.com/StovBuilds/scriptgrain-research)); the texts are Project Gutenberg #1400, #1342 and #16643.",
     "Free instruments: the off-voice check on this site scores any two pieces the same way.",
   ],
   dataDownloads: [{ label: "All profiles and scores (JSON)", path: "/research/sgr-003-profile-stability.json", format: "json" }],

@@ -78,7 +78,7 @@ const study = {
     { term: "Three results", definition: "No detectable change: the 95% interval for the move includes zero. Moved, below the threshold: the interval excludes zero but the move is smaller than the threshold. Changed: the interval excludes zero and the move is at least the threshold." },
   ],
   analyst: ANALYSTS["jack-stovell"],
-  competingInterests: "ScriptGrain sells writing-voice measurement and the analyst builds it. The Index definition, the thresholds and the rule for calling a change were committed to the public repository before the new pages were measured, every measure is reported whichever way it came out, and the data and scripts are public.",
+  competingInterests: "ScriptGrain sells writing-voice measurement and the analyst builds it. The Index definition, the thresholds and the rule for calling a change were committed to ScriptGrain's research repository (public on GitHub) before the new pages were measured, every measure is reported whichever way it came out, and the data and scripts are public.",
   notShown: [
     "That any homepage was written or changed with AI. The Index measures vocabulary and punctuation on public pages, not who or what wrote them.",
     "That a difference between mid-2026 and the fourth quarter is a change in the writing. The two readings are obtained differently (an archive replay and a live fetch), at different dates.",
@@ -98,7 +98,7 @@ const study = {
     ],
   },
   method: [
-    `Pre-registration: the Index definition, the six measures, the thresholds and the analysis were committed to the public repository before the new pages were measured (docs/research/sgr-025-preregistration.md). The script was tested on 8 sites (5%); the test results are not reported.`,
+    `Pre-registration: the Index definition, the six measures, the thresholds and the analysis were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before the new pages were measured (docs/research/sgr-025-preregistration.md). The script was tested on 8 sites (5%); the test results are not reported.`,
     `Fetch: each homepage was requested once at https://domain/ through a page-rendering service with JavaScript run and caching off, on ${collected}. Sites the service refuses are recorded as fetch failed, not retried by other means.`,
     "Extraction and measurement: identical to SGR-004. Visible prose lines with scripts, navigation and footers removed (page headers, forms and asides kept; repeated lines counted once), measured with the product's own deterministic instruments, measureTextFeatures and scanCliches, and the two fixed word lists. No language model was used to read or score any page.",
     `Comparison: for the ${n(COV.matched_sites)} matched companies, the change in each headline measure from mid-2026 to ${QL} with a 95% bootstrap interval (${n(S.bootstrap_resamples)} resamples of companies, fixed seed). A move is called a change only if the interval excludes zero and the move reaches the pre-registered threshold.`,
@@ -135,7 +135,7 @@ const study = {
     "The thresholds come from SGR-004's own year-on-year moves among matched sites; they are a judgement about how large is large, fixed in advance, not a statistical property.",
   ],
   reproducibility: [
-    "Pre-registration, Index definition, run script and entry builder: docs/research/sgr-025-preregistration.md and scripts/experiments/sgr-025/ in the ScriptGrain repository.",
+    "Pre-registration, Index definition, run script and entry builder: docs/research/sgr-025-preregistration.md and scripts/experiments/sgr-025/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research).",
     "Instruments: supabase/functions/_shared/voice-match.ts (measureTextFeatures) and ai-cliches.ts (scanCliches), the code the product runs. The fetched pages are not republished; every row carries its fetch date, so any page can be fetched and measured again.",
   ],
   dataDownloads: [

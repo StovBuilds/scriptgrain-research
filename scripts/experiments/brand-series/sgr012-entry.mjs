@@ -48,7 +48,7 @@ const study = {
     { term: "95% interval", definition: "From 2,000 bootstrap resamples of brands, drawn within each sector." },
   ],
   analyst: ANALYSTS["jack-stovell"],
-  competingInterests: "ScriptGrain sells the voice score this study uses, and the analyst builds it. The hypotheses, the page rules and the test were committed to the public repository before any pair was scored, both results are reported, and the data and scripts are public.",
+  competingInterests: "ScriptGrain sells the voice score this study uses, and the analyst builds it. The hypotheses, the page rules and the test were committed to ScriptGrain's research repository (public on GitHub) before any pair was scored, both results are reported, and the data and scripts are public.",
   notShown: [
     "That readers hear the difference. The score counts writing habits; nobody was asked to tell the brands or the channels apart.",
     "That one channel's writing is better or more on-brand than the other's.",
@@ -82,7 +82,7 @@ const study = {
     { heading: "By sector", paragraphs: ["Exploratory. Mean of brand medians, raw scale (display score out of 100 in brackets)."], table: { columns: ["Sector", "Brands", "Same brand, same channel", "Same brand, other channel", "Rival, same channel"], rows: Object.entries(S.bySector).map(([k, v]) => [NAME[k] ?? k, String(v.brands), `${n(v.sbsc, 3)} (${disp(v.sbsc)})`, `${n(v.sboc, 3)} (${disp(v.sboc)})`, v.obsc == null ? "no rival in the sample" : `${n(v.obsc, 3)} (${disp(v.obsc)})`]) } },
   ],
   limitations: [`${S.brands} brands qualified: many brands publish too few press releases or too few long blog posts. Sector rows rest on one to five brands.`, "The score counts surface habits only. Two pages can agree on sentence length and punctuation and still read differently to a person.", "Recent writing only (2024 to 2026).", "UK consumer brands only."],
-  reproducibility: ["Pre-registration and scripts: docs/research/brand-series-preregistration.md and scripts/experiments/brand-series/sgr012.mjs in the ScriptGrain repository.", "Every page's URL is in the brand writing dataset, so any pair can be re-scored with the free checker."],
+  reproducibility: ["Pre-registration and scripts: docs/research/brand-series-preregistration.md and scripts/experiments/brand-series/sgr012.mjs in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research).", "Every page's URL is in the brand writing dataset, so any pair can be re-scored with the free checker."],
   dataDownloads: [
     { label: "Summary: medians per brand and pair kind, sector means, tests (JSON)", path: "/research/sgr-012-summary.json", format: "json" },
     { label: "Every page in the brand writing series, with its measures (CSV)", path: "/research/brand-writing-pages.csv", format: "csv" },
