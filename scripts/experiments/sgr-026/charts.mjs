@@ -34,7 +34,7 @@ export function writeCharts(S, OUT) {
       const peak = ys.reduce((a, d) => (d[1] > a[1] ? d : a));
       b += `<text class="lbl b" x="${x(peak[0])}" y="${y(peak[1]) - 10}" text-anchor="middle">${peak[1].toFixed(2)}</text>`;
       b += `<text class="lbl b" x="${x(ys[0][0])}" y="${y(ys[0][1]) - 10}" text-anchor="start">${ys[0][1].toFixed(2)}</text>`;
-      b += `<text class="lbl b" x="${x(ys.at(-1)[0]) - 8}" y="${y(ys.at(-1)[1]) + 20}" text-anchor="end">${ys.at(-1)[1].toFixed(2)}</text>`;
+      b += `<text class="lbl b" x="${x(ys.at(-1)[0]) + 8}" y="${y(ys.at(-1)[1]) + 4}" text-anchor="start">${ys.at(-1)[1].toFixed(2)}</text>`;
       writeFileSync(`${OUT}/sgr-026-by-quarter.svg`, svg(W, H, "AI-associated words in new English Wikipedia articles", "uses per 1,000 words in the first revision, mean of monthly means by quarter", b));
     }
   }
@@ -54,7 +54,7 @@ export function writeCharts(S, OUT) {
         b += `<line class="ci" x1="${x(r.lo)}" x2="${x(r.hi)}" y1="${y}" y2="${y}"/><circle class="${sig ? "c0" : "c1"} dot" cx="${x(r.pt)}" cy="${y}" r="6"/>`;
         b += `<text class="lbl b" x="${W - 12}" y="${y + 4}" text-anchor="end">${r.pt > 0 ? "+" : ""}${r.pt.toFixed(0)}%</text>`;
       });
-      writeFileSync(`${OUT}/sgr-026-change.svg`, svg(W, H, "What changed in new Wikipedia articles after ChatGPT", "2024 to Sep 2026 against 2019 to Nov 2022, % of the earlier level; line: 95% interval; blue: interval clears zero", b));
+      writeFileSync(`${OUT}/sgr-026-change.svg`, svg(W, H, "What changed in new Wikipedia articles after ChatGPT", "2024 to Sep 2026 vs 2019 to Nov 2022, % of earlier level; line: 95% interval; purple: clears zero", b));
     }
   }
   // 3. Share of new article-namespace pages later deleted, by quarter (creation log, from mid-2018).
