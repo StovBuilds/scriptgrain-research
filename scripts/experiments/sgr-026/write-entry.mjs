@@ -121,7 +121,7 @@ const study = {
     { term: "95% interval", definition: "From 2,000 bootstrap resamples of months. A hypothesis counts as supported only if the interval excludes zero in the predicted direction (for H5, if the 90% interval sits inside ±1.5 words)." },
   ],
   analyst: ANALYST,
-  competingInterests: "ScriptGrain sells writing-voice measurement and generation, and the analyst builds it. The hypotheses, eras, measures and tests were committed to ScriptGrain's private repository before the full measurement, every result is reported whether it passed or failed, and the data are published here.",
+  competingInterests: "ScriptGrain sells writing-voice measurement and generation, and the analyst builds it. The hypotheses, eras, measures and tests were committed to ScriptGrain's research repository (public on GitHub) before the full measurement, every result is reported whether it passed or failed, and the data and scripts are public.",
   notShown: [
     "That any article used AI to write. Word counts show style; people used these words before ChatGPT and keep using them, and Wikipedia's own list of signs of AI writing says that not all text showing its signs is AI-generated.",
     "That voice measurement, ScriptGrain's or anyone's, can tell whether a text was written by AI. Nothing in this study tests that.",
@@ -140,7 +140,7 @@ const study = {
     `Frame: Wikipedia assigns each page an ID in the order it is created, so the pages created in a month are an interval of IDs. We located each month's interval by binary search on the creation time of the first revision. For each month, random IDs from its interval were drawn with a fixed seed, 50 at a time, and kept if the page was then in the article namespace and was not a redirect or a disambiguation page, until 120 had been found (or a ceiling of draws was reached). One month, January 2015, was re-bounded after the fetch because more than 6% of its first revisions fell in another month, a check on timestamps only. The MediaWiki Action API (en.wikipedia.org/w/api.php) was queried one request at a time with maxlag=5 and an identified user agent.`,
     "Text: for each sampled page the first revision's wikitext was fetched and the page's first 50 revisions' edit summaries were read to see whether it was moved into the article namespace from a draft or user page. The wikitext was reduced to plain prose by a documented cleaner that was tested before the full run. Articles under 150 words, exact duplicates within a month, pages whose first revision was a redirect, pages created by bot accounts, and pages where more than 40% of the words sit in lines of six words or fewer were excluded.",
     "Measures: computed in code by ScriptGrain's own instruments, the same as in the brand and government series. No language model read or scored any article.",
-    "Pre-registration: the hypotheses, eras, exclusions and tests were committed to ScriptGrain's private repository before the full measurement (docs/research/sgr-026-preregistration.md). The scripts were tested on a 4% pilot, whose results are not reported. The full run was done once, on the day before publication.",
+    "Pre-registration: the hypotheses, eras, exclusions and tests were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before the full measurement (docs/research/sgr-026-preregistration.md). The scripts were tested on a 4% pilot, whose results are not reported. The full run was done once, on the day before publication.",
     "Tests: change in month-weighted means, with 95% intervals from 2,000 bootstrap resamples of months (fixed seed). H2 compares the per-year rate of change from 2015-18 to 2019-22 with that from 2019-22 to 2024-26. H6 repeats H1 using only articles created directly in the article namespace. Analyses beyond H1 to H6 are labelled exploratory.",
     "Deletions: the page-creation log in the article namespace starts in mid-2018. In eight random windows a month, each with up to 250 entries, we counted the entries whose page has since been deleted. This is exploratory and describes pages, not their text.",
   ],
@@ -192,7 +192,7 @@ const study = {
     "English Wikipedia only, and a ceiling of 120 sampled articles a month; months in the early years with fewer measured articles after the 150-word rule are weighted the same as the rest.",
   ],
   reproducibility: [
-    "Pre-registration and scripts: docs/research/sgr-026-preregistration.md and scripts/experiments/sgr-026/ in ScriptGrain's private repository (collect.mjs draws the sample and fetches first revisions, lib.mjs holds the cleaner, run.mjs measures and analyses, write-entry.mjs builds this page from the summary).",
+    "Pre-registration and scripts: docs/research/sgr-026-preregistration.md and scripts/experiments/sgr-026/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) (collect.mjs draws the sample and fetches first revisions, lib.mjs holds the cleaner, run.mjs measures and analyses, write-entry.mjs builds this page from the summary).",
     "Every article is named by its Wikipedia page ID in the data, so any article can be looked up (en.wikipedia.org/?curid=<id>), its history read and its first revision measured again.",
   ],
   dataDownloads: [

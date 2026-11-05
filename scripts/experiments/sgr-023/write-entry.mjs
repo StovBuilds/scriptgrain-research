@@ -88,7 +88,7 @@ const study = {
     { term: "95% interval", definition: `From ${n(S.bootstrap_resamples)} bootstrap resamples that draw whole brands with replacement within each sector.` },
   ],
   analyst: ANALYSTS["jack-stovell"],
-  competingInterests: "ScriptGrain sells writing-voice measurement and the analyst builds it; a finding that brands write at a high reading age could be used to sell a writing product. The hypotheses, the formulas and the pass and fail rules were committed to the public repository before the full measurement, every hypothesis is reported whichever way it came out, and the data and scripts are public.",
+  competingInterests: "ScriptGrain sells writing-voice measurement and the analyst builds it; a finding that brands write at a high reading age could be used to sell a writing product. The hypotheses, the formulas and the pass and fail rules were committed to ScriptGrain's research repository (public on GitHub) before the full measurement, every hypothesis is reported whichever way it came out, and the data and scripts are public.",
   notShown: [
     "That readers understood or failed to understand any page. Readability formulas measure sentence length and word length, not comprehension, and some of these pages are written for specialist readers.",
     "That any text was written by AI. A readability score describes sentence and word length, not authorship.",
@@ -103,7 +103,7 @@ const study = {
     exclusions: [`Information packs (PDFs): ${n(S.exclusions.info_pack_not_measured)} pages`, `Pages under 150 words: ${n(S.exclusions.under_150_words)}; duplicates: ${n(S.exclusions.duplicate_text)}; link and menu pages: ${n(S.exclusions.list_like)}`, `Pages with under 100 words or 5 sentences of running prose: ${n(S.exclusions.unscorable)}`, "Pages with no date, or dated before 2015, are kept in the level comparisons and left out of every comparison over time"],
   },
   method: [
-    "Pre-registration: the formulas, the syllable counter, the text rules, three hypotheses and the analysis were committed to the public repository before the full measurement (docs/research/sgr-023-preregistration.md). The script was tested on under 5% of the data; the test results are not reported.",
+    "Pre-registration: the formulas, the syllable counter, the text rules, three hypotheses and the analysis were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before the full measurement (docs/research/sgr-023-preregistration.md). The script was tested on under 5% of the data; the test results are not reported.",
     "Text: each page's main text turned into plain text as in SGR-010 to SGR-018; only lines ending in a full stop, question mark or exclamation mark are scored. Numbers and web addresses are not words; hyphenated words count as separate words.",
     "Syllables: fixed spelling rules, validated against the CMU Pronouncing Dictionary before the run, with the dictionary count used as a labelled sensitivity.",
     "Press against blog: for each brand with at least 10 press releases and 10 blog posts, the average grade of its press releases minus that of its blog posts; supported if the lower end of the 95% interval of the mean over brands is above zero.",
@@ -141,7 +141,7 @@ const study = {
     "The Consumer Duty comparison cannot separate the Duty from anything else that affected banks and insurers differently over the same years. Some brands in other sectors, such as supermarkets, run FCA-regulated arms; one check removes them. The Duty's own wording concerns communications to retail customers, which may not be the blog and press pages measured here.",
     "UK consumer brands only, in the 10 sectors the earlier studies chose.",
   ],
-  reproducibility: ["Pre-registration, run script and entry builder: docs/research/sgr-023-preregistration.md and scripts/experiments/sgr-023/ in the ScriptGrain repository.", "Every page's URL, date and readability measures are in the data files, so any figure can be recomputed from the public pages."],
+  reproducibility: ["Pre-registration, run script and entry builder: docs/research/sgr-023-preregistration.md and scripts/experiments/sgr-023/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research).", "Every page's URL, date and readability measures are in the data files, so any figure can be recomputed from the public pages."],
   dataDownloads: [
     { label: "Summary: hypotheses, intervals, levels, checks (JSON)", path: "/research/sgr-023-summary.json", format: "json" },
     { label: "Every page: URL, date, words, sentences and readability measures (CSV)", path: "/research/sgr-023-pages.csv", format: "csv" },

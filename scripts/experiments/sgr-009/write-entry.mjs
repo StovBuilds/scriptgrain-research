@@ -68,7 +68,7 @@ const study = {
     { term: "95% interval", definition: "From 2,000 bootstrap resamples of brands, drawn within each sector, so a brand with many pages cannot dominate the estimate." },
   ],
   analyst: ANALYST,
-  competingInterests: "ScriptGrain sells the score this study measures, and the analyst builds it. The study looks for a weakness in it. The hypotheses, brand panel and page rules were committed to the public repository before any page was fetched, every hypothesis is reported whether it passed or not, and the data and scripts are public.",
+  competingInterests: "ScriptGrain sells the score this study measures, and the analyst builds it. The study looks for a weakness in it. The hypotheses, brand panel and page rules were committed to ScriptGrain's research repository (public on GitHub) before any page was fetched, every hypothesis is reported whether it passed or not, and the data and scripts are public.",
   notShown: [
     "That brands in a sector really do sound the same to readers. The study measures one score; it does not ask people, and a low AUC can mean the measure misses what makes a brand distinct.",
     "Which brands write well or badly. No page or brand is rated, and the per-brand numbers are not a league table.",
@@ -91,7 +91,7 @@ const study = {
     ],
   },
   method: [
-    "Pre-registration: hypotheses H1 to H3, the brand panel, the page-type rules and both judges were committed to the public repository before any page was fetched (docs/research/sgr-009-preregistration.md and scripts/experiments/sgr-009/panel.json).",
+    "Pre-registration: hypotheses H1 to H3, the brand panel, the page-type rules and both judges were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before any page was fetched (docs/research/sgr-009-preregistration.md and scripts/experiments/sgr-009/panel.json).",
     "Pages: Firecrawl's site map of each brand, the page-type rules applied to its links (shortest URL first, up to three tries per type), Firecrawl's raw HTML from a UK location, and ScriptGrain's own page reader, exactly what the product reads when given a URL.",
     "Judges: every page judged with the production judge prompt. Primary: Claude Haiku 4.5 at temperature 0 with the production limits, run twice. Robustness: Claude Sonnet 5.5, run three times (its temperature cannot be set). No judge call failed.",
     "Scoring: every ordered pair of included pages through the production computation, once per judge run and once with counted features only.",
@@ -187,7 +187,7 @@ const study = {
     "Per-sector figures rest on six to ten brands each and have no intervals.",
   ],
   reproducibility: [
-    "Pre-registration, brand panel and every script: docs/research/sgr-009-preregistration.md and scripts/experiments/sgr-009/ in the ScriptGrain repository.",
+    "Pre-registration, brand panel and every script: docs/research/sgr-009-preregistration.md and scripts/experiments/sgr-009/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research).",
     "Every page is named by URL and fetch time, so any page can be fetched again and measured; pages change, so expect small differences.",
     `Cost of the judges: ${n(usd, 2)} US dollars of API calls across five runs.`,
   ],

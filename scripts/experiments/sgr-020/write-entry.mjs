@@ -107,7 +107,7 @@ const study = {
     { term: "95% interval", definition: "From 2,000 bootstrap resamples of departments. A hypothesis counts as supported only if the interval excludes zero in the predicted direction (for H5, if the 90% interval sits inside ±1.5 words)." },
   ],
   analyst: ANALYST,
-  competingInterests: "ScriptGrain sells writing-voice measurement and generation, and the analyst builds it. The hypotheses, eras, measures and tests were committed to the public repository before the full measurement, every result is reported whether it passed or failed, and the data and scripts are public.",
+  competingInterests: "ScriptGrain sells writing-voice measurement and generation, and the analyst builds it. The hypotheses, eras, measures and tests were committed to ScriptGrain's research repository (public on GitHub) before the full measurement, every result is reported whether it passed or failed, and the data and scripts are public.",
   notShown: [
     "That any release, or any department, used AI to write. Word counts show style; people used these words before ChatGPT and keep using them.",
     "That voice measurement, ScriptGrain's or anyone's, can tell whether a text was written by AI. Nothing in this study tests that.",
@@ -126,7 +126,7 @@ const study = {
     "Departments: each item's primary publishing organisation. Twenty departments are analysed, with renamed, merged and split departments joined into one lineage (for example the Foreign and Commonwealth Office and the Department for International Development with the FCDO). Agencies, regulators and other bodies are analysed separately as exploratory.",
     "Text measured: the body of each item reduced to plain text, with tables, contact details and notes to editors removed; the title is not measured. Items under 150 words, exact duplicates within a department, withdrawn items, translations and items where more than 40% of the words sit in lines of six words or fewer were excluded.",
     "Measures: computed in code by ScriptGrain's own published instruments, the same as in the brand series. No language model read or scored any item.",
-    "Pre-registration: the hypotheses, eras, exclusions and tests were committed to the public repository before the full measurement (docs/research/sgr-020-preregistration.md). The run was done once, on the day before publication.",
+    "Pre-registration: the hypotheses, eras, exclusions and tests were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before the full measurement (docs/research/sgr-020-preregistration.md). The run was done once, on the day before publication.",
     "Tests: within-department change in department-weighted means, with 95% intervals from 2,000 bootstrap resamples of departments (fixed seed). H2 compares the per-year rate of change from 2015-18 to 2019-22 with that from 2019-22 to 2024-26, for cells with all three eras. H6 repeats H1 using only 1 January to 4 July 2024. Analyses beyond H1 to H6 are labelled exploratory.",
   ],
   variablesMeasured: ["AI-associated words per 1,000 words (and each word list)", "AI sentence shapes per 1,000 words", "Em dashes per 1,000 words", "Average sentence length", "Contractions per 1,000 words", '"You" share'],
@@ -176,7 +176,7 @@ const study = {
     "UK central government only, in English, and only press releases and news stories.",
   ],
   reproducibility: [
-    "Pre-registration and scripts: docs/research/sgr-020-preregistration.md and scripts/experiments/sgr-020/ in the ScriptGrain repository (collect.mjs fetches the corpus, run.mjs measures and analyses it, write-entry.mjs builds this page from the summary).",
+    "Pre-registration and scripts: docs/research/sgr-020-preregistration.md and scripts/experiments/sgr-020/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) (collect.mjs fetches the corpus, run.mjs measures and analyses it, write-entry.mjs builds this page from the summary).",
     "Every item is named by its GOV.UK path in the data, so any release can be re-read on GOV.UK and measured again.",
   ],
   dataDownloads: [

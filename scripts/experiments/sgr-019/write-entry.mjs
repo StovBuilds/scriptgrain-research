@@ -65,7 +65,7 @@ const study = {
     { term: "95% interval", definition: `From ${n(S.bootstrap_resamples)} bootstrap resamples that draw whole groups with replacement: brands for brand writing, arXiv subject categories for abstracts, sites for homepages, authors for books.` },
   ],
   analyst: ANALYSTS["jack-stovell"],
-  competingInterests: "ScriptGrain sells writing-voice measurement and the analyst builds it; a story about a punctuation mark said to give away machine writing is also one the product could use. The hypotheses, the dash definition and the pass and fail rules were committed to the public repository before the full count, every hypothesis is reported whichever way it came out, and the data and scripts are public.",
+  competingInterests: "ScriptGrain sells writing-voice measurement and the analyst builds it; a story about a punctuation mark said to give away machine writing is also one the product could use. The hypotheses, the dash definition and the pass and fail rules were committed to ScriptGrain's research repository (public on GitHub) before the full count, every hypothesis is reported whichever way it came out, and the data and scripts are public.",
   notShown: [
     "That any text was written by AI. A dash count describes punctuation, not authorship.",
     "That the rise (or lack of one) since 2022 was caused by AI tools. The studies are observational and the periods differ in many other ways.",
@@ -80,7 +80,7 @@ const study = {
     exclusions: ["Brand information packs and annual reports (tables use dashes as empty cells)", "Brand pages with no usable date, or dated before 2015, are left out of every time comparison", "Page text is not published; counts and rates only"],
   },
   method: [
-    "Pre-registration: the six hypotheses, the dash rules and the analysis were committed to the public repository before the full measurement (docs/research/sgr-019-preregistration.md). The script was tested on under 5% of the data; the test results are not reported.",
+    "Pre-registration: the six hypotheses, the dash rules and the analysis were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before the full measurement (docs/research/sgr-019-preregistration.md). The script was tested on under 5% of the data; the test results are not reported.",
     "Counting: one regular-expression count per text, no language model. Words are counted after dash marks are replaced by spaces, so \"word--word\" is two words.",
     "Trend test: for each modern body of writing, the 2015 to November 2022 pooled rate by quarter is fitted with a weighted line and projected over 2024 onward; the hypothesis is supported if the lower end of the 95% interval of observed minus projected is above zero. December 2022 to December 2023 is left out of both sides.",
     "Comparison with books: the ratio of today's rate to the rate in 1800s non-fiction books (and science books for arXiv), with independent bootstrap intervals; supported if the upper end is below 1.",
@@ -120,7 +120,7 @@ const study = {
     "A rise after 2022 shows a change in how text looks in the ChatGPT era. It is not evidence that any text was written by AI, and a fall would not be evidence of the reverse.",
     "Word counts here ignore dashes; SGR-010 counted every run of non-space characters, so rates can differ in the second decimal place.",
   ],
-  reproducibility: ["Pre-registration, run script and entry builder: docs/research/sgr-019-preregistration.md and scripts/experiments/sgr-019/ in the ScriptGrain repository.", "Every brand page's URL, date and counts, and every book's identifier and counts, are in the data files, so any figure can be recounted from the public sources."],
+  reproducibility: ["Pre-registration, run script and entry builder: docs/research/sgr-019-preregistration.md and scripts/experiments/sgr-019/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research).", "Every brand page's URL, date and counts, and every book's identifier and counts, are in the data files, so any figure can be recounted from the public sources."],
   dataDownloads: [
     { label: "Summary: hypotheses, intervals, levels, exploratory cuts (JSON)", path: "/research/sgr-019-summary.json", format: "json" },
     { label: "Rate by collection and year, with intervals (CSV)", path: "/research/sgr-019-by-year.csv", format: "csv" },

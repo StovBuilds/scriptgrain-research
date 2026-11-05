@@ -114,7 +114,7 @@ const study = {
     ],
   },
   method: [
-    "Pre-registration: hypotheses H1 to H4, sources, sampling and word lists were committed to the public repository before any page was measured (docs/research/sgr-007-preregistration.md). Two clarifications made before measuring are listed there with reasons.",
+    "Pre-registration: hypotheses H1 to H4, sources, sampling and word lists were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before any page was measured (docs/research/sgr-007-preregistration.md). Two clarifications made before measuring are listed there with reasons.",
     "Scientific abstracts: a seeded random sample of 10,000 from the 1,057,471 arXiv abstracts dated 2015 to November 2022 with no revision after ChatGPT's launch, from [SGR-008](/research/the-ai-tells-moved)'s census of arXiv, cleaned of LaTeX and measured like every other text; the share of all eligible abstracts containing each word is reported alongside.",
     "Web pages: looked up in Common Crawl's own index files (read directly, not through its busy query server), fetched from its WARC archives and reduced to article text with the product's reader.",
     "Measurement: each page or passage is scored with the same deterministic code ScriptGrain uses, for the word lists, the sentence-shape scan, em dashes, sentence length and contractions. No language model reads or scores any text.",
@@ -199,7 +199,7 @@ const study = {
     "Some 'homes' rest on a few dozen uses. The table shows the counts.",
   ],
   reproducibility: [
-    "Pre-registration, sources, word lists and every script: docs/research/sgr-007-preregistration.md and scripts/experiments/sgr-007/ in the ScriptGrain repository.",
+    "Pre-registration, sources, word lists and every script: docs/research/sgr-007-preregistration.md and scripts/experiments/sgr-007/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research).",
     "Every web page in the data is named by URL and Common Crawl capture time, so any page can be fetched again from the CC-MAIN-2021-43 archive and measured.",
   ],
   dataDownloads: [

@@ -103,7 +103,7 @@ const study = {
     ],
   },
   method: [
-    "Pre-registration: the inclusion rule, word lists, hypotheses and outputs were committed to the public repository before any book was measured (docs/research/sgr-021-preregistration.md). The panel is whatever the rules produce, with no hand edits.",
+    "Pre-registration: the inclusion rule, word lists, hypotheses and outputs were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before any book was measured (docs/research/sgr-021-preregistration.md). The panel is whatever the rules produce, with no hand edits.",
     "Measurement: each whole book is scanned with the frozen word lists from SGR-007 by deterministic code; a book's value is its uses divided by its words. No language model reads or scores any text.",
     "Ranking: authors ordered by total uses over total words, with a 95% interval from 10,000 resamples of their books, and re-ranked without their top book, against peers of the same era and genre, and on narration only.",
     "H1 to H4: pre-registered tests with 95% bootstrap intervals over authors (10,000 resamples).",
@@ -177,7 +177,7 @@ const study = {
     "Correlation only: the study cannot show that any author influenced any model, or that measurement can identify AI writing.",
   ],
   reproducibility: [
-    "Pre-registration, Wikidata query and saved result, panel and every script: docs/research/sgr-021-preregistration.md and scripts/experiments/sgr-021/ in the ScriptGrain repository.",
+    "Pre-registration, Wikidata query and saved result, panel and every script: docs/research/sgr-021-preregistration.md and scripts/experiments/sgr-021/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research).",
     "Every book is named by its Project Gutenberg number in the data, so any text can be re-read and measured with the published word lists.",
   ],
   dataDownloads: [
