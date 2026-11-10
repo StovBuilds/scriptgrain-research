@@ -239,7 +239,7 @@ const study = {
     "Medians and means over a changing set of sites can move because the set changed. The paired before and after comparison and the fixed-panel check exist for that reason; the yearly lines should be read as the broad trend.",
   ],
   reproducibility: [
-    "Panel, vocabularies and every script: scripts/experiments/sgr-004/ in the ScriptGrain repository (crawl.mjs, render.mjs, measure.mjs, analyse.mjs, write-entry.mjs).",
+    "Panel, vocabularies and every script: scripts/experiments/sgr-004/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) (crawl.mjs, render.mjs, measure.mjs, analyse.mjs, write-entry.mjs).",
     "Instruments: supabase/functions/_shared/voice-match.ts (measureTextFeatures) and ai-cliches.ts (scanCliches), the code the product runs.",
     "The archived HTML is not republished. Every row in the data names the capture's timestamp, so any page can be reopened on the Wayback Machine and measured again.",
   ],

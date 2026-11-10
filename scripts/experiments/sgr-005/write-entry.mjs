@@ -95,7 +95,7 @@ const study = {
     ],
   },
   method: [
-    "Pre-registration: the hypotheses, panel rules and measures were committed to the public repository before any book was measured (docs/research/sgr-005-preregistration.md). The panel is whatever those rules produce, with no hand edits.",
+    "Pre-registration: the hypotheses, panel rules and measures were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before any book was measured (docs/research/sgr-005-preregistration.md). The panel is whatever those rules produce, with no hand edits.",
     "Measurement: each passage scored with the same deterministic code ScriptGrain uses, once as narration (dialogue removed) and once as all text; a book's value is the mean of its five passages. No language model reads or scores any text.",
     "H1: for each author, a straight-line slope of narration sentence length against age; the mean of the slopes, with a 95% bootstrap interval over authors.",
     "H2: for six core habits, the intraclass correlation of book values within authors, with a 95% bootstrap interval over authors; supported if at least four of the six intervals sit above 0.5.",
@@ -151,7 +151,7 @@ const study = {
     "Thirty-five authors, nearly all British or American and writing between 1810 and 1962; the findings describe them, not writers in general.",
   ],
   reproducibility: [
-    "Pre-registration, Wikidata query and saved result, panel and every script: docs/research/sgr-005-preregistration.md and scripts/experiments/sgr-005/ in the ScriptGrain repository.",
+    "Pre-registration, Wikidata query and saved result, panel and every script: docs/research/sgr-005-preregistration.md and scripts/experiments/sgr-005/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research).",
     "Every book is named by its Wikidata item and Project Gutenberg number in the data, so any passage can be re-read and measured.",
   ],
   dataDownloads: [

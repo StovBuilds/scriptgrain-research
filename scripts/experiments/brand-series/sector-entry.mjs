@@ -167,7 +167,7 @@ Object.entries(SECTORS).forEach(([k, M], idx) => {
       "Counts of surface habits only. They describe style, not quality.",
       "Descriptive. Differences from other sectors are reported without significance tests.",
     ],
-    reproducibility: ["Scripts: scripts/experiments/brand-series/sectors.mjs, sector-charts.mjs and sector-entry.mjs in the ScriptGrain repository.", "Every page's URL, brand, sector and measures are in the brand writing dataset below."],
+    reproducibility: ["Scripts: scripts/experiments/brand-series/sectors.mjs, sector-charts.mjs and sector-entry.mjs in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research).", "Every page's URL, brand, sector and measures are in the brand writing dataset below."],
     dataDownloads: [
       { label: "Summary: all six sector reports, habits, ranks, years, intervals (JSON)", path: "/research/sgr-sectors-summary.json", format: "json" },
       { label: "Every page in the brand writing series, with its measures (CSV)", path: "/research/brand-writing-pages.csv", format: "csv" },

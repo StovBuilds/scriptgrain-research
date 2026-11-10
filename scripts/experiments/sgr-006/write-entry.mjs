@@ -79,7 +79,7 @@ const study = {
     exclusions: ["Cells with fewer than 30 books (1700s essays, children's books and drama)"],
   },
   method: [
-    "Pre-registration: hypotheses, genres, eras and sampling were committed to the public repository before any text was measured (docs/research/sgr-006-preregistration.md).",
+    "Pre-registration: hypotheses, genres, eras and sampling were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before any text was measured (docs/research/sgr-006-preregistration.md).",
     "Measurement: every text scored with the same deterministic code ScriptGrain uses, for sixteen habits, on all text. No language model reads or scores any text.",
     "Re-run: the first books harvest was found to contain rows written by two runs at once, with some books mislabelled. It was discarded before analysis and the books were harvested again by a single run; the harvester now refuses to write into an existing file.",
     "Check added after the main run (not pre-registered): web pages and the non-fiction book passages re-measured on full prose lines only (8 words or more, ending in sentence punctuation), to see whether the web's shorter sentences come from headings and lists.",
@@ -140,7 +140,7 @@ const study = {
     "English only, and mostly British and American writing.",
   ],
   reproducibility: [
-    "Pre-registration, sources, harvester, analysis and checks: docs/research/sgr-006-preregistration.md and scripts/experiments/sgr-006/ in the ScriptGrain repository.",
+    "Pre-registration, sources, harvester, analysis and checks: docs/research/sgr-006-preregistration.md and scripts/experiments/sgr-006/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research).",
     "Every text is identified in the data (Project Gutenberg number and passage, web page URL and capture time, arXiv id), so any can be re-read and measured.",
   ],
   dataDownloads: [
