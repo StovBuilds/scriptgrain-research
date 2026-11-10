@@ -65,12 +65,26 @@ const models = [...new Set(R.map((r) => `${r.generator === "claude" ? "Claude" :
 const wordsMin = Math.min(...R.map((r) => r.before.words)), wordsMax = Math.max(...R.map((r) => r.before.words));
 const gen = (g) => R.filter((r) => r.generator === g).length;
 const formats = [...new Set(R.map((r) => r.format))];
-const topics = [...new Set(R.map((r) => r.topic))].length;
 const cap = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+const TOPIC_NAMES = { 1: "loft insulation", 2: "a weekly budgeting app", 3: "running after forty", 4: "a bakery" }; // prompts.json topic numbers (1-based)
+const topicName = (t) => { if (!TOPIC_NAMES[t]) throw new Error(`unknown topic ${t}`); return TOPIC_NAMES[t]; };
+const CORPUS = JSON.parse(readFileSync("scripts/experiments/sgr-027/out/passages.json", "utf8"));
+const genDays = [...new Set(CORPUS.map((p) => String(p.generatedAt ?? "").slice(0, 10)))].filter(Boolean).sort();
+if (!FIXTURE && (genDays.length === 0 || genDays.at(-1) >= CONDUCTED)) throw new Error(`passages must be generated before the measurement day, got ${genDays.join(", ")}`);
+const genDateText = genDays.length === 1 ? `on ${date(genDays[0])}` : `between ${date(genDays[0])} and ${date(genDays.at(-1))}`;
+// The humaniser keeps the best-scoring text, the original included, so a passage can come back unchanged.
+const unchanged = R.filter((r) => r.original.trim() === r.humanised.trim());
+const unchangedWhy = (r) => r.humanizer.discarded_passes === r.humanizer.iterations_run
+  ? `its integrity guard discarded all ${r.humanizer.iterations_run} passes`
+  : `none of its ${r.humanizer.iterations_run} passes scored above the original on its detector`;
+const unchangedText = unchanged.length === 0 ? "" : `${unchanged.length === 1 ? "One passage" : `${cap(numberWord(unchanged.length))} passages`} (${unchanged.map((r) => r.id).join(" and ")}) came back word for word unchanged: the humaniser keeps whichever text scores highest on its detector, the original included, and ${unchanged.map((r) => `for ${r.id} ${unchangedWhy(r)}`).join("; ")}.`;
+const tellsZeroBefore = count((r) => r.before.tells_per1000 === 0);
+const tellsMoved = R.filter((r) => r.before.tells_per1000 !== r.after.tells_per1000);
+function numberWord(k) { return ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"][k] ?? String(k); }
 const plural = (k, one, many) => `${k} ${k === 1 ? one : many}`;
 const hLab = {
   h1: H1.holds ? `the detector's human score rose, ${H1.before.toFixed(2)} to ${H1.after.toFixed(2)} on a 0 to 1 scale` : `the detector's human score did not clearly rise (${H1.before.toFixed(2)} to ${H1.after.toFixed(2)})`,
-  h2: H2.holds ? `AI-tell density fell, ${n(H2.before, 1)} to ${n(H2.after, 1)} per 1,000 words` : `AI-tell density did not clearly fall (${n(H2.before, 1)} to ${n(H2.after, 1)} per 1,000 words)`,
+  h2: H2.holds ? `AI-tell density fell, ${n(H2.before, 2)} to ${n(H2.after, 2)} per 1,000 words` : `AI-tell density did not clearly fall (${n(H2.before, 2)} to ${n(H2.after, 2)} per 1,000 words)`,
 };
 const vmMoved = H3.change.lo > 0 || H3.change.hi < 0;
 const vmText = H3.holds
@@ -98,7 +112,7 @@ const pairSections = [...shown].map(([id, labels]) => {
   return {
     heading: `Pair ${id}: ${labels.join("; ").toLowerCase()}`,
     paragraphs: [
-      `${r.generator === "claude" ? "Claude" : "GPT"} passage, ${r.format.replace(/-/g, " ")}, topic ${r.topic + 1} of ${topics}. Detector human score ${b.human_score.toFixed(2)} to ${a.human_score.toFixed(2)}; AI tells per 1,000 words ${n(b.tells_per1000, 1)} to ${n(a.tells_per1000, 1)}; voice match ${b.voice_match.toFixed(2)} to ${a.voice_match.toFixed(2)}; words ${b.words} to ${a.words}; contractions per 1,000 words ${n(b.contractions_per1000, 1)} to ${n(a.contractions_per1000, 1)}. Numbers lost: ${r.content.numbers_lost.length}; numbers added: ${r.content.numbers_added.length}; first-person sentences invented: ${r.content.invented_first_person.length}.`,
+      `${r.generator === "claude" ? "Claude" : "GPT"} passage, ${r.format.replace(/-/g, " ")} about ${topicName(r.topic)}. ${unchanged.includes(r) ? `The humaniser returned this passage unchanged (${unchangedWhy(r)}). ` : ""}Detector human score ${b.human_score.toFixed(2)} to ${a.human_score.toFixed(2)}; AI tells per 1,000 words ${n(b.tells_per1000, 1)} to ${n(a.tells_per1000, 1)}; voice match ${b.voice_match.toFixed(2)} to ${a.voice_match.toFixed(2)}; words ${b.words} to ${a.words}; contractions per 1,000 words ${n(b.contractions_per1000, 1)} to ${n(a.contractions_per1000, 1)}. Numbers lost: ${r.content.numbers_lost.length}; numbers added: ${r.content.numbers_added.length}; first-person sentences invented: ${r.content.invented_first_person.length}.`,
       "Original:", ...paras(r.original), "After the humaniser:", ...paras(r.humanised),
     ],
   };
@@ -123,13 +137,13 @@ const study = {
   description: `A pre-registered before-and-after study of 20 passages written by AI from bare prompts and rewritten by ScriptGrain's own humaniser. ${cap(hLab.h1)}; ${hLab.h2}. ${cap(contentText)}.`,
   abstract: [
     { label: "Background", text: "AI humanisers rewrite machine-written text so that detectors score it as human. What they change in the writing is rarely published with the numbers in view. We tested ScriptGrain's own humaniser because it is the one we can run with every intermediate number recorded; we sell it, which is a competing interest stated below." },
-    { label: "What we did", text: `We fixed four hypotheses before any passage was generated. Twenty passages of ${wordsMin} to ${wordsMax} words were written from bare prompts with no style, voice or tone instruction: ${formats.length} everyday formats by 4 topics, ${gen("claude")} by ${models.filter((m) => m.startsWith("Claude")).join("")} and ${gen("gpt")} by ${models.filter((m) => m.startsWith("GPT")).join("")}. Each was sent once to the humaniser, forced to rewrite even if it already passed, and both versions were measured: the detector's human score, AI tells per 1,000 words, five stylometric habits, voice match against one fixed profile, and what happened to numbers and first-person statements.` },
-    { label: "What we found", text: `H1 (${verdict(H1.holds).toLowerCase()}): ${hLab.h1}, a change of ${ch(H1.change)}. H2 (${verdict(H2.holds).toLowerCase()}): ${hLab.h2}, a change of ${ch(H2.change, 1)}. H3 (${verdict(H3.holds).toLowerCase()}): ${vmText}; the change was ${ch(H3.change, 3)}. H4 (${verdict(H4.holds).toLowerCase()}): ${contentText}; ${plural(lostN, "pair", "pairs")} lost a number, ${addedN} gained one and ${inventedN} gained a first-person sentence the original did not have.` },
-    { label: "What it means", text: "This describes what one humaniser did to 20 short passages, scored by one detector. It does not show that the rewrite would pass any other detector, that it works on human writing, or that detector scores measure authorship. Five of the pairs are shown in full on this page and all twenty are in the data file, so a reader can judge the rewrites themselves." },
+    { label: "What we did", text: `We fixed four hypotheses before any passage was generated. Twenty passages of ${wordsMin} to ${wordsMax} words were written from bare prompts with no style, voice or tone instruction: ${formats.length} everyday formats by 4 topics, ${gen("claude")} by ${models.filter((m) => m.startsWith("Claude")).join("")} and ${gen("gpt")} by ${models.filter((m) => m.startsWith("GPT")).join("")}. Each was sent once to the humaniser, forced to rewrite even if it already passed, and both versions were measured: the detector's human score, AI tells per 1,000 words, five stylometric habits, voice match against one fixed profile, and what happened to numbers and first-person statements.${unchangedText ? ` ${unchangedText}` : ""}` },
+    { label: "What we found", text: `H1 (${verdict(H1.holds).toLowerCase()}): ${hLab.h1}, a change of ${ch(H1.change)}. H2 (${verdict(H2.holds).toLowerCase()}): ${hLab.h2}, a change of ${ch(H2.change, 2)}. H3 (${verdict(H3.holds).toLowerCase()}): ${vmText}; the change was ${ch(H3.change, 3)}. H4 (${verdict(H4.holds).toLowerCase()}): ${contentText}; ${plural(lostN, "pair", "pairs")} lost a number, ${addedN} gained one and ${inventedN} gained a first-person sentence the original did not have.` },
+    { label: "What it means", text: `This describes what one humaniser did to 20 short passages, scored by one detector. It does not show that the rewrite would pass any other detector, that it works on human writing, or that detector scores measure authorship. ${cap(numberWord(shown.size))} of the pairs are shown in full on this page and all twenty are in the data file, so a reader can judge the rewrites themselves.` },
   ],
   keyNumbers: [
     `ScriptGrain's humaniser changed the mean detector human score of 20 AI-written passages from ${H1.before.toFixed(2)} to ${H1.after.toFixed(2)} (change ${ch(H1.change)}; ScriptGrain, 2026; pre-registered, run once on ${date(CONDUCTED)}).`,
-    `AI tells per 1,000 words went from ${n(H2.before, 1)} to ${n(H2.after, 1)} after humanising (change ${ch(H2.change, 1)}).`,
+    `AI tells per 1,000 words went from ${n(H2.before, 2)} to ${n(H2.after, 2)} after humanising (change ${ch(H2.change, 2)}); ${tellsZeroBefore} of the 20 originals had none to remove.`,
     `Voice match against a fixed profile went from ${H3.before.toFixed(2)} to ${H3.after.toFixed(2)} (change ${ch(H3.change, 3)}; the pre-registered equivalence margin was ±0.05).`,
     `${H4.clean_pairs} of ${H4.of} humanised passages lost no number, added no number and invented no first-person sentence.`,
     `A default run, without the forced rewrite, would have skipped ${X.would_skip_by_default} of the 20 passages because the detector already scored them at or above the 0.85 target.`,
@@ -153,7 +167,7 @@ const study = {
   ],
   productNote: "ScriptGrain's humaniser rewrites text toward a target detector score and keeps an integrity guard on numbers and first-person claims; its voice match scores text against a writer's measured profile. This study tests what the humaniser did, not whether you should use it.",
   sample: {
-    description: `20 passages written on ${date(A.measuredOn?.[0] ?? CONDUCTED)} or earlier from bare prompts with no style, voice or tone instruction: ${formats.length} formats (${formats.map((f) => f.replace(/-/g, " ")).join(", ")}) by 4 topics (loft insulation, a weekly budgeting app, running after forty, a bakery), ${gen("claude")} by Claude and ${gen("gpt")} by GPT, one generation per prompt, no retries and no editing. Original lengths ran from ${wordsMin} to ${wordsMax} words.`,
+    description: `20 passages written ${genDateText} from bare prompts with no style, voice or tone instruction: ${formats.length} formats (${formats.map((f) => f.replace(/-/g, " ")).join(", ")}) by 4 topics (loft insulation, a weekly budgeting app, running after forty, a bakery), ${gen("claude")} by Claude and ${gen("gpt")} by GPT, one generation per prompt, no retries and no editing. Original lengths ran from ${wordsMin} to ${wordsMax} words.`,
     size: 20,
     inclusionCriteria: ["One passage per frozen prompt (5 formats by 4 topics)", "Generator fixed by the prompt's position: 10 Claude, 10 GPT", "At least 50 words (the humaniser's minimum)"],
     exclusions: ["None: every generated passage was measured, none was edited or regenerated after seeing a result"],
@@ -167,10 +181,10 @@ const study = {
   ],
   variablesMeasured: ["Detector human score (0 to 1)", "AI tells per 1,000 words", "Contractions per 1,000 words", "Average sentence length", "Sentence-length variance", "Commas per word", "Em dashes per 1,000 words", "Voice match against a fixed profile (0 to 1)", "Numbers lost or added, invented first-person sentences, content words kept", "Word count"],
   findings: [
-    { label: `H1 (${verdict(H1.holds).toLowerCase()}): the detector's human score ${H1.holds ? "rose" : "did not clearly rise"}`, value: `${ch(H1.change)}; ${H1.before.toFixed(2)} to ${H1.after.toFixed(2)}`, explanation: `Mean of 20 paired differences on a 0 to 1 scale where 1 reads as human. The default target is 0.85; ${X.reached_target} of 20 rewrites reached it.` },
-    { label: `H2 (${verdict(H2.holds).toLowerCase()}): AI-tell density ${H2.holds ? "fell" : "did not clearly fall"}`, value: `${ch(H2.change, 1)} per 1,000 words; ${n(H2.before, 1)} to ${n(H2.after, 1)}`, explanation: "Stock phrases, 'not X but Y' balancing and the other patterns the free AI cliché checker looks for." },
+    { label: `H1 (${verdict(H1.holds).toLowerCase()}): the detector's human score ${H1.holds ? "rose" : "did not clearly rise"}`, value: `${ch(H1.change)}; ${H1.before.toFixed(2)} to ${H1.after.toFixed(2)}`, explanation: `Mean of 20 paired differences on a 0 to 1 scale where 1 reads as human. The default target is 0.85; ${X.reached_target} of 20 rewrites reached it. The humaniser keeps the pass that scores highest on this same detector, so a rise is partly built into how it works.${unchanged.length ? ` The ${plural(unchanged.length, "passage", "passages")} returned unchanged count as a change of zero.` : ""}` },
+    { label: `H2 (${verdict(H2.holds).toLowerCase()}): AI-tell density ${H2.holds ? "fell" : "did not clearly fall"}`, value: `${ch(H2.change, 2)} per 1,000 words; ${n(H2.before, 2)} to ${n(H2.after, 2)}`, explanation: `Stock phrases, 'not X but Y' balancing and the other patterns the free AI cliché checker looks for. ${tellsZeroBefore} of the 20 originals had no tells at all, so there was little to remove; the score changed in ${plural(tellsMoved.length, "pair", "pairs")}${tellsMoved.length ? ` (${tellsMoved.map((r) => `${r.id}: ${n(r.before.tells_per1000, 1)} to ${n(r.after.tells_per1000, 1)}`).join("; ")})` : ""}.` },
     { label: `H3 (${verdict(H3.holds).toLowerCase()}): voice match ${H3.holds ? "stayed inside ±0.05" : vmMoved ? "moved by more than chance" : "was not shown to stay inside ±0.05"}`, value: `${ch(H3.change, 3)}; ${H3.before.toFixed(2)} to ${H3.after.toFixed(2)}`, explanation: H3.holds ? "The whole interval sits inside the pre-registered margin, so the rewrite did not measurably move the text toward or away from the fixed profile." : "The interval is not inside the pre-registered margin of -0.05 to +0.05, so the equivalence claim is not supported." },
-    { label: `H4 (${verdict(H4.holds).toLowerCase()}): content ${H4.holds ? "survived" : "did not survive often enough"}`, value: `${H4.clean_pairs} of ${H4.of} pairs clean (at least 18 needed)`, explanation: `${plural(lostN, "pair", "pairs")} lost a number, ${addedN} added a number and ${inventedN} gained an invented first-person sentence. On average ${pct(X.content_words_kept)} of the original's content words were still present after the rewrite.` },
+    { label: `H4 (${verdict(H4.holds).toLowerCase()}): content ${H4.holds ? "survived" : "did not survive often enough"}`, value: `${H4.clean_pairs} of ${H4.of} pairs clean (at least 18 needed)`, explanation: `${plural(lostN, "pair", "pairs")} lost a number, ${addedN} added a number and ${inventedN} gained an invented first-person sentence. On average ${pct(X.content_words_kept)} of the original's content words were still present after the rewrite.${unchanged.length ? ` That includes the ${plural(unchanged.length, "passage", "passages")} returned unchanged, which are clean trivially; ${H4.clean_pairs - unchanged.length} of the ${20 - unchanged.length} passages that were rewritten are clean.` : ""}` },
     { label: "Exploratory: how often the humaniser's own passes were thrown away", value: `${X.passes_discarded} of ${X.passes_run} passes discarded by its integrity guard`, explanation: `The humaniser reports each pass and discards a pass that fails its own checks. ${X.would_skip_by_default} of 20 passages would have been skipped by a default run because they already scored at or above the 0.85 target.` },
   ],
   sections: [
@@ -178,7 +192,7 @@ const study = {
       heading: "Pre-registered hypotheses and results",
       table: { columns: ["Hypothesis", "Result", "Change, rewrite minus original (95% interval)"], rows: [
         ["H1: the mean detector human score rises", verdict(H1.holds), `${ch(H1.change)}`],
-        ["H2: the mean AI-tell density falls", verdict(H2.holds), `${ch(H2.change, 1)} per 1,000 words`],
+        ["H2: the mean AI-tell density falls", verdict(H2.holds), `${ch(H2.change, 2)} per 1,000 words`],
         ["H3: voice match against the fixed profile does not move (interval inside ±0.05)", verdict(H3.holds), `${ch(H3.change, 3)}`],
         ["H4: in at least 18 of 20 pairs no number is lost or added and no first-person sentence is invented", verdict(H4.holds), `${H4.clean_pairs} of ${H4.of} pairs`],
       ] },
@@ -199,7 +213,7 @@ const study = {
       table: { columns: ["Format", "Measure", "Before to after", "Change (95% interval)"], rows: fmtRows },
     },
     {
-      heading: "Five pairs in full",
+      heading: `${cap(numberWord(shown.size))} pairs in full`,
       paragraphs: [`Chosen by rule before the run: the largest, median and smallest detector gain, and the largest voice-match change in each direction (a pair can fill more than one role). The texts are shown with em and en dashes written out as [em dash] and [en dash], because this site does not print them. All 20 pairs are in the data file, in full.`],
     },
     ...pairSections,
@@ -207,11 +221,12 @@ const study = {
   limitations: [
     "One humaniser, ours. We sell it, and no rival humanisers were tested (that needs paid accounts).",
     "One run per passage. Model outputs are not deterministic, so a re-run reproduces the method, not the exact texts.",
-    "20 short passages, 150 to 200 words by design (some of the generated originals ran a little over). Results on long documents may differ, and with 20 pairs the intervals are wide.",
+    `20 short passages, asked for at 150 to 200 words (the generated originals ran from ${wordsMin} to ${wordsMax}). Results on long documents may differ, and with 20 pairs the intervals are wide.`,
     "The detector is ScriptGrain's own. Other detectors may agree or disagree, and a detector score is a model's judgement of how text reads, not a measurement of authorship.",
     "The passages were generated from bare prompts by two general-purpose models. They are not human writing, and nothing here says anything about human text.",
     "Voice match was measured against one profile, chosen because it is fixed and unrelated to every topic. A different profile could give a different result.",
-    "The forced rewrite is not how the humaniser is used by default: a default run would have skipped some of these passages.",
+    `The forced rewrite is not how the humaniser is used by default, though here it made no difference: a default run would have skipped ${X.would_skip_by_default} of these passages.`,
+    "The humaniser chooses between its passes with ScriptGrain's detector, the same detector that measured H1, so the rise in H1 shows what the humaniser optimises for. It does not show that the text reads as more human to people or to any other detector.",
   ],
   reproducibility: [
     "Pre-registration and scripts: docs/research/sgr-027-preregistration.md and scripts/experiments/sgr-027/ in [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) (prompts.json holds the frozen prompts, generate.mjs wrote the passages, run.mjs humanises and measures, analyse.mjs tests the hypotheses, write-entry.mjs builds this page from the output).",

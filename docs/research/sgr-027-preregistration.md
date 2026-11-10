@@ -79,3 +79,7 @@ it is reported whichever way it falls.
   corpus) showed the codex CLI wrapping its answer in commentary. It is a formatting
   instruction, not a style one, and applies to both arms alike. The codex CLI's model is
   whatever its account default is on the day; the generation log records it.
+- 2026-11-10, after the run, no measure or hypothesis changed: §6 names five showcase roles,
+  and one passage (P19) was both the median detector gain and the largest voice-match rise,
+  so the page shows four distinct pairs, not five. The rule allows a pair to fill more than
+  one role; this note records the count. All 20 pairs are in the data file.

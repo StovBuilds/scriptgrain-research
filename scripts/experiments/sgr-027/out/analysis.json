@@ -1,0 +1,303 @@
+{
+  "ranOn": "2026-11-10",
+  "measuredOn": [
+    "2026-11-10"
+  ],
+  "pilot": false,
+  "n": 20,
+  "seed": 20261012,
+  "resamples": 10000,
+  "hypotheses": {
+    "H1": {
+      "before": 0.505,
+      "after": 0.689,
+      "change": {
+        "mean": 0.184,
+        "lo": 0.143,
+        "hi": 0.225,
+        "n": 20
+      },
+      "holds": true
+    },
+    "H2": {
+      "before": 0.235,
+      "after": 0.47,
+      "change": {
+        "mean": 0.235,
+        "lo": 0,
+        "hi": 0.705,
+        "n": 20
+      },
+      "holds": false
+    },
+    "H3": {
+      "before": 0.74,
+      "after": 0.739,
+      "change": {
+        "mean": -0.001,
+        "lo": -0.027,
+        "hi": 0.025,
+        "n": 20
+      },
+      "holds": true
+    },
+    "H4": {
+      "clean_pairs": 20,
+      "of": 20,
+      "holds": true
+    }
+  },
+  "exploratory": {
+    "features": {
+      "words": {
+        "before": 194.1,
+        "after": 204,
+        "change": {
+          "mean": 9.9,
+          "lo": 5.2,
+          "hi": 15.1,
+          "n": 20
+        }
+      },
+      "contractions_per1000": {
+        "before": 30.157,
+        "after": 35.148,
+        "change": {
+          "mean": 4.991,
+          "lo": -1.061,
+          "hi": 11.037,
+          "n": 20
+        }
+      },
+      "avg_sentence_length": {
+        "before": 13.377,
+        "after": 11.737,
+        "change": {
+          "mean": -1.64,
+          "lo": -2.421,
+          "hi": -0.892,
+          "n": 20
+        }
+      },
+      "sentence_length_variance": {
+        "before": 45.306,
+        "after": 46.843,
+        "change": {
+          "mean": 1.537,
+          "lo": -6.421,
+          "hi": 9.62,
+          "n": 20
+        }
+      },
+      "comma_density": {
+        "before": 0.831,
+        "after": 0.671,
+        "change": {
+          "mean": -0.16,
+          "lo": -0.254,
+          "hi": -0.07,
+          "n": 20
+        }
+      },
+      "em_dashes_per1000": {
+        "before": 0.762,
+        "after": 0,
+        "change": {
+          "mean": -0.762,
+          "lo": -1.558,
+          "hi": 0,
+          "n": 20
+        }
+      }
+    },
+    "by_generator": {
+      "claude": {
+        "human_score": {
+          "before": 0.545,
+          "after": 0.722,
+          "change": {
+            "mean": 0.177,
+            "lo": 0.114,
+            "hi": 0.231,
+            "n": 10
+          }
+        },
+        "tells_per1000": {
+          "before": 0.47,
+          "after": 0.47,
+          "change": {
+            "mean": 0,
+            "lo": 0,
+            "hi": 0,
+            "n": 10
+          }
+        },
+        "voice_match": {
+          "before": 0.747,
+          "after": 0.744,
+          "change": {
+            "mean": -0.003,
+            "lo": -0.03,
+            "hi": 0.029,
+            "n": 10
+          }
+        }
+      },
+      "gpt": {
+        "human_score": {
+          "before": 0.465,
+          "after": 0.656,
+          "change": {
+            "mean": 0.191,
+            "lo": 0.138,
+            "hi": 0.25,
+            "n": 10
+          }
+        },
+        "tells_per1000": {
+          "before": 0,
+          "after": 0.47,
+          "change": {
+            "mean": 0.47,
+            "lo": 0,
+            "hi": 1.41,
+            "n": 10
+          }
+        },
+        "voice_match": {
+          "before": 0.733,
+          "after": 0.734,
+          "change": {
+            "mean": 0.001,
+            "lo": -0.043,
+            "hi": 0.043,
+            "n": 10
+          }
+        }
+      }
+    },
+    "by_format": {
+      "blog-intro": {
+        "human_score": {
+          "before": 0.692,
+          "after": 0.735,
+          "change": {
+            "mean": 0.042,
+            "lo": 0,
+            "hi": 0.085,
+            "n": 4
+          }
+        },
+        "voice_match": {
+          "before": 0.798,
+          "after": 0.783,
+          "change": {
+            "mean": -0.015,
+            "lo": -0.09,
+            "hi": 0.045,
+            "n": 4
+          }
+        }
+      },
+      "linkedin-post": {
+        "human_score": {
+          "before": 0.553,
+          "after": 0.71,
+          "change": {
+            "mean": 0.157,
+            "lo": 0.117,
+            "hi": 0.19,
+            "n": 4
+          }
+        },
+        "voice_match": {
+          "before": 0.758,
+          "after": 0.755,
+          "change": {
+            "mean": -0.003,
+            "lo": -0.028,
+            "hi": 0.015,
+            "n": 4
+          }
+        }
+      },
+      "launch-email": {
+        "human_score": {
+          "before": 0.443,
+          "after": 0.685,
+          "change": {
+            "mean": 0.242,
+            "lo": 0.215,
+            "hi": 0.27,
+            "n": 4
+          }
+        },
+        "voice_match": {
+          "before": 0.71,
+          "after": 0.71,
+          "change": {
+            "mean": 0,
+            "lo": -0.065,
+            "hi": 0.065,
+            "n": 4
+          }
+        }
+      },
+      "explainer": {
+        "human_score": {
+          "before": 0.353,
+          "after": 0.62,
+          "change": {
+            "mean": 0.268,
+            "lo": 0.2,
+            "hi": 0.35,
+            "n": 4
+          }
+        },
+        "voice_match": {
+          "before": 0.718,
+          "after": 0.76,
+          "change": {
+            "mean": 0.042,
+            "lo": -0.015,
+            "hi": 0.1,
+            "n": 4
+          }
+        }
+      },
+      "about-page": {
+        "human_score": {
+          "before": 0.485,
+          "after": 0.695,
+          "change": {
+            "mean": 0.21,
+            "lo": 0.177,
+            "hi": 0.252,
+            "n": 4
+          }
+        },
+        "voice_match": {
+          "before": 0.718,
+          "after": 0.688,
+          "change": {
+            "mean": -0.03,
+            "lo": -0.07,
+            "hi": 0.013,
+            "n": 4
+          }
+        }
+      }
+    },
+    "would_skip_by_default": 0,
+    "reached_target": 0,
+    "passes_run": 60,
+    "passes_discarded": 5,
+    "content_words_kept": 0.661
+  },
+  "showcase": [
+    "P04",
+    "P19",
+    "P11",
+    "P06"
+  ]
+}
