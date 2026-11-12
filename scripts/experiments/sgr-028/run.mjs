@@ -59,7 +59,8 @@ const r6 = (x) => (x == null ? null : Math.round(x * 1e6) / 1e6);
 
 // ---------- Deviation 1 (2026-11-12, after the freeze): locale rule, both corpora ----------
 // A page labelled for another market is dropped. See "Deviations" in the pre-registration. --frozen-corpus turns it off.
-const FROZEN = args.includes("--frozen-corpus");
+const FROZEN_ALL = args.includes("--frozen-corpus");
+const FROZEN_UK = args.includes("--frozen-uk"); // pre-registered sensitivity: UK corpus without the rule, US with it
 const HOME = { uk: ["gb", "uk"], us: ["us"] };
 const AREAS = { uk: ["001", "150", "154"], us: ["001", "003", "019", "021"] };
 const REGION_SECTIONS = new Set(["intl", "international", "emea", "apac", "ap", "latam", "lac", "lac-en", "eu", "europe"]);
@@ -83,7 +84,7 @@ function brandsOf(dir, country) {
   const rows = parseCsv(readFileSync(here + `../${dir}/manifest.csv`, "utf8"));
   const m = new Map();
   for (const r of rows) {
-    if (!FROZEN) { const why = foreignLocale(r, country); if (why) { const L = localeDropped[country]; L.pages++; L[why]++; L.brands[r.domain] = (L.brands[r.domain] ?? 0) + 1; continue; } } if (!m.has(r.domain)) m.set(r.domain, { sector: r.sector, rows: [] }); m.get(r.domain).rows.push(r); }
+    if (!(FROZEN_ALL || (FROZEN_UK && country === "uk"))) { const why = foreignLocale(r, country); if (why) { const L = localeDropped[country]; L.pages++; L[why]++; L.brands[r.domain] = (L.brands[r.domain] ?? 0) + 1; continue; } } if (!m.has(r.domain)) m.set(r.domain, { sector: r.sector, rows: [] }); m.get(r.domain).rows.push(r); }
   return m;
 }
 function readBrand(remote, domain) {
@@ -246,7 +247,7 @@ const phraseBy = Object.entries(accs).filter(([d]) => brands[d].country === "uk"
 const today = new Date().toISOString().slice(0, 10);
 const S = {
   study: "SGR-028", pilot: PILOT, ranOn: today, seed: SEED, bootstrap: B,
-  locale_rule: FROZEN ? { applied: false } : { applied: true, deviation: "Deviation 1, 2026-11-12, after the freeze", uk: { pages: localeDropped.uk.pages, by_language: localeDropped.uk.language, by_path: localeDropped.uk.path }, us: { pages: localeDropped.us.pages, by_language: localeDropped.us.language, by_path: localeDropped.us.path, top_brands: Object.fromEntries(Object.entries(localeDropped.us.brands).sort((a, b) => b[1] - a[1]).slice(0, 10)) } },
+  locale_rule: FROZEN_ALL ? { applied: false } : { applied: true, uk_frozen_sensitivity: FROZEN_UK, deviation: "Deviation 1, 2026-11-12, after the freeze", uk: { pages: localeDropped.uk.pages, by_language: localeDropped.uk.language, by_path: localeDropped.uk.path }, us: { pages: localeDropped.us.pages, by_language: localeDropped.us.language, by_path: localeDropped.us.path, top_brands: Object.fromEntries(Object.entries(localeDropped.us.brands).sort((a, b) => b[1] - a[1]).slice(0, 10)) } },
   rules: { min_pages: MIN_PAGES, min_tokens: MIN_TOKENS, min_oxford_tokens: MIN_OXFORD, house_style_guard: GUARD, us_sanity: US_SANITY },
   corpus: {
     uk_brands_eligible_pages: ukList.length, us_brands_eligible_pages: usList.length,

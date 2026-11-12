@@ -42,6 +42,24 @@ const date = (iso) => new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-GB", {
 const figDims = (file) => { const m = readFileSync(`${FIG}/${file}`, "utf8").match(/viewBox="0 0 (\d+) (\d+)"/); return { width: +m[1], height: +m[2] }; };
 
 const { H1, H1b, H2, H3, corpus: C, us_control: USC, sensitivities: SN } = S;
+
+// ---------- Deviation 1 (2026-11-12): the locale rule. Every number here comes from the run files. ----------
+const LR = S.locale_rule;
+if (!S.pilot && !LR?.applied) throw new Error("this summary has no locale rule; Deviation 1 is in force (see the pre-registration)");
+if (LR?.uk_frozen_sensitivity) throw new Error("refusing the --frozen-uk sensitivity summary as the main result");
+const FAILED = JSON.parse(readFileSync(opt("--failed-run", `${FIG}/sgr-028-summary-failed-run.json`), "utf8"));
+const UKRAW = JSON.parse(readFileSync(opt("--uk-unfiltered", `${FIG}/sgr-028-summary-uk-unfiltered.json`), "utf8"));
+if (FAILED.instrument.ok || FAILED.locale_rule || !UKRAW.locale_rule?.uk_frozen_sensitivity) throw new Error("failed-run / uk-unfiltered summaries are the wrong files");
+const failedBrands = Object.fromEntries(readFileSync(`${FIG}/sgr-028-brands-failed-run.csv`, "utf8").trim().split("\n").slice(1).map((l) => l.split(",")).filter((r) => r[1] === "us").map((r) => [r[0], +r[11]]));
+const outliers = ["habitat.org", "stripe.com", "expedia.com"].map((d) => `${d} ${pct(failedBrands[d], 0)}`).join(", ");
+const FI = FAILED.instrument;
+const deviationParas = [
+  `This study did not run exactly as pre-registered. The frozen plan said the run stops, and nothing is published, if American brands do not read as American: across the US control brands, at least 98% of the words with a British and an American form had to use the American form. On ${date(FAILED.ranOn)} the first full run failed that check. The pooled American share across ${FI.us_brands} US brands was ${pct(FI.pooled_us_share, 1)} (${pct(FI.pooled_us_share_before, 1)} before December 2022, ${pct(FI.pooled_us_share_after, 1)} from 2023). A few brands read mostly British after 2022: ${outliers} American.`,
+  "We read those pages. The word list was not misreading anything; the US corpus held pages written for other markets. Stripe serves its British edition at the same addresses, and 103 of its 119 pages declared British English. Habitat for Humanity's corpus included its Europe, Asia-Pacific and Latin America sections and a report by Habitat for Humanity Great Britain. Expedia's newsroom included releases issued from London.",
+  `So we added one rule, after the plan was frozen and after the failed run, and wrote it into the pre-registration's Deviations section before running again: a page labelled for another market is dropped, by its declared language (for example British English in the US corpus) or by a locale section in its address (such as /en-gb/, /emea/ or /intl/). The rule applies to both countries alike. It removed ${n(LR.us.pages)} US pages and ${n(LR.uk.pages)} UK pages (most of those UK pages declared American English). Brand eligibility was counted after the rule, no page was removed by hand, and the 98% floor was not changed.`,
+  `With the rule, the check passed: ${pct(S.instrument.pooled_us_share, 1)} across ${S.instrument.us_brands} US brands (${pct(S.instrument.pooled_us_share_before, 1)} before, ${pct(S.instrument.pooled_us_share_after, 1)} after). The rule cannot catch pages that are not labelled, such as the Habitat Great Britain report and Expedia's London releases, which remain in the control.`,
+  `The rule changed one result. On the original corpus H3 (UK phrase change minus US phrase change) would have passed, ${ciR(FAILED.H3.phrases)}, but that run had failed its instrument check. With the rule it does not pass: ${ciR(H3.phrases)}. It also does not pass when the UK corpus is left exactly as frozen and only the control is filtered (${ciR(UKRAW.H3.phrases)}), so the change comes from removing other markets' pages from the US control, not from the UK pages the rule removed. H1, H1b and H2 are not supported either way. The original rule, the failed run's numbers and the new rule are all in the pre-registration and the downloads below.`,
+];
 const SLUG = "is-chatgpt-americanising-british-writing";
 const PAGE_URL = `https://scriptgrain.com/research/${SLUG}`;
 const ukN = H2.n, usN = USC.phrases_per_1000.n;
@@ -68,7 +86,7 @@ const study = {
   description: `A pre-registered before-and-after study of ${n(C.uk.before.pages + C.uk.after.pages)} dated pages from ${ukN} UK brands, each brand compared with itself, with ${usN} American brands as the control. ${outcome}`,
   abstract: [
     { label: "Background", text: "People say AI tools are pushing British writing towards American English: \"organize\" for \"organise\", \"reach out\" for \"get in touch\". Spelling is the easy part to measure and the easy part to get wrong, because Oxford spelling (\"organize\" with \"colour\") is legitimate British usage. So we measured spelling and phrasing separately, and spelling twice." },
-    { label: "What we did", text: `We fixed four hypotheses before the full measurement. From our corpus of UK brands' blogs, press releases and announcements, we took every brand with at least 30 dated pages before December 2022 and 30 from 2023 on, and compared each brand only with itself. Brands that wrote American before ChatGPT were set aside (${C.uk_guarded.length}). We counted a closed list of 168 spelling pairs and 30 American business phrases in code, and ran the same measurement on ${usN} American brands as a control.` },
+    { label: "What we did", text: `We fixed four hypotheses before the full measurement. From our corpus of UK brands' blogs, press releases and announcements, we took every brand with at least 30 dated pages before December 2022 and 30 from 2023 on, and compared each brand only with itself. Brands that wrote American before ChatGPT were set aside (${C.uk_guarded.length}). We counted a closed list of 168 spelling pairs and 30 American business phrases in code, and ran the same measurement on ${usN} American brands as a control. One rule was added after the plan was frozen, because the first run failed its instrument check: pages labelled for another market were dropped from both corpora. The note below explains what happened and why.` },
     { label: "What we found", text: `${spellLine} ${phraseLine} ${usLine}` },
     { label: "What it means", text: `${outcome} A change in the ChatGPT era is a correlation with that era, not evidence that any page was written by AI: American phrasing also spreads through global templates, US parent companies, agencies and hiring.` },
   ],
@@ -99,13 +117,13 @@ const study = {
     description: `UK brands from ScriptGrain's brand corpus (blogs, press releases and announcements; live pages fetched in October 2026 and archived pages from the Wayback Machine) with at least 30 dated pages before December 2022 and 30 from 2023 on: ${C.uk_brands_eligible_pages} brands, of which ${C.uk_guarded.length} wrote American before ChatGPT and were set aside. Control: ${C.us_brands_eligible_pages} American brands from ScriptGrain's US brand corpus with at least 10 dated pages on each side.`,
     size: C.uk.before.pages + C.uk.after.pages,
     inclusionCriteria: ["A UK brand in ScriptGrain's brand corpus", "At least 30 dated pages before December 2022 and 30 from January 2023", "At least 30 spelling-pair words in each period, for the spelling measures", "An American spelling share of 50% or less before ChatGPT (the house-style guard)"],
-    exclusions: [`${C.uk_guarded.length} brands that wrote American before ChatGPT`, "Pages dated December 2022, undated pages and pages dated only by a last-modified stamp", "Archived (Wayback) pages dated after November 2022"],
+    exclusions: [`${C.uk_guarded.length} brands that wrote American before ChatGPT`, `Pages labelled for another market by their declared language or a locale section in the address (${n(LR.uk.pages)} UK pages; added after the freeze, see the deviation note)`, "Pages dated December 2022, undated pages and pages dated only by a last-modified stamp", "Archived (Wayback) pages dated after November 2022"],
   },
   method: [
     "Corpus: ScriptGrain's UK brand corpus (blogs, press releases and announcements from UK brands in ten sectors) and US brand corpus (the American counterpart, matched by sector). Every page was measured in code; no language model read or scored any page.",
     "Dating: the page's own published date (meta tags, structured data, the URL or a date in the text); for archived pages, the month of the capture, which is an upper bound on publication.",
     "Cleaning: markdown reduced to plain text; tables, code, block quotes, links, email addresses and quoted speech removed; the brand's own name and any capitalised word that does not start a sentence skipped (proper names, product names, Title Case headings).",
-    "Pre-registration: the hypotheses, word lists, periods, eligibility rules and tests were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before the full measurement (docs/research/sgr-028-preregistration.md). The run was done once, on the day before publication.",
+    "Pre-registration: the hypotheses, word lists, periods, eligibility rules and tests were committed to [ScriptGrain's research repository](https://github.com/StovBuilds/scriptgrain-research) before the full measurement (docs/research/sgr-028-preregistration.md). The full run was done on the day before publication. It failed its instrument check and was run again the same day with one rule added after the freeze (see \"Deviation from the pre-registration\").",
     "Tests: mean within-brand change with a 95% interval from 10,000 bootstrap resamples of brands; Wilcoxon signed-rank test and the share of brands that moved up as secondary checks. H3 compares the UK change with the US change, the two countries resampled separately.",
   ],
   variablesMeasured: ["American spelling share (all pairs, Oxford-proof pairs, -ize pairs)", "American business phrases per 1,000 words", "British markers per 1,000 words (whilst, amongst, learnt, towards; descriptive only)"],
@@ -116,6 +134,7 @@ const study = {
     { label: `H3 (${verdict(H3.result).toLowerCase()}): UK moved more than the US`, value: `UK minus US phrase change ${ciR(H3.phrases)}`, explanation: `UK ${num(H3.phrases.uk, 3)} against US ${num(H3.phrases.us, 3)} per 1,000 words. The same comparison on Oxford-proof spelling: ${H3.spelling_oxford.lo == null ? "not enough data" : `${ppShort(H3.spelling_oxford.point)} (95% interval ${num(100 * H3.spelling_oxford.lo, 2)} to ${num(100 * H3.spelling_oxford.hi, 2)})`}.` },
   ],
   sections: [
+    { heading: "Deviation from the pre-registration", paragraphs: deviationParas },
     { heading: "What changed, within the same brands", figure: { src: "/research/sgr-028-change.svg", alt: `Dot chart of mean within-brand change after November 2022: American business phrases ${num(H2.point, 3)} per 1,000 words in UK brands and ${num(USC.phrases_per_1000.point ?? 0, 3)} in US brands; American spelling share on Oxford-proof words ${ppShort(H1.point)} in UK brands and ${ppShort(USC.us_share_oxford.point ?? 0)} in US brands; each with a 95% interval.`, caption: "Source: ScriptGrain SGR-028, CC BY 4.0.", ...figDims("sgr-028-change.svg") } },
     { heading: "Pre-registered hypotheses and results", table: { columns: ["Hypothesis", "Result", "Change (95% interval)"], rows: [
       ["H1: American spelling rose (Oxford-proof words)", verdict(H1.result), ciPP(H1)],
@@ -128,13 +147,15 @@ const study = {
       ["Before = live pages only (no archived copies)", ciPP(SN.before_live_only.us_share_oxford), ciR(SN.before_live_only.phrases_per_1000), String(SN.before_live_only.phrases_per_1000.n)],
       ["After = 2024 onwards only", ciPP(SN.after_2024_on.us_share_oxford), ciR(SN.after_2024_on.phrases_per_1000), String(SN.after_2024_on.phrases_per_1000.n)],
       ["Software brands left out", ciPP(SN.software_excluded.us_share_oxford), ciR(SN.software_excluded.phrases_per_1000), String(SN.software_excluded.phrases_per_1000.n)],
+      ["UK corpus without the locale rule (as frozen); US control with it", ciPP(UKRAW.H1), ciR(UKRAW.H2), String(UKRAW.H2.n)],
       ["US control, brands with 30+ pages each side", ciPP(SN.us_brands_30plus.us_share_oxford), ciR(SN.us_brands_30plus.phrases_per_1000), String(SN.us_brands_30plus.phrases_per_1000.n)],
     ] } },
     { heading: "By sector", paragraphs: ["Exploratory. Few brands per sector, so the intervals are wide."], table: { columns: ["Sector", "Brands", "Spelling, Oxford-proof", "Phrases per 1,000 words"], rows: Object.entries(SN.by_sector).map(([k, v]) => [k, String(v.phrases_per_1000.n), v.us_share_oxford.n ? ciPP(v.us_share_oxford) : "n/a", ciR(v.phrases_per_1000)]) } },
     { heading: "Brands that wrote American before ChatGPT", paragraphs: [C.uk_guarded.length ? `${C.uk_guarded.length} brands in the UK corpus already used American spelling for more than half of the paired words before December 2022 (mostly US-headquartered software companies with UK sites). They are left out of every UK test: ${C.uk_guarded.join(", ")}.` : "No brand in the UK corpus used American spelling for more than half of the paired words before December 2022."] },
-    { heading: "The measuring instrument", paragraphs: [`As a check on the word list, American brands should read as American. Across the ${S.instrument.us_brands} US control brands, ${pct(S.instrument.pooled_us_share, 1)} of paired words used the American form (pre-registered floor 98%). The rest are genuine British spellings by American brands' writers, not misread words.`] },
+    { heading: "The measuring instrument", paragraphs: [`As a check on the word list, American brands should read as American. Across the ${S.instrument.us_brands} US control brands, ${pct(S.instrument.pooled_us_share, 1)} of paired words used the American form (pre-registered floor 98%), after the locale rule described under "Deviation from the pre-registration". Before the rule it was ${pct(FI.pooled_us_share, 1)} and the check failed. The British forms that remain are genuine British spellings, not misread words.`] },
   ],
   limitations: [
+    `The study deviates from its pre-registration: after the first full run failed the instrument check, a rule dropping pages labelled for another market was added to both corpora (${n(LR.us.pages)} US and ${n(LR.uk.pages)} UK pages removed). See "Deviation from the pre-registration".`,
     "A change in the ChatGPT era is a correlation with that era. It is not evidence that any text was written by AI.",
     "Oxford spelling is legitimate British usage. The -ize spellings are not errors and are not in the headline test.",
     "Before-period text is mostly archived Wayback copies and after-period text mostly live pages, so the extraction differs; the live-only check and the US control address this.",
@@ -151,6 +172,9 @@ const study = {
   dataDownloads: [
     { label: "Brand by period: pages, words, spelling shares and phrase rates (CSV)", path: "/research/sgr-028-brands.csv", format: "csv" },
     { label: "Summary: hypotheses, intervals, checks, phrase and marker counts (JSON)", path: "/research/sgr-028-summary.json", format: "json" },
+    { label: "The failed first run, before the locale rule: summary (JSON)", path: "/research/sgr-028-summary-failed-run.json", format: "json" },
+    { label: "The failed first run, before the locale rule: brand by period (CSV)", path: "/research/sgr-028-brands-failed-run.csv", format: "csv" },
+    { label: "Check: UK corpus as frozen, US control with the locale rule: summary (JSON)", path: "/research/sgr-028-summary-uk-unfiltered.json", format: "json" },
   ],
   license: { name: "CC BY 4.0", url: "https://creativecommons.org/licenses/by/4.0/" },
   howToCite: `ScriptGrain (2026). ${TITLE} (Study SGR-028, conducted ${date(CONDUCTED)}). Dataset licensed CC BY 4.0. ${PAGE_URL}`,
