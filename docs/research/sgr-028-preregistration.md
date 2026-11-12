@@ -264,3 +264,11 @@ rule) as a sensitivity, so the rule's effect on the UK side can be seen.
 London-issued releases, because neither is labelled for another market. Removing them would need a
 judgement about each page, which this rule does not make. If the check still fails with the rule, the
 study is not published and the decision goes back to Jack.
+
+**Outcome (added after the re-run, 2026-11-12).** With the rule: 430 US pages and 2,161 UK pages dropped
+(UK mostly pages declaring `en-US`); 33 UK and 39 US brands eligible. Instrument check passed: pooled
+American share 0.986 over 33 US brands (0.994 before, 0.982 after). H1, H1b, H2 and H3 not supported; wording
+"no detected shift". On the failed frozen run H3 (phrases) had passed (lower bound +0.007). With the UK corpus
+left as frozen and only the US control filtered (`run.mjs --frozen-uk`, the sensitivity named above), H3 is
+not supported (lower bound -0.008), so the H3 change comes from the control, not from the UK pages removed.
+The failed run's summary and brand CSV are published alongside the result.
