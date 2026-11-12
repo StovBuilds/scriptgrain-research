@@ -1,0 +1,1372 @@
+{
+ "probed": "2026-10-14",
+ "firecrawlCreditsUsed": 154,
+ "counts": {
+  "in": 45,
+  "fix-base": 14,
+  "out": 21,
+  "unclassified": 0
+ },
+ "brands": {
+  "Asana": {
+   "seedStatus": "geo-trapped",
+   "verdict": "out",
+   "note": "UK locale redirects to the US root",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://asana.com/",
+    "words": 1505
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://asana.com/",
+    "words": 1534
+   }
+  },
+  "Virgin Atlantic": {
+   "seedStatus": "geo-trapped",
+   "verdict": "out",
+   "note": "both sides redirect to the root / en-US",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.virginatlantic.com/",
+    "words": 1665
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.virginatlantic.com/en-US",
+    "words": 975
+   }
+  },
+  "Salesforce": {
+   "seedStatus": "geo-trapped",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.salesforce.com/uk/",
+    "words": 1545
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.salesforce.com/",
+    "words": 2340
+   }
+  },
+  "Google (Workspace)": {
+   "seedStatus": "geo-trapped",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://workspace.google.com/intl/en_uk?hl=en_uk",
+    "words": 5726
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://workspace.google.com/",
+    "words": 5696
+   }
+  },
+  "Gymshark": {
+   "seedStatus": "geo-trapped",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://uk.gymshark.com/",
+    "words": 1819
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://row.gymshark.com/",
+    "words": 954
+   }
+  },
+  "Spotify": {
+   "seedStatus": "geo-trapped",
+   "verdict": "out",
+   "note": "bot wall on both sides",
+   "uk": {
+    "ok": false,
+    "onSide": false,
+    "final": "https://open.spotify.com/",
+    "words": 936
+   },
+   "us": {
+    "ok": false,
+    "onSide": false,
+    "final": "https://open.spotify.com/",
+    "words": 922
+   }
+  },
+  "Huel": {
+   "seedStatus": "geo-trapped",
+   "verdict": "fix-base",
+   "note": "uk.huel.com | huel.com",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://uk.huel.com/",
+    "words": 776
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://huel.com/",
+    "words": 883
+   }
+  },
+  "Barbour": {
+   "seedStatus": "geo-trapped",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.barbour.com/gb/",
+    "words": 1665
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.barbour.com/us/",
+    "words": 948
+   }
+  },
+  "Deliveroo": {
+   "seedStatus": "geo-trapped",
+   "verdict": "out",
+   "note": "no US site (deliveroo.com goes to .co.uk)",
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://deliveroo.co.uk/",
+    "words": 197
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://deliveroo.co.uk/",
+    "words": 241
+   }
+  },
+  "Hasbro": {
+   "seedStatus": "geo-trapped",
+   "verdict": "out",
+   "note": "both sides land on consumer-care 'where to buy'",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://consumercare.hasbro.com/en-gb/where-to-buy",
+    "words": 128
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://consumercare.hasbro.com/en-us/where-to-buy",
+    "words": 158
+   }
+  },
+  "Haribo": {
+   "seedStatus": "geo-trapped",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.haribo.com/en-gb",
+    "words": 131
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.haribo.com/en-us",
+    "words": 376
+   }
+  },
+  "Patagonia": {
+   "seedStatus": "geo-trapped",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://eu.patagonia.com/gb/en/home/",
+    "words": 784
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.patagonia.com/home/",
+    "words": 816
+   }
+  },
+  "Uber": {
+   "seedStatus": "geo-trapped",
+   "verdict": "fix-base",
+   "note": "uber.com/gb/en | uber.com (US default)",
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.uber.com/gb/en/",
+    "words": 1065
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.uber.com/",
+    "words": 1276
+   }
+  },
+  "Netflix": {
+   "seedStatus": "geo-trapped",
+   "verdict": "fix-base",
+   "note": "netflix.com/gb | netflix.com (US default)",
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.netflix.com/gb/",
+    "words": 505
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.netflix.com/?locale=en-US",
+    "words": 526
+   }
+  },
+  "Slack": {
+   "seedStatus": "geo-trapped",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://slack.com/intl/en-gb",
+    "words": 1404
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://slack.com/",
+    "words": 1338
+   }
+  },
+  "Mailchimp": {
+   "seedStatus": "geo-trapped",
+   "verdict": "out",
+   "note": "UK locale redirects to /de/ (EUR)",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://mailchimp.com/de/?currency=EUR",
+    "words": 3931
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://mailchimp.com/",
+    "words": 3734
+   }
+  },
+  "Stripe": {
+   "seedStatus": "geo-trapped",
+   "verdict": "fix-base",
+   "note": "stripe.com/gb (retry: proxy tunnel error) | stripe.com (US default)",
+   "uk": {
+    "ok": false,
+    "onSide": false,
+    "final": null,
+    "words": null
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://stripe.com/",
+    "words": 2801
+   }
+  },
+  "Heinz": {
+   "seedStatus": "geo-trapped",
+   "verdict": "out",
+   "note": "bot wall on both sides",
+   "uk": {
+    "ok": false,
+    "onSide": false,
+    "final": "https://www.heinz.com/en-GB",
+    "words": 358
+   },
+   "us": {
+    "ok": false,
+    "onSide": true,
+    "final": "https://www.heinz.com/",
+    "words": 673
+   }
+  },
+  "Save the Children": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.savethechildren.org.uk/",
+    "words": 872
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.savethechildren.org/",
+    "words": 1024
+   }
+  },
+  "Revolut": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "en-GB redirects to the root",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.revolut.com/",
+    "words": 842
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.revolut.com/en-US/",
+    "words": 879
+   }
+  },
+  "Innocent": {
+   "seedStatus": "unverified",
+   "verdict": "out",
+   "note": "no US site (.com goes to .co.uk)",
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.innocentdrinks.co.uk/",
+    "words": 678
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.innocentdrinks.co.uk/",
+    "words": 678
+   }
+  },
+  "Lush": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.lush.com/uk/en",
+    "words": 465
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.lush.com/us/en_us",
+    "words": 1040
+   }
+  },
+  "BrewDog": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "US base 404, UK redirects to root",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://brewdog.com/",
+    "words": 1794
+   },
+   "us": {
+    "ok": false,
+    "onSide": true,
+    "final": "https://brewdog.com/us",
+    "words": 673
+   }
+  },
+  "Dyson": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.dyson.co.uk/en",
+    "words": 705
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.dyson.com/en",
+    "words": 520
+   }
+  },
+  "Ted Baker": {
+   "seedStatus": "bot-blocked",
+   "verdict": "fix-base",
+   "note": "tedbaker.com/en-gb | tedbaker.com/en-us (to check)",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.tedbaker.com/en-gb",
+    "words": 1420
+   },
+   "us": {
+    "ok": false,
+    "onSide": true,
+    "final": "https://www.tedbaker.com/us",
+    "words": 149
+   }
+  },
+  "Nando's": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.nandos.co.uk/",
+    "words": 253
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.nandosperiperi.com/",
+    "words": 637
+   }
+  },
+  "Lego": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.lego.com/en-gb?age-gate=grown_up",
+    "words": 1411
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.lego.com/en-us?age-gate=grown_up",
+    "words": 1374
+   }
+  },
+  "Sage": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.sage.com/en-gb/",
+    "words": 1581
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.sage.com/en-us/",
+    "words": 830
+   }
+  },
+  "Adidas": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.adidas.co.uk/",
+    "words": 1336
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.adidas.com/us",
+    "words": 1853
+   }
+  },
+  "Nike": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "US 500",
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.nike.com/gb",
+    "words": 1367
+   },
+   "us": {
+    "ok": false,
+    "onSide": true,
+    "final": "https://www.nike.com/us",
+    "words": 28
+   }
+  },
+  "Tesla": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.tesla.com/en_gb",
+    "words": 2212
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.tesla.com/",
+    "words": 1191
+   }
+  },
+  "New Balance": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.newbalance.co.uk/",
+    "words": 529
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.newbalance.com/",
+    "words": 1065
+   }
+  },
+  "Vans": {
+   "seedStatus": "bot-blocked",
+   "verdict": "fix-base",
+   "note": "vans.com/en-gb | vans.com",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.vans.com/en-gb",
+    "words": 35
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.vans.com/en-us",
+    "words": 318
+   }
+  },
+  "The North Face": {
+   "seedStatus": "bot-blocked",
+   "verdict": "fix-base",
+   "note": "thenorthface.com/en-gb | thenorthface.com",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.thenorthface.com/en-gb",
+    "words": 234
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.thenorthface.com/en-us",
+    "words": 1187
+   }
+  },
+  "Under Armour": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.underarmour.co.uk/en-gb/",
+    "words": 300
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.underarmour.com/en-us/",
+    "words": 254
+   }
+  },
+  "Levi's": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.levi.com/GB/en_GB/",
+    "words": 224
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.levi.com/US/en_US/",
+    "words": 269
+   }
+  },
+  "Domino's": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "UK: all engines failed",
+   "uk": {
+    "ok": false,
+    "onSide": false,
+    "final": null,
+    "words": null
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.dominos.com/",
+    "words": 188
+   }
+  },
+  "KFC": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.kfc.co.uk/",
+    "words": 292
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.kfc.com/",
+    "words": 222
+   }
+  },
+  "Gap": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "UK online store closed (franchise landing page)",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.gap.com/Asset_Archive/AllBrands/franchiseLandingPages/gap/franchiseLanding-gap-uk.html",
+    "words": 103
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.gap.com/",
+    "words": 473
+   }
+  },
+  "Subway": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.subway.com/en-gb",
+    "words": 431
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.subway.com/en-us",
+    "words": 710
+   }
+  },
+  "Pepsi": {
+   "seedStatus": "unverified",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.pepsi.co.uk/",
+    "words": 296
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.pepsi.com/",
+    "words": 453
+   }
+  },
+  "Pizza Hut": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.pizzahut.co.uk/",
+    "words": 126
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.pizzahut.com/",
+    "words": 743
+   }
+  },
+  "Kellogg's": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.kelloggs.co.uk/en_GB/home.html",
+    "words": 461
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.kelloggs.com/en_US/home.html",
+    "words": 40
+   }
+  },
+  "Nestle": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.nestle.co.uk/en-gb",
+    "words": 459
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.nestleusa.com/",
+    "words": 743
+   }
+  },
+  "Canva": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.canva.com/en_gb/",
+    "words": 1206
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.canva.com/",
+    "words": 1378
+   }
+  },
+  "Krispy Kreme": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "UK bot wall",
+   "uk": {
+    "ok": false,
+    "onSide": true,
+    "final": "https://www.krispykreme.co.uk/",
+    "words": 71
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.krispykreme.com/",
+    "words": 470
+   }
+  },
+  "Box": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.box.com/en-gb",
+    "words": 974
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.box.com/",
+    "words": 1057
+   }
+  },
+  "Oracle": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.oracle.com/uk/",
+    "words": 1092
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.oracle.com/",
+    "words": 911
+   }
+  },
+  "Garmin": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.garmin.com/en-GB/",
+    "words": 512
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.garmin.com/en-US/",
+    "words": 459
+   }
+  },
+  "GoPro": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://gopro.com/en/gb/",
+    "words": 596
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://gopro.com/en/us/",
+    "words": 593
+   }
+  },
+  "Nikon": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "UK 503",
+   "uk": {
+    "ok": false,
+    "onSide": true,
+    "final": "https://www.nikon.co.uk/",
+    "words": 23
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.nikonusa.com/",
+    "words": 362
+   }
+  },
+  "Tripadvisor": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.tripadvisor.co.uk/",
+    "words": 924
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.tripadvisor.com/",
+    "words": 1240
+   }
+  },
+  "American Airlines": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "Firecrawl does not support the site",
+   "uk": {
+    "ok": false,
+    "onSide": false,
+    "final": null,
+    "words": null
+   },
+   "us": {
+    "ok": false,
+    "onSide": false,
+    "final": null,
+    "words": null
+   }
+  },
+  "Marriott": {
+   "seedStatus": "bot-blocked",
+   "verdict": "fix-base",
+   "note": "marriott.com/en-gb | marriott.com (US default)",
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.marriott.com/en-gb/default.mi",
+    "words": 1160
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.marriott.com/default.mi",
+    "words": 1222
+   }
+  },
+  "Indeed": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://uk.indeed.com/",
+    "words": 295
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.indeed.com/",
+    "words": 405
+   }
+  },
+  "Glassdoor": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.glassdoor.co.uk/index.htm",
+    "words": 1073
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.glassdoor.com/recruiter",
+    "words": 199
+   }
+  },
+  "Expedia": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.expedia.co.uk/",
+    "words": 1297
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.expedia.com/",
+    "words": 227
+   }
+  },
+  "Trustpilot": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://uk.trustpilot.com/",
+    "words": 3923
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.trustpilot.com/",
+    "words": 4571
+   }
+  },
+  "The Economist": {
+   "seedStatus": "bot-blocked",
+   "verdict": "fix-base",
+   "note": "economist.com (UK edition?) | economist.com/topics/united-states (a topic page, weak pair)",
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.economist.com/",
+    "words": 1724
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.economist.com/topics/united-states",
+    "words": 467
+   }
+  },
+  "GoDaddy": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.godaddy.com/en-uk#acquisition-modal",
+    "words": 1398
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.godaddy.com/#acquisition-modal",
+    "words": 1666
+   }
+  },
+  "eBay": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "times out on both sides",
+   "uk": {
+    "ok": false,
+    "onSide": false,
+    "final": null,
+    "words": null
+   },
+   "us": {
+    "ok": false,
+    "onSide": false,
+    "final": null,
+    "words": null
+   }
+  },
+  "Selfridges": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.selfridges.com/GB/en/",
+    "words": 712
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.selfridges.com/US/en/",
+    "words": 710
+   }
+  },
+  "Reuters": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.reuters.com/world/uk/",
+    "words": 631
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.reuters.com/world/us/",
+    "words": 919
+   }
+  },
+  "Vodafone": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.vodafone.co.uk/",
+    "words": 4466
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.vodafone.com/",
+    "words": 2096
+   }
+  },
+  "Farfetch": {
+   "seedStatus": "bot-blocked",
+   "verdict": "fix-base",
+   "note": "farfetch.com/uk | farfetch.com (US default)",
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.farfetch.com/uk/",
+    "words": 205
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.farfetch.com/",
+    "words": 113
+   }
+  },
+  "Net-a-Porter": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.net-a-porter.com/en-gb/",
+    "words": 664
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.net-a-porter.com/en-us/",
+    "words": 489
+   }
+  },
+  "Mr Porter": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.mrporter.com/en-gb/",
+    "words": 676
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.mrporter.com/en-us/",
+    "words": 430
+   }
+  },
+  "Dr. Martens": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "both locales redirect to the root",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.drmartens.com/",
+    "words": 253
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://www.drmartens.com/",
+    "words": 253
+   }
+  },
+  "Fred Perry": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "US bot wall",
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.fredperry.com/",
+    "words": 1322
+   },
+   "us": {
+    "ok": false,
+    "onSide": true,
+    "final": "https://www.fredperry.com/us/",
+    "words": 1425
+   }
+  },
+  "AllSaints": {
+   "seedStatus": "bot-blocked",
+   "verdict": "fix-base",
+   "note": "allsaints.com/gb (to check) | allsaints.com/us",
+   "uk": {
+    "ok": false,
+    "onSide": true,
+    "final": "https://www.allsaints.com/uk",
+    "words": 250
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.allsaints.com/us",
+    "words": 289
+   }
+  },
+  "Sephora": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.sephora.co.uk/",
+    "words": 2216
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.sephora.com/",
+    "words": 1318
+   }
+  },
+  "Hunter Boots": {
+   "seedStatus": "bot-blocked",
+   "verdict": "fix-base",
+   "note": "hunterboots.co.uk | hunterboots.com",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://hunterboots.co.uk/",
+    "words": 2975
+   },
+   "us": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://hunterboots.com/",
+    "words": 385
+   }
+  },
+  "Jigsaw": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "US 404",
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.jigsaw-online.com/",
+    "words": 1859
+   },
+   "us": {
+    "ok": false,
+    "onSide": true,
+    "final": "https://www.jigsaw-online.com/us",
+    "words": 1808
+   }
+  },
+  "Tom Ford": {
+   "seedStatus": "bot-blocked",
+   "verdict": "fix-base",
+   "note": "both bases 404: find current locale paths",
+   "uk": {
+    "ok": false,
+    "onSide": true,
+    "final": "https://www.tomfordbeauty.com/en-gb",
+    "words": 3711
+   },
+   "us": {
+    "ok": false,
+    "onSide": true,
+    "final": "https://www.tomfordbeauty.com/en-us",
+    "words": 3390
+   }
+  },
+  "Estee Lauder": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.esteelauder.co.uk/",
+    "words": 737
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.esteelauder.com/",
+    "words": 802
+   }
+  },
+  "Amnesty": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.amnesty.org.uk/",
+    "words": 799
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.amnestyusa.org/",
+    "words": 1280
+   }
+  },
+  "Glossier": {
+   "seedStatus": "bot-blocked",
+   "verdict": "fix-base",
+   "note": "uk.glossier.com | glossier.com (to check)",
+   "uk": {
+    "ok": true,
+    "onSide": false,
+    "final": "https://uk.glossier.com/",
+    "words": 655
+   },
+   "us": {
+    "ok": false,
+    "onSide": true,
+    "final": "https://www.glossier.com/en-us",
+    "words": 768
+   }
+  },
+  "Unicef": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.unicef.org.uk/",
+    "words": 346
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.unicefusa.org/",
+    "words": 720
+   }
+  },
+  "Allbirds": {
+   "seedStatus": "bot-blocked",
+   "verdict": "in",
+   "note": null,
+   "uk": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.allbirds.co.uk/",
+    "words": 2487
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://www.allbirds.com/",
+    "words": 710
+   }
+  },
+  "Liquid Death": {
+   "seedStatus": "bot-blocked",
+   "verdict": "out",
+   "note": "UK bot wall",
+   "uk": {
+    "ok": false,
+    "onSide": false,
+    "final": "https://forsale.godaddy.com/forsale/liquiddeath.co.uk?traffic_type=TDFS_DASLNC&traffic_id=daslnc&oref=https%3A%2F%2Fwww.google.com%2F",
+    "words": 254
+   },
+   "us": {
+    "ok": true,
+    "onSide": true,
+    "final": "https://liquiddeath.com/",
+    "words": 2078
+   }
+  }
+ }
+}

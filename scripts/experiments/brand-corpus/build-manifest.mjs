@@ -1,13 +1,16 @@
 #!/usr/bin/env bun
 // Rebuild manifest.csv from the stored pages themselves, so the manifest can never drift
 // from what is on the Storage Box. One row per page; no text.
-//   bun build-manifest.mjs
+//   bun build-manifest.mjs [--dir ../brand-corpus-us --remote storagebox:research/scriptgrain-brand-corpus-us/v1/pages]
 import { writeFileSync, readFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { gunzipSync } from "node:zlib";
 import { bestDate } from "./dates.mjs";
-const dir = new URL(".", import.meta.url).pathname;
-const RCLONE = "rclone", REMOTE = "storagebox:research/scriptgrain-brand-corpus/v1/pages";
+const args = process.argv.slice(2);
+const opt = (n, d) => { const i = args.indexOf(n); return i === -1 ? d : args[i + 1]; };
+const here = new URL(".", import.meta.url).pathname;
+const dir = opt("--dir") ? new URL(opt("--dir").replace(/\/?$/, "/"), "file://" + here).pathname : here;
+const RCLONE = "rclone", REMOTE = opt("--remote", "storagebox:research/scriptgrain-brand-corpus/v1/pages");
 const { brands } = JSON.parse(readFileSync(dir + "brands.json", "utf8"));
 const COLS = ["domain", "sector", "category", "url", "host", "title", "published", "language", "date_best", "date_source", "source", "wayback_ts", "words", "pdf_pages", "pdf_total_pages", "fetched_at", "sha256", "storage"];
 const csv = (v) => { if (v == null) return ""; const s = String(v); return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
