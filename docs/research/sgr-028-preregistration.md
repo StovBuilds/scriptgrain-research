@@ -228,4 +228,39 @@ The release go (Jack, 2026-10-14) covers SGR-028 on these dates; it is in `~/res
 
 ## Deviations
 
-(none yet)
+### Deviation 1 (2026-11-12, after the freeze and after the full run): locale rule on both corpora
+
+**What failed.** The full run on 2026-11-12 failed the instrument check in section 4, which is left
+unchanged above. The pooled American share of variant-pair tokens over the 37 US control brands was 0.948
+against the 0.98 floor (0.994 before December 2022, 0.932 from 2023). Three US brands drove most of it:
+habitat.org (American share 0.22 after), stripe.com (0.30) and expedia.com (0.63). As section 4 requires,
+no result was published.
+
+**Cause, found by reading the pages.** Some pages in the US corpus are not written for the US market:
+- stripe.com: 103 of its 119 pages declare `lang="en-GB"`. Stripe serves the British edition of
+  `/resources/` and `/newsroom/` at the same URLs, by visitor location. About 545 of the 1,003 British
+  tokens in the whole US corpus are on these pages.
+- habitat.org: regional sections (`/emea/`, `/ap/`, `/lac-en/`, tagged `en-150`, `en-142`, `en-419`), and one
+  PDF report by Habitat for Humanity Great Britain hosted on habitat.org (164 British tokens, no locale tag).
+- expedia.com: global newsroom releases tagged `en-US` but issued from London ("travellers", "cosy"), and one
+  French page.
+
+The word list itself was not misreading anything: every British form found was a real British spelling.
+
+**Rule, written and committed before the re-run.** A page is dropped from a corpus if it is labelled for
+another market. The rule is the same for both corpora; "home" is US for the control and GB/UK for the UK corpus.
+1. Its declared language (the page's `lang`, first value) has a region that is not home and not a UN M.49
+   area containing home (US: 001, 003, 019, 021; UK: 001, 150, 154). A bare `en` or no tag is kept.
+2. Or its URL path is a locale section for another market: an `en-XX` segment in the first two path
+   segments with XX not home; else a first segment of `intl`, `international`, `emea`, `apac`, `ap`,
+   `latam`, `lac`, `lac-en`, `eu` or `europe`; else a two-letter country segment followed by an `en` segment
+   (`/be/en/`), country not home; else `/uk/` or `/gb/` in the US corpus and `/us/` in the UK corpus.
+
+Brand eligibility (the 30 and 10 page minimums) is counted after the rule. No page or brand is removed by
+hand, and the 0.98 floor is unchanged. The UK results are also reported on the frozen corpus (no locale
+rule) as a sensitivity, so the rule's effect on the UK side can be seen.
+
+**Known limit, stated before the re-run.** The rule cannot catch the Habitat GB PDF or Expedia's
+London-issued releases, because neither is labelled for another market. Removing them would need a
+judgement about each page, which this rule does not make. If the check still fails with the rule, the
+study is not published and the decision goes back to Jack.
