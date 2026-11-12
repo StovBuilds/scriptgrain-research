@@ -5,6 +5,10 @@
 // with a fixed seed, fetch it with Firecrawl v2 and store it.
 //
 //   bun fetch.mjs [--only a.com,b.com] [--budget 25000] [--per-brand 210]
+//   bun fetch.mjs --dir ../brand-corpus-us --remote storagebox:research/scriptgrain-brand-corpus-us/v1/pages \
+//     --skip-locale '^/(en[-_]?(gb|uk|ca|au|ie|nz|in)|uk|gb|ca|au|ie)(/|$)'
+//   (--dir: another corpus's brands.json, ledger, discovery and manifest; --skip-locale: extra
+//   path prefixes to drop, e.g. a US corpus dropping the UK/Canadian copies of a site.)
 //
 // Text goes to the Storage Box (third-party text, too big for git):
 //   storagebox:research/scriptgrain-brand-corpus/v1/pages/<domain>.jsonl.gz
@@ -19,15 +23,17 @@ import { htmlToText } from "../../../supabase/functions/_shared/html-text.ts";
 import { jsonLdDate, urlYear } from "./dates.mjs";
 import { GROUP_HOSTS } from "./host-rules.mjs";
 
-const dir = new URL(".", import.meta.url).pathname;
 const args = process.argv.slice(2);
 const opt = (n, d) => { const i = args.indexOf(n); return i === -1 ? d : args[i + 1]; };
+const here = new URL(".", import.meta.url).pathname;
+const dir = opt("--dir") ? new URL(opt("--dir").replace(/\/?$/, "/"), "file://" + here).pathname : here;
+const EXTRA_LOCALE = opt("--skip-locale") ? new RegExp(opt("--skip-locale"), "i") : null;
 const ONLY = opt("--only", "") ? new Set(opt("--only").split(",")) : null;
 const BUDGET = Number(opt("--budget", 25000)) - 400; // headroom for in-flight calls
 const PER_BRAND = Number(opt("--per-brand", 210));
 const KEY = readFileSync("~/.bot-infra.env", "utf8").match(/^FIRECRAWL_API_KEY=(.+)$/m)[1].trim();
 const RCLONE = "rclone";
-const REMOTE = "storagebox:research/scriptgrain-brand-corpus/v1/pages";
+const REMOTE = opt("--remote", "storagebox:research/scriptgrain-brand-corpus/v1/pages");
 const STAGE = dir + ".stage/";
 mkdirSync(STAGE, { recursive: true });
 
@@ -75,7 +81,7 @@ export function classify(u, title = "", corporate = false) {
   let url; try { url = new URL(u); } catch { return null; }
   if (url.search && !/^\?(p|id)=/.test(url.search)) return null;
   const host = url.hostname.toLowerCase(), path = url.pathname.replace(/\/$/, "");
-  if (SKIP_HOST.test(host) || SKIP_PATH.test(path) || FOREIGN_LOCALE.test(path)) return null;
+  if (SKIP_HOST.test(host) || SKIP_PATH.test(path) || FOREIGN_LOCALE.test(path) || EXTRA_LOCALE?.test(path)) return null;
   const segs = path.split("/").filter(Boolean);
   if (/\.pdf$/i.test(path)) return INFO_PDF.test(path + " " + title) ? "info_pack" : null;
   const last = segs.at(-1) ?? "";

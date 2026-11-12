@@ -1,0 +1,615 @@
+{
+ "_readme": "US brands matched by sector to the UK brand corpus (brand-corpus/brands.json; same 10 sectors and counts, incumbents plus challengers). Chosen 2026-10-13 for SGR-029 (UK vs US brands). Interleaved by sector so a budget stop leaves every sector covered. Note the UK panel's software sector is largely US-headquartered SaaS (HubSpot, Slack, Asana...), so these 16 are US SaaS NOT in the UK panel.",
+ "brands": [
+  {
+   "domain": "chase.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "duke-energy.com",
+   "sector": "energy",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "verizon.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "salesforce.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "kroger.com",
+   "sector": "grocery",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "delta.com",
+   "sector": "travel",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "statefarm.com",
+   "sector": "insurance",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "gap.com",
+   "sector": "fashion",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "sweetgreen.com",
+   "sector": "food",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "redcross.org",
+   "sector": "charity",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "bankofamerica.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "coned.com",
+   "sector": "energy",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "att.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "zendesk.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "walmart.com",
+   "sector": "grocery",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "united.com",
+   "sector": "travel",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "geico.com",
+   "sector": "insurance",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "oldnavy.com",
+   "sector": "fashion",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "chipotle.com",
+   "sector": "food",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "cancer.org",
+   "sector": "charity",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "wellsfargo.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "pge.com",
+   "sector": "energy",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "t-mobile.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "dropbox.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "costco.com",
+   "sector": "grocery",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "aa.com",
+   "sector": "travel",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "progressive.com",
+   "sector": "insurance",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "nordstrom.com",
+   "sector": "fashion",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "panerabread.com",
+   "sector": "food",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "savethechildren.org",
+   "sector": "charity",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "citi.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "sce.com",
+   "sector": "energy",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "xfinity.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "zapier.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "target.com",
+   "sector": "grocery",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "southwest.com",
+   "sector": "travel",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "allstate.com",
+   "sector": "insurance",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "macys.com",
+   "sector": "fashion",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "starbucks.com",
+   "sector": "food",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "oxfamamerica.org",
+   "sector": "charity",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "usbank.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "dominionenergy.com",
+   "sector": "energy",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "spectrum.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "gusto.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "albertsons.com",
+   "sector": "grocery",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "jetblue.com",
+   "sector": "travel",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "libertymutual.com",
+   "sector": "insurance",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "abercrombie.com",
+   "sector": "fashion",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "dunkindonuts.com",
+   "sector": "food",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "stjude.org",
+   "sector": "charity",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "pnc.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "xcelenergy.com",
+   "sector": "energy",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "mintmobile.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "intuit.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "publix.com",
+   "sector": "grocery",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "alaskaair.com",
+   "sector": "travel",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "nationwide.com",
+   "sector": "insurance",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "ae.com",
+   "sector": "fashion",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "shakeshack.com",
+   "sector": "food",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "unitedway.org",
+   "sector": "charity",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "capitalone.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "nationalgridus.com",
+   "sector": "energy",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "visible.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "squarespace.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "heb.com",
+   "sector": "grocery",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "amtrak.com",
+   "sector": "travel",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "travelers.com",
+   "sector": "insurance",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "urbanoutfitters.com",
+   "sector": "fashion",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "chick-fil-a.com",
+   "sector": "food",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "aspca.org",
+   "sector": "charity",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "truist.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "constellation.com",
+   "sector": "energy",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "cricketwireless.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "calendly.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "wholefoodsmarket.com",
+   "sector": "grocery",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "greyhound.com",
+   "sector": "travel",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "usaa.com",
+   "sector": "insurance",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "jcrew.com",
+   "sector": "fashion",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "cava.com",
+   "sector": "food",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "nami.org",
+   "sector": "charity",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "ally.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "reliant.com",
+   "sector": "energy",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "boostmobile.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "docusign.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "traderjoes.com",
+   "sector": "grocery",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "expedia.com",
+   "sector": "travel",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "lemonade.com",
+   "sector": "insurance",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "levi.com",
+   "sector": "fashion",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "liquiddeath.com",
+   "sector": "food",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "habitat.org",
+   "sector": "charity",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "chime.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "txu.com",
+   "sector": "energy",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "metrobyt-mobile.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "box.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "aldi.us",
+   "sector": "grocery",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "spirit.com",
+   "sector": "travel",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "metlife.com",
+   "sector": "insurance",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "everlane.com",
+   "sector": "fashion",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "benjerry.com",
+   "sector": "food",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "feedingamerica.org",
+   "sector": "charity",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "sofi.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "directenergy.com",
+   "sector": "energy",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "uscellular.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "webflow.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "discover.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "arcadia.com",
+   "sector": "energy",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "frontier.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "stripe.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "varomoney.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "cox.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "servicenow.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "current.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "optimum.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "zoom.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "navyfederal.org",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "consumercellular.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "smartsheet.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "citizensbank.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "ting.com",
+   "sector": "telecom",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "twilio.com",
+   "sector": "software",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "regions.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  },
+  {
+   "domain": "huntington.com",
+   "sector": "bank",
+   "study": "SGR-029"
+  }
+ ]
+}

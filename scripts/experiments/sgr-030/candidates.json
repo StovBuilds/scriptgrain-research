@@ -1,0 +1,7649 @@
+{
+ "generated": "2026-10-13T21:44:34.154Z",
+ "probe_host": "VPS Germany (Hetzner), IPv4 curl, Accept-Language en-GB",
+ "summary": {
+  "verified-200": 59,
+  "geo-trapped": 18,
+  "verified-hreflang": 31,
+  "bot-blocked": 64,
+  "unverified": 2,
+  "not-found": 32,
+  "excluded": 18
+ },
+ "candidates": [
+  {
+   "brand": "Airbnb",
+   "home_country": "US",
+   "uk_base": "airbnb.co.uk",
+   "us_base": "airbnb.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.airbnb.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.airbnb.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 3015,
+    "us_urls": 3015,
+    "matching_paths": 3014,
+    "blog": 1901,
+    "about": 0,
+    "product": 3,
+    "longform_guess": 1904,
+    "uk_sitemap": "index(174) read 2",
+    "us_sitemap": "index(176) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Zendesk",
+   "home_country": "US",
+   "uk_base": "zendesk.co.uk",
+   "us_base": "zendesk.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.zendesk.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.zendesk.com/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 4917,
+    "us_urls": 5479,
+    "matching_paths": 4560,
+    "blog": 1490,
+    "about": 142,
+    "product": 180,
+    "longform_guess": 1812,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "index(2) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Salesforce",
+   "home_country": "US",
+   "uk_base": "salesforce.com/uk",
+   "us_base": "salesforce.com",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.salesforce.com/uk/?bc=OTH",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.salesforce.com/eu/?ir=1&bc=OTH",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "us base geo-redirected to a non-US locale"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 4543,
+    "us_urls": 6356,
+    "matching_paths": 3025,
+    "blog": 824,
+    "about": 70,
+    "product": 450,
+    "longform_guess": 1344,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Adobe",
+   "home_country": "US",
+   "uk_base": "adobe.com/uk",
+   "us_base": "adobe.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.adobe.com/uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.adobe.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1831,
+    "us_urls": 3101,
+    "matching_paths": 1419,
+    "blog": 22,
+    "about": 29,
+    "product": 827,
+    "longform_guess": 878,
+    "uk_sitemap": "index(91) read 2",
+    "us_sitemap": "index(91) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Polestar",
+   "home_country": "SE",
+   "uk_base": "polestar.com/uk",
+   "us_base": "polestar.com/us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.polestar.com/uk",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.polestar.com/us",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 608,
+    "us_urls": 443,
+    "matching_paths": 426,
+    "blog": 349,
+    "about": 18,
+    "product": 1,
+    "longform_guess": 368,
+    "uk_sitemap": "index(16) read 2",
+    "us_sitemap": "index(16) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Xero",
+   "home_country": "NZ",
+   "uk_base": "xero.com/uk",
+   "us_base": "xero.com/us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.xero.com/uk/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.xero.com/us/",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 2077,
+    "us_urls": 1952,
+    "matching_paths": 1408,
+    "blog": 277,
+    "about": 36,
+    "product": 1,
+    "longform_guess": 314,
+    "uk_sitemap": "index(13) read 2",
+    "us_sitemap": "index(13) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Logitech",
+   "home_country": "CH",
+   "uk_base": "logitech.com/en-gb",
+   "us_base": "logitech.com/en-us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.logitech.com:443/en-gb",
+     "lang": "en-gb",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.logitech.com:443/en-us",
+     "lang": "en-us",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1264,
+    "us_urls": 1694,
+    "matching_paths": 1208,
+    "blog": 89,
+    "about": 56,
+    "product": 149,
+    "longform_guess": 294,
+    "uk_sitemap": "index(102) read 2",
+    "us_sitemap": "index(102) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "DocuSign",
+   "home_country": "US",
+   "uk_base": "docusign.com/en-gb",
+   "us_base": "docusign.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.docusign.com/en-gb",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.docusign.com/",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 707,
+    "us_urls": 2155,
+    "matching_paths": 112,
+    "blog": 112,
+    "about": 1,
+    "product": 0,
+    "longform_guess": 113,
+    "uk_sitemap": "index(64) read 2",
+    "us_sitemap": "index(64) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Oatly",
+   "home_country": "SE",
+   "uk_base": "oatly.com/en-gb",
+   "us_base": "oatly.com/en-us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.oatly.com/en-gb",
+     "lang": "en-gb",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.oatly.com/en-us",
+     "lang": "en-us",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 320,
+    "us_urls": 318,
+    "matching_paths": 263,
+    "blog": 94,
+    "about": 14,
+    "product": 4,
+    "longform_guess": 112,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Unilever",
+   "home_country": "UK/NL",
+   "uk_base": "unilever.co.uk",
+   "us_base": "unileverusa.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.unilever.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.unileverusa.com/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 353,
+    "us_urls": 299,
+    "matching_paths": 99,
+    "blog": 84,
+    "about": 6,
+    "product": 0,
+    "longform_guess": 90,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Shopify",
+   "home_country": "CA",
+   "uk_base": "shopify.com/uk",
+   "us_base": "shopify.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.shopify.com/uk",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.shopify.com/",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 391,
+    "us_urls": 555,
+    "matching_paths": 380,
+    "blog": 30,
+    "about": 3,
+    "product": 27,
+    "longform_guess": 60,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Harrods",
+   "home_country": "UK",
+   "uk_base": "harrods.com/en-gb",
+   "us_base": "harrods.com/en-us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.harrods.com/en-gb",
+     "lang": "en-gb",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.harrods.com/en-us",
+     "lang": "en-us",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 33080,
+    "us_urls": 31223,
+    "matching_paths": 30191,
+    "blog": 0,
+    "about": 48,
+    "product": 0,
+    "longform_guess": 48,
+    "uk_sitemap": "index(136) read 2",
+    "us_sitemap": "index(136) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Jo Malone",
+   "home_country": "UK",
+   "uk_base": "jomalone.co.uk",
+   "us_base": "jomalone.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.jomalone.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.jomalone.com/",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 344,
+    "us_urls": 722,
+    "matching_paths": 181,
+    "blog": 0,
+    "about": 19,
+    "product": 0,
+    "longform_guess": 19,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Virgin Atlantic",
+   "home_country": "UK",
+   "uk_base": "virginatlantic.com/gb/en",
+   "us_base": "virginatlantic.com/us/en",
+   "source": "both-corpora",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.virginatlantic.com/en-EU",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.virginatlantic.com/en-EU",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": [
+     "both bases land on the same URL",
+     "uk base geo-redirected to a non-UK locale",
+     "us base geo-redirected to a non-US locale"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 682,
+    "us_urls": 312,
+    "matching_paths": 309,
+    "blog": 3,
+    "about": 15,
+    "product": 0,
+    "longform_guess": 18,
+    "uk_sitemap": "index(19) read 2",
+    "us_sitemap": "index(19) read 2"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Land Rover",
+   "home_country": "UK",
+   "uk_base": "landrover.co.uk",
+   "us_base": "landroverusa.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.landrover.co.uk/index.html",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.landroverusa.com/index.html",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1480,
+    "us_urls": 1199,
+    "matching_paths": 639,
+    "blog": 2,
+    "about": 7,
+    "product": 1,
+    "longform_guess": 10,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Asana",
+   "home_country": "US",
+   "uk_base": "asana.com/en-gb",
+   "us_base": "asana.com",
+   "source": "both-corpora",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://asana.com/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://asana.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "both bases land on the same URL"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 56,
+    "us_urls": 3508,
+    "matching_paths": 55,
+    "blog": 1,
+    "about": 1,
+    "product": 8,
+    "longform_guess": 10,
+    "uk_sitemap": "index(16) read 2",
+    "us_sitemap": "index(16) read 2"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Ben & Jerry's",
+   "home_country": "US",
+   "uk_base": "benjerry.co.uk",
+   "us_base": "benjerry.com",
+   "source": "both-corpora",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.benjerry.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.benjerry.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 457,
+    "us_urls": 2255,
+    "matching_paths": 36,
+    "blog": 0,
+    "about": 8,
+    "product": 0,
+    "longform_guess": 8,
+    "uk_sitemap": "index(2) read 2",
+    "us_sitemap": "index(2) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Shell",
+   "home_country": "UK/NL",
+   "uk_base": "shell.co.uk",
+   "us_base": "shell.us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.shell.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.shell.us/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 353,
+    "us_urls": 1069,
+    "matching_paths": 18,
+    "blog": 0,
+    "about": 4,
+    "product": 0,
+    "longform_guess": 4,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Visa",
+   "home_country": "US",
+   "uk_base": "visa.co.uk",
+   "us_base": "usa.visa.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.visa.co.uk/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.visa.com/en-us",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 575,
+    "us_urls": 354,
+    "matching_paths": 25,
+    "blog": 0,
+    "about": 2,
+    "product": 2,
+    "longform_guess": 4,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Wise",
+   "home_country": "UK",
+   "uk_base": "wise.com/gb",
+   "us_base": "wise.com/us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://wise.com/gb",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://wise.com/us",
+     "lang": "en-GB",
+     "hreflang_us": true,
+     "geo": false
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1570,
+    "us_urls": 636,
+    "matching_paths": 85,
+    "blog": 1,
+    "about": 1,
+    "product": 2,
+    "longform_guess": 4,
+    "uk_sitemap": "index(27) read 5",
+    "us_sitemap": "index(27) read 5"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "HSBC",
+   "home_country": "UK",
+   "uk_base": "hsbc.co.uk",
+   "us_base": "us.hsbc.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.hsbc.co.uk/",
+     "lang": "en-gb",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.us.hsbc.com/",
+     "lang": "en-us",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1090,
+    "us_urls": 233,
+    "matching_paths": 19,
+    "blog": 0,
+    "about": 0,
+    "product": 3,
+    "longform_guess": 3,
+    "uk_sitemap": "index(1) read 1",
+    "us_sitemap": "index(1) read 1"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Google (Workspace)",
+   "home_country": "US",
+   "uk_base": "workspace.google.com/intl/en_uk",
+   "us_base": "workspace.google.com",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://workspace.google.com/intl/en_uk?hl=en_uk",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://workspace.google.com/",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": false
+    },
+    "hreflang": "mutual",
+    "reasons": [
+     "uk base geo-redirected to a non-UK locale"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 26,
+    "us_urls": 144,
+    "matching_paths": 24,
+    "blog": 0,
+    "about": 0,
+    "product": 3,
+    "longform_guess": 3,
+    "uk_sitemap": "index(10) read 2",
+    "us_sitemap": "index(10) read 2"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Oxfam",
+   "home_country": "UK",
+   "uk_base": "oxfam.org.uk",
+   "us_base": "oxfamamerica.org",
+   "source": "both-corpora",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.oxfam.org.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.oxfamamerica.org/",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 2153,
+    "us_urls": 3205,
+    "matching_paths": 4,
+    "blog": 0,
+    "about": 2,
+    "product": 0,
+    "longform_guess": 2,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": "separate affiliates; flag",
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Gymshark",
+   "home_country": "UK",
+   "uk_base": "uk.gymshark.com",
+   "us_base": "row.gymshark.com",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://uk.gymshark.com/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://row.gymshark.com/",
+     "lang": "en-RW",
+     "hreflang_us": true,
+     "geo": false
+    },
+    "hreflang": "mutual",
+    "reasons": [
+     "us base geo-redirected to a non-US locale"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 2812,
+    "us_urls": 96,
+    "matching_paths": 95,
+    "blog": 0,
+    "about": 2,
+    "product": 0,
+    "longform_guess": 2,
+    "uk_sitemap": "index(5) read 2",
+    "us_sitemap": "index(5) read 2"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Five Guys",
+   "home_country": "US",
+   "uk_base": "fiveguys.co.uk",
+   "us_base": "fiveguys.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.fiveguys.co.uk/",
+     "lang": "en-UK",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.fiveguys.com/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "other-locales-only",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 38,
+    "us_urls": 49,
+    "matching_paths": 17,
+    "blog": 0,
+    "about": 2,
+    "product": 0,
+    "longform_guess": 2,
+    "uk_sitemap": "index(4) read 2",
+    "us_sitemap": "index(5) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "PayPal",
+   "home_country": "US",
+   "uk_base": "paypal.com/uk",
+   "us_base": "paypal.com/us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.paypal.com/uk/home",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.paypal.com/us/home",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 127,
+    "us_urls": 1895,
+    "matching_paths": 13,
+    "blog": 0,
+    "about": 1,
+    "product": 1,
+    "longform_guess": 2,
+    "uk_sitemap": "index(1214) read 2",
+    "us_sitemap": "index(1214) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Spotify",
+   "home_country": "SE",
+   "uk_base": "spotify.com/uk",
+   "us_base": "spotify.com/us",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://open.spotify.com/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://open.spotify.com/",
+     "lang": "en-GB",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "both bases land on the same URL"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 1,
+    "us_urls": 1,
+    "matching_paths": 1,
+    "blog": 0,
+    "about": 1,
+    "product": 0,
+    "longform_guess": 1,
+    "uk_sitemap": "index(10) read 2",
+    "us_sitemap": "index(10) read 2"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Starbucks",
+   "home_country": "US",
+   "uk_base": "starbucks.co.uk",
+   "us_base": "starbucks.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.starbucks.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.starbucks.com/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "other-locales-only",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 273,
+    "us_urls": 23,
+    "matching_paths": 4,
+    "blog": 0,
+    "about": 1,
+    "product": 0,
+    "longform_guess": 1,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "American Express",
+   "home_country": "US",
+   "uk_base": "americanexpress.com/en-gb",
+   "us_base": "americanexpress.com/en-us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.americanexpress.com/en-gb/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.americanexpress.com/en-us",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 680,
+    "us_urls": 4517,
+    "matching_paths": 183,
+    "blog": 0,
+    "about": 0,
+    "product": 1,
+    "longform_guess": 1,
+    "uk_sitemap": "index(125) read 2",
+    "us_sitemap": "index(125) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Dropbox",
+   "home_country": "US",
+   "uk_base": "dropbox.com/en_GB",
+   "us_base": "dropbox.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.dropbox.com/en_GB",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.dropbox.com/",
+     "lang": "en-GB",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 8,
+    "us_urls": 140,
+    "matching_paths": 8,
+    "blog": 1,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 1,
+    "uk_sitemap": "index(10) read 5",
+    "us_sitemap": "index(10) read 5"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Aldi",
+   "home_country": "DE",
+   "uk_base": "aldi.co.uk",
+   "us_base": "aldi.us",
+   "source": "both-corpora",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.aldi.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.aldi.us/store/aldi/storefront",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 2166,
+    "us_urls": 17027,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "index(4) read 4"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Burberry",
+   "home_country": "UK",
+   "uk_base": "uk.burberry.com",
+   "us_base": "us.burberry.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://uk.burberry.com/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://us.burberry.com/",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": false
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1966,
+    "us_urls": 1976,
+    "matching_paths": 1958,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(8) read 2",
+    "us_sitemap": "index(8) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Monzo",
+   "home_country": "UK",
+   "uk_base": "monzo.com",
+   "us_base": "monzo.com/us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://monzo.com/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://monzo.com/help/us-account-closure-support/us-account-closure-support",
+     "lang": "en-GB",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 2466,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(4) read 4",
+    "us_sitemap": "index(4) read 4",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": "US launch withdrawn; likely fails",
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Charlotte Tilbury",
+   "home_country": "UK",
+   "uk_base": "charlottetilbury.com/uk",
+   "us_base": "charlottetilbury.com/us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.charlottetilbury.com/uk",
+     "lang": "en-gb",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.charlottetilbury.com/us",
+     "lang": "en-us",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 2850,
+    "us_urls": 6,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(6) read 5",
+    "us_sitemap": "index(6) read 5"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Gymshark (US store)",
+   "home_country": "UK",
+   "uk_base": "uk.gymshark.com",
+   "us_base": "www.gymshark.com/en-US",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://uk.gymshark.com/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.gymshark.com/en-US",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": false
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 4172,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(5) read 5",
+    "us_sitemap": "index(9) read 5",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Chase",
+   "home_country": "US",
+   "uk_base": "chase.co.uk",
+   "us_base": "chase.com",
+   "source": "both-corpora",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.chase.co.uk/gb/en/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.chase.com/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "other-locales-only",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 89,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "sitemap 404",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Rapha",
+   "home_country": "UK",
+   "uk_base": "rapha.cc/gb/en",
+   "us_base": "rapha.cc/us/en",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.rapha.cc/gb/en",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.rapha.cc/us/en",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Boohoo",
+   "home_country": "UK",
+   "uk_base": "boohoo.com",
+   "us_base": "us.boohoo.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.boohoo.com/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://us.boohoo.com/",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": false
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 8283,
+    "us_urls": 7554,
+    "matching_paths": 7525,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "River Island",
+   "home_country": "UK",
+   "uk_base": "riverisland.com",
+   "us_base": "us.riverisland.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.riverisland.com/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.riverisland.com:443/us",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 9433,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(17) read 5",
+    "us_sitemap": "index(17) read 5",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Huel",
+   "home_country": "UK",
+   "uk_base": "huel.com/en-gb",
+   "us_base": "huel.com/en-us",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://eu.huel.com/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://eu.huel.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "both bases land on the same URL",
+     "uk base geo-redirected to a non-UK locale",
+     "us base geo-redirected to a non-US locale"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(13) read 2",
+    "us_sitemap": "index(13) read 2",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Barbour",
+   "home_country": "UK",
+   "uk_base": "barbour.com",
+   "us_base": "barbour.com/us",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.barbour.com/row/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.barbour.com/us/",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": [
+     "uk base geo-redirected to a non-UK locale"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 1110,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(5) read 2",
+    "us_sitemap": "index(5) read 2",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Pret A Manger",
+   "home_country": "UK",
+   "uk_base": "pret.co.uk",
+   "us_base": "pret.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.pret.co.uk:443/en-GB",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.pret.com:443/en-US",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Paul Smith",
+   "home_country": "UK",
+   "uk_base": "paulsmith.com/uk",
+   "us_base": "paulsmith.com/us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.paulsmith.com/uk",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.paulsmith.com/",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Wagamama",
+   "home_country": "UK",
+   "uk_base": "wagamama.com",
+   "us_base": "wagamama.us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://wagamama.com/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://wagamama.us/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 734,
+    "us_urls": 30,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Mulberry",
+   "home_country": "UK",
+   "uk_base": "mulberry.com/uk",
+   "us_base": "mulberry.com/us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.mulberry.com/gb/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.mulberry.com/us/",
+     "lang": "en_US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 1184,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(4) read 4",
+    "us_sitemap": "index(4) read 4",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Skyscanner",
+   "home_country": "UK",
+   "uk_base": "skyscanner.net",
+   "us_base": "skyscanner.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=ddb1b5e1-c74d-11f1-8105-6034e342b177&vid=",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.skyscanner.com/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=dded1e65-c74d-11f1-82fc-6034e342b177&vid=",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Primark",
+   "home_country": "IE",
+   "uk_base": "primark.com/en-gb",
+   "us_base": "primark.com/en-us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.primark.com/en-gb",
+     "lang": "en-gb",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.primark.com/en-us",
+     "lang": "en-us",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 8,
+    "us_urls": 7,
+    "matching_paths": 7,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(19) read 2",
+    "us_sitemap": "index(19) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Ocado",
+   "home_country": "UK",
+   "uk_base": "ocado.com",
+   "us_base": "ocadogroup.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": {
+    "uk": {
+     "code": 202,
+     "final": "https://ocado.com/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.ocadogroup.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 312,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "sitemap 202",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": "different offerings; likely poor",
+   "pair_basis": "not-verified",
+   "verification_before_exclusion": "verified-200",
+   "exclusion": "different company, no real UK/US counterpart, or duplicate row"
+  },
+  {
+   "brand": "Deliveroo",
+   "home_country": "UK",
+   "uk_base": "deliveroo.co.uk",
+   "us_base": "deliveroo.com",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://deliveroo.co.uk/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://deliveroo.co.uk/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "both bases land on the same URL"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 10001,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(22) read 2",
+    "us_sitemap": "index(22) read 2",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Octopus Energy",
+   "home_country": "UK",
+   "uk_base": "octopus.energy",
+   "us_base": "octopus.energy/us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://octopus.energy/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://octopus.energy/us/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1841,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(4) read 4",
+    "us_sitemap": "index(4) read 4",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Trainline",
+   "home_country": "UK",
+   "uk_base": "thetrainline.com",
+   "us_base": "thetrainline.com/en-us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.thetrainline.com/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.thetrainline.com/en-us",
+     "lang": "en-us",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 5292,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Moncler",
+   "home_country": "IT",
+   "uk_base": "moncler.com/en-gb",
+   "us_base": "moncler.com/en-us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.moncler.com/en-gb/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.moncler.com/en-us/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 3028,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(6) read 5",
+    "us_sitemap": "index(6) read 5",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Santander",
+   "home_country": "ES",
+   "uk_base": "santander.co.uk",
+   "us_base": "santanderbank.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.santander.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.santanderbank.com/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 2094,
+    "us_urls": 217,
+    "matching_paths": 1,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(4) read 4",
+    "us_sitemap": "index(1) read 1"
+   },
+   "note": "separate legal entities, same brand; flag",
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Barclays",
+   "home_country": "UK",
+   "uk_base": "barclays.co.uk",
+   "us_base": "barclays.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.barclays.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://home.barclays/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 2051,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": "US consumer arm is barclaysus.com",
+   "pair_basis": "not-verified",
+   "verification_before_exclusion": "verified-200",
+   "exclusion": "different company, no real UK/US counterpart, or duplicate row"
+  },
+  {
+   "brand": "Barclays US",
+   "home_country": "UK",
+   "uk_base": "barclays.co.uk",
+   "us_base": "barclaysus.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.barclays.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://cards.barclaycardus.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 2051,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "McLaren",
+   "home_country": "UK",
+   "uk_base": "cars.mclaren.com/en",
+   "us_base": "cars.mclaren.com/en-us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.mclaren.com/cars/gl_en",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.mclaren.com/cars/en-us",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Jaguar",
+   "home_country": "UK",
+   "uk_base": "jaguar.co.uk",
+   "us_base": "jaguarusa.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.jaguar.com/en-gb/index.html",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.jaguar.com/en-us/index.html",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Aston Martin",
+   "home_country": "UK",
+   "uk_base": "astonmartin.com/en-gb",
+   "us_base": "astonmartin.com/en-us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.astonmartin.com/en-gb",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.astonmartin.com/en-us",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1113,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Volkswagen",
+   "home_country": "DE",
+   "uk_base": "volkswagen.co.uk",
+   "us_base": "vw.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.volkswagen.co.uk/en.html",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.vw.com/en.html",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 5,
+    "us_urls": 2,
+    "matching_paths": 1,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Nissan",
+   "home_country": "JP",
+   "uk_base": "nissan.co.uk",
+   "us_base": "nissanusa.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.nissan.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.nissanusa.com/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 844,
+    "us_urls": 709,
+    "matching_paths": 4,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "index(9) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Kia",
+   "home_country": "KR",
+   "uk_base": "kia.com/uk",
+   "us_base": "kia.com/us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.kia.com/uk/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.kia.com/us/en",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 2,
+    "us_urls": 157,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(70) read 5",
+    "us_sitemap": "index(70) read 5"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Honda",
+   "home_country": "JP",
+   "uk_base": "honda.co.uk",
+   "us_base": "honda.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.honda.co.uk:443/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.honda.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1616,
+    "us_urls": 62,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(10) read 5",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Hyundai",
+   "home_country": "KR",
+   "uk_base": "hyundai.com/uk",
+   "us_base": "hyundaiusa.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.hyundai.com/uk/en",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.hyundaiusa.com/us/en",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 293,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(53) read 5",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Audi",
+   "home_country": "DE",
+   "uk_base": "audi.co.uk",
+   "us_base": "audiusa.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.audi.co.uk:443/en/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.audiusa.com:443/en/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1,
+    "us_urls": 1,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(2) read 2",
+    "us_sitemap": "index(1) read 1"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Toyota",
+   "home_country": "JP",
+   "uk_base": "toyota.co.uk",
+   "us_base": "toyota.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.toyota.co.uk/",
+     "lang": "en-gb",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.toyota.com/",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 978,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "sitemap NaN",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Cadbury / Hershey",
+   "home_country": "UK",
+   "uk_base": "cadbury.co.uk",
+   "us_base": "hersheys.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.cadbury.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.hersheyland.com/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 387,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": "different companies in US; likely exclude",
+   "pair_basis": "not-verified",
+   "verification_before_exclusion": "verified-200",
+   "exclusion": "different company, no real UK/US counterpart, or duplicate row"
+  },
+  {
+   "brand": "Apple",
+   "home_country": "US",
+   "uk_base": "apple.com/uk",
+   "us_base": "apple.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.apple.com/uk/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.apple.com/",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 12,
+    "us_urls": 640,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(47) read 5",
+    "us_sitemap": "index(47) read 5"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Hasbro",
+   "home_country": "US",
+   "uk_base": "shop.hasbro.com/en-gb",
+   "us_base": "shop.hasbro.com/en-us",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://consumercare.hasbro.com/en-gb/where-to-buy",
+     "lang": "en-gb",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://consumercare.hasbro.com/fi-fi/where-to-buy",
+     "lang": "fi-fi",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "us base geo-redirected to a non-US locale",
+     "us lang=fi-fi"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Haribo",
+   "home_country": "DE",
+   "uk_base": "haribo.com/en-gb",
+   "us_base": "haribo.com/en-us",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.haribo.com/fi-fi",
+     "lang": "fi-FI",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.haribo.com/fi-fi",
+     "lang": "fi-FI",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": [
+     "both bases land on the same URL",
+     "uk base geo-redirected to a non-UK locale",
+     "us base geo-redirected to a non-US locale",
+     "uk lang=fi-FI",
+     "us lang=fi-FI"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Volvo Cars",
+   "home_country": "SE",
+   "uk_base": "volvocars.com/uk",
+   "us_base": "volvocars.com/us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.volvocars.com/uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.volvocars.com/us/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Puma",
+   "home_country": "DE",
+   "uk_base": "uk.puma.com",
+   "us_base": "us.puma.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://uk.puma.com/uk/en",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://us.puma.com/us/en",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(10) read 5",
+    "us_sitemap": "index(41) read 5",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Disney",
+   "home_country": "US",
+   "uk_base": "disney.co.uk",
+   "us_base": "disney.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.disney.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.disney.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 120,
+    "us_urls": 1,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(1) read 1",
+    "us_sitemap": "index(1) read 1"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Patagonia",
+   "home_country": "US",
+   "uk_base": "eu.patagonia.com/gb/en",
+   "us_base": "patagonia.com",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://eu.patagonia.com/gb/en",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.patagonia.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk base geo-redirected to a non-UK locale"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Netflix",
+   "home_country": "US",
+   "uk_base": "netflix.com/gb",
+   "us_base": "netflix.com/us",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.netflix.com/fi-en/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.netflix.com/fi-en/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "both bases land on the same URL",
+     "uk base geo-redirected to a non-UK locale",
+     "us base geo-redirected to a non-US locale"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 2,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(26620) read 2",
+    "us_sitemap": "index(26620) read 2",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Converse",
+   "home_country": "US",
+   "uk_base": "converse.com/uk",
+   "us_base": "converse.com/us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.converse.com/uk",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.converse.com/us",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 3,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(15) read 5",
+    "us_sitemap": "index(15) read 5",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Burger King",
+   "home_country": "US",
+   "uk_base": "burgerking.co.uk",
+   "us_base": "bk.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.burgerking.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.bk.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 814,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "McDonald's",
+   "home_country": "US",
+   "uk_base": "mcdonalds.com/gb/en-gb",
+   "us_base": "mcdonalds.com/us/en-us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.mcdonalds.com/gb/en-gb.html",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.mcdonalds.com/us/en-us.html",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 2776,
+    "us_urls": 9717,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Coca-Cola",
+   "home_country": "US",
+   "uk_base": "coca-cola.com/gb/en",
+   "us_base": "coca-cola.com/us/en",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.coca-cola.com/gb/en",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.coca-cola.com/us/en",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(156) read 5",
+    "us_sitemap": "index(156) read 5",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Uber",
+   "home_country": "US",
+   "uk_base": "uber.com/gb/en",
+   "us_base": "uber.com/us/en",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.uber.com/gb/en/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.uber.com/fi/en/",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": [
+     "us base geo-redirected to a non-US locale"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(1587) read 2",
+    "us_sitemap": "index(1587) read 2",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Notion",
+   "home_country": "US",
+   "uk_base": "notion.com/en-gb",
+   "us_base": "notion.com",
+   "source": "both-corpora",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.notion.com/en-gb",
+     "lang": "en-gb",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.notion.com/",
+     "lang": "en-us",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 509,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(169) read 5",
+    "us_sitemap": "index(169) read 5",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Mailchimp",
+   "home_country": "US",
+   "uk_base": "mailchimp.com/en-gb",
+   "us_base": "mailchimp.com",
+   "source": "both-corpora",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://mailchimp.com/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://mailchimp.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "other-locales-only",
+    "reasons": [
+     "both bases land on the same URL"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 4400,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(4) read 2",
+    "us_sitemap": "index(4) read 2",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Slack",
+   "home_country": "US",
+   "uk_base": "slack.com/intl/en-gb",
+   "us_base": "slack.com",
+   "source": "both-corpora",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://slack.com/intl/en-gb",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://slack.com/intl/en-gb/",
+     "lang": "en-GB",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": [
+     "both bases land on the same URL",
+     "uk base geo-redirected to a non-UK locale",
+     "us base geo-redirected to a non-US locale"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 1752,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(13) read 2",
+    "us_sitemap": "index(13) read 2",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Heinz",
+   "home_country": "US",
+   "uk_base": "heinz.co.uk",
+   "us_base": "heinz.com",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.heinz.com/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.heinz.com/",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": [
+     "both bases land on the same URL"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 166,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "index(3) read 2",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Stripe",
+   "home_country": "US",
+   "uk_base": "stripe.com/gb",
+   "us_base": "stripe.com/us",
+   "source": "knowledge",
+   "status": "geo-trapped",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://stripe.com/gb",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://stripe.com/en-fi",
+     "lang": "en-FI",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": [
+     "us base geo-redirected to a non-US locale"
+    ]
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(9) read 2",
+    "us_sitemap": "index(9) read 2",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "IBM",
+   "home_country": "US",
+   "uk_base": "ibm.com/uk-en",
+   "us_base": "ibm.com/us-en",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.ibm.com/uk-en",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.ibm.com/us-en",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 1,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(15) read 5",
+    "us_sitemap": "index(15) read 5",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Dell",
+   "home_country": "US",
+   "uk_base": "dell.com/en-uk",
+   "us_base": "dell.com/en-us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.dell.com/en-gb",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.dell.com/en-us",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 7,
+    "us_urls": 2,
+    "matching_paths": 2,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(26) read 2",
+    "us_sitemap": "index(26) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Samsung",
+   "home_country": "KR",
+   "uk_base": "samsung.com/uk",
+   "us_base": "samsung.com/us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.samsung.com/uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.samsung.com/us/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 7,
+    "us_urls": 7,
+    "matching_paths": 4,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(93) read 2",
+    "us_sitemap": "index(93) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Lenovo",
+   "home_country": "CN",
+   "uk_base": "lenovo.com/gb/en",
+   "us_base": "lenovo.com/us/en",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.lenovo.com/gb/en/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.lenovo.com/us/en",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(93) read 5",
+    "us_sitemap": "index(93) read 5",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "HP",
+   "home_country": "US",
+   "uk_base": "hp.com/gb-en",
+   "us_base": "hp.com/us-en",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.hp.com/gb-en/home.html",
+     "lang": "en-gb",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.hp.com/us-en/home.html",
+     "lang": "en-us",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "other-locales-only",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 2737,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "sitemap 404",
+    "us_sitemap": "sitemap 404",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Bose",
+   "home_country": "US",
+   "uk_base": "bose.co.uk",
+   "us_base": "bose.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.bose.co.uk/home",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.bose.com/home",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 285,
+    "us_urls": 367,
+    "matching_paths": 102,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(4) read 2",
+    "us_sitemap": "index(4) read 2"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "LG",
+   "home_country": "KR",
+   "uk_base": "lg.com/uk",
+   "us_base": "lg.com/us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.lg.com/uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.lg.com/us/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 6,
+    "us_urls": 6353,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(80) read 5",
+    "us_sitemap": "index(80) read 5"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Microsoft",
+   "home_country": "US",
+   "uk_base": "microsoft.com/en-gb",
+   "us_base": "microsoft.com/en-us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.microsoft.com/en-gb",
+     "lang": "en-us",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.microsoft.com/en-us",
+     "lang": "en-us",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(5) read 5",
+    "us_sitemap": "index(5) read 5",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Fitbit",
+   "home_country": "US",
+   "uk_base": "fitbit.com/global/uk/home",
+   "us_base": "fitbit.com/global/us/home",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://store.google.com/gb/category/watches_trackers?hl=en-GB&utm_source=fitbit_redirect&utm_medium=google_ooo&utm_campaign=category&ucbcb=1",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://store.google.com/us/category/watches_trackers?hl=en-US&utm_source=fitbit_redirect&utm_medium=google_ooo&utm_campaign=category&ucbcb=1",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "sitemap 404",
+    "us_sitemap": "sitemap 404",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Booking.com",
+   "home_country": "NL",
+   "uk_base": "booking.com/index.en-gb.html",
+   "us_base": "booking.com/index.en-us.html",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 202,
+     "final": "https://booking.com/index.en-gb.html",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 202,
+     "final": "https://booking.com/index.en-us.html",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "sitemap 202",
+    "us_sitemap": "sitemap 202",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Avis",
+   "home_country": "US",
+   "uk_base": "avis.co.uk",
+   "us_base": "avis.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.avis.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.avis.com/en/home",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1496,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(9) read 5",
+    "us_sitemap": "index(2) read 2",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Hertz",
+   "home_country": "US",
+   "uk_base": "hertz.co.uk",
+   "us_base": "hertz.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.hertz.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.hertz.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "LinkedIn",
+   "home_country": "US",
+   "uk_base": "linkedin.com/uk",
+   "us_base": "linkedin.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://linkedin.com/uk",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://linkedin.com/",
+     "lang": "en-GB",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "SurveyMonkey",
+   "home_country": "US",
+   "uk_base": "surveymonkey.co.uk",
+   "us_base": "surveymonkey.com",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://uk.surveymonkey.com/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.surveymonkey.com/",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 1053,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(15) read 5",
+    "us_sitemap": "index(18) read 5",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Guardian",
+   "home_country": "UK",
+   "uk_base": "theguardian.com/uk",
+   "us_base": "theguardian.com/us",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.theguardian.com/uk",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.theguardian.com/us",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": "editions",
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Zurich",
+   "home_country": "CH",
+   "uk_base": "zurich.co.uk",
+   "us_base": "zurichna.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://zurich.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.zurichna.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1343,
+    "us_urls": 632,
+    "matching_paths": 3,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "urlset",
+    "us_sitemap": "urlset"
+   },
+   "note": "likely exclude",
+   "pair_basis": "not-verified",
+   "verification_before_exclusion": "verified-200",
+   "exclusion": "different company, no real UK/US counterpart, or duplicate row"
+  },
+  {
+   "brand": "Amazon",
+   "home_country": "US",
+   "uk_base": "amazon.co.uk",
+   "us_base": "amazon.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 202,
+     "final": "https://www.amazon.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 202,
+     "final": "https://www.amazon.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "sitemap 202",
+    "us_sitemap": "sitemap 301",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Nationwide",
+   "home_country": "UK/US",
+   "uk_base": "nationwide.co.uk",
+   "us_base": "nationwide.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.nationwide.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.nationwide.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1983,
+    "us_urls": 2277,
+    "matching_paths": 1,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(2) read 2",
+    "us_sitemap": "urlset"
+   },
+   "note": "DIFFERENT companies; excluded by design",
+   "pair_basis": "not-verified",
+   "verification_before_exclusion": "verified-200",
+   "exclusion": "different company, no real UK/US counterpart, or duplicate row"
+  },
+  {
+   "brand": "Enterprise",
+   "home_country": "US",
+   "uk_base": "enterprise.co.uk",
+   "us_base": "enterprise.com",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.enterprise.co.uk/en/home.html",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.enterprise.com/en/home.html",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(3) read 3",
+    "us_sitemap": "index(6) read 5",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Mastercard",
+   "home_country": "US",
+   "uk_base": "mastercard.co.uk",
+   "us_base": "mastercard.us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.mastercard.com/gb/en.html",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.mastercard.com/us/en.html",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 0,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "sitemap 404",
+    "us_sitemap": "sitemap 404",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Whistles",
+   "home_country": "UK",
+   "uk_base": "whistles.com",
+   "us_base": "whistles.com/us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.whistles.com/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://whistles.com/us/home",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 3872,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(1) read 1",
+    "us_sitemap": "index(1) read 1",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Dove",
+   "home_country": "UK/NL",
+   "uk_base": "dove.com/uk",
+   "us_base": "dove.com/us",
+   "source": "knowledge",
+   "status": "verified-hreflang",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.dove.com/uk/home.html",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.dove.com/us/en/home.html",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 268,
+    "us_urls": 0,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(2) read 2",
+    "us_sitemap": "index(2) read 2",
+    "note": "a sitemap gave no URLs in scope"
+   },
+   "note": null,
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Western Union",
+   "home_country": "US",
+   "uk_base": "westernunion.com/gb/en",
+   "us_base": "westernunion.com/us/en",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.westernunion.com/gb/en/home.html",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.westernunion.com/us/en/home.html",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 9,
+    "us_urls": 37,
+    "matching_paths": 1,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(231) read 5",
+    "us_sitemap": "index(231) read 5"
+   },
+   "note": null,
+   "pair_basis": "sitemap-matched-paths"
+  },
+  {
+   "brand": "Greenpeace",
+   "home_country": "NL",
+   "uk_base": "greenpeace.org.uk",
+   "us_base": "greenpeace.org/usa",
+   "source": "knowledge",
+   "status": "verified-200",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.greenpeace.org.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.greenpeace.org/usa/",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": []
+   },
+   "pair_potential": {
+    "uk_urls": 1256,
+    "us_urls": 1001,
+    "matching_paths": 0,
+    "blog": 0,
+    "about": 0,
+    "product": 0,
+    "longform_guess": 0,
+    "uk_sitemap": "index(3) read 3",
+    "us_sitemap": "sitemap 404"
+   },
+   "note": "separate offices; flag",
+   "pair_basis": "unmeasured (sitemap unreadable, locale-specific or non-overlapping; needs a Firecrawl map pass)"
+  },
+  {
+   "brand": "Save the Children",
+   "home_country": "UK/US",
+   "uk_base": "savethechildren.org.uk",
+   "us_base": "savethechildren.org",
+   "source": "both-corpora",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.savethechildren.org.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.savethechildren.org/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "other-locales-only",
+    "reasons": [
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": "separate member charities, same brand; flag",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Revolut",
+   "home_country": "UK",
+   "uk_base": "revolut.com/en-GB",
+   "us_base": "revolut.com/en-US",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.revolut.com/en-GB",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.revolut.com/en-US",
+     "lang": "en-GB",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403",
+     "us 403"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Innocent",
+   "home_country": "UK",
+   "uk_base": "innocentdrinks.co.uk",
+   "us_base": "innocentdrinks.com",
+   "source": "knowledge",
+   "status": "unverified",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.innocentdrinks.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.innocentdrinks.fi/",
+     "lang": "fi-FI",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "us lang=fi-FI"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Lush",
+   "home_country": "UK",
+   "uk_base": "lush.com/uk/en",
+   "us_base": "lush.com/us/en",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.lush.com/uk/en",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.lush.com/us/en",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Dyson",
+   "home_country": "UK",
+   "uk_base": "dyson.co.uk",
+   "us_base": "dyson.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.dyson.co.uk/",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.dyson.com/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Superdry",
+   "home_country": "UK",
+   "uk_base": "superdry.com",
+   "us_base": "us.superdry.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.superdry.com/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 0,
+     "final": "https://us.superdry.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "us 0"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "ASOS",
+   "home_country": "UK",
+   "uk_base": "asos.com/gb",
+   "us_base": "asos.com/us",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 301,
+     "final": "https://www.asos.com/gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 301,
+     "final": "https://www.asos.com/us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 301",
+     "us 301"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Ted Baker",
+   "home_country": "UK",
+   "uk_base": "tedbaker.com/uk",
+   "us_base": "tedbaker.com/us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 429,
+     "final": "https://tedbaker.com/uk",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 429,
+     "final": "https://tedbaker.com/us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 429",
+     "us 429"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "BrewDog",
+   "home_country": "UK",
+   "uk_base": "brewdog.com/uk",
+   "us_base": "brewdog.com/us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 429,
+     "final": "https://brewdog.com/uk",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 404,
+     "final": "https://brewdog.com/us",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 429",
+     "us 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Fortnum & Mason",
+   "home_country": "UK",
+   "uk_base": "fortnumandmason.com",
+   "us_base": "fortnumandmason.com/us",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.fortnumandmason.com/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 404,
+     "final": "https://www.fortnumandmason.com/us",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "us 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "GoCardless",
+   "home_country": "UK",
+   "uk_base": "gocardless.com/en-gb",
+   "us_base": "gocardless.com/en-us",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://gocardless.com/en-gb",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://gocardless.com/en-us",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": false
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "uk 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Nando's",
+   "home_country": "ZA",
+   "uk_base": "nandos.co.uk",
+   "us_base": "nandosperiperi.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.nandos.co.uk/",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 429,
+     "final": "https://nandosperiperi.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "us 429"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Intercom",
+   "home_country": "US",
+   "uk_base": "intercom.com",
+   "us_base": "intercom.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "single site; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Starling Bank",
+   "home_country": "UK",
+   "uk_base": "starlingbank.com",
+   "us_base": "starlingbank.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "no US consumer site; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Sage",
+   "home_country": "UK",
+   "uk_base": "sage.com/en-gb",
+   "us_base": "sage.com/en-us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.sage.com/en-gb",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.sage.com/en-us",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Leon",
+   "home_country": "UK",
+   "uk_base": "leon.co",
+   "us_base": "leonrestaurants.us",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://leon.co/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 0,
+     "final": "https://leonrestaurants.us/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "us 0"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "BP",
+   "home_country": "UK",
+   "uk_base": "bp.com/en_gb",
+   "us_base": "bp.com/en_us",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://www.bp.com/en_gb",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 404,
+     "final": "https://www.bp.com/en_us",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 404",
+     "us 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Costa Coffee",
+   "home_country": "UK",
+   "uk_base": "costa.co.uk",
+   "us_base": "costacoffee.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 0,
+     "final": "https://costa.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 0,
+     "final": "https://costacoffee.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 0",
+     "us 0"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Rolls-Royce Motor Cars",
+   "home_country": "UK",
+   "uk_base": "rolls-roycemotorcars.com/en_GB",
+   "us_base": "rolls-roycemotorcars.com/en_US",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 301,
+     "final": "https://www.rolls-roycemotorcars.com/en_GB",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 301,
+     "final": "https://www.rolls-roycemotorcars.com/en_US",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 301",
+     "us 301"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "BMW",
+   "home_country": "DE",
+   "uk_base": "bmw.co.uk",
+   "us_base": "bmwusa.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 301,
+     "final": "https://www.bmw.co.uk/en/index.html",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 301,
+     "final": "https://www.bmwusa.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 301",
+     "us 301"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Ford",
+   "home_country": "US",
+   "uk_base": "ford.co.uk",
+   "us_base": "ford.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 301,
+     "final": "https://www.ford.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.ford.com/",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "uk 301"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "MINI",
+   "home_country": "DE",
+   "uk_base": "mini.co.uk",
+   "us_base": "miniusa.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 301,
+     "final": "https://www.mini.co.uk/en_GB/home.html",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 0,
+     "final": "https://miniusa.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 301",
+     "us 0"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Lego",
+   "home_country": "DK",
+   "uk_base": "lego.com/en-gb",
+   "us_base": "lego.com/en-us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.lego.com/en-gb",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.lego.com/en-us",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Tesla",
+   "home_country": "US",
+   "uk_base": "tesla.com/en_gb",
+   "us_base": "tesla.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://tesla.com/en_gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 403,
+     "final": "https://tesla.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Mercedes-Benz",
+   "home_country": "DE",
+   "uk_base": "mercedes-benz.co.uk",
+   "us_base": "mbusa.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 301,
+     "final": "http://www.mercedes-benz.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.mbusa.com/en/home",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 301"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Nike",
+   "home_country": "US",
+   "uk_base": "nike.com/gb",
+   "us_base": "nike.com/us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.nike.com/gb",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 500,
+     "final": "https://www.nike.com/us",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "us 500"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Adidas",
+   "home_country": "DE",
+   "uk_base": "adidas.co.uk",
+   "us_base": "adidas.com/us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.adidas.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.adidas.com/us",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Under Armour",
+   "home_country": "US",
+   "uk_base": "underarmour.co.uk",
+   "us_base": "underarmour.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 418,
+     "final": "https://underarmour.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 418,
+     "final": "https://www.underarmour.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 418",
+     "us 418"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "New Balance",
+   "home_country": "US",
+   "uk_base": "newbalance.co.uk",
+   "us_base": "newbalance.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.newbalance.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.newbalance.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Vans",
+   "home_country": "US",
+   "uk_base": "vans.co.uk",
+   "us_base": "vans.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.vans.com/en-gb/cctld=www_vans_co_uk",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.vans.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "The North Face",
+   "home_country": "US",
+   "uk_base": "thenorthface.co.uk",
+   "us_base": "thenorthface.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.thenorthface.com/en-gb/cctld=www_thenorthface_co_uk",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://thenorthface.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Levi's",
+   "home_country": "US",
+   "uk_base": "levi.com/GB/en_GB",
+   "us_base": "levi.com/US/en_US",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.levi.com/GB/en_GB/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.levi.com/US/en_US/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Gap",
+   "home_country": "US",
+   "uk_base": "gap.com/uk",
+   "us_base": "gap.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.gap.com/uk",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.gap.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Lyft",
+   "home_country": "US",
+   "uk_base": "lyft.com",
+   "us_base": "lyft.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "no UK; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "KFC",
+   "home_country": "US",
+   "uk_base": "kfc.co.uk",
+   "us_base": "kfc.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.kfc.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.kfc.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Domino's",
+   "home_country": "US",
+   "uk_base": "dominos.co.uk",
+   "us_base": "dominos.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.dominos.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.dominos.com/en/pages/international/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Subway",
+   "home_country": "US",
+   "uk_base": "subway.com/en-gb",
+   "us_base": "subway.com/en-us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 301,
+     "final": "https://www.subway.com/en-gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.subway.com/en-us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 301",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Pizza Hut",
+   "home_country": "US",
+   "uk_base": "pizzahut.co.uk",
+   "us_base": "pizzahut.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.pizzahut.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.pizzahut.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Pepsi",
+   "home_country": "US",
+   "uk_base": "pepsi.co.uk",
+   "us_base": "pepsi.com",
+   "source": "knowledge",
+   "status": "unverified",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.pepsi.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.pepsimax.fi/",
+     "lang": "fi",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "other-locales-only",
+    "reasons": [
+     "us lang=fi"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Krispy Kreme",
+   "home_country": "US",
+   "uk_base": "krispykreme.co.uk",
+   "us_base": "krispykreme.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://krispykreme.co.uk/",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://krispykreme.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Kellogg's",
+   "home_country": "US",
+   "uk_base": "kelloggs.co.uk",
+   "us_base": "kelloggs.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://kelloggs.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 403,
+     "final": "https://kelloggs.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Nestle",
+   "home_country": "CH",
+   "uk_base": "nestle.co.uk",
+   "us_base": "nestleusa.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.nestle.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.nestleusa.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403",
+     "us 403"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "HubSpot",
+   "home_country": "US",
+   "uk_base": "hubspot.com",
+   "us_base": "hubspot.com",
+   "source": "both-corpora",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "single site; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Canva",
+   "home_country": "AU",
+   "uk_base": "canva.com/en_gb",
+   "us_base": "canva.com",
+   "source": "both-corpora",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.canva.com/en_gb",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.canva.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403",
+     "us 403"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Figma",
+   "home_country": "US",
+   "uk_base": "figma.com/en-gb",
+   "us_base": "figma.com",
+   "source": "both-corpora",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://www.figma.com/en-gb/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.figma.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "other-locales-only",
+    "reasons": [
+     "uk 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Airtable",
+   "home_country": "US",
+   "uk_base": "airtable.com/uk",
+   "us_base": "airtable.com",
+   "source": "both-corpora",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://airtable.com/uk",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.airtable.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Monday.com",
+   "home_country": "IL",
+   "uk_base": "monday.com/uk",
+   "us_base": "monday.com",
+   "source": "both-corpora",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://monday.com/uk",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://monday.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "other-locales-only",
+    "reasons": [
+     "uk 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Zapier",
+   "home_country": "US",
+   "uk_base": "zapier.com",
+   "us_base": "zapier.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "single site; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Zoom",
+   "home_country": "US",
+   "uk_base": "zoom.com/en-gb",
+   "us_base": "zoom.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://zoom.us/en-gb",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.zoom.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "other-locales-only",
+    "reasons": [
+     "uk 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Twilio",
+   "home_country": "US",
+   "uk_base": "twilio.com/en-gb",
+   "us_base": "twilio.com/en-us",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://www.twilio.com:443/en-gb",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.twilio.com:443/en-us",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "uk 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Calendly",
+   "home_country": "US",
+   "uk_base": "calendly.com",
+   "us_base": "calendly.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "single site; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Box",
+   "home_country": "US",
+   "uk_base": "box.com/en-gb",
+   "us_base": "box.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.box.com/en-gb",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.box.com/",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "uk 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Squarespace",
+   "home_country": "US",
+   "uk_base": "squarespace.com/en-gb",
+   "us_base": "squarespace.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://www.squarespace.com/en-gb",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.squarespace.com/",
+     "lang": "en-US",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "uk 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Webflow",
+   "home_country": "US",
+   "uk_base": "webflow.com/en-gb",
+   "us_base": "webflow.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://webflow.com/en-gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://webflow.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "other-locales-only",
+    "reasons": [
+     "uk 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "eBay",
+   "home_country": "US",
+   "uk_base": "ebay.co.uk",
+   "us_base": "ebay.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.ebay.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.ebay.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403",
+     "us 403"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Oracle",
+   "home_country": "US",
+   "uk_base": "oracle.com/uk",
+   "us_base": "oracle.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.oracle.com/uk/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.oracle.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "us 403"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Cisco",
+   "home_country": "US",
+   "uk_base": "cisco.com/c/en_uk",
+   "us_base": "cisco.com/c/en",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.cisco.com/site/uk/en/index.html",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 404,
+     "final": "https://www.cisco.com/c/en/index.html",
+     "lang": "en",
+     "hreflang_us": true,
+     "geo": true
+    },
+    "hreflang": "mutual",
+    "reasons": [
+     "us 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Sonos",
+   "home_country": "US",
+   "uk_base": "sonos.com/en-gb",
+   "us_base": "sonos.com/en-us",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://www.sonos.com/en-gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 404,
+     "final": "https://www.sonos.com/en-us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 404",
+     "us 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Garmin",
+   "home_country": "US",
+   "uk_base": "garmin.com/en-GB",
+   "us_base": "garmin.com/en-US",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.garmin.com/en-GB",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.garmin.com/en-US",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "British Airways",
+   "home_country": "UK",
+   "uk_base": "britishairways.com/en-gb",
+   "us_base": "britishairways.com/en-us",
+   "source": "both-corpora",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 0,
+     "final": "https://britishairways.com/en-gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 0,
+     "final": "https://britishairways.com/en-us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 0",
+     "us 0"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "GoPro",
+   "home_country": "US",
+   "uk_base": "gopro.com/en/gb",
+   "us_base": "gopro.com/en/us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://gopro.com/en/gb",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 403,
+     "final": "https://gopro.com/en/us",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Sony",
+   "home_country": "JP",
+   "uk_base": "sony.co.uk",
+   "us_base": "sony.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 0,
+     "final": "https://sony.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.sony.com/en/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "other-locales-only",
+    "reasons": [
+     "uk 0"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Nikon",
+   "home_country": "JP",
+   "uk_base": "nikon.co.uk",
+   "us_base": "nikonusa.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.nikon.co.uk/en_GB",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.nikonusa.com/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Tripadvisor",
+   "home_country": "US",
+   "uk_base": "tripadvisor.co.uk",
+   "us_base": "tripadvisor.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.tripadvisor.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.tripadvisor.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Hilton",
+   "home_country": "US",
+   "uk_base": "hilton.com/en",
+   "us_base": "hilton.com/en",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "same path; skip unless hreflang",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Marriott",
+   "home_country": "US",
+   "uk_base": "marriott.com/en-gb",
+   "us_base": "marriott.com/en-us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.marriott.com/en-gb/default.mi",
+     "lang": "en",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.marriott.com/default.mi",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "United Airlines",
+   "home_country": "US",
+   "uk_base": "united.com/en/gb",
+   "us_base": "united.com/en/us",
+   "source": "both-corpora",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 302,
+     "final": "https://www.united.com/en/gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 302,
+     "final": "https://www.united.com/en/us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 302",
+     "us 302"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "American Airlines",
+   "home_country": "US",
+   "uk_base": "aa.com/i18n/en-gb",
+   "us_base": "aa.com/homePage.do",
+   "source": "both-corpora",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://aa.com/i18n/en-gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 403,
+     "final": "https://aa.com/homePage.do",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "JetBlue",
+   "home_country": "US",
+   "uk_base": "jetblue.com",
+   "us_base": "jetblue.com",
+   "source": "both-corpora",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "single site; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Expedia",
+   "home_country": "US",
+   "uk_base": "expedia.co.uk",
+   "us_base": "expedia.com",
+   "source": "both-corpora",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 429,
+     "final": "https://www.expedia.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 429,
+     "final": "https://www.expedia.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 429",
+     "us 429"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Indeed",
+   "home_country": "US",
+   "uk_base": "uk.indeed.com",
+   "us_base": "www.indeed.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://uk.indeed.com/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.indeed.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403",
+     "us 403"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Glassdoor",
+   "home_country": "US",
+   "uk_base": "glassdoor.co.uk",
+   "us_base": "glassdoor.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.glassdoor.co.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://glassdoor.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Trustpilot",
+   "home_country": "DK",
+   "uk_base": "uk.trustpilot.com",
+   "us_base": "www.trustpilot.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://uk.trustpilot.com/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.trustpilot.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403",
+     "us 403"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "GoDaddy",
+   "home_country": "US",
+   "uk_base": "godaddy.com/en-uk",
+   "us_base": "godaddy.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.godaddy.com/en-uk",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.godaddy.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Wix",
+   "home_country": "IL",
+   "uk_base": "wix.com/en-gb",
+   "us_base": "wix.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://www.wix.com/en-gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.wix.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "other-locales-only",
+    "reasons": [
+     "uk 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Vimeo",
+   "home_country": "US",
+   "uk_base": "vimeo.com",
+   "us_base": "vimeo.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "single site; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Duolingo",
+   "home_country": "US",
+   "uk_base": "duolingo.com",
+   "us_base": "duolingo.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "single site; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Grammarly",
+   "home_country": "US",
+   "uk_base": "grammarly.com",
+   "us_base": "grammarly.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "single site; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Coursera",
+   "home_country": "US",
+   "uk_base": "coursera.org",
+   "us_base": "coursera.org",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "single site; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Financial Times",
+   "home_country": "UK",
+   "uk_base": "ft.com",
+   "us_base": "ft.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "single site; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "The Economist",
+   "home_country": "UK",
+   "uk_base": "economist.com",
+   "us_base": "economist.com/united-states",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.economist.com/",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.economist.com/united-states",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Delta",
+   "home_country": "US",
+   "uk_base": "delta.com/gb/en",
+   "us_base": "delta.com/us/en",
+   "source": "both-corpora",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 0,
+     "final": "https://delta.com/gb/en",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 0,
+     "final": "https://delta.com/us/en",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 0",
+     "us 0"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "AXA",
+   "home_country": "FR",
+   "uk_base": "axa.co.uk",
+   "us_base": "axa.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.axa.co.uk/",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.axa.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": "likely exclude",
+   "pair_basis": "not-verified",
+   "verification_before_exclusion": "bot-blocked",
+   "exclusion": "different company, no real UK/US counterpart, or duplicate row"
+  },
+  {
+   "brand": "Lloyds / Lloyd's",
+   "home_country": "UK",
+   "uk_base": "lloyds.com",
+   "us_base": "lloyds.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "skip",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Reuters",
+   "home_country": "UK",
+   "uk_base": "reuters.com/world/uk",
+   "us_base": "reuters.com/world/us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 401,
+     "final": "https://www.reuters.com/world/uk",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 401,
+     "final": "https://www.reuters.com/world/us",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 401 blocked",
+     "us 401 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": "editions, not localised",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Citi",
+   "home_country": "US",
+   "uk_base": "citi.com/gb",
+   "us_base": "citi.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://www.citi.com/gb",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.citi.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "uk 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Wells Fargo",
+   "home_country": "US",
+   "uk_base": "wellsfargo.com",
+   "us_base": "wellsfargo.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "no UK retail; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Vodafone",
+   "home_country": "UK",
+   "uk_base": "vodafone.co.uk",
+   "us_base": "vodafone.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.vodafone.co.uk/",
+     "lang": "en-gb",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.vodafone.com/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": "no US operation; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Sky",
+   "home_country": "UK",
+   "uk_base": "sky.com",
+   "us_base": "sky.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "no US; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Allianz",
+   "home_country": "DE",
+   "uk_base": "allianz.co.uk",
+   "us_base": "allianzlife.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.allianz.co.uk:443/",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 0,
+     "final": "https://allianzlife.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 0"
+    ]
+   },
+   "pair_potential": null,
+   "note": "different entities; likely exclude",
+   "pair_basis": "not-verified",
+   "verification_before_exclusion": "bot-blocked",
+   "exclusion": "different company, no real UK/US counterpart, or duplicate row"
+  },
+  {
+   "brand": "Selfridges",
+   "home_country": "UK",
+   "uk_base": "selfridges.com/GB/en",
+   "us_base": "selfridges.com/US/en",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://selfridges.com/GB/en",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 403,
+     "final": "https://selfridges.com/US/en",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Farfetch",
+   "home_country": "PT/UK",
+   "uk_base": "farfetch.com/uk",
+   "us_base": "farfetch.com/us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.farfetch.com/uk",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.farfetch.com/us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Net-a-Porter",
+   "home_country": "UK",
+   "uk_base": "net-a-porter.com/en-gb",
+   "us_base": "net-a-porter.com/en-us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://net-a-porter.com/en-gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 403,
+     "final": "https://net-a-porter.com/en-us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Mr Porter",
+   "home_country": "UK",
+   "uk_base": "mrporter.com/en-gb",
+   "us_base": "mrporter.com/en-us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.mrporter.com/en-gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.mrporter.com/en-us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Dr. Martens",
+   "home_country": "UK",
+   "uk_base": "drmartens.com/uk/en_gb",
+   "us_base": "drmartens.com/us/en_us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.drmartens.com/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.drmartens.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403",
+     "us 403"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Canon",
+   "home_country": "JP",
+   "uk_base": "canon.co.uk",
+   "us_base": "usa.canon.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.canon.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 0,
+     "final": "https://usa.canon.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "us 0"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Fred Perry",
+   "home_country": "UK",
+   "uk_base": "fredperry.com",
+   "us_base": "fredperry.com/us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.fredperry.com/",
+     "lang": "en-US",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.fredperry.com/us",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked",
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Reiss",
+   "home_country": "UK",
+   "uk_base": "reiss.com/uk",
+   "us_base": "reiss.com/us",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://www.reiss.com/uk",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.reiss.com/us/en",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 404"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Hunter Boots",
+   "home_country": "UK",
+   "uk_base": "hunterboots.com/gb/en_gb",
+   "us_base": "hunterboots.com/us/en_us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 404,
+     "final": "https://hunterboots.com/gb/en_gb",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 429,
+     "final": "https://hunterboots.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 404",
+     "us 429"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "AllSaints",
+   "home_country": "UK",
+   "uk_base": "allsaints.com/uk",
+   "us_base": "allsaints.com/us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://www.allsaints.com/uk",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.allsaints.com/us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403",
+     "us 403"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Clarks",
+   "home_country": "UK",
+   "uk_base": "clarks.co.uk",
+   "us_base": "clarksusa.com",
+   "source": "knowledge",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 0,
+     "final": "https://clarks.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 0,
+     "final": "https://clarksusa.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 0",
+     "us 0"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Sephora",
+   "home_country": "FR",
+   "uk_base": "sephora.co.uk",
+   "us_base": "sephora.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 403,
+     "final": "https://sephora.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.sephora.com/",
+     "lang": "en",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Estee Lauder",
+   "home_country": "US",
+   "uk_base": "esteelauder.co.uk",
+   "us_base": "esteelauder.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.esteelauder.co.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": true,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.esteelauder.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "partial",
+    "reasons": [
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Jigsaw",
+   "home_country": "UK",
+   "uk_base": "jigsaw-online.com",
+   "us_base": "jigsaw-online.com/us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 429,
+     "final": "https://jigsaw-online.com/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 429,
+     "final": "https://jigsaw-online.com/us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 429",
+     "us 429"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Everlane",
+   "home_country": "US",
+   "uk_base": "everlane.com",
+   "us_base": "everlane.com",
+   "source": "both-corpora",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "US only; expect fail",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Tom Ford",
+   "home_country": "US",
+   "uk_base": "tomfordbeauty.com/en-gb",
+   "us_base": "tomfordbeauty.com/en-us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 429,
+     "final": "https://tomfordbeauty.com/en-gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 429,
+     "final": "https://tomfordbeauty.com/en-us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 429",
+     "us 429"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Glossier",
+   "home_country": "US",
+   "uk_base": "glossier.com/en-gb",
+   "us_base": "glossier.com/en-us",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 429,
+     "final": "https://glossier.com/en-gb",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 429,
+     "final": "https://glossier.com/en-us",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 429",
+     "us 429"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Spirit / easyJet",
+   "home_country": "UK",
+   "uk_base": "easyjet.com/en",
+   "us_base": "easyjet.com/en",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": "same base on both sides; not a pair",
+   "note": "skip",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Wikipedia/WWF",
+   "home_country": "INT",
+   "uk_base": "wwf.org.uk",
+   "us_base": "worldwildlife.org",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.wwf.org.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://worldwildlife.org/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": "separate entities; flag",
+   "pair_basis": "not-verified",
+   "verification_before_exclusion": "bot-blocked",
+   "exclusion": "different company, no real UK/US counterpart, or duplicate row"
+  },
+  {
+   "brand": "Amnesty",
+   "home_country": "UK",
+   "uk_base": "amnesty.org.uk",
+   "us_base": "amnestyusa.org",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.amnesty.org.uk/",
+     "lang": "en-gb",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://amnestyusa.org/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": "separate sections; flag",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Unicef",
+   "home_country": "INT",
+   "uk_base": "unicef.org.uk",
+   "us_base": "unicefusa.org",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.unicef.org.uk/",
+     "lang": "en-GB",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://www.unicefusa.org/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": "national committees; flag",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "WWF",
+   "home_country": "INT",
+   "uk_base": "wwf.org.uk",
+   "us_base": "worldwildlife.org",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://www.wwf.org.uk/",
+     "lang": "en",
+     "hreflang_gb": false,
+     "geo": true
+    },
+    "us": {
+     "code": 403,
+     "final": "https://worldwildlife.org/",
+     "lang": "en-US",
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "us 403 blocked"
+    ]
+   },
+   "pair_potential": null,
+   "note": "dup of above; dropped at dedupe",
+   "pair_basis": "not-verified",
+   "verification_before_exclusion": "bot-blocked",
+   "exclusion": "different company, no real UK/US counterpart, or duplicate row"
+  },
+  {
+   "brand": "Liquid Death",
+   "home_country": "US",
+   "uk_base": "liquiddeath.co.uk",
+   "us_base": "liquiddeath.com",
+   "source": "both-corpora",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 200,
+     "final": "https://liquiddeath.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 429,
+     "final": "https://liquiddeath.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "us 429"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Habitat",
+   "home_country": "UK/US",
+   "uk_base": "habitat.org.uk",
+   "us_base": "habitat.org",
+   "source": "both-corpora",
+   "status": "not-found",
+   "verification": {
+    "uk": {
+     "code": 0,
+     "final": "https://habitat.org.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 200,
+     "final": "https://www.habitat.org/",
+     "lang": "en-003",
+     "hreflang_us": false,
+     "geo": true
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 0"
+    ]
+   },
+   "pair_potential": null,
+   "note": "separate entities; flag",
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Allbirds",
+   "home_country": "NZ/US",
+   "uk_base": "allbirds.co.uk",
+   "us_base": "allbirds.com",
+   "source": "knowledge",
+   "status": "bot-blocked",
+   "verification": {
+    "uk": {
+     "code": 429,
+     "final": "https://allbirds.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 429,
+     "final": "https://allbirds.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 429",
+     "us 429"
+    ]
+   },
+   "pair_potential": null,
+   "note": null,
+   "pair_basis": "not-verified"
+  },
+  {
+   "brand": "Prudential",
+   "home_country": "UK/US",
+   "uk_base": "pru.co.uk",
+   "us_base": "prudential.com",
+   "source": "knowledge",
+   "status": "excluded",
+   "verification": {
+    "uk": {
+     "code": 0,
+     "final": "https://pru.co.uk/",
+     "lang": null,
+     "hreflang_gb": false,
+     "geo": false
+    },
+    "us": {
+     "code": 0,
+     "final": "https://prudential.com/",
+     "lang": null,
+     "hreflang_us": false,
+     "geo": false
+    },
+    "hreflang": "none",
+    "reasons": [
+     "uk 0",
+     "us 0"
+    ]
+   },
+   "pair_potential": null,
+   "note": "separate companies; exclude",
+   "pair_basis": "not-verified",
+   "verification_before_exclusion": "not-found",
+   "exclusion": "different company, no real UK/US counterpart, or duplicate row"
+  }
+ ],
+ "counts": {
+  "total": 224,
+  "excluded": 28,
+  "verified": 85,
+  "verified_with_sitemap_pairs": 34
+ }
+}
